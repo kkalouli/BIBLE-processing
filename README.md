@@ -1,4 +1,6 @@
 # BIBLE-processing
 
 
-Multilingual processing of the Bible.
+A Multilingual Approach for Question Classification
+
+
