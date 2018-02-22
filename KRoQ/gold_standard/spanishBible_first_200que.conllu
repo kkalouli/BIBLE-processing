@@ -1,0 +1,4110 @@
+#1
+#<Génesis 3:9>b
+# -- ¿ Dónde estás ?
+1	--	--	_	r	_	4	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Dónde	dónde	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+4	estás	estar	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#2
+#<Génesis 3:11>b-c
+# -- ¿ Quién te enseñó que estabas desnudo ?
+1	--	--	_	i	_	5	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Quién	quién	_	p	postype=interrogative|gen=c|num=s	5	suj	_	_
+4	te	tú	_	p	postype=personal|gen=c|num=s|person=2	5	ci	_	_
+5	enseñó	enseñar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+6	que	que	_	c	postype=subordinating	7	conj	_	_
+7	estabas	estaba	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=imperfect	5	cd	_	_
+8	desnudo	desnudo	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	7	cpred	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+# ¿ Acaso has comido de el árbol de el cual yo te mandé que no comieras ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Acaso	acaso	_	r	_	4	mod	_	_
+3	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	4	v	_	_
+4	comido	comido	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+5	de	de	_	s	postype=preposition|gen=c|num=c	4	creg	_	_
+6	el	el	_	d	postype=article|gen=m|num=s	7	spec	_	_
+7	árbol	árbol	_	n	postype=common|gen=m|num=s	5	sn	_	_
+8	de	de	_	s	postype=preposition|gen=c|num=c	13	creg	_	_
+9	el	el	_	d	postype=article|gen=m|num=s	10	spec	_	_
+10	cual	cual	_	p	postype=relative|gen=c|num=s	8	sn	_	_
+11	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	13	suj	_	_
+12	te	tú	_	p	postype=personal|gen=c|num=s|person=2	13	ci	_	_
+13	mandé	mandar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	7	S	_	_
+14	que	que	_	c	postype=subordinating	16	conj	_	_
+15	no	no	_	r	postype=negative	16	mod	_	_
+16	comieras	comiero	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	13	cd	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#3
+#<Génesis 3:13>b
+# -- ¿ Qué es lo que has hecho ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	lo	él	_	d	postype=article|gen=c|num=s	8	spec	_	_
+6	que	que	_	p	postype=relative|gen=c|num=c	8	suj	_	_
+7	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	8	v	_	_
+8	hecho	hecho	_	v	postype=main|gen=m|num=s|mood=pastparticiple	4	atr	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#4
+#<Génesis 4:6>b
+# -- ¿ Por qué te has enojado y por qué ha decaído tu semblante ?
+1	--	--	_	p	_	7	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	7	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	te	tú	_	p	gen=c|num=s|person=2	7	suj	_	_
+6	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	7	v	_	_
+7	enojado	enojado	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+8	y	y	_	c	postype=coordinating	7	coord	_	_
+9	por	por	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+10	qué	qué	_	p	postype=interrogative|gen=c|num=s	9	sn	_	_
+11	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	12	v	_	_
+12	decaído	decaer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	7	S	_	_
+13	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	14	spec	_	_
+14	semblante	semblante	_	n	postype=common|gen=m|num=s	12	suj	_	_
+15	?	?	_	f	punct=questionmark|punctenclose=close	7	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#5
+#<Génesis 4:7>a
+# Si hicieras lo bueno , ¿ no serías enaltecido ?
+1	Si	si	_	c	postype=subordinating	2	conj	_	_
+2	hicieras	hiciera	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	8	ao	_	_
+3	lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	2	suj	_	_
+4	bueno	bue	_	a	postype=qualificative|gen=m|num=s	3	s.a	_	_
+5	,	,	_	f	punct=comma	2	f	_	_
+6	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+7	no	no	_	r	postype=negative	8	mod	_	_
+8	serías	ser	_	v	postype=main|gen=c|num=s|person=2|mood=subjunctive|tense=present	0	sentence	_	_
+9	enaltecido	enaltecido	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	8	atr	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	8	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#6
+#<Génesis 4:9>b
+# -- ¿ Dónde está Abel , tu hermano ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Dónde	dónde	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+4	está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	Abel	abel	_	n	postype=proper|gen=c|num=c	4	suj	_	_
+6	,	,	_	f	punct=comma	8	f	_	_
+7	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	8	spec	_	_
+8	hermano	hermano	_	n	postype=common|gen=m|num=s	5	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#7
+#<Génesis 4:9>e
+# ¿ Soy yo acaso guarda de mi hermano ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Soy	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	0	sentence	_	_
+3	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	2	suj	_	_
+4	acaso	acaso	_	r	_	5	sadv	_	_
+5	guarda	guarda	_	n	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	2	atr	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	8	spec	_	_
+8	hermano	hermano	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#8
+#<Génesis 4:10>b
+# -- ¿ Qué has hecho ?
+1	--	--	_	i	_	5	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	5	suj	_	_
+4	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	5	v	_	_
+5	hecho	hecho	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#9
+#<Génesis 12:18>b-c
+# ¿ Qué es esto que has hecho con mí ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Qué	qué	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	esto	este	_	p	postype=demonstrative|gen=c|num=s	3	atr	_	_
+5	que	que	_	p	postype=relative|gen=c|num=c	7	suj	_	_
+6	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=present	7	v	_	_
+7	hecho	hacer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	4	S	_	_
+8	con	con	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+9	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	8	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# ¿ Por qué no me declaraste que era tu mujer ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	6	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	no	no	_	r	postype=negative	6	mod	_	_
+5	me	yo	_	p	postype=personal|gen=c|num=s|person=1	6	ci	_	_
+6	declaraste	declraste	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+7	que	que	_	c	postype=subordinating	8	conj	_	_
+8	era	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	6	suj	_	_
+9	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	10	spec	_	_
+10	mujer	mujer	_	n	postype=common|gen=f|num=s	8	suj	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#10
+#<Génesis 12:19>a-b
+# ¿ Por qué dijiste : "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	4	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	dijiste	dijiste	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	:	:	_	f	punct=colon	4	f	_	_
+6	"	"	_	f	punct=quotation	4	f	_	_
+
+# Es mi hermana " , poniendo me en ocasión de tomar la para mí por mujer ?
+1	Es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	6	cd	_	_
+2	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	3	spec	_	_
+3	hermana	hermana	_	n	postype=common|gen=f|num=s	1	suj	_	_
+4	"	"	_	f	punct=quotation	1	f	_	_
+5	,	,	_	f	punct=comma	1	f	_	_
+6	poniendo	poner	_	v	postype=main|gen=c|num=c|mood=gerund	0	sentence	_	_
+7	me	yo	_	p	postype=personal|gen=c|num=s|person=1	6	suj	_	_
+8	en	en	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+9	ocasión	ocasión	_	n	postype=common|gen=f|num=s	8	sn	_	_
+10	de	de	_	s	postype=preposition|gen=c|num=c	9	sp	_	_
+11	tomar	tomar	_	v	postype=main|gen=c|num=c|mood=infinitive	10	S	_	_
+12	la	el	_	d	postype=article|gen=f|num=s	13	spec	_	_
+13	para	para	_	s	postype=preposition|gen=c|num=c	11	cd	_	_
+14	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	13	sn	_	_
+15	por	por	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+16	mujer	mujer	_	n	postype=common|gen=f|num=s	15	sn	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#11
+#<Génesis 13:9>a
+# ¿ No está toda la tierra delante de ti ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	No	no	_	r	postype=negative	3	mod	_	_
+3	está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	toda	todo	_	d	postype=indefinite|gen=f|num=s	5	d	_	_
+5	la	el	_	d	postype=article|gen=f|num=s	6	spec	_	_
+6	tierra	tierra	_	n	postype=common|gen=f|num=s	3	suj	_	_
+7	delante	delante	_	a	postype=qualificative|gen=c|num=s	6	s.a	_	_
+8	de	de	_	s	postype=preposition|gen=c|num=c	6	sp	_	_
+9	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	8	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#12
+#<Génesis 15:2>b
+# -- Señor Jehová , ¿ qué me darás , si no me has dado hijos y el mayordomo de mi casa es ese Eliezer , el damasceno ?
+1	--	--	_	d	postype=article|gen=m|num=s	2	spec	_	_
+2	Señor	señor	_	n	postype=common|gen=m|num=s	0	sentence	_	_
+3	Jehová	jehová	_	n	postype=proper|gen=c|num=c	2	sn	_	_
+4	,	,	_	f	punct=comma	8	f	_	_
+5	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+6	qué	qué	_	d	postype=interrogative|gen=c|num=s	7	spec	_	_
+7	me	yo	_	p	postype=personal|gen=c|num=s|person=1	8	suj	_	_
+8	darás	darás	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	2	S	_	_
+9	,	,	_	f	punct=comma	14	f	_	_
+10	si	si	_	c	postype=subordinating	14	conj	_	_
+11	no	no	_	r	postype=negative	14	mod	_	_
+12	me	yo	_	p	postype=personal|gen=c|num=s|person=1	14	ci	_	_
+13	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	14	v	_	_
+14	dado	dar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	8	cd	_	_
+15	hijos	hijo	_	n	postype=common|gen=m|num=p	14	cd	_	_
+16	y	y	_	c	postype=coordinating	14	coord	_	_
+17	el	el	_	d	postype=article|gen=m|num=s	18	spec	_	_
+18	mayordomo	mayordomo	_	n	postype=common|gen=m|num=s	22	suj	_	_
+19	de	de	_	s	postype=preposition|gen=c|num=c	18	sp	_	_
+20	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	21	spec	_	_
+21	casa	casa	_	n	postype=common|gen=f|num=s	19	sn	_	_
+22	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	14	S	_	_
+23	ese	ese	_	d	postype=demonstrative|gen=m|num=s	24	spec	_	_
+24	Eliezer	eliezer	_	n	postype=proper|gen=c|num=c	22	atr	_	_
+25	,	,	_	f	punct=comma	24	f	_	_
+26	el	el	_	d	postype=article|gen=m|num=s	27	spec	_	_
+27	damasceno	damasceno	_	n	postype=common|gen=m|num=s	24	sn	_	_
+28	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#13
+#<Génesis 15:8>b
+# -- Señor Jehová , ¿ en qué conoceré que la he de heredar ?
+1	--	--	_	d	postype=article|gen=m|num=s	2	spec	_	_
+2	Señor	señor	_	n	postype=common|gen=m|num=s	0	sentence	_	_
+3	Jehová	jehová	_	n	postype=proper|gen=c|num=c	2	sn	_	_
+4	,	,	_	f	punct=comma	8	f	_	_
+5	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+6	en	en	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+7	qué	qué	_	p	postype=interrogative|gen=c|num=s	6	sn	_	_
+8	conoceré	conocer	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=future	2	S	_	_
+9	que	que	_	c	postype=subordinating	11	conj	_	_
+10	la	el	_	d	postype=article|gen=f|num=s	11	spec	_	_
+11	he	haber	_	n	postype=common|gen=f|num=s	8	suj	_	_
+12	de	de	_	s	postype=preposition|gen=c|num=c	11	sp	_	_
+13	heredar	heredar	_	n	postype=common|gen=m|num=s	12	sn	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#14
+#<Génesis 16:8>b
+# -- Agar , sierva de Sarai , ¿ de dónde vienes y a dónde vas ?
+1	--	--	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+2	Agar	agar	_	n	postype=proper|gen=c|num=c	1	sn	_	_
+3	,	,	_	f	punct=comma	4	f	_	_
+4	sierva	sierva	_	n	postype=common|gen=f|num=s	2	sn	_	_
+5	de	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+6	Sarai	sarai	_	n	postype=proper|gen=c|num=c	5	sn	_	_
+7	,	,	_	f	punct=comma	4	f	_	_
+8	¿	¿	_	f	punct=questionmark|punctenclose=open	15	f	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+10	dónde	dónde	_	p	postype=interrogative|gen=c|num=c	11	spec	_	_
+11	vienes	vien	_	n	postype=common|gen=m|num=p	9	sn	_	_
+12	y	y	_	c	postype=coordinating	9	coord	_	_
+13	a	a	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+14	dónde	dónde	_	p	postype=interrogative|gen=c|num=c	13	sadv	_	_
+15	vas	ir	_	n	postype=common|gen=f|num=p	0	sentence	_	_
+16	?	?	_	f	punct=questionmark|punctenclose=close	15	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#15
+#<Génesis 16:13>c
+# ¿ Acaso no he visto aquí a el que me ve ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Acaso	acaso	_	p	postype=qualificative|gen=m|num=s	5	suj	_	_
+3	no	no	_	r	postype=negative	5	mod	_	_
+4	he	haber	_	v	postype=auxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	5	v	_	_
+5	visto	ver	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	aquí	aquí	_	r	_	5	cc	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	5	cd	_	_
+8	el	el	_	d	postype=article|gen=m|num=s	11	spec	_	_
+9	que	que	_	p	postype=relative|gen=c|num=c	11	suj	_	_
+10	me	yo	_	p	postype=personal|gen=c|num=s|person=1	11	cd	_	_
+11	ve	ver	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	7	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+13	"	"	_	f	punct=quotation	5	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#16
+#<Génesis 17:17>b-c
+# ¿ A un hombre de cien años habrá de nacer le un hijo ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	10	f	_	_
+2	A	a	_	s	postype=preposition|gen=c|num=c	10	cc	_	_
+3	un	uno	_	d	postype=indefinite|gen=m|num=s	4	spec	_	_
+4	hombre	hombre	_	n	postype=common|gen=m|num=s	2	sn	_	_
+5	de	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+6	cien	cien	_	d	postype=numeral|gen=c|num=p	7	spec	_	_
+7	años	año	_	n	postype=common|gen=m|num=p	5	sn	_	_
+8	habrá	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=future	10	v	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	10	s	_	_
+10	nacer	nacer	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+11	le	él	_	p	postype=personal|gen=c|num=s|person=3|case=accusative	10	suj	_	_
+12	un	uno	_	d	postype=indefinite|gen=m|num=s	13	spec	_	_
+13	hijo	hijo	_	n	postype=common|gen=m|num=s	10	cd	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	10	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+# ¿ Y Sara , ya de noventa años , habrá de concebir ? " 
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	12	f	_	_
+2	Y	y	_	c	postype=coordinating	12	et	_	_
+3	Sara	sara	_	n	postype=proper|gen=c|num=c	12	suj	_	_
+4	,	,	_	f	punct=comma	6	f	_	_
+5	ya	ya	_	r	_	6	sadv	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	3	sp	_	_
+7	noventa	noventa	_	d	postype=numeral|gen=c|num=p	8	spec	_	_
+8	años	año	_	n	postype=common|gen=m|num=p	6	sn	_	_
+9	,	,	_	f	punct=comma	6	f	_	_
+10	habrá	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=future	12	v	_	_
+11	de	de	_	s	postype=preposition|gen=c|num=c	12	s	_	_
+12	concebir	concebir	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	12	f	_	_
+14	"	"	_	f	punct=quotation	12	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#17
+#<Génesis 18:9>b
+# -- ¿ Dónde está Sara , tu mujer ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Dónde	dónde	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+4	está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	Sara	sara	_	n	postype=proper|gen=c|num=c	4	suj	_	_
+6	,	,	_	f	punct=comma	8	f	_	_
+7	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	8	spec	_	_
+8	mujer	mujer	_	n	postype=common|gen=f|num=s	5	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#18
+#<Génesis 18:14>a
+# ¿ Acaso hay alguna cosa difícil para Di os ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Acaso	acaso	_	r	_	3	cc	_	_
+3	hay	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	alguna	alguno	_	d	postype=indefinite|gen=f|num=s	5	spec	_	_
+5	cosa	cosa	_	n	postype=common|gen=f|num=s	3	cd	_	_
+6	difícil	difícil	_	a	postype=qualificative|gen=c|num=s	5	s.a	_	_
+7	para	para	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+8	Di	di	_	n	postype=proper|gen=c|num=c	7	sn	_	_
+9	os	os	_	a	postype=qualificative|gen=m|num=p	8	s.a	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#19
+#<Génesis 18:23>b
+# -- ¿ Destruirás también a el justo con el impío ?
+1	--	--	_	r	_	3	mod	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Destruirás	destruirás	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+4	también	también	_	r	_	3	mod	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	3	cc	_	_
+6	el	el	_	d	postype=article|gen=m|num=s	7	spec	_	_
+7	justo	justo	_	w	_	5	sn	_	_
+8	con	con	_	s	postype=preposition|gen=c|num=c	3	cc	_	_
+9	el	el	_	d	postype=article|gen=m|num=s	10	spec	_	_
+10	impío	impío	_	n	postype=common|gen=m|num=s	8	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#20
+#<Génesis 18:24>b
+# ¿ destruirás y no perdonarás a aquel lugar por amor a los cincuenta justos que estén dentro de él ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	destruirás	destruirás	_	r	_	5	sadv	_	_
+3	y	y	_	c	postype=coordinating	5	coord	_	_
+4	no	no	_	r	postype=negative	5	neg	_	_
+5	perdonarás	perdonarás	_	a	postype=qualificative|gen=f|num=p|posfunction=participle	0	sentence	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	5	creg	_	_
+7	aquel	aquel	_	d	postype=demonstrative|gen=m|num=s	8	spec	_	_
+8	lugar	lugar	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	por	por	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	amor	amor	_	n	postype=common|gen=m|num=s	9	sn	_	_
+11	a	a	_	s	postype=preposition|gen=c|num=c	5	ci	_	_
+12	los	el	_	d	postype=article|gen=m|num=p	14	spec	_	_
+13	cincuenta	cincuenta	_	d	postype=numeral|gen=c|num=p	12	d	_	_
+14	justos	justo	_	n	postype=qualificative|gen=m|num=p	11	sn	_	_
+15	que	que	_	p	postype=relative|gen=c|num=c	16	suj	_	_
+16	estén	estar	_	v	postype=main|gen=c|num=p|person=3|mood=subjunctive|tense=present	14	S	_	_
+17	dentro	dentro	_	r	_	16	atr	_	_
+18	de	de	_	s	postype=preposition|gen=c|num=c	17	sp	_	_
+19	él	él	_	p	postype=personal|gen=m|num=s|person=3	18	sn	_	_
+20	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#21
+#<Génesis 18:25>c
+# El Juez de toda la tierra , ¿ no ha de hacer lo que es justo ?
+1	El	el	_	d	postype=article|gen=m|num=s	2	spec	_	_
+2	Juez	juez	_	n	postype=proper|gen=c|num=c	12	suj	_	_
+3	de	de	_	s	postype=preposition|gen=c|num=c	2	sp	_	_
+4	toda	todo	_	d	postype=indefinite|gen=f|num=s	5	d	_	_
+5	la	el	_	d	postype=article|gen=f|num=s	6	spec	_	_
+6	tierra	tierra	_	n	postype=common|gen=f|num=s	3	sn	_	_
+7	,	,	_	f	punct=comma	2	f	_	_
+8	¿	¿	_	f	punct=questionmark|punctenclose=open	12	f	_	_
+9	no	no	_	r	postype=negative	12	mod	_	_
+10	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	12	v	_	_
+11	de	de	_	s	postype=preposition|gen=c|num=c	12	s	_	_
+12	hacer	hacer	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+13	lo	él	_	d	postype=article|gen=c|num=s	15	spec	_	_
+14	que	que	_	p	postype=relative|gen=c|num=c	15	suj	_	_
+15	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	12	cd	_	_
+16	justo	justo	_	a	postype=qualificative|gen=m|num=s	15	atr	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	12	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#22
+#<Génesis 18:28>b
+# ¿ destruirás por aquellos cinco toda la ciudad ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+2	destruirás	destruirás	_	c	_	8	coord	_	_
+3	por	por	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+4	aquellos	aquel	_	d	postype=demonstrative|gen=m|num=p	5	spec	_	_
+5	cinco	cinco	_	p	postype=numeral|gen=c|num=p	3	sn	_	_
+6	toda	todo	_	d	postype=indefinite|gen=f|num=s	7	d	_	_
+7	la	el	_	d	postype=article|gen=f|num=s	8	spec	_	_
+8	ciudad	ciudad	_	n	postype=common|gen=f|num=s	0	sentence	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	8	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#23
+#<Génesis 18:30>b-c
+# -- No se enoje ahora mi Señor si le digo :
+1	--	--	_	r	_	4	cc	_	_
+2	No	no	_	r	postype=negative	4	mod	_	_
+3	se	él	_	p	gen=c|num=c	4	pass	_	_
+4	enoje	enojar	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+5	ahora	ahora	_	r	_	4	cc	_	_
+6	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	7	spec	_	_
+7	Señor	señor	_	n	postype=common|gen=m|num=s	4	suj	_	_
+8	si	si	_	c	postype=subordinating	10	conj	_	_
+9	le	él	_	p	postype=personal|gen=c|num=s|person=3|case=dative	10	ci	_	_
+10	digo	decir	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	4	ao	_	_
+11	:	:	_	f	punct=colon	4	f	_	_
+
+# quizá se encuentren allí treinta .
+1	quizá	quizá	_	r	_	3	mod	_	_
+2	se	él	_	p	gen=c|num=c|person=3	3	morfema.pronominal	_	_
+3	encuentren	encontrar	_	v	postype=main|gen=c|num=p|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+4	allí	allí	_	r	_	3	cc	_	_
+5	treinta	treinta	_	p	postype=numeral|gen=c|num=p	3	suj	_	_
+6	.	.	_	f	punct=period	3	f	_	_
+#annotation=
+#gold_annotation=declarative
+
+#24
+#<Génesis 19:5>b
+# -- ¿ Dónde están los hombres que vinieron a ti esta noche ?
+1	--	--	_	r	_	4	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Dónde	dónde	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+4	están	estar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	los	el	_	d	postype=article|gen=m|num=p	6	spec	_	_
+6	hombres	hombre	_	n	postype=common|gen=m|num=p	4	suj	_	_
+7	que	que	_	p	postype=relative|gen=c|num=c	8	suj	_	_
+8	vinieron	viner	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=past	6	S	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	8	cd	_	_
+10	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	9	sn	_	_
+11	esta	este	_	d	postype=demonstrative|gen=f|num=s	12	spec	_	_
+12	noche	noche	_	n	postype=common|gen=f|num=s	8	cc	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#25
+#<Génesis 19:9>d
+# -- Vino este extraño para habitar entre nosotros , ¿ y habrá de erigir se en juez ?
+1	--	--	_	d	postype=indefinite|gen=m|num=s	2	spec	_	_
+2	Vino	vino	_	n	postype=proper|gen=c|num=c	0	sentence	_	_
+3	este	este	_	d	postype=demonstrative|gen=m|num=s	4	spec	_	_
+4	extraño	extraño	_	a	postype=qualificative|gen=m|num=s	2	s.a	_	_
+5	para	para	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+6	habitar	habitar	_	v	postype=main|gen=c|num=c|mood=infinitive	5	S	_	_
+7	entre	entre	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+8	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	7	sn	_	_
+9	,	,	_	f	punct=comma	14	f	_	_
+10	¿	¿	_	f	punct=questionmark|punctenclose=open	14	f	_	_
+11	y	y	_	c	postype=coordinating	14	et	_	_
+12	habrá	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=future	14	v	_	_
+13	de	de	_	s	postype=preposition|gen=c|num=c	14	s	_	_
+14	erigir	erigir	_	v	postype=main|gen=c|num=c|mood=infinitive	2	S	_	_
+15	se	él	_	p	gen=c|num=c|person=3	14	suj	_	_
+16	en	en	_	s	postype=preposition|gen=c|num=c	14	cc	_	_
+17	juez	juez	_	n	postype=common|gen=c|num=s	16	sn	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#26
+#<Génesis 19:12>b
+# -- ¿ Tienes aquí alguno más ?
+1	--	--	_	p	_	3	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Tienes	tener	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+4	aquí	aquí	_	r	_	3	cc	_	_
+5	alguno	alguno	_	p	postype=indefinite|gen=m|num=s	3	cd	_	_
+6	más	más	_	r	_	5	sadv	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#27
+#<Génesis 19:20>b
+# Dejad me ir allá =LRB= ¿ no es en verdad pequeña ?
+1	Dejad	dejad	_	n	postype=proper|gen=c|num=c	3	suj	_	_
+2	me	yo	_	p	postype=personal|gen=c|num=s|person=1	3	ci	_	_
+3	ir	ir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+4	allá	allá	_	r	_	3	cc	_	_
+5	=LRB=	=lrb=	_	v	postype=proper|gen=c|num=c	8	gerundi	_	_
+6	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+7	no	no	_	r	postype=negative	8	mod	_	_
+8	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	3	cc	_	_
+9	en	en	_	s	postype=preposition|gen=c|num=c	8	atr	_	_
+10	verdad	verdad	_	n	postype=common|gen=f|num=s	9	sn	_	_
+11	pequeña	pequeño	_	a	postype=qualificative|gen=f|num=s	10	s.a	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#28
+#<Génesis 20:4>b
+# Señor , ¿ matarás también a el inocente ?
+1	Señor	señor	_	i	_	6	interjeccio	_	_
+2	,	,	_	f	punct=comma	1	f	_	_
+3	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+4	matarás	matarás	_	r	_	6	sadv	_	_
+5	también	también	_	r	_	6	sadv	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	0	sentence	_	_
+7	el	el	_	d	postype=article|gen=m|num=s	8	spec	_	_
+8	inocente	inocente	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#29
+#<Génesis 20:5>a-c
+# ¿ No me dijo él : "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	No	no	_	r	postype=negative	4	mod	_	_
+3	me	yo	_	p	postype=personal|gen=c|num=s|person=1	4	ci	_	_
+4	dijo	decir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+5	él	él	_	p	postype=personal|gen=m|num=s|person=3	4	suj	_	_
+6	:	:	_	f	punct=colon	4	f	_	_
+7	"	"	_	f	punct=quotation	4	f	_	_
+
+# Mi hermana es " , y ella también dijo : "
+1	Mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	2	spec	_	_
+2	hermana	hermana	_	n	postype=common|gen=f|num=s	3	suj	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	"	"	_	f	punct=quotation	3	f	_	_
+5	,	,	_	f	punct=comma	3	f	_	_
+6	y	y	_	c	postype=coordinating	3	coord	_	_
+7	ella	él	_	p	postype=personal|gen=f|num=s|person=3	9	suj	_	_
+8	también	también	_	r	_	9	mod	_	_
+9	dijo	decir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	3	S	_	_
+10	:	:	_	f	punct=colon	3	f	_	_
+11	"	"	_	f	punct=quotation	3	f	_	_
+
+# Es mi hermano " ?
+1	Es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+2	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	3	spec	_	_
+3	hermano	hermano	_	n	postype=common|gen=m|num=s	1	suj	_	_
+4	"	"	_	f	punct=quotation	1	f	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#30
+#<Génesis 20:9>b
+# -- ¿ Qué nos has hecho ?
+1	--	--	_	r	_	6	mod	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	6	suj	_	_
+4	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	6	ci	_	_
+5	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=imperfect	6	v	_	_
+6	hecho	hecho	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#31
+#<Génesis 20:9>c
+# ¿ En qué pequé yo contra ti , que has atraído sobre mí y sobre mi reino tan gran pecado ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	En	en	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	pequé	pequé	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=past	0	sentence	_	_
+5	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	4	suj	_	_
+6	contra	contra	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	6	sn	_	_
+8	,	,	_	f	punct=comma	11	f	_	_
+9	que	que	_	p	postype=relative|gen=c|num=c	11	suj	_	_
+10	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=present	11	v	_	_
+11	atraído	atraer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	5	S	_	_
+12	sobre	sobre	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+13	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	12	sn	_	_
+14	y	y	_	c	postype=coordinating	12	coord	_	_
+15	sobre	sobre	_	s	postype=preposition|gen=c|num=c	12	sp	_	_
+16	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	17	spec	_	_
+17	reino	reino	_	n	postype=common|gen=m|num=s	15	sn	_	_
+18	tan	tanto	_	r	_	19	spec	_	_
+19	gran	gran	_	a	postype=qualificative|gen=c|num=s	17	s.a	_	_
+20	pecado	pecado	_	n	postype=common|gen=m|num=s	17	sn	_	_
+21	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#32
+#<Génesis 20:10>b
+# -- ¿ Qué pensabas a el hacer esto ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	pensabas	pensaba	_	n	postype=common|gen=f|num=p	0	sentence	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+6	el	el	_	d	postype=article|gen=m|num=s	7	spec	_	_
+7	hacer	hacer	_	v	postype=main|gen=c|num=c|mood=infinitive	5	sn	_	_
+8	esto	este	_	p	postype=demonstrative|gen=c|num=s	7	cd	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#33
+#<Génesis 21:7>b
+# ¿ Quién le hubiera dicho a Abraham que Sara había de amamantar hijos ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Quién	quién	_	p	postype=interrogative|gen=c|num=s	5	suj	_	_
+3	le	él	_	p	postype=personal|gen=c|num=s|person=3|case=dative	5	ci	_	_
+4	hubiera	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=subjunctive|tense=imperfect	5	v	_	_
+5	dicho	decir	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	5	ci	_	_
+7	Abraham	abraham	_	n	postype=proper|gen=c|num=c	6	sn	_	_
+8	que	que	_	c	postype=subordinating	12	conj	_	_
+9	Sara	sara	_	n	postype=proper|gen=c|num=c	12	suj	_	_
+10	había	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	12	v	_	_
+11	de	de	_	s	postype=preposition|gen=c|num=c	12	s	_	_
+12	amamantar	amamantar	_	v	postype=main|gen=c|num=c|mood=infinitive	5	cd	_	_
+13	hijos	hijo	_	n	postype=common|gen=m|num=p	12	cd	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#34
+#<Génesis 21:17>b
+# ¿ Qué tienes , Agar ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Qué	qué	_	d	postype=interrogative|gen=c|num=c	3	spec	_	_
+3	tienes	tener	_	n	postype=common|gen=m|num=p	0	sentence	_	_
+4	,	,	_	f	punct=comma	5	f	_	_
+5	Agar	agar	_	n	postype=proper|gen=c|num=c	3	sn	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#35
+#<Génesis 21:29>b
+# -- ¿ Qué significan esas siete corderas que has puesto aparte ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	cd	_	_
+4	significan	significar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	esas	ese	_	d	postype=demonstrative|gen=f|num=p	7	spec	_	_
+6	siete	siete	_	d	postype=numeral|gen=c|num=p	5	d	_	_
+7	corderas	cordero	_	n	postype=common|gen=f|num=p	4	suj	_	_
+8	que	que	_	p	postype=relative|gen=c|num=c	10	suj	_	_
+9	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=present	10	v	_	_
+10	puesto	puesto	_	v	postype=main|gen=m|num=s|mood=pastparticiple	7	S	_	_
+11	aparte	aparte	_	r	_	10	cc	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#36
+#<Génesis 22:7>f
+# -- Tenemos el fuego y la leña , pero ¿ dónde está el cordero para el holocausto ?
+1	--	--	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+2	Tenemos	tener	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=present	1	S	_	_
+3	el	el	_	d	postype=article|gen=m|num=s	4	spec	_	_
+4	fuego	fuego	_	n	postype=common|gen=m|num=s	2	cd	_	_
+5	y	y	_	c	postype=coordinating	4	coord	_	_
+6	la	el	_	d	postype=article|gen=f|num=s	7	spec	_	_
+7	leña	echar_leña	_	n	postype=common|gen=f|num=s	4	sn	_	_
+8	,	,	_	f	punct=comma	1	f	_	_
+9	pero	pero	_	c	postype=coordinating	12	coord	_	_
+10	¿	¿	_	f	punct=questionmark|punctenclose=open	12	f	_	_
+11	dónde	dónde	_	p	postype=interrogative|gen=c|num=c	12	cc	_	_
+12	está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+13	el	el	_	d	postype=article|gen=m|num=s	14	spec	_	_
+14	cordero	cordero	_	n	postype=common|gen=m|num=s	12	suj	_	_
+15	para	para	_	s	postype=preposition|gen=c|num=c	14	sp	_	_
+16	el	el	_	d	postype=article|gen=m|num=s	17	spec	_	_
+17	holocausto	holocausto	_	n	postype=common|gen=m|num=s	15	sn	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	12	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#37
+#<Génesis 23:15>b
+# la tierra vale cuatrocientos siclos de plata , pero ¿ qué es esto entre tú y yo ?
+1	la	el	_	d	postype=article|gen=f|num=s	2	spec	_	_
+2	tierra	tierra	_	n	postype=common|gen=f|num=s	3	suj	_	_
+3	vale	valer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	cuatrocientos	cuatrociento	_	d	postype=numeral|gen=c|num=p	5	spec	_	_
+5	siclos	siclo	_	n	postype=common|gen=m|num=p	3	cd	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	plata	plata	_	n	postype=common|gen=f|num=s	6	sn	_	_
+8	,	,	_	f	punct=comma	3	f	_	_
+9	pero	pero	_	c	postype=coordinating	3	coord	_	_
+10	¿	¿	_	f	punct=questionmark|punctenclose=open	12	f	_	_
+11	qué	qué	_	p	postype=interrogative|gen=c|num=s	12	suj	_	_
+12	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	3	S	_	_
+13	esto	este	_	p	postype=demonstrative|gen=c|num=s	12	atr	_	_
+14	entre	entre	_	s	postype=preposition|gen=c|num=c	13	sp	_	_
+15	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	14	sn	_	_
+16	y	y	_	c	postype=coordinating	15	coord	_	_
+17	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	15	grup.nom	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#38
+#<Génesis 24:5>c
+# ¿ Debo , entonces , volver y llevar a tu hijo a la tierra de donde saliste ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Debo	debo	_	n	postype=proper|gen=c|num=c	0	sentence	_	_
+3	,	,	_	f	punct=comma	4	f	_	_
+4	entonces	entonces	_	r	_	2	sadv	_	_
+5	,	,	_	f	punct=comma	4	f	_	_
+6	volver	volver	_	v	postype=main|gen=c|num=c|mood=infinitive	4	S	_	_
+7	y	y	_	c	postype=coordinating	6	coord	_	_
+8	llevar	llevar	_	v	postype=main|gen=c|num=c|mood=infinitive	6	S	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	8	cd	_	_
+10	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	11	spec	_	_
+11	hijo	hijo	_	n	postype=common|gen=m|num=s	9	sn	_	_
+12	a	a	_	s	postype=preposition|gen=c|num=c	8	creg	_	_
+13	la	el	_	d	postype=article|gen=f|num=s	14	spec	_	_
+14	tierra	tierra	_	n	postype=common|gen=f|num=s	12	sn	_	_
+15	de	de	_	s	postype=preposition|gen=c|num=c	17	creg	_	_
+16	donde	donde	_	p	postype=relative|gen=c|num=c	15	sn	_	_
+17	saliste	saliste	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	14	S	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#39
+#<Génesis 24:23>b
+# -- ¿ De quién eres hija ?
+1	--	--	_	r	_	6	sadv	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	De	de	_	s	postype=preposition|gen=c|num=c	6	sp	_	_
+4	quién	quién	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	eres	ser	_	n	postype=common|gen=m|num=p	6	suj	_	_
+6	hija	hija	_	v	postype=main|gen=c|num=p|person=2|mood=indicative|tense=present	0	sentence	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#40
+#<Génesis 24:31>b
+# -- Ven , bendito de Jehová , ¿ por qué estás fuera ?
+1	--	--	_	d	postype=article|gen=m|num=s	2	spec	_	_
+2	Ven	ven	_	n	postype=proper|gen=c|num=c	11	suj	_	_
+3	,	,	_	f	punct=comma	4	f	_	_
+4	bendito	bendito	_	n	postype=common|gen=m|num=s	2	sn	_	_
+5	de	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+6	Jehová	jehová	_	n	postype=proper|gen=c|num=c	5	sn	_	_
+7	,	,	_	f	punct=comma	4	f	_	_
+8	¿	¿	_	f	punct=questionmark|punctenclose=open	11	f	_	_
+9	por	por	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+10	qué	qué	_	p	postype=interrogative|gen=c|num=s	9	sn	_	_
+11	estás	estar	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+12	fuera	fuera	_	r	_	11	atr	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	11	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#41
+#<Génesis 24:47>b
+# ¿ De quién eres hija ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	De	de	_	s	postype=preposition|gen=c|num=c	5	creg	_	_
+3	quién	quién	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	eres	ser	_	p	postype=common|gen=m|num=p	5	suj	_	_
+5	hija	hija	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+7	"	"	_	f	punct=quotation	5	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#42
+#<Génesis 24:58>b
+# -- ¿ Irás tú con este hombre ?
+1	--	--	_	r	_	3	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Irás	irás	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=future	0	sentence	_	_
+4	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	3	suj	_	_
+5	con	con	_	s	postype=preposition|gen=c|num=c	3	cc	_	_
+6	este	este	_	d	postype=demonstrative|gen=m|num=s	7	spec	_	_
+7	hombre	hombre	_	n	postype=common|gen=m|num=s	5	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#43
+#<Génesis 24:65>b
+# -- ¿ Quién es ese hombre que viene por el campo hacia nosotros ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quién	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	ese	ese	_	d	postype=demonstrative|gen=m|num=s	6	spec	_	_
+6	hombre	hombre	_	n	postype=common|gen=m|num=s	4	atr	_	_
+7	que	que	_	p	postype=relative|gen=c|num=c	8	suj	_	_
+8	viene	venir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	6	S	_	_
+9	por	por	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+10	el	el	_	d	postype=article|gen=m|num=s	11	spec	_	_
+11	campo	campo	_	n	postype=common|gen=m|num=s	9	sn	_	_
+12	hacia	hacia	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+13	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	12	sn	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#44
+#<Génesis 25:22>b
+# Si es así , ¿ para qué vivo yo ? "
+1	Si	si	_	c	postype=subordinating	2	conj	_	_
+2	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+3	así	así	_	r	_	2	atr	_	_
+4	,	,	_	f	punct=comma	2	f	_	_
+5	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+6	para	para	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+7	qué	qué	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	6	sn	_	_
+8	vivo	vivo	_	v	postype=qualificative|gen=m|num=s	2	S	_	_
+9	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	8	suj	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+11	"	"	_	f	punct=quotation	2	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#45
+#<Génesis 25:32>b
+# -- Me estoy muriendo , ¿ para qué , pues , me servirá la primogenitura ?
+1	--	--	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Me	yo	_	p	gen=c|num=s|person=1	4	suj	_	_
+3	estoy	estar	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	4	v	_	_
+4	muriendo	morir	_	v	postype=main|gen=c|num=c|mood=gerund	0	sentence	_	_
+5	,	,	_	f	punct=comma	4	f	_	_
+6	¿	¿	_	f	punct=questionmark|punctenclose=open	13	f	_	_
+7	para	para	_	s	postype=preposition|gen=c|num=c	13	cc	_	_
+8	qué	qué	_	p	postype=interrogative|gen=c|num=s	7	sn	_	_
+9	,	,	_	f	punct=comma	10	f	_	_
+10	pues	pues	_	c	postype=subordinating	13	et	_	_
+11	,	,	_	f	punct=comma	10	f	_	_
+12	me	yo	_	p	postype=personal|gen=c|num=s|person=1	13	ci	_	_
+13	servirá	servir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	4	S	_	_
+14	la	el	_	d	postype=article|gen=f|num=s	15	spec	_	_
+15	primogenitura	primogenitura	_	n	postype=common|gen=f|num=s	13	suj	_	_
+16	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#46
+#<Génesis 26:9>c-d
+# ¿ Por qué , pues , dijiste : "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	7	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	7	sp	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	,	,	_	f	punct=comma	2	f	_	_
+5	pues	pues	_	c	postype=subordinating	7	coord	_	_
+6	,	,	_	f	punct=comma	7	f	_	_
+7	dijiste	dijistir	_	v	postype=common|gen=m|num=s	0	sentence	_	_
+8	:	:	_	f	punct=colon	7	f	_	_
+9	"	"	_	f	punct=quotation	7	f	_	_
+
+# Es mi hermana " ?
+1	Es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+2	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	3	spec	_	_
+3	hermana	hermana	_	n	postype=common|gen=f|num=s	1	suj	_	_
+4	"	"	_	f	punct=quotation	1	f	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#47
+#<Génesis 26:10>b
+# -- ¿ Por qué nos has hecho esto ?
+1	--	--	_	r	_	7	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	7	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	7	ci	_	_
+6	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=imperfect	7	v	_	_
+7	hecho	hecho	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+8	esto	este	_	p	postype=demonstrative|gen=c|num=s	7	suj	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	7	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#48
+#<Génesis 26:27>b
+# -- ¿ Por qué venís a mí , si me habéis aborrecido y me habéis echado de entre vosotros ?
+1	--	--	_	r	_	5	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	venís	venís	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=imperfect	0	sentence	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	5	cd	_	_
+7	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	6	sn	_	_
+8	,	,	_	f	punct=comma	11	f	_	_
+9	si	si	_	c	postype=subordinating	11	conj	_	_
+10	me	yo	_	p	postype=personal|gen=c|num=s|person=1	11	suj	_	_
+11	habéis	habéi	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	5	ao	_	_
+12	aborrecido	aborrecido	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	11	cpred	_	_
+13	y	y	_	c	postype=coordinating	11	coord	_	_
+14	me	yo	_	p	postype=personal|gen=c|num=s|person=1	15	spec	_	_
+15	habéis	habéis	_	n	postype=common|gen=f|num=c	16	suj	_	_
+16	echado	echado	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	11	S	_	_
+17	de	de	_	s	postype=preposition|gen=c|num=c	16	cc	_	_
+18	entre	entre	_	s	postype=preposition|gen=c|num=c	17	sp	_	_
+19	vosotros	vosotro	_	p	postype=personal|gen=m|num=p|person=1	18	sn	_	_
+20	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#49
+#<Génesis 27:18>d
+# -- Aquí estoy , ¿ quién eres tú , hijo mío ?
+1	--	--	_	d	postype=article|gen=m|num=s	2	spec	_	_
+2	Aquí	aquí	_	n	postype=proper|gen=c|num=c	3	suj	_	_
+3	estoy	estar	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	0	sentence	_	_
+4	,	,	_	f	punct=comma	7	f	_	_
+5	¿	¿	_	f	punct=questionmark|punctenclose=open	7	f	_	_
+6	quién	quién	_	p	postype=interrogative|gen=c|num=s	7	suj	_	_
+7	eres	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	3	atr	_	_
+8	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	7	atr	_	_
+9	,	,	_	f	punct=comma	10	f	_	_
+10	hijo	hijo	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+11	mío	mío	_	n	postype=common|gen=c|num=c	10	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#50
+#<Génesis 27:20>b
+# -- ¿ Cómo es que la hallaste tan pronto , hijo mío ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Cómo	cómo	_	p	postype=interrogative|gen=c|num=c	4	atr	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	que	que	_	c	postype=subordinating	4	atr	_	_
+6	la	el	_	d	postype=article|gen=f|num=s	7	spec	_	_
+7	hallaste	hallaste	_	n	postype=common|gen=f|num=s	5	relatiu	_	_
+8	tan	tanto	_	r	_	9	spec	_	_
+9	pronto	pronto	_	r	_	7	sadv	_	_
+10	,	,	_	f	punct=comma	11	f	_	_
+11	hijo	hijo	_	s	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	7	sp	_	_
+12	mío	mío	_	n	postype=common|gen=c|num=c	11	sn	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#51
+#<Génesis 27:24>b
+# -- ¿ Eres tú mi hijo Esaú ?
+1	--	--	_	r	_	3	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Eres	ser	_	v	postype=main|gen=c|num=s|person=3|mood=imperative	0	sentence	_	_
+4	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	3	suj	_	_
+5	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	6	spec	_	_
+6	hijo	hijo	_	n	postype=common|gen=m|num=s	3	suj	_	_
+7	Esaú	esaú	_	n	postype=proper|gen=c|num=c	6	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#52
+#<Génesis 27:32>b
+# -- ¿ Quién eres tú ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quién	quién	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	eres	ser	_	n	postype=common|gen=m|num=p	0	sentence	_	_
+5	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	4	s.a	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#53
+#<Génesis 27:33>b
+# -- ¿ Quién es el que vino aquí , que trajo caza , y me dio y comí de todo antes que tú vinieras ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quién	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	el	el	_	d	postype=article|gen=m|num=s	7	spec	_	_
+6	que	que	_	p	postype=relative|gen=c|num=c	7	suj	_	_
+7	vino	vino	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	4	atr	_	_
+8	aquí	aquí	_	r	_	7	cc	_	_
+9	,	,	_	f	punct=comma	7	f	_	_
+10	que	que	_	c	postype=subordinating	11	conj	_	_
+11	trajo	traer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	7	S	_	_
+12	caza	caza	_	n	postype=common|gen=f|num=s	11	suj	_	_
+13	,	,	_	f	punct=comma	4	f	_	_
+14	y	y	_	c	postype=coordinating	4	coord	_	_
+15	me	yo	_	p	postype=personal|gen=c|num=s|person=1	4	S	_	_
+16	dio	dar	_	n	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	15	sn	_	_
+17	y	y	_	c	postype=coordinating	16	coord	_	_
+18	comí	comí	_	n	postype=common|gen=m|num=s	16	grup.nom	_	_
+19	de	de	_	s	postype=preposition|gen=c|num=c	16	sp	_	_
+20	todo	todo	_	p	postype=indefinite|gen=m|num=s	19	sn	_	_
+21	antes	antes	_	r	_	15	sadv	_	_
+22	que	que	_	c	postype=subordinating	24	conj	_	_
+23	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	24	spec	_	_
+24	vinieras	viniero	_	a	postype=qualificative|gen=f|num=p	21	S	_	_
+25	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#54
+#<Génesis 27:36>e
+# -- ¿ No has guardado bendición para mí ?
+1	--	--	_	p	_	5	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	No	no	_	r	postype=negative	5	mod	_	_
+4	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=present	5	v	_	_
+5	guardado	guardado	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	bendición	bendición	_	n	postype=common|gen=f|num=s	5	cd	_	_
+7	para	para	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+8	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	7	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#55
+#<Génesis 27:37>d
+# ¿ qué , pues , haré por ti ahora , hijo mío ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	11	f	_	_
+2	qué	qué	_	p	postype=interrogative|gen=c|num=s	11	suj	_	_
+3	,	,	_	f	punct=comma	4	f	_	_
+4	pues	pues	_	c	postype=subordinating	2	sp	_	_
+5	,	,	_	f	punct=comma	6	f	_	_
+6	haré	har	_	n	postype=main|gen=c|num=s|person=1|mood=indicative|tense=future	4	sn	_	_
+7	por	por	_	s	postype=preposition|gen=c|num=c	6	sp	_	_
+8	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	7	sn	_	_
+9	ahora	ahora	_	r	_	8	sadv	_	_
+10	,	,	_	f	punct=comma	4	f	_	_
+11	hijo	hijo	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+12	mío	mío	_	n	postype=common|gen=c|num=c	11	cd	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	11	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#56
+#<Génesis 27:38>b
+# -- ¿ No tienes más que una sola bendición , padre mío ?
+1	--	--	_	p	_	4	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	No	no	_	r	postype=negative	4	mod	_	_
+4	tienes	tener	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+5	más	más	_	r	_	4	cd	_	_
+6	que	que	_	c	postype=subordinating	9	conj	_	_
+7	una	uno	_	d	postype=indefinite|gen=f|num=s	9	spec	_	_
+8	sola	solo	_	a	postype=qualificative|gen=f|num=s	9	s.a	_	_
+9	bendición	bendición	_	n	postype=common|gen=f|num=s	5	S	_	_
+10	,	,	_	f	punct=comma	4	f	_	_
+11	padre	padre	_	n	postype=common|gen=m|num=s	4	cd	_	_
+12	mío	mío	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=s	11	spec	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#57
+#<Génesis 27:45>c
+# ¿ Por qué seré privada de vosotros dos en un solo día ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	seré	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+5	privada	privado	_	a	postype=qualificative|gen=f|num=s|posfunction=participle	4	atr	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	vosotros	vosotro	_	n	postype=common|gen=m|num=p	6	sn	_	_
+8	dos	dos	_	p	postype=numeral|gen=c|num=p	4	suj	_	_
+9	en	en	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	un	uno	_	d	postype=indefinite|gen=m|num=s	12	spec	_	_
+11	solo	solo	_	a	postype=qualificative|gen=m|num=s	12	s.a	_	_
+12	día	día	_	n	postype=common|gen=m|num=s	9	sn	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#58
+#<Génesis 27:46>c
+# Si Jacob toma mujer de entre las hijas de Het , como estas , de entre las hijas de esta tierra , ¿ para qué quiero la vida ?
+1	Si	si	_	c	postype=subordinating	3	conj	_	_
+2	Jacob	jacob	_	n	postype=proper|gen=c|num=c	3	suj	_	_
+3	toma	tomar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	26	ao	_	_
+4	mujer	mujer	_	n	postype=common|gen=f|num=s	3	cd	_	_
+5	de	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+6	entre	entre	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	las	el	_	d	postype=article|gen=f|num=p	8	spec	_	_
+8	hijas	hija	_	n	postype=common|gen=f|num=p	6	sn	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	Het	het	_	n	postype=proper|gen=c|num=c	9	sn	_	_
+11	,	,	_	f	punct=comma	3	f	_	_
+12	como	como	_	c	postype=subordinating	3	cc	_	_
+13	estas	este	_	n	postype=demonstrative|gen=f|num=p	12	sn	_	_
+14	,	,	_	f	punct=comma	15	f	_	_
+15	de	de	_	s	postype=preposition|gen=c|num=c	13	sp	_	_
+16	entre	entre	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+17	las	el	_	d	postype=article|gen=f|num=p	18	spec	_	_
+18	hijas	hija	_	n	postype=common|gen=f|num=p	16	sn	_	_
+19	de	de	_	s	postype=preposition|gen=c|num=c	18	sp	_	_
+20	esta	este	_	d	postype=demonstrative|gen=f|num=s	21	spec	_	_
+21	tierra	tierra	_	n	postype=common|gen=f|num=s	19	sn	_	_
+22	,	,	_	f	punct=comma	3	f	_	_
+23	¿	¿	_	f	punct=questionmark|punctenclose=open	26	f	_	_
+24	para	para	_	s	postype=preposition|gen=c|num=c	26	cc	_	_
+25	qué	qué	_	p	postype=interrogative|gen=c|num=s	24	sn	_	_
+26	quiero	querer	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	0	sentence	_	_
+27	la	el	_	d	postype=article|gen=f|num=s	28	spec	_	_
+28	vida	vida	_	n	postype=common|gen=f|num=s	26	cd	_	_
+29	?	?	_	f	punct=questionmark|punctenclose=close	26	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#59
+#<Génesis 29:4>b
+# -- Hermanos míos , ¿ de dónde sois ?
+1	--	--	_	d	postype=demonstrative|gen=m|num=p	2	spec	_	_
+2	Hermanos	hermano	_	n	postype=common|gen=m|num=p	0	sentence	_	_
+3	míos	mío	_	a	postype=qualificative|gen=m|num=p	2	s.a	_	_
+4	,	,	_	f	punct=comma	8	f	_	_
+5	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+7	dónde	dónde	_	p	postype=interrogative|gen=c|num=c	6	sadv	_	_
+8	sois	sois	_	n	postype=common|gen=m|num=p	2	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#60
+#<Génesis 29:5>a
+# -- ¿ Conocéis a Labán hijo de Nacor ?
+1	--	--	_	r	_	3	coord	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Conocéis	conocéis	_	n	postype=common|gen=f|num=c	0	sentence	_	_
+4	a	a	_	s	postype=preposition|gen=c|num=c	3	sp	_	_
+5	Labán	labán	_	n	postype=proper|gen=c|num=c	4	sn	_	_
+6	hijo	hijo	_	n	postype=common|gen=m|num=s	5	sn	_	_
+7	de	de	_	s	postype=preposition|gen=c|num=c	6	sp	_	_
+8	Nacor	nacor	_	n	postype=proper|gen=c|num=c	7	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#61
+#<Génesis 29:6>a
+# -- ¿ Está bien ?
+1	--	--	_	p	postype=indefinite|gen=c|num=s	3	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	bien	bien	_	r	_	3	atr	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#62
+#<Génesis 29:15>b
+# -- ¿ Por ser tú mi hermano me vas a servir de balde ?
+1	--	--	_	r	_	0	sentence	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	1	sp	_	_
+4	ser	ser	_	v	postype=semiauxiliary|gen=c|num=c|mood=infinitive	3	S	_	_
+5	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	4	suj	_	_
+6	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	7	spec	_	_
+7	hermano	hermano	_	n	postype=common|gen=m|num=s	4	atr	_	_
+8	me	yo	_	p	postype=personal|gen=c|num=s|person=1	11	suj	_	_
+9	vas	ir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	11	v	_	_
+10	a	a	_	s	postype=preposition|gen=c|num=c	11	s	_	_
+11	servir	servir	_	v	postype=main|gen=c|num=c|mood=infinitive	7	S	_	_
+12	de	de	_	s	postype=preposition|gen=c|num=c	11	creg	_	_
+13	balde	balde	_	n	postype=common|gen=m|num=s	12	sn	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#63
+#<Génesis 29:25>b
+# -- ¿ Qué es esto que me has hecho ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	esto	este	_	p	postype=demonstrative|gen=c|num=s	4	atr	_	_
+6	que	que	_	p	postype=relative|gen=c|num=c	9	cd	_	_
+7	me	yo	_	p	postype=personal|gen=c|num=s|person=1	9	suj	_	_
+8	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	9	v	_	_
+9	hecho	hecho	_	v	postype=main|gen=m|num=s|mood=pastparticiple	5	S	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#64
+#<Génesis 29:25>c
+# ¿ No te he servido por Raquel ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	No	no	_	r	postype=negative	5	mod	_	_
+3	te	tú	_	p	postype=personal|gen=c|num=s|person=2	5	suj	_	_
+4	he	haber	_	v	postype=auxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	5	v	_	_
+5	servido	servir	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	por	por	_	s	postype=preposition|gen=c|num=c	5	cag	_	_
+7	Raquel	raquel	_	n	postype=proper|gen=c|num=c	6	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#65
+#<Génesis 29:25>d
+# ¿ Por qué , pues , me has engañado ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	9	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	9	sp	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	,	,	_	f	punct=comma	5	f	_	_
+5	pues	pues	_	c	postype=subordinating	9	et	_	_
+6	,	,	_	f	punct=comma	5	f	_	_
+7	me	yo	_	p	postype=personal|gen=c|num=s|person=1	9	suj	_	_
+8	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	9	v	_	_
+9	engañado	engañado	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	9	f	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#66
+#<Génesis 30:2>b
+# -- ¿ Soy yo acaso Di os , que te ha negado el fruto de tu vientre ?
+1	--	--	_	r	_	3	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Soy	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	0	sentence	_	_
+4	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	3	suj	_	_
+5	acaso	acaso	_	r	_	6	sadv	_	_
+6	Di	di	_	n	postype=proper|gen=c|num=c	3	atr	_	_
+7	os	os	_	p	postype=personal|gen=c|num=c|person=3|case=oblique	6	s.a	_	_
+8	,	,	_	f	punct=comma	12	f	_	_
+9	que	que	_	p	postype=relative|gen=c|num=c	12	suj	_	_
+10	te	tú	_	p	postype=personal|gen=c|num=s|person=2	12	ci	_	_
+11	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	12	v	_	_
+12	negado	negar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	6	S	_	_
+13	el	el	_	d	postype=article|gen=m|num=s	14	spec	_	_
+14	fruto	fruto	_	n	postype=common|gen=m|num=s	12	cd	_	_
+15	de	de	_	s	postype=preposition|gen=c|num=c	14	sp	_	_
+16	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	17	spec	_	_
+17	vientre	vientre	_	n	postype=common|gen=m|num=s	15	sn	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#67
+#<Génesis 30:15>b
+# -- ¿ Te parece poco que hayas tomado mi marido , para que también quieras llevar te las mandrágoras de mi hijo ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Te	tú	_	p	postype=indefinite|gen=c|num=s	4	suj	_	_
+4	parece	parecer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	poco	poco	_	r	_	4	atr	_	_
+6	que	que	_	c	postype=subordinating	7	conj	_	_
+7	hayas	haya	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	4	suj	_	_
+8	tomado	tomar	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	7	cpred	_	_
+9	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	10	spec	_	_
+10	marido	marido	_	n	postype=common|gen=m|num=s	7	suj	_	_
+11	,	,	_	f	punct=comma	12	f	_	_
+12	para	para	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+13	que	que	_	c	postype=subordinating	15	conj	_	_
+14	también	también	_	r	_	15	mod	_	_
+15	quieras	querer	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	12	S	_	_
+16	llevar	llevar	_	v	postype=main|gen=c|num=c|mood=infinitive	15	cd	_	_
+17	te	tú	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	16	cc	_	_
+18	las	el	_	d	postype=article|gen=f|num=p	19	spec	_	_
+19	mandrágoras	mandrágora	_	n	postype=common|gen=f|num=p	16	cd	_	_
+20	de	de	_	s	postype=preposition|gen=c|num=c	19	sp	_	_
+21	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	22	spec	_	_
+22	hijo	hijo	_	n	postype=common|gen=m|num=s	20	sn	_	_
+23	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#68
+#<Génesis 30:30>c
+# Y ahora , ¿ cuándo trabajaré también para mi propia casa ?
+1	Y	y	_	c	postype=coordinating	6	et	_	_
+2	ahora	ahora	_	r	_	6	cc	_	_
+3	,	,	_	f	punct=comma	6	f	_	_
+4	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+5	cuándo	cuándo	_	p	postype=interrogative|gen=c|num=c	6	cc	_	_
+6	trabajaré	trabajar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+7	también	también	_	r	_	6	mod	_	_
+8	para	para	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+9	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	11	spec	_	_
+10	propia	propio	_	d	postype=indefinite|gen=f|num=s	9	d	_	_
+11	casa	casa	_	n	postype=common|gen=f|num=s	8	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#69
+#<Génesis 30:31>b
+# -- ¿ Qué te daré ?
+1	--	--	_	i	_	5	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Qué	qué	_	d	postype=interrogative|gen=c|num=s	4	spec	_	_
+4	te	tú	_	p	gen=c|num=s|person=2	5	suj	_	_
+5	daré	dar	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#70
+#<Génesis 31:14>b
+# -- ¿ Tenemos acaso parte o heredad en la casa de nuestro padre ?
+1	--	--	_	r	_	3	mod	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Tenemos	tener	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=present	0	sentence	_	_
+4	acaso	acaso	_	r	_	3	cc	_	_
+5	parte	parte	_	n	postype=common|gen=f|num=s	4	S	_	_
+6	o	o	_	c	postype=coordinating	5	coord	_	_
+7	heredad	heredad	_	n	postype=common|gen=f|num=s	5	grup.nom	_	_
+8	en	en	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+9	la	el	_	d	postype=article|gen=f|num=s	10	spec	_	_
+10	casa	casa	_	n	postype=common|gen=f|num=s	8	sn	_	_
+11	de	de	_	s	postype=preposition|gen=c|num=c	10	sp	_	_
+12	nuestro	nuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	13	spec	_	_
+13	padre	padre	_	n	postype=common|gen=m|num=s	11	sn	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#71
+#<Génesis 31:15>a
+# ¿ No nos tiene ya por extrañas , pues que nos vendió y hasta se ha comido de el todo lo que recibió por nosotras ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	No	no	_	r	postype=negative	4	mod	_	_
+3	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	4	cd	_	_
+4	tiene	tener	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	ya	ya	_	r	_	4	cc	_	_
+6	por	por	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+7	extrañas	extraña	_	n	postype=common|gen=f|num=p	6	sn	_	_
+8	,	,	_	f	punct=comma	12	f	_	_
+9	pues	pues	_	c	postype=subordinating	12	conj	_	_
+10	que	que	_	p	postype=relative|gen=c|num=c	12	suj	_	_
+11	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	12	cd	_	_
+12	vendió	vender	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	4	ao	_	_
+13	y	y	_	c	postype=coordinating	12	coord	_	_
+14	hasta	hasta	_	s	postype=preposition|gen=c|num=c	17	cc	_	_
+15	se	él	_	p	postype=personal|gen=c|num=s|person=3	14	sn	_	_
+16	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	17	v	_	_
+17	comido	comido	_	v	postype=main|gen=m|num=s|mood=pastparticiple	12	S	_	_
+18	de	de	_	s	postype=preposition|gen=c|num=c	17	cc	_	_
+19	el	el	_	d	postype=article|gen=m|num=s	20	spec	_	_
+20	todo	todo	_	p	postype=indefinite|gen=m|num=s	18	sn	_	_
+21	lo	él	_	d	postype=article|gen=c|num=s	20	spec	_	_
+22	que	que	_	p	postype=relative|gen=c|num=c	23	suj	_	_
+23	recibió	recibir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	20	S	_	_
+24	por	por	_	s	postype=preposition|gen=c|num=c	23	cc	_	_
+25	nosotras	nosotro	_	n	postype=common|gen=f|num=p	24	sn	_	_
+26	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#72
+#<Génesis 31:26>b
+# -- ¿ Qué has hecho ?
+1	--	--	_	i	_	5	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	5	suj	_	_
+4	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	5	v	_	_
+5	hecho	hecho	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#73
+#<Génesis 31:27>a
+# ¿ Por qué te escondiste para huir , y me engañaste , y no me lo hiciste saber para que yo te despidiera con alegría y con cantares , con tamborín y arpa ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	5	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	te	tú	_	p	postype=personal|gen=c|num=s|person=2	5	cd	_	_
+5	escondiste	escondiste	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+6	para	para	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	huir	huir	_	v	postype=main|gen=c|num=c|mood=infinitive	6	S	_	_
+8	,	,	_	f	punct=comma	5	f	_	_
+9	y	y	_	c	postype=coordinating	5	coord	_	_
+10	me	yo	_	p	postype=personal|gen=c|num=s|person=1	11	suj	_	_
+11	engañaste	engañaste	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	5	S	_	_
+12	,	,	_	f	punct=comma	5	f	_	_
+13	y	y	_	c	postype=coordinating	5	coord	_	_
+14	no	no	_	r	postype=negative	15	neg	_	_
+15	me	yo	_	p	postype=personal|gen=c|num=s|person=1	17	ci	_	_
+16	lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	17	suj	_	_
+17	hiciste	hicistir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	5	S	_	_
+18	saber	saber	_	v	postype=main|gen=c|num=c|mood=infinitive	17	cd	_	_
+19	para	para	_	s	postype=preposition|gen=c|num=c	18	cc	_	_
+20	que	que	_	c	postype=subordinating	23	conj	_	_
+21	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	23	suj	_	_
+22	te	tú	_	p	postype=personal|gen=c|num=s|person=2	23	cd	_	_
+23	despidiera	despider	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=imperfect	19	S	_	_
+24	con	con	_	s	postype=preposition|gen=c|num=c	23	cc	_	_
+25	alegría	alegría	_	n	postype=common|gen=f|num=s	24	sn	_	_
+26	y	y	_	c	postype=coordinating	24	coord	_	_
+27	con	con	_	s	postype=preposition|gen=c|num=c	24	sp	_	_
+28	cantares	cantar	_	n	postype=common|gen=m|num=p	27	sn	_	_
+29	,	,	_	f	punct=comma	30	f	_	_
+30	con	con	_	s	postype=preposition|gen=c|num=c	23	cc	_	_
+31	tamborín	tamborín	_	n	postype=common|gen=m|num=s	30	sn	_	_
+32	y	y	_	c	postype=coordinating	31	coord	_	_
+33	arpa	arpa	_	n	postype=common|gen=f|num=s	31	grup.nom	_	_
+34	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#74
+#<Génesis 31:30>a
+# Y ya que te ibas , pues añorabas la casa de tu padre , ¿ por qué hurtaste mis dioses ?
+1	Y	y	_	c	postype=coordinating	5	coord	_	_
+2	ya	ya	_	r	_	5	sadv	_	_
+3	que	que	_	c	postype=subordinating	5	conj	_	_
+4	te	tú	_	p	postype=personal|gen=c|num=s|person=2	5	suj	_	_
+5	ibas	iba	_	v	postype=main|gen=c|num=s|person=2|mood=subjunctive|tense=present	0	sentence	_	_
+6	,	,	_	f	punct=comma	8	f	_	_
+7	pues	pues	_	c	postype=subordinating	8	conj	_	_
+8	añorabas	añoraba	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	5	ao	_	_
+9	la	el	_	d	postype=article|gen=f|num=s	10	spec	_	_
+10	casa	casa	_	n	postype=common|gen=f|num=s	8	suj	_	_
+11	de	de	_	s	postype=preposition|gen=c|num=c	10	sp	_	_
+12	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	13	spec	_	_
+13	padre	padre	_	n	postype=common|gen=m|num=s	11	sn	_	_
+14	,	,	_	f	punct=comma	8	f	_	_
+15	¿	¿	_	f	punct=questionmark|punctenclose=open	18	f	_	_
+16	por	por	_	s	postype=preposition|gen=c|num=c	18	cc	_	_
+17	qué	qué	_	p	postype=interrogative|gen=c|num=s	16	sn	_	_
+18	hurtaste	hurtaste	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	5	S	_	_
+19	mis	mi	_	d	postype=possessive|gen=c|num=p|person=1|possessornum=s	20	spec	_	_
+20	dioses	dios	_	n	postype=common|gen=m|num=p	18	suj	_	_
+21	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#75
+#<Génesis 31:36>b-c
+# -- ¿ Qué falta cometí ?
+1	--	--	_	r	_	4	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	falta	faltar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	cometí	cometí	_	n	postype=common|gen=m|num=s	4	suj	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# ¿ Cuál es mi pecado , para que con tanto ardor hayas venido en mi persecución ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Cuál	cuál	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	5	spec	_	_
+5	pecado	pecado	_	n	postype=common|gen=m|num=s	3	atr	_	_
+6	,	,	_	f	punct=comma	7	f	_	_
+7	para	para	_	s	postype=preposition|gen=c|num=c	3	cc	_	_
+8	que	que	_	c	postype=subordinating	9	conj	_	_
+9	con	con	_	s	postype=preposition|gen=c|num=c	7	S	_	_
+10	tanto	tanto	_	d	postype=indefinite|gen=m|num=s	11	spec	_	_
+11	ardor	ardor	_	n	postype=common|gen=m|num=s	9	sn	_	_
+12	hayas	haya	_	n	postype=common|gen=f|num=p	11	s.a	_	_
+13	venido	venir	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	11	S	_	_
+14	en	en	_	s	postype=preposition|gen=c|num=c	13	cc	_	_
+15	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	16	spec	_	_
+16	persecución	persecución	_	n	postype=common|gen=f|num=s	14	sn	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#76
+#<Génesis 31:37>a
+# A el registrar todas mis cosas , ¿ qué has hallado de todos los enseres de tu casa ?
+1	A	a	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+2	el	el	_	d	postype=article|gen=m|num=s	3	spec	_	_
+3	registrar	registrar	_	v	postype=main|gen=c|num=c|mood=infinitive	1	sn	_	_
+4	todas	todo	_	d	postype=indefinite|gen=f|num=p	5	d	_	_
+5	mis	mi	_	d	postype=possessive|gen=c|num=p|person=3	6	spec	_	_
+6	cosas	cosa	_	n	postype=common|gen=f|num=p	3	cd	_	_
+7	,	,	_	f	punct=comma	1	f	_	_
+8	¿	¿	_	f	punct=questionmark|punctenclose=open	11	f	_	_
+9	qué	qué	_	p	postype=interrogative|gen=c|num=s	11	cd	_	_
+10	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	11	v	_	_
+11	hallado	hallado	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+12	de	de	_	s	postype=preposition|gen=c|num=c	11	creg	_	_
+13	todos	todo	_	d	postype=indefinite|gen=m|num=p	14	d	_	_
+14	los	el	_	d	postype=article|gen=m|num=p	15	spec	_	_
+15	enseres	enseres	_	n	postype=common|gen=m|num=p	12	sn	_	_
+16	de	de	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+17	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	18	spec	_	_
+18	casa	casa	_	n	postype=common|gen=f|num=s	16	sn	_	_
+19	?	?	_	f	punct=questionmark|punctenclose=close	11	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#77
+#<Génesis 31:43>e
+# ¿ qué les puedo yo hacer hoy a estas mis hijas , o a los hijos que ellas han dado a luz ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	qué	qué	_	d	postype=interrogative|gen=c|num=c	3	spec	_	_
+3	les	él	_	p	postype=personal|gen=c|num=p|person=3|case=dative	6	suj	_	_
+4	puedo	poder	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	6	v	_	_
+5	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	6	cd	_	_
+6	hacer	hacer	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+7	hoy	hoy	_	r	_	6	cc	_	_
+8	a	a	_	s	postype=preposition|gen=c|num=c	6	ci	_	_
+9	estas	este	_	d	postype=demonstrative|gen=f|num=p	11	spec	_	_
+10	mis	mi	_	d	postype=numeral|gen=c|num=p	9	d	_	_
+11	hijas	hija	_	n	postype=common|gen=f|num=p	8	sn	_	_
+12	,	,	_	f	punct=comma	8	f	_	_
+13	o	o	_	c	postype=coordinating	8	coord	_	_
+14	a	a	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+15	los	el	_	d	postype=article|gen=m|num=p	16	spec	_	_
+16	hijos	hijo	_	n	postype=common|gen=m|num=p	14	sn	_	_
+17	que	que	_	p	postype=relative|gen=c|num=c	20	cd	_	_
+18	ellas	él	_	p	postype=personal|gen=f|num=s|person=3	20	suj	_	_
+19	han	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=indicative|tense=present	20	v	_	_
+20	dado	dar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	16	S	_	_
+21	a	a	_	s	postype=preposition|gen=c|num=c	20	ci	_	_
+22	luz	luz	_	n	postype=common|gen=f|num=s	21	sn	_	_
+23	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#78
+#<Génesis 32:17>c-e
+# ¿ De quién eres ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	De	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+3	quién	quién	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	eres	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+# ¿ y adónde vas ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	y	y	_	c	postype=coordinating	4	coord	_	_
+3	adónde	adónde	_	a	postype=interrogative|gen=c|num=c	4	s.a	_	_
+4	vas	ir	_	n	postype=common|gen=f|num=p	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+# ¿ y para quién es esto que llevas delante de ti ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	y	y	_	c	postype=coordinating	5	et	_	_
+3	para	para	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	quién	quién	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	esto	este	_	p	postype=demonstrative|gen=c|num=s	5	atr	_	_
+7	que	que	_	p	postype=relative|gen=c|num=c	8	suj	_	_
+8	llevas	llevar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=future	6	S	_	_
+9	delante	delante	_	r	_	8	cc	_	_
+10	de	de	_	s	postype=preposition|gen=c|num=c	9	sp	_	_
+11	ti	tú	_	n	postype=common|gen=c|num=c	10	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+13	"	"	_	f	punct=quotation	5	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#79
+#<Génesis 32:27>a
+# -- ¿ Cuál es tu nombre ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Cuál	cuál	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	6	spec	_	_
+6	nombre	nombre	_	n	postype=common|gen=m|num=s	4	atr	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#80
+#<Génesis 32:29>b
+# -- ¿ Por qué me preguntas por mi nombre ?
+1	--	--	_	r	_	6	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	me	yo	_	p	gen=c|num=s|person=2	6	suj	_	_
+6	preguntas	pregunta	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+7	por	por	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+8	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	9	spec	_	_
+9	nombre	nombre	_	n	postype=common|gen=m|num=s	7	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=4;NISQ
+#gold_annotation=ISQ
+
+#81
+#<Génesis 33:5>b
+# -- ¿ Quiénes son estos ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quiénes	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	son	ser	_	v	postype=semiauxiliary|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	estos	este	_	p	postype=demonstrative|gen=m|num=p	4	atr	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#82
+#<Génesis 33:8>b
+# -- ¿ Qué te propones con todos estos grupos que he encontrado ?
+1	--	--	_	i	_	5	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	te	tú	_	p	gen=c|num=s|person=2	5	suj	_	_
+5	propones	propón	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+6	con	con	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	todos	todo	_	d	postype=indefinite|gen=m|num=p	8	d	_	_
+8	estos	este	_	d	postype=demonstrative|gen=m|num=p	9	spec	_	_
+9	grupos	grupo	_	n	postype=common|gen=m|num=p	6	sn	_	_
+10	que	que	_	p	postype=relative|gen=c|num=c	12	suj	_	_
+11	he	haber	_	v	postype=auxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	12	v	_	_
+12	encontrado	encontrar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	9	S	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#83
+#<Génesis 33:15>d
+# -- ¿ Para qué , si he hallado gracia a los ojos de mi señor ?
+1	--	--	_	p	_	8	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+3	Para	para	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	,	,	_	f	punct=comma	8	f	_	_
+6	si	si	_	c	postype=subordinating	8	conj	_	_
+7	he	haber	_	v	postype=auxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	8	v	_	_
+8	hallado	hallar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+9	gracia	gracia	_	n	postype=common|gen=f|num=s	8	cd	_	_
+10	a	a	_	s	postype=preposition|gen=c|num=c	8	ci	_	_
+11	los	el	_	d	postype=article|gen=m|num=p	12	spec	_	_
+12	ojos	ojo	_	n	postype=common|gen=m|num=p	10	sn	_	_
+13	de	de	_	s	postype=preposition|gen=c|num=c	12	sp	_	_
+14	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	15	spec	_	_
+15	señor	señor	_	n	postype=common|gen=m|num=s	13	sn	_	_
+16	?	?	_	f	punct=questionmark|punctenclose=close	8	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#84
+#<Génesis 34:31>b
+# -- ¿ Acaso tenía él que tratar a nuestra hermana como a una ramera ?
+1	--	--	_	r	_	4	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Acaso	acaso	_	r	_	4	mod	_	_
+4	tenía	tener	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=imperfect	0	sentence	_	_
+5	él	él	_	p	postype=personal|gen=m|num=s|person=3	4	suj	_	_
+6	que	que	_	c	postype=subordinating	7	conj	_	_
+7	tratar	tratar	_	v	postype=main|gen=c|num=c|mood=infinitive	4	cd	_	_
+8	a	a	_	s	postype=preposition|gen=c|num=c	7	cd	_	_
+9	nuestra	nuestro	_	d	postype=possessive|gen=f|num=s|person=1|possessornum=p	10	spec	_	_
+10	hermana	hermana	_	n	postype=common|gen=f|num=s	8	sn	_	_
+11	como	como	_	c	postype=subordinating	7	cc	_	_
+12	a	a	_	s	postype=preposition|gen=c|num=c	11	sp	_	_
+13	una	uno	_	d	postype=indefinite|gen=f|num=s	14	spec	_	_
+14	ramera	ramera	_	n	postype=common|gen=f|num=s	12	sn	_	_
+15	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#85
+#<Génesis 37:8>b
+# -- ¿ Reinarás tú sobre nosotros , o dominarás sobre nosotros ?
+1	--	--	_	r	_	3	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Reinarás	reinarás	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+4	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	3	suj	_	_
+5	sobre	sobre	_	s	postype=preposition|gen=c|num=c	3	cc	_	_
+6	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	5	sn	_	_
+7	,	,	_	f	punct=comma	3	f	_	_
+8	o	o	_	c	postype=coordinating	3	coord	_	_
+9	dominarás	dominarás	_	r	_	10	sadv	_	_
+10	sobre	sobre	_	s	postype=preposition|gen=c|num=c	3	S	_	_
+11	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	10	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#86
+#<Génesis 37:10>c
+# -- ¿ Qué sueño es este que tuviste ?
+1	--	--	_	i	_	5	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	sueño	sueño	_	n	postype=common|gen=m|num=s	5	suj	_	_
+5	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	este	este	_	p	postype=demonstrative|gen=m|num=s	5	atr	_	_
+7	que	que	_	p	postype=relative|gen=c|num=c	8	suj	_	_
+8	tuviste	tuvistar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	6	S	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#87
+#<Génesis 37:10>d
+# ¿ Acaso vendremos yo , tu madre y tus hermanos a postrar nos en tierra ante ti ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Acaso	acaso	_	r	_	3	mod	_	_
+3	vendremos	venir	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=future	0	sentence	_	_
+4	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	3	suj	_	_
+5	,	,	_	f	punct=comma	3	f	_	_
+6	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	7	spec	_	_
+7	madre	madre	_	n	postype=common|gen=f|num=s	3	cd	_	_
+8	y	y	_	c	postype=coordinating	7	coord	_	_
+9	tus	tu	_	d	postype=numeral|gen=c|num=p	10	spec	_	_
+10	hermanos	hermano	_	n	postype=common|gen=m|num=p	7	sn	_	_
+11	a	a	_	s	postype=preposition|gen=c|num=c	3	cc	_	_
+12	postrar	postrar	_	v	postype=main|gen=c|num=c|mood=infinitive	11	S	_	_
+13	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	12	cd	_	_
+14	en	en	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+15	tierra	tierra	_	n	postype=common|gen=f|num=s	14	sn	_	_
+16	ante	ante	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+17	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	16	sn	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#88
+#<Génesis 37:15>c
+# -- ¿ Qué buscas ?
+1	--	--	_	r	_	4	sadv	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	buscas	busco	_	n	postype=common|gen=f|num=p	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#89
+#<Génesis 37:26>b
+# -- ¿ Qué vamos a ganar con matar a nuestro hermano y ocultar su muerte ?
+1	--	--	_	i	_	6	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	6	cd	_	_
+4	vamos	ir	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=present	6	v	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	6	s	_	_
+6	ganar	ganar	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+7	con	con	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+8	matar	matar	_	v	postype=main|gen=c|num=c|mood=infinitive	7	S	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	8	cd	_	_
+10	nuestro	nuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	11	spec	_	_
+11	hermano	hermano	_	n	postype=common|gen=m|num=s	9	sn	_	_
+12	y	y	_	c	postype=coordinating	8	coord	_	_
+13	ocultar	ocultar	_	v	postype=main|gen=c|num=c|mood=infinitive	8	S	_	_
+14	su	su	_	d	postype=possessive|gen=c|num=s|person=3	15	spec	_	_
+15	muerte	muerte	_	n	postype=common|gen=f|num=s	13	cd	_	_
+16	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#90
+#<Génesis 37:30>c
+# y yo , ¿ adónde iré yo ?
+1	y	y	_	c	postype=coordinating	5	et	_	_
+2	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	5	sn	_	_
+3	,	,	_	f	punct=comma	5	f	_	_
+4	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+5	adónde	adónde	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	iré	ir	_	n	postype=proper|gen=c|num=c	5	suj	_	_
+7	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	5	suj	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#91
+#<Génesis 38:16>c
+# -- ¿ Qué me darás por llegar te a mí ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	5	suj	_	_
+4	me	yo	_	p	postype=personal|gen=c|num=s|person=1	5	cd	_	_
+5	darás	darás	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+6	por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	llegar	llegar	_	v	postype=main|gen=c|num=c|mood=infinitive	6	S	_	_
+8	te	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	7	suj	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+10	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	9	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#92
+#<Génesis 38:18>a
+# -- ¿ Qué prenda te daré ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	cd	_	_
+4	prenda	prender	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+5	te	tú	_	p	postype=personal|gen=c|num=s|person=2	6	suj	_	_
+6	daré	dar	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=future	4	suj	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#93
+#<Génesis 38:21>b
+# -- ¿ Dónde está la ramera que había en Enaim , junto a el camino ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Dónde	dónde	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+4	está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	la	el	_	d	postype=article|gen=f|num=s	6	spec	_	_
+6	ramera	ramera	_	n	postype=common|gen=f|num=s	4	suj	_	_
+7	que	que	_	p	postype=relative|gen=c|num=c	8	cd	_	_
+8	había	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	6	S	_	_
+9	en	en	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+10	Enaim	enaim	_	n	postype=proper|gen=c|num=c	9	sn	_	_
+11	,	,	_	f	punct=comma	12	f	_	_
+12	junto	junto	_	a	postype=qualificative|gen=m|num=s	10	s.a	_	_
+13	a	a	_	s	postype=preposition|gen=c|num=c	12	sp	_	_
+14	el	el	_	d	postype=article|gen=m|num=s	15	spec	_	_
+15	camino	camino	_	n	postype=common|gen=m|num=s	13	sn	_	_
+16	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#94
+#<Génesis 38:29>b-c
+# y ella dijo : "
+1	y	y	_	c	postype=coordinating	3	et	_	_
+2	ella	él	_	p	postype=personal|gen=f|num=s|person=3	3	suj	_	_
+3	dijo	decir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	4	f	_	_
+4	:	:	_	f	punct=colon	0	sentence	_	_
+5	"	"	_	f	punct=quotation	4	sn	_	_
+
+# ¡ Cómo te has abierto paso ! "
+1	¡	¡	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Cómo	cómo	_	c	postype=interrogative|gen=c|num=c	5	conj	_	_
+3	te	tú	_	p	postype=personal|gen=c|num=s|person=2	5	suj	_	_
+4	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	5	v	_	_
+5	abierto	abierto	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	paso	paso	_	n	postype=common|gen=m|num=s	5	suj	_	_
+7	!	!	_	f	punct=exclamationmark|punctenclose=close	5	f	_	_
+8	"	"	_	f	punct=quotation	5	f	_	_
+#annotation=
+#gold_annotation=declarative
+
+#95
+#<Génesis 39:9>b
+# ¿ Cómo , pues , haría yo este gran mal , y pecaría contra Di os ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Cómo	cómo	_	p	postype=interrogative|gen=c|num=c	6	cc	_	_
+3	,	,	_	f	punct=comma	4	f	_	_
+4	pues	pues	_	c	postype=subordinating	6	et	_	_
+5	,	,	_	f	punct=comma	4	f	_	_
+6	haría	hacer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=conditional	0	sentence	_	_
+7	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	6	suj	_	_
+8	este	este	_	d	postype=demonstrative|gen=m|num=s	10	spec	_	_
+9	gran	gran	_	a	postype=qualificative|gen=c|num=s	10	s.a	_	_
+10	mal	mal	_	n	postype=common|gen=m|num=s	6	cd	_	_
+11	,	,	_	f	punct=comma	6	f	_	_
+12	y	y	_	c	postype=coordinating	6	coord	_	_
+13	pecaría	pecar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=conditional	6	S	_	_
+14	contra	contra	_	s	postype=preposition|gen=c|num=c	13	cc	_	_
+15	Di	di	_	n	postype=proper|gen=c|num=c	14	sn	_	_
+16	os	os	_	a	postype=qualificative|gen=m|num=p	15	s.a	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#96
+#<Génesis 40:7>b
+# -- ¿ Por qué tienen hoy mal aspecto vuestros semblantes ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	tienen	tener	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	hoy	hoy	_	r	_	5	cc	_	_
+7	mal	mal	_	r	_	8	sadv	_	_
+8	aspecto	aspecto	_	n	postype=common|gen=m|num=s	5	cd	_	_
+9	vuestros	vuestro	_	n	postype=common|gen=m|num=p	8	sn	_	_
+10	semblantes	semblante	_	a	postype=qualificative|gen=c|num=p	9	s.a	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#97
+#<Génesis 40:8>d
+# -- ¿ No son de Di os las interpretaciones ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	No	no	_	r	postype=negative	4	mod	_	_
+4	son	ser	_	v	postype=semiauxiliary|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	de	de	_	s	postype=preposition|gen=c|num=c	4	atr	_	_
+6	Di	di	_	n	postype=proper|gen=c|num=c	5	sn	_	_
+7	os	os	_	a	gen=c|num=s|person=2	6	s.a	_	_
+8	las	el	_	d	postype=article|gen=f|num=p	9	spec	_	_
+9	interpretaciones	interpretación	_	n	postype=common|gen=f|num=p	4	suj	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#98
+#<Génesis 41:38>b
+# -- ¿ Acaso hallaremos a otro hombre como este , en quien esté el espíritu de Di os ?
+1	--	--	_	p	_	4	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Acaso	acaso	_	r	_	4	mod	_	_
+4	hallaremos	hallar	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=future	0	sentence	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	4	cd	_	_
+6	otro	otro	_	d	postype=indefinite|gen=m|num=s	7	spec	_	_
+7	hombre	hombre	_	n	postype=common|gen=m|num=s	5	sn	_	_
+8	como	como	_	c	postype=subordinating	4	cc	_	_
+9	este	este	_	p	postype=demonstrative|gen=m|num=s	8	sn	_	_
+10	,	,	_	f	punct=comma	13	f	_	_
+11	en	en	_	s	postype=preposition|gen=c|num=c	13	cc	_	_
+12	quien	quien	_	p	postype=relative|gen=c|num=s	11	sn	_	_
+13	esté	estar	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	4	S	_	_
+14	el	el	_	d	postype=article|gen=m|num=s	15	spec	_	_
+15	espíritu	espíritu	_	n	postype=common|gen=m|num=s	13	suj	_	_
+16	de	de	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+17	Di	di	_	n	postype=proper|gen=c|num=c	16	sn	_	_
+18	os	os	_	a	postype=qualificative|gen=m|num=p	17	s.a	_	_
+19	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#99
+#<Génesis 42:1>b
+# ¿ Por qué os estáis ahí mirando ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	7	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	7	sp	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	os	os	_	p	postype=indefinite|gen=c|num=p	7	suj	_	_
+5	estáis	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	7	v	_	_
+6	ahí	ahí	_	r	_	7	cc	_	_
+7	mirando	mirar	_	v	postype=main|gen=c|num=c|mood=gerund	0	sentence	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	7	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#100
+#<Génesis 42:7>c
+# -- ¿ De dónde habéis venido ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	De	de	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	dónde	dónde	_	p	postype=interrogative|gen=c|num=c	3	sadv	_	_
+5	habéis	habéis	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=indicative|tense=imperfect	0	sentence	_	_
+6	venido	venido	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	5	cpred	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#101
+#<Génesis 42:22>b-c
+# -- ¿ No os hablé yo y dije : "
+1	--	--	_	p	_	5	ci	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	No	no	_	r	postype=negative	5	mod	_	_
+4	os	os	_	p	postype=personal|gen=c|num=p|person=2	5	ci	_	_
+5	hablé	hablar	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=past	0	sentence	_	_
+6	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	5	suj	_	_
+7	y	y	_	c	postype=coordinating	5	coord	_	_
+8	dije	decir	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=past	5	S	_	_
+9	:	:	_	f	punct=colon	5	f	_	_
+10	"	"	_	f	punct=quotation	5	f	_	_
+
+# No pequéis contra el joven " ?
+1	No	no	_	r	postype=negative	2	mod	_	_
+2	pequéis	pequéis	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+3	contra	contra	_	s	postype=preposition|gen=c|num=c	2	cc	_	_
+4	el	el	_	d	postype=article|gen=m|num=s	5	spec	_	_
+5	joven	joven	_	n	postype=common|gen=c|num=s	3	sn	_	_
+6	"	"	_	f	punct=quotation	2	f	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#102
+#<Génesis 42:28>e
+# -- ¿ Qué es esto que Di os nos ha hecho ?
+1	--	--	_	r	_	4	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	atr	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	esto	este	_	p	postype=demonstrative|gen=c|num=s	4	suj	_	_
+6	que	que	_	c	postype=subordinating	11	conj	_	_
+7	Di	di	_	n	postype=proper|gen=c|num=c	11	suj	_	_
+8	os	os	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	11	cd	_	_
+9	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	11	suj	_	_
+10	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	11	v	_	_
+11	hecho	hacer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	4	suj	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#103
+#<Génesis 43:6>b
+# -- ¿ Por qué me hicisteis tanto mal , declarando a ese hombre que teníais otro hermano ?
+1	--	--	_	r	_	6	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	me	yo	_	p	gen=c|num=s|person=2	6	morfema.pronominal	_	_
+6	hicisteis	hicistei	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+7	tanto	tanto	_	r	_	8	spec	_	_
+8	mal	mal	_	r	_	6	cc	_	_
+9	,	,	_	f	punct=comma	10	f	_	_
+10	declarando	declarar	_	v	postype=main|gen=c|num=c|mood=gerund	6	cc	_	_
+11	a	a	_	s	postype=preposition|gen=c|num=c	10	cd	_	_
+12	ese	ese	_	d	postype=demonstrative|gen=m|num=s	13	spec	_	_
+13	hombre	hombre	_	n	postype=common|gen=m|num=s	11	sn	_	_
+14	que	que	_	p	postype=relative|gen=c|num=c	15	suj	_	_
+15	teníais	teníais	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	13	S	_	_
+16	otro	otro	_	d	postype=indefinite|gen=m|num=s	17	spec	_	_
+17	hermano	hermano	_	n	postype=common|gen=m|num=s	15	cd	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#104
+#<Génesis 43:7>c-d
+# ¿ Vive aún vuestro padre ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Vive	vivir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+3	aún	aún	_	r	_	2	cc	_	_
+4	vuestro	vuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	5	spec	_	_
+5	padre	padre	_	n	postype=common|gen=m|num=s	2	suj	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+# ¿ Tenéis otro hermano ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Tenéis	tenéis	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+3	otro	otro	_	d	postype=indefinite|gen=m|num=s	2	d	_	_
+4	hermano	hermano	_	n	postype=common|gen=m|num=s	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+6	"	"	_	f	punct=quotation	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#105
+#<Génesis 43:7>c-d
+# ¿ Acaso podíamos saber que él nos diría : "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Acaso	acaso	_	r	_	4	mod	_	_
+3	podíamos	poder	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=imperfect	4	v	_	_
+4	saber	saber	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+5	que	que	_	c	postype=subordinating	8	conj	_	_
+6	él	él	_	p	postype=personal|gen=m|num=s|person=3	8	suj	_	_
+7	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	8	ci	_	_
+8	diría	decir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=conditional	4	cd	_	_
+9	:	:	_	f	punct=colon	4	f	_	_
+10	"	"	_	f	punct=quotation	4	f	_	_
+
+# Haced venir a vuestro hermano " ?
+1	Haced	haced	_	v	postype=main|gen=c|num=c|mood=infinitive	2	infinitiu	_	_
+2	venir	venir	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+3	a	a	_	s	postype=preposition|gen=c|num=c	2	cc	_	_
+4	vuestro	vuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	5	spec	_	_
+5	hermano	hermano	_	n	postype=common|gen=m|num=s	3	sn	_	_
+6	"	"	_	f	punct=quotation	2	f	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#106
+#<Génesis 43:27>b
+# -- ¿ Vuestro padre , el anciano que dijisteis , lo pasa bien ?
+1	--	--	_	r	_	12	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	12	f	_	_
+3	Vuestro	vuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	4	spec	_	_
+4	padre	padre	_	n	postype=common|gen=m|num=s	12	suj	_	_
+5	,	,	_	f	punct=comma	7	f	_	_
+6	el	el	_	d	postype=article|gen=m|num=s	7	spec	_	_
+7	anciano	anciano	_	n	postype=common|gen=m|num=s	4	sn	_	_
+8	que	que	_	p	postype=relative|gen=c|num=c	9	suj	_	_
+9	dijisteis	dijisteis	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=imperfect	7	S	_	_
+10	,	,	_	f	punct=comma	7	f	_	_
+11	lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	12	suj	_	_
+12	pasa	pasar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+13	bien	bien	_	r	_	12	cc	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	12	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#107
+#<Génesis 43:29>b
+# -- ¿ Es este vuestro hermano menor , de quien me hablasteis ?
+1	--	--	_	p	_	3	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	este	este	_	d	postype=demonstrative|gen=m|num=s	6	spec	_	_
+5	vuestro	vuestro	_	d	postype=indefinite|gen=m|num=s	4	d	_	_
+6	hermano	hermano	_	n	postype=common|gen=m|num=s	3	atr	_	_
+7	menor	menor	_	a	postype=qualificative|gen=c|num=s	6	s.a	_	_
+8	,	,	_	f	punct=comma	12	f	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	12	creg	_	_
+10	quien	quien	_	p	postype=relative|gen=c|num=s	9	sn	_	_
+11	me	yo	_	p	postype=personal|gen=c|num=s|person=1	12	suj	_	_
+12	hablasteis	hablastei	_	v	postype=common|gen=m|num=c	6	S	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#108
+#<Génesis 44:4>d-e
+# ¿ Por qué habéis pagado mal por bien ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	4	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	habéis	habéis	_	v	postype=main|gen=c|num=p|person=2|mood=indicative|tense=present	0	sentence	_	_
+5	pagado	pagado	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	4	cpred	_	_
+6	mal	mal	_	r	_	5	cc	_	_
+7	por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+8	bien	bien	_	r	_	7	sadv	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# ¿ Por qué habéis robado mi copa de plata ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	habéis	habéis	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=indicative|tense=future	0	sentence	_	_
+5	robado	robado	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	4	cpred	_	_
+6	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	7	spec	_	_
+7	copa	copa	_	n	postype=common|gen=f|num=s	4	suj	_	_
+8	de	de	_	s	postype=preposition|gen=c|num=c	7	sp	_	_
+9	plata	plata	_	n	postype=common|gen=f|num=s	8	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#109
+#<Génesis 44:5>a
+# ¿ No es esta en la que bebe mi señor , y la que usa para adivinar ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	No	no	_	r	postype=negative	3	mod	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	esta	este	_	p	postype=demonstrative|gen=f|num=s	3	suj	_	_
+5	en	en	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+6	la	el	_	d	postype=article|gen=f|num=s	7	spec	_	_
+7	que	que	_	p	postype=relative|gen=c|num=c	5	sn	_	_
+8	bebe	beber	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	3	atr	_	_
+9	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	10	spec	_	_
+10	señor	señor	_	n	postype=common|gen=m|num=s	8	suj	_	_
+11	,	,	_	f	punct=comma	3	f	_	_
+12	y	y	_	c	postype=coordinating	3	coord	_	_
+13	la	el	_	d	postype=article|gen=f|num=s	15	spec	_	_
+14	que	que	_	p	postype=relative|gen=c|num=c	15	suj	_	_
+15	usa	usar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	3	S	_	_
+16	para	para	_	s	postype=preposition|gen=c|num=c	15	cc	_	_
+17	adivinar	adivinar	_	v	postype=main|gen=c|num=c|mood=infinitive	16	S	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#110
+#<Génesis 44:7>b
+# -- ¿ Por qué dice nuestro señor tales cosas ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	dice	decir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	nuestro	nuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	7	spec	_	_
+7	señor	señor	_	n	postype=common|gen=m|num=s	5	suj	_	_
+8	tales	tal	_	d	postype=demonstrative|gen=c|num=p	9	spec	_	_
+9	cosas	cosa	_	n	postype=common|gen=f|num=p	5	cd	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#111
+#<Génesis 44:8>a
+# Si el dinero que hallamos en la boca de nuestros costales te lo volvimos a traer desde la tierra de Canaán , ¿ cómo íbamos a hurtar de casa de tu señor plata ni oro ?
+1	Si	si	_	c	postype=subordinating	0	sentence	_	_
+2	el	el	_	d	postype=article|gen=m|num=s	3	spec	_	_
+3	dinero	dinero	_	n	postype=common|gen=m|num=s	1	sn	_	_
+4	que	que	_	p	postype=relative|gen=c|num=c	5	suj	_	_
+5	hallamos	hallar	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=indicative|tense=past	3	S	_	_
+6	en	en	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	la	el	_	d	postype=article|gen=f|num=s	8	spec	_	_
+8	boca	boca	_	n	postype=common|gen=f|num=s	6	sn	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	nuestros	nuestro	_	d	postype=possessive|gen=m|num=p|person=1|possessornum=p	11	spec	_	_
+11	costales	costal	_	n	postype=common|gen=m|num=p	9	sn	_	_
+12	te	tú	_	p	postype=personal|gen=c|num=s|person=2	14	suj	_	_
+13	lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	14	cd	_	_
+14	volvimos	volvir	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=past	5	S	_	_
+15	a	a	_	s	postype=preposition|gen=c|num=c	14	cc	_	_
+16	traer	traer	_	v	postype=main|gen=c|num=c|mood=infinitive	15	S	_	_
+17	desde	desde	_	s	postype=preposition|gen=c|num=c	16	cc	_	_
+18	la	el	_	d	postype=article|gen=f|num=s	19	spec	_	_
+19	tierra	tierra	_	n	postype=common|gen=f|num=s	17	sn	_	_
+20	de	de	_	s	postype=preposition|gen=c|num=c	19	sp	_	_
+21	Canaán	canaán	_	n	postype=proper|gen=c|num=c	20	sn	_	_
+22	,	,	_	f	punct=comma	27	f	_	_
+23	¿	¿	_	f	punct=questionmark|punctenclose=open	27	f	_	_
+24	cómo	cómo	_	p	postype=interrogative|gen=c|num=c	27	cc	_	_
+25	íbamos	ir	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=imperfect	27	v	_	_
+26	a	a	_	s	postype=preposition|gen=c|num=c	27	s	_	_
+27	hurtar	hurtar	_	v	postype=main|gen=c|num=c|mood=infinitive	16	S	_	_
+28	de	de	_	s	postype=preposition|gen=c|num=c	27	creg	_	_
+29	casa	casa	_	n	postype=common|gen=f|num=s	28	sn	_	_
+30	de	de	_	s	postype=preposition|gen=c|num=c	29	sp	_	_
+31	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	32	spec	_	_
+32	señor	señor	_	n	postype=common|gen=m|num=s	30	sn	_	_
+33	plata	plata	_	n	postype=common|gen=f|num=s	32	sn	_	_
+34	ni	ni	_	c	postype=coordinating	33	coord	_	_
+35	oro	oro	_	n	postype=common|gen=m|num=s	33	grup.nom	_	_
+36	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#112
+#<Génesis 44:15>b
+# -- ¿ Qué acción es esta que habéis hecho ?
+1	--	--	_	i	_	5	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	acción	acción	_	n	postype=common|gen=f|num=s	5	suj	_	_
+5	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	esta	este	_	p	postype=demonstrative|gen=f|num=s	5	atr	_	_
+7	que	que	_	p	postype=relative|gen=c|num=c	8	suj	_	_
+8	habéis	habéis	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	6	S	_	_
+9	hecho	hecho	_	n	postype=common|gen=m|num=s	8	cd	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#113
+#<Génesis 44:15>c
+# ¿ No sabéis que un hombre como yo sabe adivinar ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	No	no	_	r	postype=negative	3	mod	_	_
+3	sabéis	sabéis	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+4	que	que	_	c	postype=subordinating	3	suj	_	_
+5	un	uno	_	d	postype=indefinite|gen=m|num=s	6	spec	_	_
+6	hombre	hombre	_	n	postype=common|gen=m|num=s	4	sn	_	_
+7	como	como	_	p	postype=relative|gen=c|num=c	9	cc	_	_
+8	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	9	suj	_	_
+9	sabe	saber	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	6	S	_	_
+10	adivinar	adivinar	_	v	postype=main|gen=c|num=c|mood=infinitive	9	cd	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#114
+#<Génesis 44:16>b-c
+# -- ¿ Qué diremos a mi señor ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	diremos	dir	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=future	0	sentence	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	4	ci	_	_
+6	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	7	spec	_	_
+7	señor	señor	_	n	postype=common|gen=m|num=s	5	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# ¿ Qué hablaremos o con qué nos justificaremos ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Qué	qué	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	hablaremos	hablar	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=future	0	sentence	_	_
+4	o	o	_	c	postype=coordinating	8	conj	_	_
+5	con	con	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+6	qué	qué	_	p	postype=interrogative|gen=c|num=s	5	sn	_	_
+7	nos	yo	_	p	postype=numeral|gen=m|num=p	8	suj	_	_
+8	justificaremos	justificar	_	v	postype=main|gen=c|num=p|person=1|mood=subjunctive|tense=imperfect	3	cd	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#115
+#<Génesis 44:19>b
+# ¿ Tenéis padre o hermano ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Tenéis	tenéis	_	d	postype=indefinite|gen=m|num=s	3	spec	_	_
+3	padre	padre	_	n	postype=common|gen=m|num=s	0	sentence	_	_
+4	o	o	_	c	postype=coordinating	3	coord	_	_
+5	hermano	hermano	_	n	postype=common|gen=m|num=s	3	grup.nom	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+7	"	"	_	f	punct=quotation	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#116
+#<Génesis 44:34>a
+# pues ¿ cómo volveré yo a mi padre sin el joven ?
+1	pues	pues	_	c	postype=subordinating	4	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	cómo	cómo	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+4	volveré	volver	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=future	0	sentence	_	_
+5	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	4	suj	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+7	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	8	spec	_	_
+8	padre	padre	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	sin	sin	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+10	el	el	_	d	postype=article|gen=m|num=s	11	spec	_	_
+11	joven	joven	_	n	postype=common|gen=c|num=s	9	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#117
+#<Génesis 45:3>c
+# ¿ Vive aún mi padre ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Vive	vivir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+3	aún	aún	_	r	_	2	cc	_	_
+4	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	5	spec	_	_
+5	padre	padre	_	n	postype=common|gen=m|num=s	2	suj	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#118
+#<Génesis 46:33>b
+# ¿ Cuál es vuestro oficio ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Cuál	cuál	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	vuestro	vuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	5	spec	_	_
+5	oficio	oficio	_	n	postype=common|gen=m|num=s	3	atr	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+7	"	"	_	f	punct=quotation	3	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#119
+#<Génesis 47:3>b
+# -- ¿ Cuál es vuestro oficio ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Cuál	cuál	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	vuestro	vuestro	_	d	postype=possessive|gen=m|num=s|person=1|possessornum=p	6	spec	_	_
+6	oficio	oficio	_	n	postype=common|gen=m|num=s	4	atr	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#120
+#<Génesis 47:8>b
+# -- ¿ Cuántos años tienes ?
+1	--	--	_	r	_	4	sadv	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Cuántos	cuántos	_	d	postype=numeral|gen=c|num=p	4	spec	_	_
+4	años	año	_	n	postype=common|gen=m|num=p	0	sentence	_	_
+5	tienes	tener	_	n	postype=common|gen=m|num=p	4	s.a	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#121
+#<Génesis 47:15>c
+# ¿ por qué moriremos delante de ti , por haber se acabado el dinero ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	12	f	_	_
+2	por	por	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+3	qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	moriremos	morir	_	n	postype=common|gen=m|num=p	2	sn	_	_
+5	delante	delante	_	r	_	4	sadv	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	6	sn	_	_
+8	,	,	_	f	punct=comma	2	f	_	_
+9	por	por	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+10	haber	haber	_	v	postype=auxiliary|gen=c|num=c|mood=infinitive	12	v	_	_
+11	se	él	_	p	gen=c|num=c|person=3	12	morfema.pronominal	_	_
+12	acabado	acabar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+13	el	el	_	d	postype=article|gen=m|num=s	14	spec	_	_
+14	dinero	dinero	_	n	postype=common|gen=m|num=s	12	suj	_	_
+15	?	?	_	f	punct=questionmark|punctenclose=close	12	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#122
+#<Génesis 47:19>a
+# ¿ Por qué moriremos delante de tus ojos , así nosotros como nuestra tierra ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	11	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	11	sp	_	_
+3	qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	moriremos	morir	_	n	postype=common|gen=m|num=p	2	sn	_	_
+5	delante	delante	_	a	postype=qualificative|gen=c|num=s	4	s.a	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+7	tus	tus	_	d	postype=article|gen=m|num=p	8	spec	_	_
+8	ojos	ojo	_	n	postype=common|gen=m|num=p	6	sn	_	_
+9	,	,	_	f	punct=comma	2	f	_	_
+10	así	así	_	r	_	11	sadv	_	_
+11	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	0	sentence	_	_
+12	como	como	_	c	postype=subordinating	11	sp	_	_
+13	nuestra	nuestro	_	d	postype=possessive|gen=f|num=s|person=1|possessornum=p	14	spec	_	_
+14	tierra	tierra	_	n	postype=common|gen=f|num=s	12	sn	_	_
+15	?	?	_	f	punct=questionmark|punctenclose=close	11	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#123
+#<Génesis 48:8>b
+# -- ¿ Quiénes son estos ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quiénes	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	son	ser	_	v	postype=semiauxiliary|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	estos	este	_	p	postype=demonstrative|gen=m|num=p	4	atr	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#124
+#<Génesis 49:9>d
+# ¿ quién lo despertará ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	quién	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+3	lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	4	cd	_	_
+4	despertará	despertar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#125
+#<Génesis 50:19>b
+# -- No temáis , pues ¿ acaso estoy yo en lugar de Di os ?
+1	--	--	_	r	_	3	coord	_	_
+2	No	no	_	r	postype=negative	3	neg	_	_
+3	temáis	temái	_	a	postype=qualificative|gen=c|num=c	0	sentence	_	_
+4	,	,	_	f	punct=comma	8	f	_	_
+5	pues	pues	_	c	postype=subordinating	8	conj	_	_
+6	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+7	acaso	acaso	_	r	_	8	cc	_	_
+8	estoy	estar	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	3	cc	_	_
+9	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	8	suj	_	_
+10	en	en	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+11	lugar	lugar	_	n	postype=common|gen=m|num=s	10	sn	_	_
+12	de	de	_	s	postype=preposition|gen=c|num=c	11	sp	_	_
+13	Di	di	_	n	postype=proper|gen=c|num=c	12	sn	_	_
+14	os	os	_	a	postype=qualificative|gen=m|num=p	13	s.a	_	_
+15	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#126
+#<Éxodo 1:18>b-c
+# -- ¿ Por qué habéis hecho esto ?
+1	--	--	_	r	_	5	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	habéis	habéis	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=indicative|tense=imperfect	0	sentence	_	_
+6	hecho	hecho	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	5	cpred	_	_
+7	esto	este	_	p	postype=demonstrative|gen=c|num=s	5	suj	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+# ¿ Por que habéis preservado la vida a los niños ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	0	sentence	_	_
+3	que	que	_	c	postype=subordinating	5	conj	_	_
+4	habéis	habéis	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=subjunctive|tense=present	5	v	_	_
+5	preservado	preservar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	2	S	_	_
+6	la	el	_	d	postype=article|gen=f|num=s	7	spec	_	_
+7	vida	vida	_	n	postype=common|gen=f|num=s	5	cd	_	_
+8	a	a	_	s	postype=preposition|gen=c|num=c	5	ci	_	_
+9	los	el	_	d	postype=article|gen=m|num=p	10	spec	_	_
+10	niños	niño	_	n	postype=common|gen=m|num=p	8	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#127
+#<Éxodo 2:7>b
+# -- ¿ Quieres que te llame a una nodriza de las hebreas para que te críe a este niño ?
+1	--	--	_	r	_	0	sentence	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Quieres	quier	_	n	postype=common|gen=c|num=p	1	sn	_	_
+4	que	que	_	p	postype=relative|gen=c|num=c	6	suj	_	_
+5	te	tú	_	p	postype=personal|gen=c|num=s|person=2	6	cd	_	_
+6	llame	llamar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	3	S	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	6	creg	_	_
+8	una	uno	_	d	postype=indefinite|gen=f|num=s	9	spec	_	_
+9	nodriza	nodriza	_	n	postype=common|gen=f|num=s	7	sn	_	_
+10	de	de	_	s	postype=preposition|gen=c|num=c	9	sp	_	_
+11	las	el	_	d	postype=article|gen=f|num=p	12	spec	_	_
+12	hebreas	hebrea	_	n	postype=common|gen=f|num=p	10	sn	_	_
+13	para	para	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+14	que	que	_	c	postype=subordinating	16	conj	_	_
+15	te	tú	_	p	postype=personal|gen=c|num=s|person=2	16	suj	_	_
+16	críe	críe	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	13	S	_	_
+17	a	a	_	s	postype=preposition|gen=c|num=c	16	cd	_	_
+18	este	este	_	d	postype=demonstrative|gen=m|num=s	19	spec	_	_
+19	niño	niño	_	n	postype=common|gen=m|num=s	17	sn	_	_
+20	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#128
+#<Éxodo 2:13>b
+# -- ¿ Por qué golpeas a tu prójimo ?
+1	--	--	_	r	_	0	sentence	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	1	sp	_	_
+4	qué	qué	_	d	postype=interrogative|gen=c|num=c	5	spec	_	_
+5	golpeas	golpea	_	n	postype=common|gen=f|num=p	3	sn	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	8	spec	_	_
+8	prójimo	prójimo	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#129
+#<Éxodo 2:14>b
+# -- ¿ Quién te ha puesto a ti por príncipe y juez sobre nosotros ?
+1	--	--	_	i	_	6	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Quién	quién	_	p	postype=interrogative|gen=c|num=s	6	suj	_	_
+4	te	tú	_	p	postype=personal|gen=c|num=s|person=2	6	cd	_	_
+5	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	6	v	_	_
+6	puesto	poner	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	6	ci	_	_
+8	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	7	sn	_	_
+9	por	por	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+10	príncipe	príncipe	_	n	postype=common|gen=m|num=s	9	sn	_	_
+11	y	y	_	c	postype=coordinating	10	coord	_	_
+12	juez	juez	_	n	postype=common|gen=c|num=s	10	grup.nom	_	_
+13	sobre	sobre	_	s	postype=preposition|gen=c|num=c	10	sp	_	_
+14	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	13	sn	_	_
+15	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#130
+#<Éxodo 2:14>c
+# ¿ Piensas matar me como mataste a el egipcio ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Piensas	piensas	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	3	v	_	_
+3	matar	matar	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+4	me	yo	_	p	postype=personal|gen=c|num=s|person=1	3	suj	_	_
+5	como	como	_	c	postype=subordinating	3	cc	_	_
+6	mataste	mataste	_	n	postype=common|gen=m|num=s	5	sn	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	3	cd	_	_
+8	el	el	_	d	postype=article|gen=m|num=s	9	spec	_	_
+9	egipcio	egipcio	_	n	postype=common|gen=m|num=s	7	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#131
+#<Éxodo 2:18>b
+# -- ¿ Por qué habéis venido hoy tan pronto ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	habéis	habéis	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=imperfect	0	sentence	_	_
+6	venido	venido	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	5	cpred	_	_
+7	hoy	hoy	_	r	_	5	cc	_	_
+8	tan	tanto	_	r	_	9	spec	_	_
+9	pronto	pronto	_	r	_	5	cc	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#132
+#<Éxodo 2:20>b
+# -- ¿ Dónde está ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Dónde	dónde	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+4	está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#133
+#<Éxodo 2:20>c
+# ¿ Por qué habéis dejado marchar a ese hombre ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	5	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	habéis	habéis	_	n	postype=common|gen=m|num=c	5	suj	_	_
+5	dejado	dejar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+6	marchar	marchar	_	v	postype=main|gen=c|num=c|mood=infinitive	5	cd	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	6	cd	_	_
+8	ese	ese	_	d	postype=demonstrative|gen=m|num=s	9	spec	_	_
+9	hombre	hombre	_	n	postype=common|gen=m|num=s	7	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#134
+#<Éxodo 3:11>b
+# -- ¿ Quién soy yo para que vaya a el faraón y saque de Egipto a los hijos de Israel ?
+1	--	--	_	r	_	4	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quién	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	soy	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+5	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	4	suj	_	_
+6	para	para	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+7	que	que	_	c	postype=subordinating	8	conj	_	_
+8	vaya	ir	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	6	S	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+10	el	el	_	d	postype=article|gen=m|num=s	11	spec	_	_
+11	faraón	faraón	_	n	postype=common|gen=m|num=s	9	sn	_	_
+12	y	y	_	c	postype=coordinating	11	coord	_	_
+13	saque	saque	_	n	postype=common|gen=m|num=s	11	grup.nom	_	_
+14	de	de	_	s	postype=preposition|gen=c|num=c	13	sp	_	_
+15	Egipto	egipto	_	n	postype=proper|gen=c|num=c	14	sn	_	_
+16	a	a	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+17	los	el	_	d	postype=article|gen=m|num=p	18	spec	_	_
+18	hijos	hijo	_	n	postype=common|gen=m|num=p	16	sn	_	_
+19	de	de	_	s	postype=preposition|gen=c|num=c	18	sp	_	_
+20	Israel	israel	_	n	postype=proper|gen=c|num=c	19	sn	_	_
+21	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#135
+#<Éxodo 3:13>d
+# ¿ Cuál es su nombre ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Cuál	cuál	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	su	su	_	d	postype=possessive|gen=c|num=s|person=3	5	spec	_	_
+5	nombre	nombre	_	n	postype=common|gen=m|num=s	3	atr	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+7	"	"	_	f	punct=quotation	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#136
+#<Éxodo 3:13>e
+# Entonces ¿ qué les responderé ?
+1	Entonces	entonces	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	5	suj	_	_
+4	les	él	_	p	postype=personal|gen=c|num=p|person=3|case=dative	5	ci	_	_
+5	responderé	responder	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=conditional	0	sentence	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#137
+#<Éxodo 4:1>b-c
+# -- Ellos no me creerán , ni oirán mi voz , pues dirán : "
+1	--	--	_	d	punct=questionmark|punctenclose=open	2	spec	_	_
+2	Ellos	ellos	_	p	postype=personal|gen=m|num=p|person=3	5	suj	_	_
+3	no	no	_	r	postype=negative	5	mod	_	_
+4	me	yo	_	p	postype=personal|gen=c|num=s|person=1	5	cd	_	_
+5	creerán	creer	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=future	0	sentence	_	_
+6	,	,	_	f	punct=comma	5	f	_	_
+7	ni	ni	_	c	postype=coordinating	5	coord	_	_
+8	oirán	oir	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=future	5	S	_	_
+9	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	10	spec	_	_
+10	voz	voz	_	n	postype=common|gen=f|num=s	8	cd	_	_
+11	,	,	_	f	punct=comma	13	f	_	_
+12	pues	pues	_	c	postype=subordinating	13	conj	_	_
+13	dirán	decir	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=future	5	ao	_	_
+14	:	:	_	f	punct=mathsign	5	f	_	_
+15	"	"	_	f	punct=quotation	5	f	_	_
+
+# No se te ha aparecido Jehová " .
+1	No	no	_	r	postype=negative	5	mod	_	_
+2	se	él	_	p	gen=c|num=c	5	sn	_	_
+3	te	tú	_	p	postype=personal|gen=c|num=s|person=2	5	ci	_	_
+4	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	5	v	_	_
+5	aparecido	aparecer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+6	Jehová	jehová	_	n	postype=proper|gen=c|num=c	5	suj	_	_
+7	"	"	_	f	punct=quotation	5	f	_	_
+8	.	.	_	f	punct=period	5	f	_	_
+#annotation=
+#gold_annotation=declarative
+
+#138
+#<Éxodo 4:2>a
+# -- ¿ Qué es eso que tienes en tu mano ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	atr	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	eso	ese	_	p	postype=demonstrative|gen=c|num=s	4	atr	_	_
+6	que	que	_	p	postype=relative|gen=c|num=c	7	cd	_	_
+7	tienes	tener	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	5	S	_	_
+8	en	en	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+9	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	10	spec	_	_
+10	mano	mano	_	n	postype=common|gen=f|num=s	8	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#139
+#<Éxodo 4:11>b-c
+# -- ¿ Quién dio la boca a el hombre ?
+1	--	--	_	a	_	4	s.a	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quién	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	dio	dar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+5	la	el	_	d	postype=article|gen=f|num=s	6	spec	_	_
+6	boca	boca	_	n	postype=common|gen=f|num=s	4	cd	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	4	ci	_	_
+8	el	el	_	d	postype=article|gen=m|num=s	9	spec	_	_
+9	hombre	hombre	_	n	postype=common|gen=m|num=s	7	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+# ¿ o quién hizo a el mudo y a el sordo , a el que ve y a el ciego ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	o	o	_	c	postype=coordinating	4	coord	_	_
+3	quién	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	hizo	hacer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=past	0	sentence	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	4	cd	_	_
+6	el	el	_	d	postype=article|gen=m|num=s	7	spec	_	_
+7	mudo	mudo	_	n	postype=common|gen=m|num=s	5	sn	_	_
+8	y	y	_	c	postype=coordinating	5	coord	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+10	el	el	_	d	postype=article|gen=m|num=s	11	spec	_	_
+11	sordo	sordo	_	n	postype=common|gen=m|num=s	9	sn	_	_
+12	,	,	_	f	punct=comma	16	f	_	_
+13	a	a	_	s	postype=preposition|gen=c|num=c	16	creg	_	_
+14	el	el	_	d	postype=article|gen=m|num=s	15	spec	_	_
+15	que	que	_	p	postype=relative|gen=c|num=c	13	sn	_	_
+16	ve	ver	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	4	S	_	_
+17	y	y	_	c	postype=coordinating	16	coord	_	_
+18	a	a	_	s	postype=preposition|gen=c|num=c	16	S	_	_
+19	el	el	_	d	postype=article|gen=m|num=s	20	spec	_	_
+20	ciego	ciego	_	n	postype=common|gen=m|num=s	18	sn	_	_
+21	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+#140
+#<Éxodo 4:11>d
+# ¿ No soy yo , Jehová ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	No	no	_	r	postype=negative	3	mod	_	_
+3	soy	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	0	sentence	_	_
+4	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	3	suj	_	_
+5	,	,	_	f	punct=comma	3	f	_	_
+6	Jehová	jehová	_	n	postype=proper|gen=c|num=c	3	suj	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+#141
+#<Éxodo 4:14>b
+# -- ¿ No conozco yo a tu hermano Aarón , el levita , y que él habla bien ?
+1	--	--	_	r	_	4	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	No	no	_	r	postype=negative	4	mod	_	_
+4	conozco	conocer	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	0	sentence	_	_
+5	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	4	suj	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	4	cd	_	_
+7	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	8	spec	_	_
+8	hermano	hermano	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	Aarón	aarón	_	n	postype=proper|gen=c|num=c	8	sn	_	_
+10	,	,	_	f	punct=comma	12	f	_	_
+11	el	el	_	d	postype=article|gen=m|num=s	12	spec	_	_
+12	levita	levita	_	n	postype=common|gen=c|num=s	8	sn	_	_
+13	,	,	_	f	punct=comma	4	f	_	_
+14	y	y	_	c	postype=coordinating	4	coord	_	_
+15	que	que	_	c	postype=subordinating	17	conj	_	_
+16	él	él	_	p	postype=personal|gen=m|num=s|person=3	17	suj	_	_
+17	habla	hablar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	4	S	_	_
+18	bien	bien	_	r	_	17	cc	_	_
+19	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#142
+#<Éxodo 5:2>b
+# -- ¿ Quién es Jehová para que yo oiga su voz y deje ir a Israel ?
+1	--	--	_	f	_	4	f	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Quién	quién	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	Jehová	jehová	_	n	postype=proper|gen=c|num=c	4	atr	_	_
+6	para	para	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+7	que	que	_	c	postype=subordinating	9	conj	_	_
+8	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	9	suj	_	_
+9	oiga	oír	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	6	S	_	_
+10	su	su	_	d	postype=possessive|gen=c|num=s|person=3	11	spec	_	_
+11	voz	voz	_	n	postype=common|gen=f|num=s	9	cd	_	_
+12	y	y	_	c	postype=coordinating	9	coord	_	_
+13	deje	dejar	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	14	v	_	_
+14	ir	ir	_	v	postype=main|gen=c|num=c|mood=infinitive	9	S	_	_
+15	a	a	_	s	postype=preposition|gen=c|num=c	14	cc	_	_
+16	Israel	israel	_	n	postype=proper|gen=c|num=c	15	sn	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#143
+#<Éxodo 5:4>b
+# -- Moisés y Aarón , ¿ por qué buscáis apartar a el pueblo de su trabajo ?
+1	--	--	_	s	postype=preposition|gen=c|num=c	10	cc	_	_
+2	Moisés	moisés	_	n	postype=proper|gen=c|num=c	1	sn	_	_
+3	y	y	_	c	postype=coordinating	2	coord	_	_
+4	Aarón	aarón	_	n	postype=proper|gen=c|num=c	2	grup.nom	_	_
+5	,	,	_	f	punct=comma	1	f	_	_
+6	¿	¿	_	f	punct=questionmark|punctenclose=open	10	f	_	_
+7	por	por	_	s	postype=preposition|gen=c|num=c	10	cc	_	_
+8	qué	qué	_	p	postype=interrogative|gen=c|num=s	7	sn	_	_
+9	buscáis	buscáis	_	v	postype=main|gen=c|num=c|mood=infinitive	10	v	_	_
+10	apartar	apartar	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+11	a	a	_	s	postype=preposition|gen=c|num=c	10	creg	_	_
+12	el	el	_	d	postype=article|gen=m|num=s	13	spec	_	_
+13	pueblo	pueblo	_	n	postype=common|gen=m|num=s	11	sn	_	_
+14	de	de	_	s	postype=preposition|gen=c|num=c	13	sp	_	_
+15	su	su	_	d	postype=possessive|gen=c|num=s|person=3	16	spec	_	_
+16	trabajo	trabajo	_	n	postype=common|gen=m|num=s	14	sn	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	10	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#144
+#<Éxodo 5:5>b
+# -- Ahora que el pueblo de la tierra es numeroso , vosotros queréis apartar lo de sus tareas .
+1	--	--	_	p	postype=preposition|gen=c|num=c	0	sentence	_	_
+2	Ahora	ahora	_	r	_	1	sadv	_	_
+3	que	que	_	c	postype=subordinating	9	conj	_	_
+4	el	el	_	d	postype=article|gen=m|num=s	5	spec	_	_
+5	pueblo	pueblo	_	n	postype=common|gen=m|num=s	9	suj	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	la	el	_	d	postype=article|gen=f|num=s	8	spec	_	_
+8	tierra	tierra	_	n	postype=common|gen=f|num=s	6	sn	_	_
+9	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	1	S	_	_
+10	numeroso	numeroso	_	a	postype=qualificative|gen=m|num=s	9	atr	_	_
+11	,	,	_	f	punct=comma	9	f	_	_
+12	vosotros	vosotro	_	p	postype=personal|gen=m|num=p|person=1	13	suj	_	_
+13	queréis	queréis	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=present	9	S	_	_
+14	apartar	apartar	_	v	postype=main|gen=c|num=c|mood=infinitive	13	cd	_	_
+15	lo	él	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	14	cd	_	_
+16	de	de	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+17	sus	su	_	d	postype=possessive|gen=c|num=p|person=3	18	spec	_	_
+18	tareas	tarea	_	n	postype=common|gen=f|num=p	16	sn	_	_
+19	.	.	_	f	punct=period	1	f	_	_
+#annotation=
+#gold_annotation=declarative
+
+#145
+#<Éxodo 5:14>b
+# -- ¿ Por qué no habéis cumplido ni ayer ni hoy vuestra tarea de ladrillos como antes ?
+1	--	--	_	p	_	7	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	7	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	no	no	_	r	postype=negative	7	mod	_	_
+6	habéis	habéi	_	v	postype=auxiliary|gen=c|num=c|mood=infinitive	7	v	_	_
+7	cumplido	cumplir	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+8	ni	ni	_	c	postype=coordinating	7	coord	_	_
+9	ayer	ayer	_	r	_	7	S	_	_
+10	ni	ni	_	c	postype=coordinating	7	coord	_	_
+11	hoy	hoy	_	r	_	12	cc	_	_
+12	vuestra	vuestro	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	7	S	_	_
+13	tarea	tarea	_	n	postype=common|gen=f|num=s	12	suj	_	_
+14	de	de	_	s	postype=preposition|gen=c|num=c	13	sp	_	_
+15	ladrillos	ladrillo	_	n	postype=common|gen=m|num=p	14	sn	_	_
+16	como	como	_	c	postype=subordinating	15	sp	_	_
+17	antes	antes	_	r	_	16	sadv	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	7	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#146
+#<Éxodo 5:15>b
+# -- ¿ Por qué tratas así a tus siervos ?
+1	--	--	_	r	_	3	sadv	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	0	sentence	_	_
+4	qué	qué	_	d	postype=interrogative|gen=c|num=c	5	spec	_	_
+5	tratas	trata	_	n	postype=common|gen=f|num=p	3	sn	_	_
+6	así	así	_	r	_	5	sadv	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+8	tus	tu	_	d	postype=interrogative|gen=c|num=c	9	spec	_	_
+9	siervos	siervo	_	n	postype=common|gen=m|num=p	7	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#147
+#<Éxodo 5:22>b
+# -- Señor , ¿ por qué afliges a este pueblo ?
+1	--	--	_	s	postype=preposition|gen=c|num=c	0	sentence	_	_
+2	Señor	señor	_	n	postype=common|gen=m|num=s	1	sn	_	_
+3	,	,	_	f	punct=comma	1	f	_	_
+4	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+5	por	por	_	s	postype=preposition|gen=c|num=c	1	sp	_	_
+6	qué	qué	_	d	postype=interrogative|gen=c|num=c	7	spec	_	_
+7	afliges	aflige	_	n	postype=common|gen=m|num=p	5	sn	_	_
+8	a	a	_	s	postype=preposition|gen=c|num=c	7	sp	_	_
+9	este	este	_	d	postype=demonstrative|gen=m|num=s	10	spec	_	_
+10	pueblo	pueblo	_	n	postype=common|gen=m|num=s	8	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#148
+#<Éxodo 5:22>c
+# ¿ Para qué me enviaste ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Para	para	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	me	yo	_	p	postype=personal|gen=c|num=s|person=1	5	ci	_	_
+5	enviaste	enviaste	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	0	sentence	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#149
+#<Éxodo 6:12>b
+# -- Los hijos de Israel no me escuchan , ¿ cómo me escuchará el faraón , a mí , que soy torpe de labios ?
+1	--	--	_	d	postype=article|gen=f|num=s	3	spec	_	_
+2	Los	el	_	d	postype=article|gen=m|num=p	1	d	_	_
+3	hijos	hijo	_	n	postype=common|gen=m|num=p	8	suj	_	_
+4	de	de	_	s	postype=preposition|gen=c|num=c	3	sp	_	_
+5	Israel	israel	_	n	postype=proper|gen=c|num=c	4	sn	_	_
+6	no	no	_	r	postype=negative	8	mod	_	_
+7	me	yo	_	p	postype=personal|gen=c|num=s|person=1	8	cd	_	_
+8	escuchan	escuchar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+9	,	,	_	f	punct=comma	13	f	_	_
+10	¿	¿	_	f	punct=questionmark|punctenclose=open	13	f	_	_
+11	cómo	cómo	_	p	postype=interrogative|gen=c|num=c	13	cc	_	_
+12	me	yo	_	p	postype=personal|gen=c|num=s|person=1	13	ci	_	_
+13	escuchará	escuchar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	8	S	_	_
+14	el	el	_	d	postype=article|gen=m|num=s	15	spec	_	_
+15	faraón	faraón	_	n	postype=common|gen=m|num=s	13	suj	_	_
+16	,	,	_	f	punct=comma	13	f	_	_
+17	a	a	_	s	postype=preposition|gen=c|num=c	13	ci	_	_
+18	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	17	sn	_	_
+19	,	,	_	f	punct=comma	22	f	_	_
+20	que	que	_	p	postype=relative|gen=c|num=c	22	suj	_	_
+21	soy	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	22	v	_	_
+22	torpe	torpe	_	v	postype=main|gen=f|num=s|mood=pastparticiple	18	S	_	_
+23	de	de	_	s	postype=preposition|gen=c|num=c	22	cc	_	_
+24	labios	labio	_	n	postype=common|gen=m|num=p	23	sn	_	_
+25	?	?	_	f	punct=questionmark|punctenclose=close	8	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#150
+#<Éxodo 6:30>c
+# ¿ cómo , pues , me ha de oir el faraón ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	9	f	_	_
+2	cómo	cómo	_	p	postype=interrogative|gen=c|num=c	9	cc	_	_
+3	,	,	_	f	punct=comma	4	f	_	_
+4	pues	pues	_	c	postype=subordinating	2	sp	_	_
+5	,	,	_	f	punct=comma	4	f	_	_
+6	me	yo	_	p	postype=personal|gen=c|num=s|person=1	9	suj	_	_
+7	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	9	v	_	_
+8	de	de	_	s	postype=preposition|gen=c|num=c	9	s	_	_
+9	oir	oir	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+10	el	el	_	d	postype=article|gen=m|num=s	11	spec	_	_
+11	faraón	faraón	_	n	postype=common|gen=m|num=s	9	cd	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	9	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#151
+#<Éxodo 9:17>a
+# ¿ Todavía te opones a mi pueblo y no lo dejas ir ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Todavía	todavía	_	r	_	4	mod	_	_
+3	te	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	4	suj	_	_
+4	opones	opón	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	4	cd	_	_
+6	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	7	spec	_	_
+7	pueblo	pueblo	_	n	postype=common|gen=m|num=s	5	sn	_	_
+8	y	y	_	c	postype=coordinating	4	coord	_	_
+9	no	no	_	r	postype=negative	12	mod	_	_
+10	lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	12	suj	_	_
+11	dejas	dejar	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	12	v	_	_
+12	ir	ir	_	v	postype=main|gen=c|num=c|mood=infinitive	4	S	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#152
+#<Éxodo 10:3>c
+# ¿ Hasta cuándo no querrás humillar te delante de mí ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Hasta	hasta	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+3	cuándo	cuándo	_	p	postype=interrogative|gen=c|num=c	2	sadv	_	_
+4	no	no	_	r	postype=negative	6	mod	_	_
+5	querrás	querrás	_	v	postype=main|gen=c|num=c|mood=infinitive	6	v	_	_
+6	humillar	humillar	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+7	te	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	6	suj	_	_
+8	delante	delante	_	r	_	6	cc	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	9	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#153
+#<Éxodo 10:7>b
+# -- ¿ Hasta cuándo será este hombre una amenaza para nosotros ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Hasta	hasta	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	cuándo	cuándo	_	p	postype=interrogative|gen=c|num=c	3	sadv	_	_
+5	será	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+6	este	este	_	d	postype=demonstrative|gen=m|num=s	7	spec	_	_
+7	hombre	hombre	_	n	postype=common|gen=m|num=s	5	suj	_	_
+8	una	uno	_	d	postype=indefinite|gen=f|num=s	9	spec	_	_
+9	amenaza	amenaza	_	n	postype=common|gen=f|num=s	5	atr	_	_
+10	para	para	_	s	postype=preposition|gen=c|num=c	9	sp	_	_
+11	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	10	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#154
+#<Éxodo 10:7>d
+# ¿ Acaso no sabes todavía que Egipto está ya destruido ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Acaso	acaso	_	p	_	4	suj	_	_
+3	no	no	_	r	postype=negative	4	mod	_	_
+4	sabes	saber	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+5	todavía	todavía	_	r	_	4	cc	_	_
+6	que	que	_	c	postype=subordinating	8	conj	_	_
+7	Egipto	egipto	_	n	postype=proper|gen=c|num=c	8	suj	_	_
+8	está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	4	cd	_	_
+9	ya	ya	_	r	_	10	cc	_	_
+10	destruido	destruido	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	8	atr	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#155
+#<Éxodo 10:8>c
+# ¿ Quiénes son los que han de ir ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Quiénes	quién	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	son	ser	_	v	postype=semiauxiliary|gen=c|num=p|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	los	el	_	d	postype=article|gen=m|num=p	8	spec	_	_
+5	que	que	_	p	postype=relative|gen=c|num=c	8	suj	_	_
+6	han	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=indicative|tense=present	8	v	_	_
+7	de	de	_	s	postype=preposition|gen=c|num=c	8	s	_	_
+8	ir	ir	_	v	postype=main|gen=c|num=c|mood=infinitive	3	atr	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#156
+#<Éxodo 10:10>c
+# ¿ Cómo os voy a dejar ir a vosotros y a vuestros niños ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Cómo	cómo	_	p	postype=interrogative|gen=c|num=c	6	cc	_	_
+3	os	os	_	p	postype=personal|gen=c|num=p|person=2	6	suj	_	_
+4	voy	ir	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=present	6	v	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	6	s	_	_
+6	dejar	dejar	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+7	ir	ir	_	v	postype=main|gen=c|num=c|mood=infinitive	6	cd	_	_
+8	a	a	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+9	vosotros	vosotro	_	p	postype=personal|gen=m|num=p|person=1	8	sn	_	_
+10	y	y	_	c	postype=coordinating	8	coord	_	_
+11	a	a	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+12	vuestros	vuestro	_	d	postype=indefinite|gen=m|num=p	13	spec	_	_
+13	niños	niño	_	n	postype=common|gen=m|num=p	11	sn	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#157
+#<Éxodo 12:26>b
+# ¿ Qué significa este rito ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Qué	qué	_	p	postype=interrogative|gen=c|num=s	3	cd	_	_
+3	significa	significar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	este	este	_	d	postype=demonstrative|gen=m|num=s	5	spec	_	_
+5	rito	rito	_	n	postype=common|gen=m|num=s	3	suj	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+7	"	"	_	f	punct=quotation	3	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#158
+#<Éxodo 13:14>b
+# ¿ Qué es esto ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Qué	qué	_	p	postype=interrogative|gen=c|num=s	3	atr	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	esto	este	_	p	postype=demonstrative|gen=c|num=s	3	suj	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+6	"	"	_	f	punct=quotation	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#159
+#<Éxodo 14:5>b
+# ¿ Cómo hemos hecho esto ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Cómo	cómo	_	p	postype=interrogative|gen=c|num=c	4	cc	_	_
+3	hemos	haber	_	v	postype=auxiliary|gen=c|num=p|person=1|mood=indicative|tense=present	4	v	_	_
+4	hecho	hacer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+5	esto	este	_	p	postype=demonstrative|gen=c|num=s	4	suj	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#160
+#<Éxodo 14:11>b
+# -- ¿ No había sepulcros en Egipto , que nos has sacado para que muramos en el desierto ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	No	no	_	r	postype=negative	4	mod	_	_
+4	había	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	0	sentence	_	_
+5	sepulcros	sepulcro	_	n	postype=common|gen=m|num=p	4	cd	_	_
+6	en	en	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+7	Egipto	egipto	_	n	postype=proper|gen=c|num=c	6	sn	_	_
+8	,	,	_	f	punct=comma	12	f	_	_
+9	que	que	_	p	postype=relative|gen=c|num=c	12	suj	_	_
+10	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	12	cd	_	_
+11	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=imperfect	12	v	_	_
+12	sacado	sacar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	7	S	_	_
+13	para	para	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+14	que	que	_	c	postype=subordinating	15	conj	_	_
+15	muramos	murar	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=present	13	S	_	_
+16	en	en	_	s	postype=preposition|gen=c|num=c	15	cc	_	_
+17	el	el	_	d	postype=article|gen=m|num=s	18	spec	_	_
+18	desierto	desierto	_	n	postype=common|gen=m|num=s	16	sn	_	_
+19	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#161
+#<Éxodo 14:11>c-d
+# ¿ Por qué nos has hecho esto ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	6	ci	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	6	ci	_	_
+5	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=subjunctive|tense=imperfect	6	v	_	_
+6	hecho	hecho	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	esto	este	_	p	postype=demonstrative|gen=c|num=s	6	suj	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+# ¿ Por qué nos has sacado de Egipto ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	6	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	6	suj	_	_
+5	has	haber	_	v	postype=auxiliary|gen=c|num=p|person=3|mood=indicative|tense=conditional	6	v	_	_
+6	sacado	sacado	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	de	de	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+8	Egipto	egipto	_	n	postype=proper|gen=c|num=c	7	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#162
+#<Éxodo 14:15>b
+# -- ¿ Por qué clamas a mí ?
+1	--	--	_	r	_	0	sentence	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	1	sp	_	_
+4	qué	qué	_	d	postype=interrogative|gen=c|num=c	5	spec	_	_
+5	clamas	clama	_	n	postype=common|gen=f|num=p	3	sn	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	5	sp	_	_
+7	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	6	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#163
+#<Éxodo 15:11>a
+# ¿ Quién como tú , Jehová , entre los dioses ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Quién	quién	_	p	postype=interrogative|gen=c|num=s	0	sentence	_	_
+3	como	como	_	c	postype=subordinating	2	sp	_	_
+4	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	3	sn	_	_
+5	,	,	_	f	punct=comma	6	f	_	_
+6	Jehová	jehová	_	r	_	8	sadv	_	_
+7	,	,	_	f	punct=comma	6	f	_	_
+8	entre	entre	_	s	postype=preposition|gen=c|num=c	2	sp	_	_
+9	los	el	_	d	postype=article|gen=m|num=p	10	spec	_	_
+10	dioses	dios	_	n	postype=common|gen=m|num=p	8	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#164
+#<Éxodo 15:11>b
+# ¿ Quién como tú , magnífico en santidad , terrible en maravillosas hazañas , hacedor de prodigios ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Quién	quién	_	p	postype=interrogative|gen=c|num=s	0	sentence	_	_
+3	como	como	_	c	postype=subordinating	2	sp	_	_
+4	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	3	sn	_	_
+5	,	,	_	f	punct=comma	6	f	_	_
+6	magnífico	magnífico	_	a	postype=qualificative|gen=m|num=s	4	s.a	_	_
+7	en	en	_	s	postype=preposition|gen=c|num=c	6	sp	_	_
+8	santidad	santidad	_	n	postype=common|gen=f|num=s	7	sn	_	_
+9	,	,	_	f	punct=comma	6	f	_	_
+10	terrible	terrible	_	a	postype=qualificative|gen=c|num=s	6	s.a	_	_
+11	en	en	_	s	postype=preposition|gen=c|num=c	10	sp	_	_
+12	maravillosas	maravillosas	_	a	postype=qualificative|gen=f|num=p	13	s.a	_	_
+13	hazañas	hazaña	_	n	postype=common|gen=f|num=p	11	sn	_	_
+14	,	,	_	f	punct=comma	15	f	_	_
+15	hacedor	hacedor	_	n	postype=common|gen=m|num=s	13	sn	_	_
+16	de	de	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+17	prodigios	prodigio	_	n	postype=common|gen=m|num=p	16	sn	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#165
+#<Éxodo 15:24>b
+# ¿ Qué hemos de beber ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Qué	qué	_	p	postype=interrogative|gen=c|num=s	5	suj	_	_
+3	hemos	haber	_	v	postype=auxiliary|gen=c|num=p|person=1|mood=indicative|tense=present	5	v	_	_
+4	de	de	_	s	postype=preposition|gen=c|num=c	5	s	_	_
+5	beber	beber	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+7	"	"	_	f	punct=quotation	5	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#166
+#<Éxodo 16:7>b
+# pues ¿ qué somos nosotros para que murmuréis contra nosotros ?
+1	pues	pues	_	c	postype=subordinating	4	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	4	atr	_	_
+4	somos	ser	_	v	postype=semiauxiliary|gen=c|num=p|person=1|mood=indicative|tense=present	0	sentence	_	_
+5	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	4	suj	_	_
+6	para	para	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+7	que	que	_	c	postype=subordinating	8	conj	_	_
+8	murmuréis	murmuréis	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=imperfect	6	S	_	_
+9	contra	contra	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+10	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	9	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#167
+#<Éxodo 16:8>c
+# pues ¿ qué somos nosotros ?
+1	pues	pues	_	c	postype=subordinating	4	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	4	atr	_	_
+4	somos	ser	_	v	postype=semiauxiliary|gen=c|num=p|person=1|mood=indicative|tense=present	0	sentence	_	_
+5	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	4	suj	_	_
+6	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#168
+#<Éxodo 16:15>b
+# ¿ Qué es esto ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Qué	qué	_	p	postype=interrogative|gen=c|num=s	3	atr	_	_
+3	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+4	esto	este	_	p	postype=demonstrative|gen=c|num=s	3	suj	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+6	"	"	_	f	punct=quotation	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#169
+#<Éxodo 16:28>b
+# -- ¿ Hasta cuándo os negaréis a guardar mis mandamientos y mis leyes ?
+1	--	--	_	p	_	8	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+3	Hasta	hasta	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+4	cuándo	cuándo	_	p	postype=interrogative|gen=c|num=c	3	sadv	_	_
+5	os	os	_	p	postype=personal|gen=c|num=p|person=2	8	ci	_	_
+6	negaréis	negaréis	_	v	postype=main|gen=c|num=p|person=3|mood=subjunctive|tense=imperfect	8	v	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	8	s	_	_
+8	guardar	guardar	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+9	mis	mi	_	d	postype=possessive|gen=c|num=p|person=1|possessornum=s	10	spec	_	_
+10	mandamientos	mandamiento	_	n	postype=common|gen=m|num=p	8	cd	_	_
+11	y	y	_	c	postype=coordinating	10	coord	_	_
+12	mis	mi	_	d	postype=possessive|gen=c|num=p|person=1|possessornum=s	13	spec	_	_
+13	leyes	ley	_	n	postype=common|gen=f|num=p	10	sn	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	8	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#170
+#<Éxodo 17:2>c-d
+# -- ¿ Por qué disputáis con mí ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	disputáis	disputáis	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=conditional	0	sentence	_	_
+6	con	con	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	6	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# ¿ Por qué tentáis a Jehová ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	0	sentence	_	_
+3	qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	tentáis	tentái	_	n	postype=common|gen=f|num=s	2	sn	_	_
+5	a	a	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+6	Jehová	jehová	_	n	postype=proper|gen=c|num=c	5	sn	_	_
+7	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#171
+#<Éxodo 17:3>b
+# -- ¿ Por qué nos hiciste subir de Egipto para matar nos de sed a nosotros , a nuestros hijos y a nuestros ganados ?
+1	--	--	_	r	_	0	sentence	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	6	suj	_	_
+6	hiciste	hicistir	_	v	postype=main|gen=c|num=p|person=2|mood=indicative|tense=present	1	S	_	_
+7	subir	subir	_	v	postype=main|gen=c|num=c|mood=infinitive	6	cd	_	_
+8	de	de	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+9	Egipto	egipto	_	n	postype=proper|gen=c|num=c	8	sn	_	_
+10	para	para	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+11	matar	matar	_	v	postype=main|gen=c|num=c|mood=infinitive	10	S	_	_
+12	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	11	cd	_	_
+13	de	de	_	s	postype=preposition|gen=c|num=c	12	sp	_	_
+14	sed	sed	_	n	postype=common|gen=f|num=s	13	sn	_	_
+15	a	a	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+16	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	15	sn	_	_
+17	,	,	_	f	punct=comma	15	f	_	_
+18	a	a	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+19	nuestros	nuestro	_	d	postype=possessive|gen=m|num=p|person=1|possessornum=p	20	spec	_	_
+20	hijos	hijo	_	n	postype=common|gen=m|num=p	18	sn	_	_
+21	y	y	_	c	postype=coordinating	15	coord	_	_
+22	a	a	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+23	nuestros	nuestro	_	d	postype=possessive|gen=m|num=p|person=1|possessornum=p	24	spec	_	_
+24	ganados	ganado	_	n	postype=common|gen=m|num=p	22	sn	_	_
+25	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#172
+#<Éxodo 17:4>b
+# -- ¿ Qué haré con este pueblo ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	haré	har	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=future	0	sentence	_	_
+5	con	con	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+6	este	este	_	d	postype=demonstrative|gen=m|num=s	7	spec	_	_
+7	pueblo	pueblo	_	n	postype=common|gen=m|num=s	5	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#173
+#<Éxodo 17:7>b
+# ¿ Está , pues , Jehová entre nosotros o no ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Está	estar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+3	,	,	_	f	punct=comma	4	f	_	_
+4	pues	pues	_	c	postype=subordinating	2	et	_	_
+5	,	,	_	f	punct=comma	4	f	_	_
+6	Jehová	jehová	_	n	postype=proper|gen=c|num=c	2	suj	_	_
+7	entre	entre	_	s	postype=preposition|gen=c|num=c	6	sp	_	_
+8	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	7	sn	_	_
+9	o	o	_	c	postype=coordinating	8	coord	_	_
+10	no	no	_	r	postype=negative	8	neg	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+12	"	"	_	f	punct=quotation	2	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#174
+#<Éxodo 18:14>b
+# -- ¿ Qué es esto que haces tú con el pueblo ?
+1	--	--	_	i	_	4	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+3	Qué	qué	_	p	postype=interrogative|gen=c|num=s	4	atr	_	_
+4	es	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+5	esto	este	_	p	postype=demonstrative|gen=c|num=s	4	atr	_	_
+6	que	que	_	p	postype=relative|gen=c|num=c	7	cd	_	_
+7	haces	hacer	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	5	S	_	_
+8	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	7	suj	_	_
+9	con	con	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+10	el	el	_	d	postype=article|gen=m|num=s	11	spec	_	_
+11	pueblo	pueblo	_	n	postype=common|gen=m|num=s	9	sn	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#175
+#<Éxodo 18:14>c
+# ¿ Por qué te sientas tú solo , mientras todo el pueblo permanece delante de ti desde la mañana hasta la tarde ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Por	por	_	s	postype=preposition|gen=m|num=s|contracted=yes	5	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	te	tú	_	p	gen=c|num=s|person=2	5	suj	_	_
+5	sientas	sienta	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+6	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	5	suj	_	_
+7	solo	solo	_	a	postype=qualificative|gen=m|num=s	6	s.a	_	_
+8	,	,	_	f	punct=comma	5	f	_	_
+9	mientras	mientras	_	c	postype=coordinating	5	coord	_	_
+10	todo	todo	_	d	postype=indefinite|gen=m|num=s	11	d	_	_
+11	el	el	_	d	postype=article|gen=m|num=s	12	spec	_	_
+12	pueblo	pueblo	_	n	postype=common|gen=m|num=s	13	suj	_	_
+13	permanece	permanecer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	5	S	_	_
+14	delante	delante	_	r	_	13	cc	_	_
+15	de	de	_	s	postype=preposition|gen=c|num=c	14	sp	_	_
+16	ti	tú	_	p	postype=personal|gen=c|num=s|person=2|case=oblique	15	sn	_	_
+17	desde	desde	_	s	postype=preposition|gen=c|num=c	13	cc	_	_
+18	la	el	_	d	postype=article|gen=f|num=s	19	spec	_	_
+19	mañana	mañana	_	n	postype=common|gen=f|num=s	17	sn	_	_
+20	hasta	hasta	_	s	postype=preposition|gen=c|num=c	13	cc	_	_
+21	la	el	_	d	postype=article|gen=f|num=s	22	spec	_	_
+22	tarde	tarde	_	n	postype=common|gen=f|num=s	20	sn	_	_
+23	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#176
+#<Éxodo 22:27>b
+# ¿ Con qué dormirá ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Con	con	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	dormirá	dormir	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+5	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#177
+#<Éxodo 32:11>b
+# -- ¿ Por qué , Jehová , se encenderá tu furor contra tu pueblo , el que tú sacaste de la tierra de Egipto con gran poder y con mano fuerte ?
+1	--	--	_	r	_	9	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	9	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	,	,	_	f	punct=comma	6	f	_	_
+6	Jehová	jehová	_	n	postype=proper|gen=c|num=c	9	suj	_	_
+7	,	,	_	f	punct=comma	6	f	_	_
+8	se	él	_	p	gen=c|num=c|person=3	9	morfema.pronominal	_	_
+9	encenderá	encender	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+10	tu	tu	_	d	postype=possessive|gen=c|num=s|person=3	11	spec	_	_
+11	furor	furor	_	n	postype=common|gen=m|num=s	9	suj	_	_
+12	contra	contra	_	s	postype=preposition|gen=c|num=c	11	sp	_	_
+13	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	14	spec	_	_
+14	pueblo	pueblo	_	n	postype=common|gen=m|num=s	12	sn	_	_
+15	,	,	_	f	punct=comma	19	f	_	_
+16	el	el	_	d	postype=article|gen=m|num=s	19	spec	_	_
+17	que	que	_	p	postype=relative|gen=c|num=c	19	cd	_	_
+18	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	19	suj	_	_
+19	sacaste	sacaste	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=past	11	S	_	_
+20	de	de	_	s	postype=preposition|gen=c|num=c	19	creg	_	_
+21	la	el	_	d	postype=article|gen=f|num=s	22	spec	_	_
+22	tierra	tierra	_	n	postype=common|gen=f|num=s	20	sn	_	_
+23	de	de	_	s	postype=preposition|gen=c|num=c	22	sp	_	_
+24	Egipto	egipto	_	n	postype=proper|gen=c|num=c	23	sn	_	_
+25	con	con	_	s	postype=preposition|gen=c|num=c	22	sp	_	_
+26	gran	gran	_	a	postype=qualificative|gen=c|num=s	27	s.a	_	_
+27	poder	poder	_	n	postype=common|gen=m|num=s	25	sn	_	_
+28	y	y	_	c	postype=coordinating	25	coord	_	_
+29	con	con	_	s	postype=preposition|gen=c|num=c	25	sp	_	_
+30	mano	mano	_	n	postype=common|gen=f|num=s	29	sn	_	_
+31	fuerte	fuerte	_	a	postype=qualificative|gen=c|num=s	30	s.a	_	_
+32	?	?	_	f	punct=questionmark|punctenclose=close	9	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#178
+#<Éxodo 32:21>b
+# -- ¿ Qué te ha hecho este pueblo para que hayas traído sobre él tan gran pecado ?
+1	--	--	_	i	_	6	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Qué	qué	_	d	postype=interrogative|gen=c|num=s	4	spec	_	_
+4	te	tú	_	p	postype=personal|gen=c|num=s|person=2	6	cd	_	_
+5	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	6	v	_	_
+6	hecho	hacer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	este	este	_	d	postype=demonstrative|gen=m|num=s	8	spec	_	_
+8	pueblo	pueblo	_	n	postype=common|gen=m|num=s	6	suj	_	_
+9	para	para	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+10	que	que	_	c	postype=subordinating	12	conj	_	_
+11	hayas	haya	_	r	postype=common|gen=f|num=p	12	cc	_	_
+12	traído	traído	_	a	postype=qualificative|gen=m|num=s|posfunction=participle	9	S	_	_
+13	sobre	sobre	_	s	postype=preposition|gen=c|num=c	12	cc	_	_
+14	él	él	_	p	postype=personal|gen=m|num=s|person=3	13	sn	_	_
+15	tan	tanto	_	r	_	16	spec	_	_
+16	gran	gran	_	a	postype=qualificative|gen=c|num=s	17	s.a	_	_
+17	pecado	pecado	_	n	postype=common|gen=m|num=s	14	sn	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#179
+#<Éxodo 33:16>a
+# Pues ¿ en qué se conocerá aquí que he hallado gracia a tus ojos , yo y tu pueblo , sino en que tú andas con nosotros , y que yo y tu pueblo hemos sido apartados de entre todos los pueblos que están sobre la faz de la tierra ?
+1	Pues	pues	_	c	postype=subordinating	6	conj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	en	en	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	se	él	_	p	gen=c|num=c	6	pass	_	_
+6	conocerá	conocer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=future	0	sentence	_	_
+7	aquí	aquí	_	r	_	6	cc	_	_
+8	que	que	_	c	postype=subordinating	10	conj	_	_
+9	he	haber	_	v	postype=auxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	10	v	_	_
+10	hallado	hallar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	6	cd	_	_
+11	gracia	gracia	_	n	postype=common|gen=f|num=s	10	cd	_	_
+12	a	a	_	s	postype=preposition|gen=c|num=c	10	ci	_	_
+13	tus	tus	_	d	postype=article|gen=m|num=p	14	spec	_	_
+14	ojos	ojo	_	n	postype=common|gen=m|num=p	12	sn	_	_
+15	,	,	_	f	punct=comma	6	f	_	_
+16	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	6	S	_	_
+17	y	y	_	c	postype=coordinating	16	coord	_	_
+18	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	19	spec	_	_
+19	pueblo	pueblo	_	n	postype=common|gen=m|num=s	16	sn	_	_
+20	,	,	_	f	punct=comma	6	f	_	_
+21	sino	sino	_	c	postype=coordinating	6	coord	_	_
+22	en	en	_	s	postype=preposition|gen=c|num=c	25	cc	_	_
+23	que	que	_	p	postype=subordinating	22	sn	_	_
+24	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	25	suj	_	_
+25	andas	anda	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	6	S	_	_
+26	con	con	_	s	postype=preposition|gen=c|num=c	25	cc	_	_
+27	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	26	sn	_	_
+28	,	,	_	f	punct=comma	6	f	_	_
+29	y	y	_	c	postype=coordinating	6	coord	_	_
+30	que	que	_	c	postype=subordinating	37	conj	_	_
+31	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	37	suj	_	_
+32	y	y	_	c	postype=coordinating	31	coord	_	_
+33	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	34	spec	_	_
+34	pueblo	pueblo	_	n	postype=common|gen=m|num=s	31	sn	_	_
+35	hemos	haber	_	v	postype=auxiliary|gen=c|num=p|person=1|mood=indicative|tense=present	37	v	_	_
+36	sido	ser	_	v	postype=semiauxiliary|gen=m|num=s|mood=pastparticiple	37	v	_	_
+37	apartados	apartar	_	v	postype=main|gen=m|num=p|mood=pastparticiple	6	S	_	_
+38	de	de	_	s	postype=preposition|gen=c|num=c	37	cc	_	_
+39	entre	entre	_	s	postype=preposition|gen=c|num=c	38	sp	_	_
+40	todos	todo	_	d	postype=indefinite|gen=m|num=p	41	d	_	_
+41	los	el	_	d	postype=article|gen=m|num=p	42	spec	_	_
+42	pueblos	pueblo	_	n	postype=common|gen=m|num=p	39	sn	_	_
+43	que	que	_	p	postype=relative|gen=c|num=c	44	suj	_	_
+44	están	estar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=present	42	S	_	_
+45	sobre	sobre	_	s	postype=preposition|gen=c|num=c	44	atr	_	_
+46	la	el	_	d	postype=article|gen=f|num=s	47	spec	_	_
+47	faz	faz	_	n	postype=common|gen=f|num=s	45	sn	_	_
+48	de	de	_	s	postype=preposition|gen=c|num=c	47	sp	_	_
+49	la	el	_	d	postype=article|gen=f|num=s	50	spec	_	_
+50	tierra	tierra	_	n	postype=common|gen=f|num=s	48	sn	_	_
+51	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#180
+#<Levítico 10:17>a
+# -- ¿ Por qué no comisteis la expiación en lugar santo ?
+1	--	--	_	r	_	6	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	no	no	_	r	postype=negative	6	mod	_	_
+6	comisteis	comisteis	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+7	la	el	_	d	postype=article|gen=f|num=s	8	spec	_	_
+8	expiación	expiación	_	n	postype=common|gen=f|num=s	6	suj	_	_
+9	en	en	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	lugar	lugar	_	n	postype=common|gen=m|num=s	9	sn	_	_
+11	santo	santo	_	a	postype=qualificative|gen=m|num=s	10	s.a	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#181
+#<Levítico 10:19>c
+# Si yo hubiera comido hoy de el sacrificio de expiación , ¿ sería esto grato a Jehová ?
+1	Si	si	_	c	postype=subordinating	4	conj	_	_
+2	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	4	suj	_	_
+3	hubiera	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=subjunctive|tense=imperfect	4	v	_	_
+4	comido	comido	_	v	postype=main|gen=m|num=s|mood=pastparticiple	13	ao	_	_
+5	hoy	hoy	_	r	_	4	cc	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	4	creg	_	_
+7	el	el	_	d	postype=article|gen=m|num=s	8	spec	_	_
+8	sacrificio	sacrificio	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	expiación	expiación	_	n	postype=common|gen=f|num=s	9	sn	_	_
+11	,	,	_	f	punct=comma	4	f	_	_
+12	¿	¿	_	f	punct=questionmark|punctenclose=open	13	f	_	_
+13	sería	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=conditional	0	sentence	_	_
+14	esto	este	_	p	postype=demonstrative|gen=c|num=s	13	suj	_	_
+15	grato	grato	_	a	postype=qualificative|gen=m|num=s	13	atr	_	_
+16	a	a	_	s	postype=preposition|gen=c|num=c	15	sp	_	_
+17	Jehová	jehová	_	n	postype=proper|gen=c|num=c	16	sn	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	13	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#182
+#<Levítico 25:20>b
+# ¿ Qué comeremos el séptimo año , ya que no hemos de sembrar ni hemos de recoger nuestros frutos ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Qué	qué	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	comeremos	comer	_	v	postype=semiauxiliary|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+4	el	el	_	d	postype=article|gen=m|num=s	6	spec	_	_
+5	séptimo	séptimo	_	a	postype=ordinal|gen=m|num=s	6	s.a	_	_
+6	año	año	_	n	postype=common|gen=m|num=s	3	cc	_	_
+7	,	,	_	f	punct=comma	3	f	_	_
+8	ya	ya	_	r	_	13	mod	_	_
+9	que	que	_	p	postype=relative|gen=c|num=c	13	suj	_	_
+10	no	no	_	r	postype=negative	13	mod	_	_
+11	hemos	haber	_	v	postype=auxiliary|gen=c|num=p|person=1|mood=indicative|tense=present	13	v	_	_
+12	de	de	_	s	postype=preposition|gen=c|num=c	13	s	_	_
+13	sembrar	sembrar	_	v	postype=main|gen=c|num=c|mood=infinitive	3	S	_	_
+14	ni	ni	_	c	postype=coordinating	13	coord	_	_
+15	hemos	haber	_	v	postype=main|gen=c|num=p|person=1|mood=imperative	17	v	_	_
+16	de	de	_	s	postype=preposition|gen=c|num=c	17	s	_	_
+17	recoger	recoger	_	v	postype=main|gen=c|num=c|mood=infinitive	13	S	_	_
+18	nuestros	nuestro	_	d	postype=possessive|gen=m|num=p|person=1|possessornum=p	19	spec	_	_
+19	frutos	fruto	_	n	postype=common|gen=m|num=p	17	cd	_	_
+20	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+21	"	"	_	f	punct=quotation	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#183
+#<Números 9:7>c
+# ¿ Por qué seremos impedidos de presentar la ofrenda a Jehová a su debido tiempo con los demás hijos de Israel ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	seremos	ser	_	v	postype=main|gen=c|num=p|person=1|mood=indicative|tense=future	0	sentence	_	_
+5	impedidos	impedido	_	a	postype=qualificative|gen=m|num=p|posfunction=participle	4	atr	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	5	creg	_	_
+7	presentar	presentar	_	v	postype=main|gen=c|num=c|mood=infinitive	6	S	_	_
+8	la	el	_	d	postype=article|gen=f|num=s	9	spec	_	_
+9	ofrenda	ofrenda	_	n	postype=common|gen=f|num=s	7	cd	_	_
+10	a	a	_	s	postype=preposition|gen=c|num=c	7	ci	_	_
+11	Jehová	jehová	_	n	postype=proper|gen=c|num=c	10	sn	_	_
+12	a	a	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+13	su	su	_	d	postype=possessive|gen=c|num=s|person=3	15	spec	_	_
+14	debido	deber	_	a	postype=qualificative|gen=m|num=s	15	s.a	_	_
+15	tiempo	tiempo	_	n	postype=common|gen=m|num=s	12	sn	_	_
+16	con	con	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+17	los	el	_	d	postype=article|gen=m|num=p	19	spec	_	_
+18	demás	demás	_	d	postype=indefinite|gen=c|num=p	17	d	_	_
+19	hijos	hijo	_	n	postype=common|gen=m|num=p	16	sn	_	_
+20	de	de	_	s	postype=preposition|gen=c|num=c	19	sp	_	_
+21	Israel	israel	_	n	postype=proper|gen=c|num=c	20	sn	_	_
+22	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#184
+#<Números 11:11>b-c
+# -- ¿ Por qué has hecho mal a tu siervo ?
+1	--	--	_	r	_	6	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	6	v	_	_
+6	hecho	hacer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	mal	mal	_	r	_	6	cc	_	_
+8	a	a	_	s	postype=preposition|gen=c|num=c	6	cd	_	_
+9	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	10	spec	_	_
+10	siervo	siervo	_	n	postype=common|gen=m|num=s	8	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+# ¿ Y por qué no he hallado gracia a tus ojos , que has puesto la carga de todo este pueblo sobre mí ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	7	f	_	_
+2	Y	y	_	c	postype=coordinating	7	et	_	_
+3	por	por	_	s	postype=preposition|gen=c|num=c	7	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	no	no	_	r	postype=negative	7	mod	_	_
+6	he	haber	_	v	postype=auxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	7	v	_	_
+7	hallado	hallar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+8	gracia	gracia	_	n	postype=common|gen=f|num=s	7	cd	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	7	ci	_	_
+10	tus	tus	_	d	postype=numeral|gen=c|num=p	11	spec	_	_
+11	ojos	ojo	_	n	postype=common|gen=m|num=p	9	sn	_	_
+12	,	,	_	f	punct=comma	15	f	_	_
+13	que	que	_	p	postype=relative|gen=c|num=c	15	suj	_	_
+14	has	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=imperfect	15	v	_	_
+15	puesto	poner	_	v	postype=main|gen=m|num=s|mood=pastparticiple	11	S	_	_
+16	la	el	_	d	postype=article|gen=f|num=s	17	spec	_	_
+17	carga	carga	_	n	postype=common|gen=f|num=s	15	cd	_	_
+18	de	de	_	s	postype=preposition|gen=c|num=c	17	sp	_	_
+19	todo	todo	_	d	postype=indefinite|gen=m|num=s	20	d	_	_
+20	este	este	_	d	postype=demonstrative|gen=m|num=s	21	spec	_	_
+21	pueblo	pueblo	_	n	postype=common|gen=m|num=s	18	sn	_	_
+22	sobre	sobre	_	s	postype=preposition|gen=c|num=c	17	sp	_	_
+23	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	22	sn	_	_
+24	?	?	_	f	punct=questionmark|punctenclose=close	7	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#185
+#<Números 11:12>a-c
+# ¿ Concebí yo a todo este pueblo ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Concebí	concebí	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+3	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	2	suj	_	_
+4	a	a	_	s	postype=preposition|gen=c|num=c	2	cd	_	_
+5	todo	todo	_	d	postype=indefinite|gen=m|num=s	6	d	_	_
+6	este	este	_	d	postype=demonstrative|gen=m|num=s	7	spec	_	_
+7	pueblo	pueblo	_	n	postype=common|gen=m|num=s	4	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+# ¿ Lo engendré yo , para que me digas : "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	3	cd	_	_
+3	engendré	engendr	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=future	0	sentence	_	_
+4	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	3	suj	_	_
+5	,	,	_	f	punct=comma	6	f	_	_
+6	para	para	_	s	postype=preposition|gen=c|num=c	3	cc	_	_
+7	que	que	_	c	postype=subordinating	9	conj	_	_
+8	me	yo	_	p	postype=personal|gen=c|num=s|person=1	9	suj	_	_
+9	digas	diga	_	v	postype=main|gen=c|num=s|person=3|mood=subjunctive|tense=present	6	S	_	_
+10	:	:	_	f	punct=colon	3	f	_	_
+11	"	"	_	f	punct=quotation	3	f	_	_
+
+# Lleva lo en tu seno , como lleva la que cría a el que mama , a la tierra que juraste dar a sus padres " ?
+1	Lleva	llevar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+2	lo	él	_	p	postype=personal|gen=m|num=s|person=3|case=accusative	1	suj	_	_
+3	en	en	_	s	postype=preposition|gen=c|num=c	1	cc	_	_
+4	tu	tu	_	d	postype=possessive|gen=c|num=s|person=2|possessornum=s	5	spec	_	_
+5	seno	seno	_	n	postype=common|gen=m|num=s	3	sn	_	_
+6	,	,	_	f	punct=comma	8	f	_	_
+7	como	como	_	c	postype=subordinating	8	conj	_	_
+8	lleva	llevar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	1	cc	_	_
+9	la	el	_	d	postype=article|gen=f|num=s	11	spec	_	_
+10	que	que	_	p	postype=relative|gen=c|num=c	11	suj	_	_
+11	cría	cr	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=conditional	8	suj	_	_
+12	a	a	_	s	postype=preposition|gen=c|num=c	11	cd	_	_
+13	el	el	_	d	postype=article|gen=m|num=s	15	spec	_	_
+14	que	que	_	p	postype=relative|gen=c|num=c	15	suj	_	_
+15	mama	mama	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	12	sn	_	_
+16	,	,	_	f	punct=comma	17	f	_	_
+17	a	a	_	s	postype=preposition|gen=c|num=c	15	cd	_	_
+18	la	el	_	d	postype=article|gen=f|num=s	19	spec	_	_
+19	tierra	tierra	_	n	postype=common|gen=f|num=s	17	sn	_	_
+20	que	que	_	p	postype=relative|gen=c|num=c	21	suj	_	_
+21	juraste	jurastar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	19	S	_	_
+22	dar	dar	_	v	postype=main|gen=c|num=c|mood=infinitive	21	cd	_	_
+23	a	a	_	s	postype=preposition|gen=c|num=c	22	ci	_	_
+24	sus	su	_	d	postype=possessive|gen=c|num=p|person=3	25	spec	_	_
+25	padres	padre	_	n	postype=common|gen=m|num=p	23	sn	_	_
+26	"	"	_	f	punct=quotation	17	f	_	_
+27	?	?	_	f	punct=questionmark|punctenclose=close	1	f	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#186
+#<Números 11:13>a
+# ¿ De dónde conseguiré yo carne para dar a todo este pueblo ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	De	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+3	dónde	dónde	_	p	postype=interrogative|gen=c|num=c	2	sadv	_	_
+4	conseguiré	conseguir	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+5	yo	yo	_	p	postype=personal|gen=c|num=s|person=1|case=nominative	4	suj	_	_
+6	carne	carne	_	n	postype=common|gen=f|num=s	4	cd	_	_
+7	para	para	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+8	dar	dar	_	v	postype=main|gen=c|num=c|mood=infinitive	7	S	_	_
+9	a	a	_	s	postype=preposition|gen=c|num=c	8	cd	_	_
+10	todo	todo	_	d	postype=indefinite|gen=m|num=s	11	d	_	_
+11	este	este	_	d	postype=demonstrative|gen=m|num=s	12	spec	_	_
+12	pueblo	pueblo	_	n	postype=common|gen=m|num=s	9	sn	_	_
+13	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#187
+#<Números 11:20>b
+# ¿ Para qué salimos acá de Egipto ? " "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	2	f	_	_
+2	Para	para	_	s	postype=preposition|gen=c|num=c	0	sentence	_	_
+3	qué	qué	_	d	postype=interrogative|gen=c|num=c	4	spec	_	_
+4	salimos	salimo	_	n	postype=common|gen=m|num=p	2	sn	_	_
+5	acá	acá	_	z	_	4	s.a	_	_
+6	de	de	_	s	postype=preposition|gen=c|num=c	4	sp	_	_
+7	Egipto	egipto	_	n	postype=proper|gen=c|num=c	6	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	2	f	_	_
+9	"	"	_	f	punct=quotation	2	f	_	_
+10	"	"	_	f	punct=quotation	2	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#188
+#<Números 11:22>a
+# ¿ Se degollarán para ellos ovejas y bueyes que les basten ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+2	Se	él	_	p	postype=interrogative|gen=c|num=s	3	suj	_	_
+3	degollarán	degollar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=future	0	sentence	_	_
+4	para	para	_	s	postype=preposition|gen=c|num=c	3	ci	_	_
+5	ellos	e	_	p	postype=personal|gen=m|num=p|person=3	4	sn	_	_
+6	ovejas	oveja	_	n	postype=common|gen=f|num=p	3	cd	_	_
+7	y	y	_	c	postype=coordinating	6	coord	_	_
+8	bueyes	buey	_	n	postype=common|gen=m|num=p	6	grup.nom	_	_
+9	que	que	_	p	postype=relative|gen=c|num=c	11	cd	_	_
+10	les	él	_	p	postype=personal|gen=c|num=p|person=3|case=dative	11	suj	_	_
+11	basten	bastar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=present	6	S	_	_
+12	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#189
+#<Números 11:22>b
+# ¿ o se juntarán para ellos todos los peces de el mar para que tengan lo suficiente ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	o	o	_	c	postype=coordinating	4	et	_	_
+3	se	él	_	p	gen=c|num=c	4	suj	_	_
+4	juntarán	juntar	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=future	0	sentence	_	_
+5	para	para	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+6	ellos	e	_	p	postype=personal|gen=m|num=p|person=3	5	sn	_	_
+7	todos	todo	_	d	postype=indefinite|gen=m|num=p	8	d	_	_
+8	los	el	_	d	postype=article|gen=m|num=p	9	spec	_	_
+9	peces	pez	_	n	postype=common|gen=m|num=p	4	suj	_	_
+10	de	de	_	s	postype=preposition|gen=c|num=c	9	sp	_	_
+11	el	el	_	d	postype=article|gen=m|num=s	12	spec	_	_
+12	mar	mar	_	n	postype=common|gen=c|num=s	10	sn	_	_
+13	para	para	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+14	que	que	_	c	postype=subordinating	15	conj	_	_
+15	tengan	tener	_	v	postype=main|gen=c|num=p|person=3|mood=subjunctive|tense=present	13	S	_	_
+16	lo	él	_	d	postype=article|gen=c|num=s	17	spec	_	_
+17	suficiente	suficiente	_	a	postype=qualificative|gen=c|num=s	15	cd	_	_
+18	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#190
+#<Números 11:23>b
+# -- ¿ Acaso se ha acortado la mano de Jehová ?
+1	--	--	_	i	_	6	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+3	Acaso	acaso	_	r	_	6	cc	_	_
+4	se	él	_	p	gen=c|num=c	6	pass	_	_
+5	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	6	v	_	_
+6	acortado	acortar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	la	el	_	d	postype=article|gen=f|num=s	8	spec	_	_
+8	mano	mano	_	n	postype=common|gen=f|num=s	6	suj	_	_
+9	de	de	_	s	postype=preposition|gen=c|num=c	8	sp	_	_
+10	Jehová	jehová	_	n	postype=proper|gen=c|num=c	9	sn	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#191
+#<Números 11:29>b
+# -- ¿ Tienes tú celos por mí ?
+1	--	--	_	i	_	3	interjeccio	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	3	f	_	_
+3	Tienes	tener	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	0	sentence	_	_
+4	tú	tú	_	p	postype=personal|gen=c|num=s|person=2|case=nominative	5	suj	_	_
+5	celos	celo	_	v	postype=main|gen=c|num=s|person=2|mood=indicative|tense=present	3	cd	_	_
+6	por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	6	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	3	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#192
+#<Números 12:2>b
+# ¿ Solamente por Moisés ha hablado Jehová ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Solamente	solamente	_	r	_	6	cc	_	_
+3	por	por	_	s	postype=preposition|gen=c|num=c	2	sp	_	_
+4	Moisés	moisés	_	n	postype=proper|gen=c|num=c	3	sn	_	_
+5	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	6	v	_	_
+6	hablado	hablar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+7	Jehová	jehová	_	n	postype=proper|gen=c|num=c	6	suj	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#193
+#<Números 12:2>c
+# ¿ No ha hablado también por nosotros ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	No	no	_	r	postype=negative	4	mod	_	_
+3	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	4	v	_	_
+4	hablado	hablar	_	v	postype=main|gen=m|num=s|mood=pastparticiple	0	sentence	_	_
+5	también	también	_	r	_	4	mod	_	_
+6	por	por	_	s	postype=preposition|gen=c|num=c	4	cc	_	_
+7	nosotros	yo	_	p	postype=personal|gen=m|num=p|person=1	6	sn	_	_
+8	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+9	"	"	_	f	punct=quotation	4	f	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#194
+#<Números 12:8>b
+# ¿ Por qué , pues , no tuvisteis temor de hablar contra mi siervo Moisés ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	,	,	_	f	punct=comma	5	f	_	_
+5	pues	pues	_	c	postype=subordinating	8	et	_	_
+6	,	,	_	f	punct=comma	5	f	_	_
+7	no	no	_	r	postype=negative	8	mod	_	_
+8	tuvisteis	tuvite	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=past	0	sentence	_	_
+9	temor	temor	_	n	postype=common|gen=m|num=s	8	cd	_	_
+10	de	de	_	s	postype=preposition|gen=c|num=c	9	sp	_	_
+11	hablar	hablar	_	v	postype=main|gen=c|num=c|mood=infinitive	10	S	_	_
+12	contra	contra	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+13	mi	mi	_	d	postype=possessive|gen=c|num=s|person=1|possessornum=s	15	spec	_	_
+14	siervo	siervo	_	a	postype=qualificative|gen=m|num=s	15	s.a	_	_
+15	Moisés	moisés	_	n	postype=proper|gen=c|num=c	12	sn	_	_
+16	?	?	_	f	punct=questionmark|punctenclose=close	8	f	_	_
+17	"	"	_	f	punct=quotation	8	f	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#195
+#<Números 12:14>b
+# Si su padre hubiera escupido en su rostro , ¿ no se avergonzaría durante siete días ?
+1	Si	si	_	c	postype=subordinating	5	conj	_	_
+2	su	su	_	d	postype=possessive|gen=c|num=s|person=3	3	spec	_	_
+3	padre	padre	_	n	postype=common|gen=m|num=s	5	suj	_	_
+4	hubiera	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=subjunctive|tense=imperfect	5	v	_	_
+5	escupido	escupido	_	v	postype=main|gen=m|num=s|mood=pastparticiple	13	ao	_	_
+6	en	en	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+7	su	su	_	d	postype=possessive|gen=c|num=s|person=3	8	spec	_	_
+8	rostro	rostro	_	n	postype=common|gen=m|num=s	6	sn	_	_
+9	,	,	_	f	punct=comma	5	f	_	_
+10	¿	¿	_	f	punct=questionmark|punctenclose=open	13	f	_	_
+11	no	no	_	r	postype=negative	13	mod	_	_
+12	se	él	_	p	gen=c|num=c|person=3	13	morfema.pronominal	_	_
+13	avergonzaría	avergonzar	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=conditional	0	sentence	_	_
+14	durante	durante	_	s	postype=preposition|gen=c|num=c	13	cc	_	_
+15	siete	siete	_	d	postype=numeral|gen=c|num=p	16	spec	_	_
+16	días	día	_	n	postype=common|gen=m|num=p	14	sn	_	_
+17	?	?	_	f	punct=questionmark|punctenclose=close	13	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#196
+#<Números 14:3>a
+# ¿ Por qué nos trae Jehová a esta tierra para morir a espada , y para que nuestras mujeres y nuestros niños se conviertan en botín de guerra ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+2	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+3	qué	qué	_	p	postype=interrogative|gen=c|num=s	2	sn	_	_
+4	nos	yo	_	p	postype=personal|gen=c|num=p|person=1	5	cd	_	_
+5	trae	traer	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	0	sentence	_	_
+6	Jehová	jehová	_	n	postype=proper|gen=c|num=c	5	suj	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	5	ci	_	_
+8	esta	este	_	d	postype=demonstrative|gen=f|num=s	9	spec	_	_
+9	tierra	tierra	_	n	postype=common|gen=f|num=s	7	sn	_	_
+10	para	para	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+11	morir	morir	_	v	postype=main|gen=c|num=c|mood=infinitive	10	S	_	_
+12	a	a	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+13	espada	espada	_	n	postype=common|gen=f|num=s	12	sn	_	_
+14	,	,	_	f	punct=comma	5	f	_	_
+15	y	y	_	c	postype=coordinating	5	coord	_	_
+16	para	para	_	s	postype=preposition|gen=c|num=c	5	S	_	_
+17	que	que	_	c	postype=subordinating	24	conj	_	_
+18	nuestras	nuestro	_	d	postype=possessive|gen=f|num=p|person=1|possessornum=p	19	spec	_	_
+19	mujeres	mujer	_	n	postype=common|gen=f|num=p	24	suj	_	_
+20	y	y	_	c	postype=coordinating	19	coord	_	_
+21	nuestros	nuestro	_	d	postype=possessive|gen=m|num=p|person=1|possessornum=p	22	spec	_	_
+22	niños	niño	_	n	postype=common|gen=m|num=p	19	sn	_	_
+23	se	él	_	p	gen=c|num=c|person=3	24	morfema.pronominal	_	_
+24	conviertan	convertir	_	v	postype=main|gen=c|num=p|person=3|mood=subjunctive|tense=present	16	S	_	_
+25	en	en	_	s	postype=preposition|gen=c|num=c	24	creg	_	_
+26	botín	botín	_	n	postype=common|gen=m|num=s	25	sn	_	_
+27	de	de	_	s	postype=preposition|gen=c|num=c	26	sp	_	_
+28	guerra	guerra	_	n	postype=common|gen=f|num=s	27	sn	_	_
+29	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#197
+#<Números 14:3>b
+# ¿ No nos sería mejor regresar a Egipto ? "
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	4	f	_	_
+2	No	no	_	r	postype=negative	4	mod	_	_
+3	nos	yo	_	p	postype=interrogative|gen=c|num=s	4	suj	_	_
+4	sería	ser	_	v	postype=semiauxiliary|gen=c|num=s|person=3|mood=indicative|tense=conditional	0	sentence	_	_
+5	mejor	mejor	_	a	postype=qualificative|gen=c|num=s	4	atr	_	_
+6	regresar	regresar	_	v	postype=main|gen=c|num=c|mood=infinitive	4	suj	_	_
+7	a	a	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+8	Egipto	egipto	_	n	postype=proper|gen=c|num=c	7	sn	_	_
+9	?	?	_	f	punct=questionmark|punctenclose=close	4	f	_	_
+10	"	"	_	f	punct=quotation	4	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#198
+#<Números 14:11>b-c
+# -- ¿ Hasta cuándo me ha de irritar este pueblo ?
+1	--	--	_	p	_	8	suj	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	8	f	_	_
+3	Hasta	hasta	_	s	postype=preposition|gen=c|num=c	8	cc	_	_
+4	cuándo	cuándo	_	p	postype=interrogative|gen=c|num=c	3	sadv	_	_
+5	me	yo	_	p	postype=personal|gen=c|num=s|person=1	8	ci	_	_
+6	ha	haber	_	v	postype=auxiliary|gen=c|num=s|person=3|mood=indicative|tense=present	8	v	_	_
+7	de	de	_	s	postype=preposition|gen=c|num=c	8	s	_	_
+8	irritar	irritar	_	v	postype=main|gen=c|num=c|mood=infinitive	0	sentence	_	_
+9	este	este	_	d	postype=demonstrative|gen=m|num=s	10	spec	_	_
+10	pueblo	pueblo	_	n	postype=common|gen=m|num=s	8	cd	_	_
+11	?	?	_	f	punct=questionmark|punctenclose=close	8	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# ¿ Hasta cuándo no me creerán , con todas las señales que he hecho en medio de ellos ?
+1	¿	¿	_	f	punct=questionmark|punctenclose=open	6	f	_	_
+2	Hasta	hasta	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+3	cuándo	cuándo	_	p	postype=interrogative|gen=c|num=c	2	sadv	_	_
+4	no	no	_	r	postype=negative	6	mod	_	_
+5	me	yo	_	p	postype=personal|gen=c|num=s|person=1	6	cd	_	_
+6	creerán	creer	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=future	0	sentence	_	_
+7	,	,	_	f	punct=comma	8	f	_	_
+8	con	con	_	s	postype=preposition|gen=c|num=c	6	cc	_	_
+9	todas	todo	_	d	postype=indefinite|gen=f|num=p	10	d	_	_
+10	las	el	_	d	postype=article|gen=f|num=p	11	spec	_	_
+11	señales	señal	_	n	postype=common|gen=f|num=p	8	sn	_	_
+12	que	que	_	p	postype=relative|gen=c|num=c	14	suj	_	_
+13	he	haber	_	v	postype=auxiliary|gen=c|num=s|person=1|mood=indicative|tense=present	14	v	_	_
+14	hecho	hacer	_	v	postype=main|gen=m|num=s|mood=pastparticiple	11	S	_	_
+15	en	en	_	s	postype=preposition|gen=c|num=c	14	cc	_	_
+16	medio	medio	_	n	postype=common|gen=m|num=s	15	sn	_	_
+17	de	de	_	s	postype=preposition|gen=c|num=c	16	sp	_	_
+18	ellos	e	_	p	postype=personal|gen=m|num=p|person=3	17	sn	_	_
+19	?	?	_	f	punct=questionmark|punctenclose=close	6	f	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#199
+#<Números 14:27>a
+# -- ¿ Hasta cuándo soportaré a esta depravada multitud que murmura contra mí ?
+1	--	--	_	r	_	5	et	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Hasta	hasta	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	cuándo	cuándo	_	p	postype=interrogative|gen=c|num=c	3	sadv	_	_
+5	soportaré	soportar	_	v	postype=main|gen=c|num=s|person=1|mood=indicative|tense=future	0	sentence	_	_
+6	a	a	_	s	postype=preposition|gen=c|num=c	5	creg	_	_
+7	esta	este	_	d	postype=demonstrative|gen=f|num=s	9	spec	_	_
+8	depravada	depravado	_	a	postype=qualificative|gen=f|num=s|posfunction=participle	9	S	_	_
+9	multitud	multitud	_	n	postype=common|gen=f|num=s	6	sn	_	_
+10	que	que	_	p	postype=relative|gen=c|num=c	11	suj	_	_
+11	murmura	murmura	_	v	postype=main|gen=c|num=s|person=3|mood=indicative|tense=present	9	S	_	_
+12	contra	contra	_	s	postype=preposition|gen=c|num=c	11	cc	_	_
+13	mí	yo	_	p	postype=personal|gen=c|num=s|person=1|case=oblique	12	sn	_	_
+14	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+ 
+#200
+#<Números 14:41>b
+# -- ¿ Por qué quebrantáis el mandamiento de Jehová ?
+1	--	--	_	r	_	5	cc	_	_
+2	¿	¿	_	f	punct=questionmark|punctenclose=open	5	f	_	_
+3	Por	por	_	s	postype=preposition|gen=c|num=c	5	cc	_	_
+4	qué	qué	_	p	postype=interrogative|gen=c|num=s	3	sn	_	_
+5	quebrantáis	quebrantáis	_	v	postype=main|gen=c|num=p|person=3|mood=indicative|tense=imperfect	0	sentence	_	_
+6	el	el	_	d	postype=article|gen=m|num=s	7	spec	_	_
+7	mandamiento	mandamiento	_	n	postype=common|gen=m|num=s	5	suj	_	_
+8	de	de	_	s	postype=preposition|gen=c|num=c	7	sp	_	_
+9	Jehová	jehová	_	n	postype=proper|gen=c|num=c	8	sn	_	_
+10	?	?	_	f	punct=questionmark|punctenclose=close	5	f	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ

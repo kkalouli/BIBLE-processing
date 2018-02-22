@@ -1,0 +1,1200 @@
+#1
+#<Γεν. 3:9>b
+#Ἀδάμ, ποῦ εἶ; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#2
+#<Γεν. 3:11>b
+#τίς ἀνήγγειλέ σοι ὅτι γυμνὸς εἶ, εἰ μὴ ἀπὸ τοῦ ξύλου, οὗ ἐνετειλάμην σοι τούτου μόνου μὴ φαγεῖν, ἀπ᾿ αὐτοῦ ἔφαγες;
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#3
+#<Γεν. 3:13>b
+#τί τοῦτο ἐποίησας;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#4
+#<Γεν. 4:6>b
+#ἵνα τί περίλυπος ἐγένου, καὶ ἵνα τί συνέπεσε τὸ πρόσωπόν σου;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#5
+#<Γεν. 4:7>a
+#οὐκ ἐὰν ὀρθῶς προσενέγκῃς, ὀρθῶς δὲ μὴ διέλῃς, ἥμαρτες;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#6
+#<Γεν. 4:9>b
+#ποῦ ἐστιν Ἄβελ ὁ ἀδελφός σου;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#7
+#<Γεν. 4:9>c
+#μὴ φύλαξ τοῦ ἀδελφοῦ μου εἰμὶ ἐγώ;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#8
+#<Γεν. 4:10>b
+#τί πεποίηκας;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#9
+#<Γεν. 12:18>b
+#τί τοῦτο ἐποίησάς μοι, ὅτι οὐκ ἀπήγγειλάς μοι, ὅτι γυνή σου ἐστίν;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#10
+#<Γεν. 12:19>a
+#ἱνατί εἶπας ὅτι ἀδελφή μου ἐστί;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#11
+#<Γεν. 13:9>a
+#οὐκ ἰδοὺ πᾶσα ἡ γῆ ἐναντίον σου ἐστί;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#12
+#<Γεν. 15:2>b
+#δέσποτα Κύριε, τί μοι δώσεις;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#13
+#<Γεν. 15:8>a
+#εἶπε δέ, Δέσποτα Κύριε, κατὰ τί γνώσομαι ὅτι κληρονομήσω αὐτήν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#14
+#<Γεν. 16:8>b
+#Ἄγαρ, παιδίσκη Σάρας, πόθεν ἔρχῃ καὶ ποῦ πορεύῃ;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#15
+#<Γεν. 16:13>c
+#καὶ γὰρ ἐνώπιον εἶδον ὀφθέντα μοι.
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#16
+#<Γεν. 17:17>b
+#εἰ τῷ ἑκατονταετεῖ γενήσεται υἱός; καὶ εἰ ἡ Σάῤῥα ἐνενήκοντα ἐτῶν τέξεται;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#17
+#<Γεν. 18:9>b
+#ποῦ Σάῤῥα ἡ γυνή σου; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#18
+#<Γεν. 18:14>a
+#μὴ ἀδυνατήσει παρὰ τῷ Θεῷ ῥῆμα;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#19
+#<Γεν. 18:23>b
+#μὴ συναπολέσῃς δίκαιον μετὰ ἀσεβοῦς καὶ ἔσται ὁ δίκαιος ὡς ὁ ἀσεβής; 
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#20
+#<Γεν. 18:24>a
+#ἐὰν ὦσι πεντήκοντα δίκαιοι ἐν τῇ πόλει, ἀπολεῖς αὐτούς;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#21
+#<Γεν. 18:25>c
+#ὁ κρίνων πᾶσαν τὴν γῆν, οὐ ποιήσεις κρίσιν;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#22
+#<Γεν. 18:28>b
+#ἐὰν δὲ ἐλαττονωθῶσιν οἱ πεντήκοντα δίκαιοι εἰς τεσσαρακονταπέντε, ἀπολεῖς ἕνεκεν τῶν πέντε πᾶσαν τὴν πόλιν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#23
+#<Γεν. 18:30>a
+#μή τι κύριε, ἐὰν λαλήσω;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#24
+#<Γεν. 19:5>b
+#ποῦ εἰσιν οἱ ἄνδρες οἱ εἰσελθόντες πρὸς σὲ τὴν νύκτα;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#25
+#<Γεν. 19:9>d
+#μὴ καὶ κρίσιν κρίνειν;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#26
+#<Γεν. 19:12>b
+#εἰσί σοι ὧδε γαμβροὶ ἢ υἱοὶ ἢ θυγατέρες;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#27
+#<Γεν. 19:20>b
+#οὐ μικρά ἐστι;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#28
+#<Γεν. 20:4>b
+#Κύριε, ἔθνος ἀγνοοῦν καὶ δίκαιον ἀπολεῖς;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#29
+#<Γεν. 20:5>a-b
+#οὐκ αὐτός μοι εἶπεν, ἀδελφή μου ἐστί; καὶ αὕτη μοι εἶπεν, ἀδελφός μου ἐστίν;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#30
+#<Γεν. 20:9>b
+#τί τοῦτο ἐποίησας ἡμῖν;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#31
+#<Γεν. 20:9>c
+#μήτι ἡμάρτομεν εἰς σέ, ὅτι ἐπήγαγες ἐπ᾿ ἐμὲ καὶ ἐπὶ τὴν βασιλείαν μου ἁμαρτίαν μεγάλην;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#32
+#<Γεν. 20:10>b
+#τί ἐνιδὼν ἐποίησας τοῦτο;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#33
+#<Γεν. 21:7>b
+#τίς ἀναγγελεῖ τῷ Ἁβραάμ, ὅτι θηλάζει παιδίον Σάῤῥα;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#34
+#<Γεν. 21:17>b
+#τί ἐστιν Ἄγαρ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#35
+#<Γεν. 21:29>b
+#τί εἰσιν αἱ ἑπτὰ ἀμνάδες τῶν προβάτων τούτων, ἃς ἔστησας μόνας;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#36
+#<Γεν. 22:7>g
+#ποῦ ἐστι τὸ πρόβατον τὸ εἰς ὁλοκάρπωσιν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#37
+#<Γεν. 23:15>a
+#οὐχὶ κύριε, ἀκήκοα γάρ, γῆ τετρακοσίων διδράχμων ἀργυρίου, ἀλλὰ τί ἂν εἴη τοῦτο ἀνὰ μέσον ἐμοῦ καὶ σοῦ;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#38
+#<Γεν. 24:5>c
+#ἀποστρέψω τὸν υἱόν σου εἰς τὴν γῆν, ὅθεν ἐξῆλθες ἐκεῖθεν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#39
+#<Γεν. 24:23>b
+#θυγάτηρ τίνος εἶ;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#40
+#<Γεν. 24:31>d
+#ἱνατί ἕστηκας ἔξω;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#41
+#<Γεν. 24:47>c
+#θυγάτηρ τίνος εἶ;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#42
+#<Γεν. 24:58>b
+#πορεύσῃ μετὰ τοῦ ἀνθρώπου τούτου;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#43
+#<Γεν. 24:65>b
+#τίς ἐστιν ὁ ἄνθρωπος ἐκεῖνος ὁ πορευόμενος ἐν τῷ πεδίῳ εἰς συνάντησιν ἡμῖν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#44
+#<Γεν. 25:22>b
+#εἶπε δέ, εἰ οὕτω μοι μέλλει γίνεσθαι, ἵνα τί μοι τοῦτο;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#45
+#<Γεν. 25:32>b
+#ἰδοὺ ἐγὼ πορεύομαι τελευτᾶν, καὶ ἵνα τί μοι ταῦτα τὰ πρωτοτόκια; 
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#46
+#<Γεν. 26:9>c
+#τί ὅτι εἶπας, ἀδελφή μου ἐστίν;
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#47
+#<Γεν. 26:10>b
+#τί τοῦτο ἐποίησας ἡμῖν;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#48
+#<Γεν. 26:27>b
+#ἵνα τί ἤλθετε πρός με;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#49
+#<Γεν. 27:18>f
+#τίς εἶ σὺ τέκνον;
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#50
+#<Γεν. 27:20>
+#τί τοῦτο, ὃ ταχὺ εὗρες, ὦ τέκνον;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#51
+#<Γεν. 27:24>b
+#σὺ εἶ ὁ υἱός μου Ἡσαῦ;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#52
+#<Γεν. 27:32>b
+#τίς εἶ σύ;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#53
+#<Γεν. 27:33>b
+#τίς οὖν ὁ θηρεύσας μοι θήραν καὶ εἰσενέγκας μοι;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#54
+#<Γεν. 27:36>f
+#οὐχ ὑπελίπου μοι εὐλογίαν, πάτερ;
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#55
+#<Γεν. 27:37>b
+#εἰ κύριον αὐτὸν πεποίηκά σου καὶ πάντας τοὺς ἀδελφούς αὐτοῦ πεποίηκα αὐτοῦ οἰκέτας, σίτῳ καὶ οἴνῳ ἐστήριξα αὐτόν, σοὶ δὲ τί ποιήσω, τέκνον;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#56
+#<Γεν. 27:38>b
+#ὴ εὐλογία μία σοί ἐστι, πάτερ;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#57
+#<Γεν. 27:45>b
+#καὶ ἀποστείλασα μεταπέμψομαί σε ἐκεῖθεν, μή ποτε ἀποτεκνωθῶ ἀπὸ τῶν δύο ὑμῶν ἐν ἡμέρᾳ μιᾷ.
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#58
+#<Γεν. 27:46>c
+#εἰ λήψεται Ἰακὼβ γυναῖκα ἀπὸ τῶν θυγατέρων τῆς γῆς ταύτης, ἵνα τί μοι τὸ ζῆν.
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#59
+#<Γεν. 29:4>b
+#ἀδελφοί, πόθεν ἐστὲ ὑμεῖς;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#60
+#<Γεν. 29:5>b
+#γινώσκετε Λάβαν τὸν υἱὸν Ναχώρ;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#61
+#<Γεν. 29:6>b
+#ὑγιαίνει;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#62
+#<Γεν. 29:15>b
+#ὅτι γὰρ ἀδελφός μου εἶ, οὐ δουλεύσεις μοι δωρεάν·
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#63
+#<Γεν. 29:25>b
+#τί τοῦτο ἐποίησάς μοι;
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#64
+#<Γεν. 29:25>c
+#οὐ περὶ Ῥαχὴλ ἐδούλευσα παρὰ σοί;
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#65
+#<Γεν. 29:25>d
+#καὶ ἱνατί παρελογίσω με;
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#66
+#<Γεν. 30:2>b
+#μὴ ἀντὶ Θεοῦ ἐγώ εἰμι, ὃς ἐστέρησέ σε καρπὸν κοιλίας; 
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#67
+#<Γεν. 30:15>b-c
+#οὐχ ἱκανόν σοι ὅτι ἔλαβες τὸν ἄνδρα μου; μὴ καὶ τοὺς μανδραγόρας τοῦ υἱοῦ μου λήψῃ;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#68
+#<Γεν. 30:30>b
+#νῦν οὖν πότε ποιήσω κἀγὼ ἐμαυτῷ οἶκον;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#69
+#<Γεν. 30:31>b
+#τί σοι δώσω;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#70
+#<Γεν. 31:14>b
+# μή ἐστιν ἡμῖν ἔτι μερὶς ἢ κληρονομία ἐν τῷ οἴκῳ τοῦ πατρὸς ἡμῶν;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#71
+#<Γεν. 31:15>a
+#οὐχ ὡς αἱ ἀλλότριαι λελογίσμεθα αὐτῷ;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#72
+#<Γεν. 31:26>b
+#τί ἐποίησας;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#73
+#<Γεν. 31:26>c
+#ἱνατί κρυφῇ ἀπέδρας καὶ ἐκλοποφόρησάς με καὶ ἀπήγαγες τὰς θυγατέρας μου ὡς αἰχμαλώτιδας μαχαίρᾳ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#74
+#<Γεν. 31:30>c
+#ἱνατί ἔκλεψας τοὺς θεούς μου;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#75
+#<Γεν. 31:36>c
+#τί τὸ ἀδίκημά μου καὶ τί τὸ ἁμάρτημά μου, ὅτι κατεδίωξας ὀπίσω μου
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#76
+#<Γεν. 31:37>a-b
+#τί εὗρες ἀπὸ πάντων τῶν σκευῶν τοῦ οἴκου σου;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#77
+#<Γεν. 31:43>c
+#τί ποιήσω ταύταις σήμερον ἢ τοῖς τέκνοις αὐτῶν, οἷς ἔτεκον; 
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#78
+#<Γεν. 32:17>c
+#τίνος εἶ καὶ ποῦ πορεύῃ, καὶ τίνος ταῦτα τὰ προπορευόμενά σου;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#79
+#<Γεν. 32:27>b
+#τί τὸ ὄνομά σου ἐστίν,
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#80
+#<Γεν. 32:29>d
+#ἱνατί τοῦτο ἐρωτᾶς σὺ τὸ ὄνομά μου;
+#annotation=4;NISQ
+#gold_annotation=ISQ
+
+#81
+#<Γεν. 33:5>b
+#τί ταῦτά σοι ἐστίν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#82
+#<Γεν. 33:8>b
+#τί ταῦτά σοι ἐστί, πᾶσαι αἱ παρεμβολαί αὗται, αἷς ἀπήντηκα;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#83
+#<Γεν. 33:15>d
+#ἱνατί τοῦτο;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#84
+#<Γεν. 34:31>b
+#ἀλλ᾿ ὡσεὶ πόρνῃ χρήσονται τῇ ἀδελφῇ ἡμῶν.
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#85
+#<Γεν. 37:8>b
+#μὴ βασιλεύων βασιλεύσεις ἐφ᾿ ἡμᾶς ἢ κυριεύων κυριεύσεις ἡμῶν;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#86
+#<Γεν. 37:10>b
+#τί τὸ ἐνύπνιον τοῦτο, ὃ ἐνυπνιάσθης;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#87
+#<Γεν. 37:10>c
+#ἆρά γε ἐλθόντες ἐλευσόμεθα ἐγώ τε καὶ ἡ μήτηρ σου καὶ οἱ ἀδελφοί σου προσκυνῆσαί σοι ἐπὶ τὴν γῆν;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#88
+#<Γεν. 37:15>c
+#τί ζητεῖς;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#89
+#<Γεν. 37:26>b
+#τί χρήσιμον, ἐὰν ἀποκτείνωμεν τὸν ἀδελφὸν ἡμῶν καὶ κρύψωμεν τὸ αἷμα αὐτοῦ; 
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#90
+#<Γεν. 37:30>b
+#τὸ παιδάριον οὐκ ἔστιν, ἐγὼ δὲ ποῦ πορεύομαι ἔτι;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#91
+#<Γεν. 38:16>e
+#τί μοι δώσεις, ἐὰν εἰσέλθῃς πρός με;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#92
+#<Γεν. 38:18>b
+#τίνα τὸν ἀῤῥαβῶνά σοι δώσω;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#93
+#<Γεν. 38:21>b
+#οῦ ἐστιν ἡ πόρνη ἡ γενομένη ἐν Αἰνὰν ἐπὶ τῆς ὁδοῦ;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#94
+#<Γεν. 38:29>c
+#τί διεκόπη διὰ σὲ φραγμός;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#95
+#<Γεν. 39:9>a
+#καὶ πῶς ποιήσω τὸ ῥῆμα τὸ πονηρὸν τοῦτο, καὶ ἁμαρτήσομαι ἐναντίον τοῦ Θεοῦ; 
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#96
+#<Γεν. 40:7>b
+#τί ὅτι τὰ πρόσωπα ὑμῶν σκυθρωπὰ σήμερον;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#97
+#<Γεν. 40:8>d
+#οὐχὶ διὰ τοῦ Θεοῦ ἡ διασάφησις αὐτῶν ἐστι;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#98
+#<Γεν. 41:38>b
+#μὴ εὑρήσομεν ἄνθρωπον τοιοῦτον, ὃς ἔχει πνεῦμα Θεοῦ ἐν αὐτῷ;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#99
+#<Γεν. 42:1>b
+#ἱνατί ῥαθυμεῖτε;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#100
+#<Γεν. 42:7>b
+#πόθεν ἥκατε;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#101
+#<Γεν. 42:22>b
+#οὐκ ἐλάλησα ὑμῖν λέγων, μὴ ἀδικήσητε τὸ παιδάριον;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#102
+#<Γεν. 42:28>c
+#τί τοῦτο ἐποίησεν ὁ Θεὸς ἡμῖν;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#103
+#<Γεν. 43:5>b
+#τί ἐκακοποιήσατέ με, ἀναγγείλαντες τῷ ἀνθρώπῳ ὅτι ἐστὶν ὑμῖν ἀδελφός;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#104
+#<Γεν. 43:6>c
+#εἰ ἔτι ὁ πατὴρ ὑμῶν ζῇ καὶ εἰ ἔστιν ὑμῖν ἀδελφός;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#105
+#<Γεν. 43:6>f
+#ἀγάγετε τὸν ἀδελφὸν ὑμῶν;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#106
+#<Γεν. 43:26>c
+#εἰ ὑγιαίνει ὁ πατὴρ ὑμῶν ὁ πρεσβύτης, ὃν εἴπατε;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#107
+#<Γεν. 43:28>b
+#οὗτος ὁ ἀδελφὸς ὑμῶν ὁ νεώτερος, ὃν εἴπατε πρός με ἀγαγεῖν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#108
+#<Γεν. 44:4>d
+#τί ὅτι ἀνταπεδώκατε πονηρὰ ἀντὶ καλῶν; ἱνατί ἐκλέψατέ μου τὸ κόνδυ τὸ ἀργυροῦν;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#109
+#<Γεν. 44:5>a
+#οὐ τοῦτό ἐστιν, ἐν ᾧ πίνει ὁ κύριός μου;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#110
+#<Γεν. 44:7>b
+#ἱνατί λαλεῖ ὁ κύριος κατὰ τὰ ῥήματα ταῦτα;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#111
+#<Γεν. 44:8>a
+#πῶς ἂν κλέψαιμεν ἐκ τοῦ οἴκου τοῦ κυρίου σου ἀργύριον ἢ χρυσίον; 
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#112
+#<Γεν. 44:15>b
+#τί τὸ πρᾶγμα τοῦτο ἐποιήσατε;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#113
+#<Γεν. 44:15>c
+#οὐκ οἴδατε ὅτι οἰωνισμῷ οἰωνιεῖται ὁ ἄνθρωπος, οἷος ἐγώ;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#114
+#<Γεν. 44:16>b
+#τί ἀντεροῦμεν τῷ κυρίῳ, ἢ τί λαλήσομεν, ἢ τί δικαιωθῶμεν;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#115
+#<Γεν. 44:19>b
+#εἰ ἔχετε πατέρα ἢ ἀδελφόν; 
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#116
+#<Γεν. 44:34>a
+#πῶς γὰρ ἀναβήσομαι πρὸς τὸν πατέρα, τοῦ παιδίου μὴ ὄντος μεθ᾿ ἡμῶν;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#117
+#<Γεν. 45:3>c
+#ἔτι ὁ πατήρ μου ζῇ;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#118
+#Γεν. 46:33>b
+#τί τὸ ἔργον ὑμῶν ἐστίν; 
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#119
+#<Γεν. 47:3>b
+#τί τὸ ἔργον ὑμῶν;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#120
+#<Γεν. 47:8>b
+#πόσα ἔτη ἡμερῶν τῆς ζωῆς σου; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#121
+#<Γεν. 47:15>c
+#δὸς ἡμῖν ἄρτους, καὶ ἱνατί ἀποθνήσκομεν ἐναντίον σου;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#122
+#<Γεν. 47:19>a
+#ἵνα οὖν μὴ ἀποθάνωμεν ἐναντίον σου καὶ ἡ γῆ ἐρημωθῇ,
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#123
+#<Γεν. 48:8>b
+#τίνες σοι οὗτοι; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#124
+#<Γεν. 49:9>c
+#τίς ἐγερεῖ αὐτόν;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#125
+#<Γεν. 50:19>b
+#μὴ φοβεῖσθε, τοῦ γὰρ Θεοῦ εἰμι ἐγώ. 
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#126
+#<Εξ. 1:18>b
+# τί ὅτι ἐποιήσατε τὸ πρᾶγμα τοῦτο καὶ ἐζωογονεῖτε τὰ ἄρσενα;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#127
+#<Εξ. 2:7>b
+#θέλεις καλέσω σοι γυναῖκα τροφεύουσαν ἐκ τῶν Ἑβραίων καὶ θηλάσει σοι τὸ παιδίον; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#128
+#<Εξ. 2:13>b
+#διὰ τί σὺ τύπτεις τὸν πλησίον;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#129
+#<Εξ. 2:14>b
+#τίς σε κατέστησεν ἄρχοντα καὶ δικαστὴν ἐφ᾿ ἡμῶν;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#130
+#<Εξ. 2:14>c
+#μὴ ἀνελεῖν με σὺ θέλεις, ὃν τρόπον ἀνεῖλες χθὲς τὸν Αἰγύπτιον;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#131
+#<Εξ. 2:18>c
+#διατί ἐταχύνατε τοῦ παραγενέσθαι σήμερον; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#132
+#<Εξ. 2:20>b
+#καὶ ποῦ ἐστι;
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#133
+#<Εξ. 2:20>c
+#καὶ ἱνατί οὕτως καταλελοίπατε τὸν ἄνθρωπον;
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#134
+#<Εξ. 3:11>b
+#τίς εἰμι ἐγώ, ὅτι πορεύσομαι πρὸς Φαραὼ βασιλέα Αἰγύπτου, καὶ ὅτι ἐξάξω τοὺς υἱοὺς Ἰσραὴλ ἐκ γῆς Αἰγύπτου;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#135
+#<Εξ. 3:13>e
+#τί ὄνομα αὐτῷ;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#136
+#<Εξ. 3:13>f
+#τί ἐρῶ πρὸς αὐτούς;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#137
+#<Εξ. 4:1>b
+#ὰν μὴ πιστεύσωσί μοι, μηδὲ εἰσακούσωσι τῆς φωνῆς μου, ἐροῦσι γάρ, ὅτι οὐκ ὦπταί σοι ὁ Θεός, τί ἐρῶ πρὸς αὐτούς;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#138
+#<Εξ. 4:2>b
+#τί τοῦτό ἐστι τὸ ἐν τῇ χειρί σου;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#139
+#<Εξ. 4:11>b
+#τίς ἔδωκε στόμα ἀνθρώπῳ, καὶ τίς ἐποίησε δύσκωφον καὶ κωφόν, βλέποντα καὶ τυφλόν;
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+#140
+#<Εξ. 4:11>c
+#οὐκ ἐγὼ ὁ Θεός;
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+#141
+#<Εξ. 4:14>b
+#οὐκ ἰδοὺ Ἀαρὼν ὁ ἀδελφός σου ὁ Λευΐτης;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#142
+#<Εξ. 5:2>b
+#τίς ἐστιν οὗ εἰσακούσομαι τῆς φωνῆς αὐτοῦ, ὥστε ἐξαποστεῖλαι τοὺς υἱοὺς Ἰσραήλ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#143
+#<Εξ. 5:4>b
+#ἱνατί Μωυσῆ καὶ Ἀαρὼν διαστρέφετε τὸν λαὸν ἀπὸ τῶν ἔργων;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#144
+#<Εξ. 5:5>b
+#μὴ οὖν καταπαύσωμεν αὐτοὺς ἀπὸ τῶν ἔργων.
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#145
+#<Εξ. 5:14>b
+#διατί οὐ συνετελέσατε τὰς συντάξεις ὑμῶν τῆς πλινθείας καθάπερ χθὲς καὶ τρίτην ἡμέραν, καὶ τὸ τῆς σήμερον; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#146
+#<Εξ. 5:15>b
+#ἱνατί σὺ οὕτως ποιεῖς τοῖς σοῖς οἰκέταις;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#147
+#<Εξ. 5:22>b
+#τί ἐκάκωσας τὸν λαὸν τοῦτον;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#148
+#<Εξ. 5:22>c
+#καὶ ἱνατί ἀπέσταλκάς με; 
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#149
+#<Εξ. 6:12>b
+#δοὺ οἱ υἱοὶ Ἰσραὴλ οὐκ εἰσήκουσάν μου, καὶ πῶς εἰσακούσεταί μου Φαραώ;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#150
+#<Εξ. 6:30>b
+#ἰδοὺ ἐγὼ ἰσχνόφωνός εἰμι, καὶ πῶς εἰσακούσεταί μου Φαραώ.
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#151
+#<Εξ. 9:17>a
+#ἔτι οὖν σὺ ἐμποιῇ τοῦ λαοῦ μου τοῦ μὴ ἐξαποστεῖλαι αὐτούς;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#152
+#<Εξ. 10:3>c
+#ἕως τίνος οὐ βούλῃ ἐντραπῆναί με;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#153
+#<Εξ. 10:7>b
+#ἕως τίνος ἔσται τοῦτο ἡμῖν σκῶλον;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#154
+#<Εξ. 10:7>d
+#ἢ εἰδέναι βούλῃ ὅτι ἀπόλωλεν Αἴγυπτος;
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#155
+#<Εξ. 10:8>c
+#τίνες δὲ καὶ τίνες εἰσὶν οἱ πορευόμενοι;
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#156
+#<Εξ. 10:10>c
+#καθότι ἀποστέλλω ὑμᾶς, μὴ καὶ τὴν ἀποσκευὴν ὑμῶν;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#157
+#<Εξ. 12:26>b
+#τίς ἡ λατρεία αὕτη; 
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#158
+#<Εξ. 13:14>b
+#τί τοῦτο;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#159
+#<Εξ. 14:5>c
+#τί τοῦτο ἐποιήσαμεν τοῦ ἐξαποστεῖλαι τοὺς υἱοὺς Ἰσραήλ, τοῦ μὴ δουλεύειν ἡμῖν;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#160
+#<Εξ. 14:11>b
+#παρὰ τὸ μὴ ὑπάρχειν μνήματα ἐν γῇ Αἰγύπτῳ ἐξήγαγες ἡμᾶς θανατῶσαι ἐν τῇ ἐρήμῳ;
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#161
+#<Εξ. 14:11>c
+#τί τοῦτο ἐποίησας ἡμῖν ἐξαγαγὼν ἐξ Αἰγύπτου;
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#162
+#<Εξ. 14:15>b
+#τί βοᾷς πρός με;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#163
+#<Εξ. 15:11>a
+#τίς ὅμοιός σοι ἐν θεοῖς, Κύριε;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#164
+#<Εξ. 15:11>b
+#τίς ὅμοιός σοι, δεδοξασμένος ἐν ἁγίοις, θαυμαστὸς ἐν δόξαις, ποιῶν τέρατα.
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#165
+#<Εξ. 15:24>b
+#τί πιόμεθα;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#166
+#<Εξ. 16:7>b
+#ἡμεῖς δὲ τί ἐσμεν ὅτι διαγογγύζετε καθ᾿ ἡμῶν;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#167
+#<Εξ. 16:8>c
+#ἡμεῖς δὲ τί ἐσμεν;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#168
+#<Εξ. 16:15>b
+#τί ἐστι τοῦτο;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#169
+#<Εξ. 16:28>b
+#ἕως τίνος οὐ βούλεσθε εἰσακούειν τὰς ἐντολάς μου καὶ τὸν νόμον μου;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#170
+#<Εξ. 17:2>c
+#τί λοιδορεῖσθέ μοι, καὶ τί πειράζετε Κύριον;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#171
+#<Εξ. 17:3>b
+#ἀνεβίβασας ἡμᾶς ἐξ Αἰγύπτου ἀποκτεῖναι ἡμᾶς καὶ τὰ τέκνα ἡμῶν καὶ τὰ κτήνη τῷ δίψει;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#172
+#<Εξ. 17:4>b
+#τί ποιήσω τῷ λαῷ τούτῳ;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#173
+#<Εξ. 17:7>b
+#εἰ ἔστι Κύριος ἐν ἡμῖν ἢ οὔ;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#174
+#<Εξ. 18:14>b
+#τί τοῦτο, ὃ σὺ ποιεῖς τῷ λαῷ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#175
+#<Εξ. 18:14>c
+#διατί σὺ κάθησαι μόνος, πᾶς δὲ ὁ λαὸς παρέστηκέ σοι ἀπὸ πρωΐθεν ἕως δείλης;
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#176
+#<Εξ. 22:27>b
+#ἐν τίνι κοιμηθήσεται;
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#177
+#<Εξ. 32:11>b
+#ἱνατί, Κύριε, θυμοῖ ὀργῇ εἰς τὸν λαόν σου, οὓς ἐξήγαγες ἐκ γῆς Αἰγύπτου ἐν ἰσχύϊ μεγάλῃ καὶ ἐν τῷ βραχίονί σου τῷ ὑψηλῷ; 
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#178
+#<Εξ. 32:21>b
+# τί ἐποίησέ σοι ὁ λαὸς οὗτος, ὅτι ἐπήγαγες ἐπ᾿ αὐτοὺς ἁμαρτίαν μεγάλην;
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#179
+#<Εξ. 33:16>a
+#καὶ πῶς γνωστὸν ἔσται ἀληθῶς, ὅτι εὕρηκα χάριν παρὰ σοί, ἐγώ τε καὶ ὁ λαός σου, ἀλλ᾿ ἢ συμπορευομένου σου μεθ᾿ ἡμῶν;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#180
+#<Λευ. 10:17>a
+#διατί οὐκ ἐφάγετε τὸ περὶ τῆς ἁμαρτίας ἐν τόπῳ ἁγίῳ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#181
+#<Λευ. 10:19>c
+#καὶ φάγομαι τὰ περί τῆς ἁμαρτίας σήμερον, μὴ ἀρεστὸν ἔσται Κυρίῳ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#182
+#<Λευ. 25:20>a
+#ἐὰν δὲ λέγητε, τί φαγόμεθα ἐν τῷ ἔτει τῷ ἑβδόμῳ τούτῳ, ἐὰν μὴ σπείρωμεν μηδὲ συναγάγωμεν τὰ γενήματα ἡμῶν;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#183
+#<Αρ. 9:7> b
+#ἡμεῖς ἀκάθαρτοι ἐπὶ ψυχῇ ἀνθρώπου, μὴ οὖν ὑστερήσωμεν προσενέγκαι τὸ δῶρον Κυρίῳ κατὰ καιρὸν αὐτοῦ ἐν μέσῳ υἱῶν Ἰσραήλ; 
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#184
+#<Αρ. 11:11>b
+#ἱνατί ἐκάκωσας τὸν θεράποντά σου, καὶ διατί οὐχ εὕρηκα χάριν ἐναντίον σου, ἐπιθεῖναι τὴν ὁρμὴν τοῦ λαοῦ τούτου ἐπ᾿ ἐμέ;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#185
+#<Αρ. 11:12>a
+#μὴ ἐγὼ ἐν γαστρὶ ἔλαβον πάντα τὸν λαὸν τοῦτον, ἢ ἐγὼ ἔτεκον αὐτούς, ὅτι λέγεις μοι, λάβε αὐτὸν εἰς τὸν κόλπον σου, ὡσεὶ ἄραι τιθηνὸς τὸν θηλάζοντα, εἰς τὴν γῆν ἣν ὤμοσας τοῖς πατράσιν αὐτῶν; 
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#186
+#<Αρ. 11:13>a
+#πόθεν μοι κρέα δοῦναι παντὶ τῷ λαῷ τούτῳ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#187
+#<Αρ. 11:20>c
+#ἱνατί ἡμῖν ἐξελθεῖν ἐξ Αἰγύπτου;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#188
+#<Αρ. 11:22>a
+#μὴ πρόβατα καὶ βόες σφαγήσονται αὐτοῖς, καὶ ἀρκέσει αὐτοῖς;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#189
+#<Αρ. 11:22>b
+#ἢ πᾶν τὸ ὄψος τῆς θαλάσσης συναχθήσεται αὐτοῖς, καὶ ἀρκέσει αὐτοῖς;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#190
+#<Αρ. 11:23>b
+#μὴ χεὶρ Κυρίου οὐκ ἐξαρκέσει;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#191
+#<Αρ. 11:29>b
+#μὴ ζηλοῖς ἐμέ;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#192
+#<Αρ. 12:2>b 
+#μὴ Μωυσῇ μόνῳ λελάληκε Κύριος; 
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#193
+#<Αρ. 12:2>c
+#οὐχὶ καὶ ἡμῖν ἐλάλησε;
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#194
+#<Αρ. 12:8>b
+#καὶ διατί οὐκ ἐφοβήθητε καταλαλῆσαι κατὰ τοῦ θεράποντός μου Μωυσῆ;
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#195
+#<Αρ. 12:14>b
+#εἰ ὁ πατὴρ αὐτῆς πτύων ἐνέπτυσεν εἰς τὸ πρόσωπον αὐτῆς, οὐκ ἐντραπήσεται ἑπτὰ ἡμέρας;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#196
+#<Αρ. 14:3>a-b
+#καὶ ἱνατί Κύριος εἰσάγει ἡμᾶς εἰς τὴν γῆν ταύτην πεσεῖν ἐν πολέμῳ; αἱ γυναῖκες ἡμῶν καὶ τὰ παιδία ἔσονται εἰς διαρπαγήν·
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#197
+#<Αρ. 14:3>c
+#νῦν οὖν βέλτιον ἡμῖν ἐστιν ἀποστραφῆναι εἰς Αἴγυπτον.
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#198
+#<Αρ. 14:11>b
+#ἕως τίνος παροξύνει με ὁ λαὸς οὗτος καὶ ἕως τίνος οὐ πιστεύουσί μοι ἐπὶ πᾶσι τοῖς σημείοις, οἷς ἐποίησα ἐν αὐτοῖς;
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#199
+#<Αρ. 14:27>a
+#ἕως τίνος τὴν συναγωγὴν τὴν πονηρὰν ταύτην;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#200
+#<Αρ. 14:41>b
+#ἱνατί ὑμεῖς παραβαίνετε τὸ ῥῆμα Κυρίου;
+#annotation=1;NISQ
+#gold_annotation=NISQ
+			

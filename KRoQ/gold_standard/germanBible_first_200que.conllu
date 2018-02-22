@@ -1,0 +1,3670 @@
+#1
+#<Gen 3:9>b
+# Wo bist du ?
+1	Wo	wo	_	PWAV	_	2	MO	_	_
+2	bist	sein	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|neut|3	2	SB	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#2
+#<Gen 3:11>b-c
+# Wer hat dir gesagt , dass du nackt bist ?
+1	Wer	wer	_	PWS	nom|sg|*	2	SB	_	_
+2	hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	dir	dir	_	PPER	dat|sg|*|2	4	DA	_	_
+4	gesagt	sagen	_	VVPP	_	2	OC	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	dass	daß	_	KOUS	_	9	CP	_	_
+7	du	du	_	PPER	nom|sg|*|2	9	SB	_	_
+8	nackt	nackt	_	ADJD	pos	9	PD	_	_
+9	bist	sein	_	VAFIN	sg|2|pres|ind	4	OC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+# Hast du von dem Baum gegessen , von dem zu essen ich dir verboten habe ?
+1	Hast	hast	_	VAFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	von	von	_	APPR	_	6	SBP	_	_
+4	dem	der	_	ART	dat|sg|masc	5	NK	_	_
+5	Baum	Baum	_	NN	dat|sg|masc	3	NK	_	_
+6	gegessen	gegessen	_	VVPP	_	1	OC	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	von	von	_	APPR	_	11	OP	_	_
+9	dem	der	_	PRELS	dat|sg|neut	8	NK	_	_
+10	zu	zu	_	PTKZU	_	11	PM	_	_
+11	essen	essen	_	VVINF	_	5	OC	_	_
+12	ich	ich	_	PPER	nom|sg|*|1	15	SB	_	_
+13	dir	dir	_	PPER	dat|sg|*|2	14	DA	_	_
+14	verboten	verbieten	_	VVPP	_	15	OC	_	_
+15	habe	haben	_	VAFIN	sg|3|pres|subj	1	RC	_	_
+16	?	--	_	$.	_	15	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#3
+#<Gen 3:13>b
+# Was hast du da getan ?
+1	Was	was	_	PWS	nom|sg|neut	5	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	NE	nom|sg|*|2	2	SB	_	_
+4	da	da	_	ADV	_	5	MO	_	_
+5	getan	tun	_	VVPP	_	2	OC	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#4
+#<Gen 4:6>b
+# Warum überläuft es dich heiß und warum senkt sich dein Blick ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	überläuft	überlaufen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	es	es	_	PPER	nom|sg|neut|3	2	SB	_	_
+4	dich	dich	_	PPER	dat|sg|3	2	DA	_	_
+5	heiß	heiß	_	ADJD	pos	2	MO	_	_
+6	und	und	_	KON	_	2	CD	_	_
+7	warum	warum	_	PWAV	_	8	MO	_	_
+8	senkt	senken	_	VVFIN	sg|3|pres|ind	6	CJ	_	_
+9	sich	sich	_	PRF	acc|sg|3	8	OA	_	_
+10	dein	dein	_	PPOSAT	nom|sg|masc	11	NK	_	_
+11	Blick	Blick	_	NN	nom|sg|masc	8	SB	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#5
+#<Gen 4:7>a
+# Nicht wahr , wenn du recht tust , darfst du aufblicken ;
+1	Nicht	nicht	_	PTKNEG	_	2	NG	_	_
+2	wahr	wahr	_	ADJD	pos	9	MO	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	wenn	wenn	_	KOUS	_	7	CP	_	_
+5	du	du	_	PPER	nom|sg|*|2	7	SB	_	_
+6	recht	Recht	_	NN	acc|sg|neut	7	OA	_	_
+7	tust	tun	_	VVFIN	sg|2|pres|ind	2	MO	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	darfst	darfen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+10	du	du	_	PPER	nom|sg|*|2	9	SB	_	_
+11	aufblicken	aufblicken	_	VVINF	_	9	OC	_	_
+12	;	--	_	$.	_	11	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#6
+#<Gen 4:9>b
+# Wo ist dein Bruder Abel ?
+1	Wo	wo	_	PWAV	_	2	PD	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	dein	dein	_	PPOSAT	nom|sg|masc	4	NK	_	_
+4	Bruder	Bruder	_	NN	nom|sg|masc	2	SB	_	_
+5	Abel	Abel	_	NE	nom|sg|masc	4	NK	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#7
+#<Gen 4:9>e
+# Bin ich der Hüter meines Bruders ?
+1	Bin	sein	_	VAFIN	sg|1|pres|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	der	der	_	ART	nom|sg|masc	4	NK	_	_
+4	Hüter	Hüter	_	NN	nom|sg|masc	1	PD	_	_
+5	meines	mein	_	PPOSAT	gen|sg|masc	6	NK	_	_
+6	Bruders	Bruder	_	NN	gen|sg|masc	4	AG	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#8
+#<Gen 4:10>b
+# Was hast du getan ?
+1	Was	was	_	PWS	acc|sg|neut	4	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	getan	tun	_	VVPP	_	2	OC	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#9
+#<Gen 12:18>b-c
+# Was hast du mir da angetan ?
+1	Was	was	_	PWS	nom|sg|neut	6	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mir	sich	_	PPER	dat|sg|*|1	6	DA	_	_
+5	da	da	_	ADV	_	6	MO	_	_
+6	angetan	antun	_	VVPP	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Warum hast du mir nicht gesagt , dass sie deine Frau ist ?
+1	Warum	warum	_	PWAV	_	6	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mir	sich	_	PPER	dat|sg|*|1	6	DA	_	_
+5	nicht	nicht	_	PTKNEG	_	6	NG	_	_
+6	gesagt	sagen	_	VVPP	_	2	OC	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	dass	dass	_	KOUS	_	12	CP	_	_
+9	sie	sie	_	PPER	nom|sg|fem|3	12	SB	_	_
+10	deine	dein	_	PPOSAT	nom|sg|fem	11	NK	_	_
+11	Frau	Frau	_	NN	nom|sg|fem	12	PD	_	_
+12	ist	sein	_	VAFIN	sg|3|pres|ind	6	MO	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#10
+#<Gen 12:19>a
+# Warum hast du behauptet , sie sei deine Schwester , sodass ich sie mir zur Frau nahm ?
+1	Warum	warum	_	PWAV	_	4	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	NE	nom|sg|*|2	2	SB	_	_
+4	behauptet	behaupten	_	VVPP	_	2	OC	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	sie	sie	_	PPER	nom|sg|fem|3	7	SB	_	_
+7	sei	sein	_	VAFIN	sg|3|pres|subj	4	OC	_	_
+8	deine	dein	_	PPOSAT	nom|sg|fem	9	NK	_	_
+9	Schwester	Schwester	_	NN	nom|sg|fem	7	PD	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	sodass	sodass	_	KOUS	_	17	CP	_	_
+12	ich	ich	_	PPER	nom|sg|*|1	17	SB	_	_
+13	sie	sie	_	PPER	acc|pl|masc|3	17	OA	_	_
+14	mir	sich	_	PPER	dat|sg|*|1	17	DA	_	_
+15	zur	zu	_	APPRART	dat|sg|fem	17	MO	_	_
+16	Frau	Frau	_	NN	dat|sg|fem	15	NK	_	_
+17	nahm	nehmen	_	VVFIN	sg|3|past|ind	7	MO	_	_
+18	?	--	_	$.	_	17	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#11
+#<Gen 13:9>a
+# Liegt nicht das ganze Land vor dir ?
+1	Liegt	liegen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+3	das	der	_	ART	acc|sg|neut	5	NK	_	_
+4	ganze	ganz	_	ADJA	acc|sg|neut|pos	5	NK	_	_
+5	Land	Land	_	NN	acc|sg|neut	1	OA	_	_
+6	vor	vor	_	APPR	_	1	MO	_	_
+7	dir	dir	_	PPER	dat|sg|*|2	6	NK	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#12
+#<Gen 15:2>b
+# Herr , mein Herr , was willst du mir schon geben ?
+1	Herr	Herr	_	NN	nom|sg|masc	11	OA	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	mein	mein	_	PPOSAT	nom|sg|masc	4	NK	_	_
+4	Herr	Herr	_	NN	nom|sg|masc	1	CJ	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	was	was	_	PWS	nom|sg|neut	1	NK	_	_
+7	willst	wollen	_	VMFIN	sg|2|pres|ind	0	--	_	_
+8	du	du	_	PPER	nom|sg|*|2	7	SB	_	_
+9	mir	sich	_	PPER	dat|sg|*|1	11	DA	_	_
+10	schon	schon	_	ADV	_	7	MO	_	_
+11	geben	geben	_	VVINF	_	7	OC	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#13
+#<Gen 15:8>b
+# Herr , mein Herr , woran soll ich erkennen , dass ich es zu Eigen bekomme ?
+1	Herr	Herr	_	NN	nom|sg|masc	0	--	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	mein	mein	_	PPOSAT	nom|sg|masc	4	NK	_	_
+4	Herr	Herr	_	NN	nom|sg|masc	1	CJ	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	woran	woran	_	ADV	_	7	MO	_	_
+7	soll	sollen	_	VMFIN	sg|1|pres|ind	4	OC	_	_
+8	ich	ich	_	PPER	nom|sg|*|1	7	SB	_	_
+9	erkennen	erkennen	_	VVINF	_	7	OC	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	dass	daß	_	KOUS	_	16	CP	_	_
+12	ich	ich	_	PPER	nom|sg|*|1	16	SB	_	_
+13	es	es	_	PPER	acc|sg|neut|3	16	OA	_	_
+14	zu	zu	_	APPR	_	16	MO	_	_
+15	Eigen	eigen	_	NN	dat|pl|*	14	NK	_	_
+16	bekomme	bekommen	_	VVFIN	sg|3|pres|subj	9	OC	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#14
+#<Gen 16:8>b
+# Hagar , Magd Sarais , woher kommst du und wohin gehst du ?
+1	Hagar	Hagar	_	NE	nom|sg|masc	0	--	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	Magd	Magd	_	NE	nom|sg|masc	4	PNC	_	_
+4	Sarais	Sarais	_	NE	nom|sg|masc	1	APP	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	woher	woher	_	PWAV	_	7	MO	_	_
+7	kommst	kommst	_	VVFIN	sg|2|pres|ind	1	RC	_	_
+8	du	du	_	PPER	nom|sg|*|2	7	SB	_	_
+9	und	und	_	KON	_	7	CD	_	_
+10	wohin	wohin	_	ADV	_	11	MO	_	_
+11	gehst	gehen	_	VVFIN	sg|2|pres|ind	9	CJ	_	_
+12	du	du	_	PPER	nom|sg|*|2	11	SB	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#15
+#<Gen 16:13>d
+# Habe ich hier nicht nach dem geschaut , der nach mir schaut ?
+1	Habe	haben	_	VAFIN	sg|1|pres|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	hier	hier	_	ADV	_	7	MO	_	_
+4	nicht	nicht	_	PTKNEG	_	7	NG	_	_
+5	nach	nach	_	APPR	_	7	MO	_	_
+6	dem	der	_	PDS	dat|sg|neut	5	NK	_	_
+7	geschaut	schauen	_	VVPP	_	1	OC	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	der	der	_	PRELS	nom|sg|masc	12	SB	_	_
+10	nach	nach	_	APPR	_	12	MO	_	_
+11	mir	sich	_	PPER	dat|sg|*|1	10	NK	_	_
+12	schaut	schauen	_	VVFIN	sg|3|pres|ind	6	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#16
+#<Gen 17:17>c
+# Können einem Hundertjährigen noch Kinder geboren werden und kann Sara als Neunzigjährige noch gebären ?
+1	Können	können	_	VMFIN	pl|3|pres|ind	0	--	_	_
+2	einem	ein	_	ART	dat|sg|masc	3	NK	_	_
+3	Hundertjährigen	hundertjährig	_	NN	dat|sg|masc	6	DA	_	_
+4	noch	noch	_	ADV	_	6	MO	_	_
+5	Kinder	Kind	_	NN	nom|pl|neut	1	SB	_	_
+6	geboren	gebären	_	VVPP	_	7	OC	_	_
+7	werden	werden	_	VAINF	_	1	OC	_	_
+8	und	und	_	KON	_	1	CD	_	_
+9	kann	können	_	VMFIN	sg|3|pres|ind	8	CJ	_	_
+10	Sara	Sara	_	NE	nom|sg|*	9	SB	_	_
+11	als	als	_	APPR	_	9	MO	_	_
+12	Neunzigjährige	neunzigjährige	_	NN	nom|pl|*	11	NK	_	_
+13	noch	noch	_	ADV	_	14	MO	_	_
+14	gebären	gebären	_	VVINF	_	9	OC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#17
+#<Gen 18:9>b
+# Wo ist deine Frau Sara ?
+1	Wo	wo	_	PWAV	_	2	PD	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	deine	dein	_	PPOSAT	nom|sg|fem	4	NK	_	_
+4	Frau	Frau	_	NN	nom|sg|fem	2	SB	_	_
+5	Sara	Sara	_	NE	nom|sg|fem	4	NK	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#18
+#<Gen 18:14>a
+# Ist beim Herrn etwas unmöglich ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	beim	bei	_	APPRART	dat|sg|masc	1	MO	_	_
+3	Herrn	Herr	_	NN	dat|sg|masc	2	NK	_	_
+4	etwas	etwas	_	ADV	_	1	MO	_	_
+5	unmöglich	unmöglich	_	ADJD	pos	1	PD	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#19
+#<Gen 18:23>b
+# Willst du auch den Gerechten mit den Ruchlosen wegraffen ?
+1	Willst	willst	_	VAFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	auch	auch	_	ADV	_	5	MO	_	_
+4	den	der	_	ART	dat|pl|neut	5	NK	_	_
+5	Gerechten	Gerecht	_	NN	dat|pl|neut	9	OA	_	_
+6	mit	mit	_	APPR	_	9	MO	_	_
+7	den	der	_	ART	dat|pl|masc	8	NK	_	_
+8	Ruchlosen	ruchlose	_	NN	dat|pl|masc	6	NK	_	_
+9	wegraffen	wegraffen	_	VVINF	_	1	OC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#20
+#<Gen 18:24>b
+# Willst du auch sie wegraffen und nicht doch dem Ort vergeben wegen der fünfzig Gerechten dort ?
+1	Willst	willst	_	VMFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	auch	auch	_	ADV	_	4	MO	_	_
+4	sie	sie	_	PPER	nom|pl|*|3	5	SB	_	_
+5	wegraffen	wegraffen	_	VVFIN	pl|3|pres|ind	1	OC	_	_
+6	und	und	_	KON	_	5	CD	_	_
+7	nicht	nicht	_	PTKNEG	_	11	NG	_	_
+8	doch	doch	_	ADV	_	11	MO	_	_
+9	dem	der	_	ART	dat|sg|masc	10	NK	_	_
+10	Ort	Ort	_	NN	dat|sg|masc	11	DA	_	_
+11	vergeben	vergeben	_	VVPP	_	6	CJ	_	_
+12	wegen	wegen	_	APPR	_	11	MO	_	_
+13	der	der	_	ART	*|sg|fem	15	NK	_	_
+14	fünfzig	fünfzig	_	CARD	_	15	NK	_	_
+15	Gerechten	Gerecht	_	NN	gen|pl|fem	12	NK	_	_
+16	dort	dort	_	ADV	_	15	MNR	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#21
+#<Gen 18:25>d
+# Sollte sich der Richter über die ganze Erde nicht an das Recht halten ?
+1	Sollte	sollen	_	VMFIN	sg|3|past|subj	0	--	_	_
+2	sich	sich	_	PRF	acc|sg|3	13	OA	_	_
+3	der	der	_	ART	nom|sg|masc	4	NK	_	_
+4	Richter	Richter	_	NN	nom|sg|masc	1	SB	_	_
+5	über	über	_	APPR	_	4	MNR	_	_
+6	die	der	_	ART	acc|sg|fem	8	NK	_	_
+7	ganze	ganz	_	ADJA	acc|sg|fem|pos	8	NK	_	_
+8	Erde	Erde	_	NN	acc|sg|fem	5	NK	_	_
+9	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+10	an	an	_	APPR	_	13	MO	_	_
+11	das	der	_	ART	acc|sg|neut	12	NK	_	_
+12	Recht	Recht	_	NN	acc|sg|neut	10	NK	_	_
+13	halten	halten	_	VVINF	_	1	OC	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#22
+#<Gen 18:28>b
+# Wirst du wegen der fünf die ganze Stadt vernichten ?
+1	Wirst	wirst	_	VAFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	wegen	wegen	_	APPR	_	9	MO	_	_
+4	der	der	_	ART	*|sg|fem	8	NK	_	_
+5	fünf	fünf	_	CARD	_	8	NMC	_	_
+6	die	der	_	ART	acc|sg|fem	8	NK	_	_
+7	ganze	ganz	_	ADJA	acc|sg|fem|pos	8	NK	_	_
+8	Stadt	Stadt	_	NN	acc|sg|fem	3	NK	_	_
+9	vernichten	vernichten	_	VVINF	_	1	OC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#23
+#<Gen 18:30>b
+# Mein Herr zürne nicht , wenn ich weiterrede .
+1	Mein	mein	_	PPOSAT	nom|sg|masc	2	NK	_	_
+2	Herr	Herr	_	NN	nom|sg|masc	3	SB	_	_
+3	zürne	zürne	_	VVFIN	_	0	--	_	_
+4	nicht	nicht	_	PTKNEG	_	3	NG	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	wenn	wenn	_	KOUS	_	8	CP	_	_
+7	ich	ich	_	PPER	nom|sg|*|1	8	SB	_	_
+8	weiterrede	weiterreden	_	VVFIN	sg|1|pres|ind	3	MO	_	_
+9	.	--	_	$.	_	8	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#24
+#<Gen 19:5>b
+# Wo sind die Männer , die heute Abend zu dir gekommen sind ?
+1	Wo	wo	_	PWAV	_	2	PD	_	_
+2	sind	sein	_	VAFIN	pl|3|pres|ind	0	--	_	_
+3	die	der	_	ART	nom|pl|masc	4	NK	_	_
+4	Männer	Mann	_	NN	nom|pl|masc	2	SB	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	die	der	_	PRELS	nom|pl|masc	12	SB	_	_
+7	heute	heute	_	ADV	_	11	MO	_	_
+8	Abend	Abend	_	NN	acc|sg|masc	11	OA	_	_
+9	zu	zu	_	APPR	_	11	MO	_	_
+10	dir	dir	_	PPER	dat|sg|*|2	9	NK	_	_
+11	gekommen	kommen	_	VVPP	_	12	OC	_	_
+12	sind	sein	_	VAFIN	pl|3|pres|ind	4	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#25
+#<Gen 19:9>d
+# Kommt da so ein einzelner Fremder daher und will sich als Richter aufspielen !
+1	Kommt	kommen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	da	da	_	ADV	_	1	MO	_	_
+3	so	so	_	ADV	_	1	MO	_	_
+4	ein	ein	_	ART	nom|sg|masc	6	NK	_	_
+5	einzelner	einzeln	_	ADJA	nom|sg|masc|pos	6	NK	_	_
+6	Fremder	Fremder	_	NN	nom|sg|masc	1	SB	_	_
+7	daher	daher	_	PROAV	_	1	MO	_	_
+8	und	und	_	KON	_	1	CD	_	_
+9	will	wollen	_	VMFIN	sg|3|pres|ind	8	CJ	_	_
+10	sich	sich	_	PRF	acc|sg|3	13	OA	_	_
+11	als	als	_	APPR	_	13	MO	_	_
+12	Richter	Richter	_	NN	acc|sg|masc	11	NK	_	_
+13	aufspielen	aufspielen	_	VVINF	_	9	OC	_	_
+14	!	--	_	$.	_	13	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#26
+#<Gen 19:12>b
+# Hast du hier noch einen Schwiegersohn , Söhne , Töchter oder sonst jemand in der Stadt ?
+1	Hast	Hast	_	NE	nom|sg|masc	2	PNC	_	_
+2	du	du	_	NE	nom|sg|*|2	6	SB	_	_
+3	hier	hier	_	ADV	_	6	MO	_	_
+4	noch	noch	_	ADV	_	6	MO	_	_
+5	einen	ein	_	ART	acc|sg|masc	6	NK	_	_
+6	Schwiegersohn	Schwiegersohn	_	NN	acc|sg|masc	0	--	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	Söhne	Sohn	_	NN	nom|pl|masc	6	CJ	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	Töchter	Tochter	_	NN	nom|pl|masc	8	CJ	_	_
+11	oder	oder	_	KON	_	10	CD	_	_
+12	sonst	sonst	_	ADV	_	13	MO	_	_
+13	jemand	jemand	_	PIS	nom|sg|masc	11	CJ	_	_
+14	in	in	_	APPR	_	13	MNR	_	_
+15	der	der	_	ART	dat|sg|fem	16	NK	_	_
+16	Stadt	Stadt	_	NN	dat|sg|fem	14	NK	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#27
+#<Gen 19:20>d
+# Ist sie nicht klein ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	sie	sie	_	PPER	nom|sg|fem|3	1	SB	_	_
+3	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+4	klein	klein	_	ADJD	pos	1	PD	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#28
+#<Gen 20:4>b
+# Mein Herr , sagte er , willst du denn auch unschuldige Leute umbringen ?
+1	Mein	mein	_	PPOSAT	nom|sg|masc	2	NK	_	_
+2	Herr	Herr	_	NN	nom|sg|masc	4	VO	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	sagte	sagen	_	VVFIN	sg|3|past|ind	0	--	_	_
+5	er	er	_	PPER	nom|sg|masc|3	4	SB	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	willst	wollen	_	VMFIN	sg|2|pres|ind	4	OC	_	_
+8	du	du	_	PPER	nom|sg|*|2	7	SB	_	_
+9	denn	denn	_	ADV	_	7	MO	_	_
+10	auch	auch	_	ADV	_	12	MO	_	_
+11	unschuldige	unschuldig	_	ADJA	acc|pl|*|pos	12	NK	_	_
+12	Leute	Leute	_	NN	acc|pl|*	13	OA	_	_
+13	umbringen	umbringen	_	VVINF	_	7	OC	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#29
+#<Gen 20:5>a-b
+# Hat er mir nicht gesagt , sie sei seine Schwester ?
+1	Hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	er	er	_	PPER	nom|sg|masc|3	1	SB	_	_
+3	mir	sich	_	PPER	dat|sg|*|1	5	DA	_	_
+4	nicht	nicht	_	PTKNEG	_	5	NG	_	_
+5	gesagt	sagen	_	VVPP	_	1	OC	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	sie	sie	_	PPER	nom|sg|fem|3	8	SB	_	_
+8	sei	sein	_	VAFIN	sg|3|pres|subj	5	OC	_	_
+9	seine	sein	_	PPOSAT	nom|sg|fem	10	NK	_	_
+10	Schwester	Schwester	_	NN	nom|sg|fem	8	PD	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+# Auch sie selbst hat behauptet , er sei ihr Bruder .
+1	Auch	auch	_	ADV	_	2	MO	_	_
+2	sie	sie	_	PPER	nom|sg|fem|3	4	SB	_	_
+3	selbst	selbst	_	ADV	_	2	MNR	_	_
+4	hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+5	behauptet	behaupten	_	VVPP	_	4	OC	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	er	er	_	PPER	nom|sg|masc|3	8	SB	_	_
+8	sei	sein	_	VAFIN	sg|3|pres|subj	5	OC	_	_
+9	ihr	ihr	_	PPOSAT	nom|sg|masc	10	NK	_	_
+10	Bruder	Bruder	_	NN	nom|sg|masc	8	PD	_	_
+11	.	--	_	$.	_	10	--	_	_
+#annotation=
+#gold_annotation=NISQ
+
+#30
+#<Gen 20:9>b
+# Was hast du uns angetan ?
+1	Was	was	_	PWS	nom|sg|neut	5	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	uns	uns	_	PRF	acc|pl|1	5	DA	_	_
+5	angetan	antun	_	VVPP	_	2	OC	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#31
+#<Gen 20:9>c
+# Womit habe ich denn gegen dich gefehlt , dass du über mich und mein Reich eine so große Sünde bringst ?
+1	Womit	womit	_	PWAV	_	7	MO	_	_
+2	habe	haben	_	VAFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	denn	denn	_	ADV	_	7	MO	_	_
+5	gegen	gegen	_	APPR	_	7	MO	_	_
+6	dich	dich	_	PPER	acc|sg|*|1	5	NK	_	_
+7	gefehlt	fehlen	_	VVPP	_	2	OC	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	dass	daß	_	KOUS	_	20	CP	_	_
+10	du	du	_	PPER	nom|sg|*|2	20	SB	_	_
+11	über	über	_	APPR	_	20	MO	_	_
+12	mich	mich	_	PPER	acc|sg|*|1	11	NK	_	_
+13	und	und	_	KON	_	12	CD	_	_
+14	mein	mein	_	PPOSAT	nom|sg|neut	15	NK	_	_
+15	Reich	Reich	_	NN	acc|sg|neut	13	CJ	_	_
+16	eine	ein	_	ART	acc|sg|fem	19	NK	_	_
+17	so	so	_	ADV	_	18	MO	_	_
+18	große	groß	_	ADJA	acc|sg|fem|pos	19	NK	_	_
+19	Sünde	Sünde	_	NN	acc|sg|fem	20	OA	_	_
+20	bringst	bringst	_	VVFIN	sg|3|pres|ind	7	MO	_	_
+21	?	--	_	$.	_	20	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#32
+#<Gen 20:10>b
+# Was hattest du vor , als du das tatest ?
+1	Was	was	_	PWS	nom|sg|neut	2	OA	_	_
+2	hattest	hattest	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	vor	vor	_	PTKVZ	_	2	SVP	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	als	als	_	KOUS	_	9	CP	_	_
+7	du	du	_	PPER	nom|sg|*|2	9	SB	_	_
+8	das	der	_	PDS	acc|sg|neut	9	OA	_	_
+9	tatest	tatest	_	VVFIN	sg|3|pres|ind	2	MO	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#33
+#<Gen 21:7>a
+# Wer , sagte sie , hätte Abraham zu sagen gewagt , Sara werde noch Kinder stillen ?
+1	Wer	wer	_	PWS	nom|sg|masc	6	SB	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	sagte	sagen	_	VVFIN	sg|3|past|ind	0	--	_	_
+4	sie	sie	_	PPER	nom|sg|fem|3	3	SB	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	hätte	haben	_	VAFIN	sg|3|past|subj	3	OC	_	_
+7	Abraham	Abraham	_	NE	nom|sg|masc	9	OA	_	_
+8	zu	zu	_	PTKZU	_	9	PM	_	_
+9	sagen	sagen	_	VVINF	_	10	OC	_	_
+10	gewagt	wagen	_	VVPP	_	6	OC	_	_
+11	,	--	_	$,	_	10	--	_	_
+12	Sara	Sara	_	NE	nom|sg|*	13	SB	_	_
+13	werde	werden	_	VAFIN	sg|3|pres|subj	10	OC	_	_
+14	noch	noch	_	ADV	_	16	MO	_	_
+15	Kinder	Kind	_	NN	acc|pl|neut	16	OA	_	_
+16	stillen	stillen	_	VVINF	_	13	OC	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#34
+#<Gen 21:17>c
+# Was hast du , Hagar ?
+1	Was	was	_	PWS	nom|sg|neut	2	PD	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	Hagar	Hagar	_	NE	nom|sg|*	3	APP	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#35
+#<Gen 21:29>b
+# Was sollen die sieben Lämmer da , die du beiseite gestellt hast ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	sollen	sollen	_	VMFIN	pl|3|pres|ind	0	--	_	_
+3	die	der	_	ART	nom|pl|masc	5	NK	_	_
+4	sieben	sieben	_	CARD	_	5	NK	_	_
+5	Lämmer	Lämmer	_	NN	nom|pl|neut	2	SB	_	_
+6	da	da	_	ADV	_	5	MNR	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	die	der	_	PRELS	nom|pl|neut	11	OA	_	_
+9	du	du	_	PPER	nom|sg|*|2	12	SB	_	_
+10	beiseite	beiseite	_	ADV	_	11	MO	_	_
+11	gestellt	stellen	_	VVPP	_	12	OC	_	_
+12	hast	haben	_	VAFIN	sg|2|pres|ind	5	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#36
+#<Gen 22:7>g
+# Wo aber ist das Lamm für das Brandopfer ?
+1	Wo	wo	_	PWAV	_	3	MO	_	_
+2	aber	aber	_	ADV	_	3	MO	_	_
+3	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+4	das	der	_	ART	nom|sg|neut	5	NK	_	_
+5	Lamm	Lamm	_	NN	nom|sg|neut	3	SB	_	_
+6	für	für	_	APPR	_	5	MNR	_	_
+7	das	der	_	ART	acc|sg|neut	8	NK	_	_
+8	Brandopfer	Brandopfer	_	NN	acc|sg|neut	6	NK	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#37
+#<Gen 23:15>b
+# Land im Wert von vierhundert Silberstücken , was bedeutet das schon unter uns ?
+1	Land	Land	_	NN	nom|sg|neut	9	OA	_	_
+2	im	in	_	APPRART	dat|sg|masc	1	MNR	_	_
+3	Wert	Wert	_	NN	dat|sg|masc	2	NK	_	_
+4	von	von	_	APPR	_	3	MNR	_	_
+5	vierhundert	vierhundert	_	CARD	_	6	NK	_	_
+6	Silberstücken	Silberstücke	_	NN	dat|pl|fem	4	NK	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	was	was	_	PWS	acc|sg|neut	1	NK	_	_
+9	bedeutet	bedeuten	_	VVFIN	sg|3|pres|ind	0	--	_	_
+10	das	der	_	PDS	nom|sg|neut	9	SB	_	_
+11	schon	schon	_	ADV	_	9	MO	_	_
+12	unter	unter	_	APPR	_	9	MO	_	_
+13	uns	uns	_	PPER	dat|pl|*|1	12	NK	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#38
+#<Gen 24:5>c
+# Soll ich dann deinen Sohn in das Land zurückbringen , aus dem du ausgewandert bist ?
+1	Soll	sollen	_	VMFIN	sg|1|pres|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	dann	dann	_	ADV	_	9	MO	_	_
+4	deinen	dein	_	PPOSAT	acc|sg|masc	5	NK	_	_
+5	Sohn	Sohn	_	NN	acc|sg|masc	9	OA	_	_
+6	in	in	_	APPR	_	9	MO	_	_
+7	das	der	_	ART	acc|sg|neut	8	NK	_	_
+8	Land	Land	_	NN	acc|sg|neut	6	NK	_	_
+9	zurückbringen	zurückbringen	_	VVINF	_	1	OC	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	aus	aus	_	APPR	_	14	MO	_	_
+12	dem	der	_	PRELS	dat|sg|neut	11	NK	_	_
+13	du	du	_	PPER	nom|sg|*|2	15	SB	_	_
+14	ausgewandert	auswandern	_	VVPP	_	15	OC	_	_
+15	bist	sein	_	VAFIN	sg|2|pres|ind	8	RC	_	_
+16	?	--	_	$.	_	15	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#39
+#<Gen 24:23>b
+# Wessen Tochter bist du ?
+1	Wessen	wesse	_	NE	gen|sg|*	2	AG	_	_
+2	Tochter	Tochter	_	NN	nom|sg|fem	3	PD	_	_
+3	bist	sein	_	VAFIN	sg|2|pres|ind	0	--	_	_
+4	du	du	_	PPER	nom|sg|*|2	3	SB	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#40
+#<Gen 24:31>c
+# Warum stehst du hier draußen ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	stehst	stehen	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	hier	hier	_	ADV	_	2	MO	_	_
+5	draußen	draußen	_	ADV	_	2	MO	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#41
+#<Gen 24:47>b
+# Wessen Tochter bist du ?
+1	Wessen	wesse	_	NE	gen|sg|*	2	AG	_	_
+2	Tochter	Tochter	_	NN	nom|sg|fem	3	PD	_	_
+3	bist	sein	_	VAFIN	sg|2|pres|ind	0	--	_	_
+4	du	du	_	PPER	nom|sg|*|2	3	SB	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#42
+#<Gen 24:58>b
+# Willst du mit diesem Mann reisen ?
+1	Willst	willst	_	VMFIN	sg|3|pres|ind	0	--	_	_
+2	du	du	_	NE	nom|sg|*|2	1	SB	_	_
+3	mit	mit	_	APPR	_	6	MO	_	_
+4	diesem	dieser	_	PDAT	dat|sg|masc	5	NK	_	_
+5	Mann	Mann	_	NN	dat|sg|masc	3	NK	_	_
+6	reisen	reisen	_	VVINF	_	1	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#43
+#<Gen 24:65>b
+# Wer ist der Mann dort , der uns auf dem Feld entgegenkommt ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	der	der	_	ART	nom|sg|masc	4	NK	_	_
+4	Mann	Mann	_	NN	nom|sg|masc	2	PD	_	_
+5	dort	dort	_	ADV	_	4	MNR	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	der	der	_	PRELS	nom|sg|masc	12	SB	_	_
+8	uns	uns	_	PPER	acc|pl|*|1	12	OA	_	_
+9	auf	auf	_	APPR	_	12	MO	_	_
+10	dem	der	_	ART	dat|sg|neut	11	NK	_	_
+11	Feld	Feld	_	NN	dat|sg|neut	9	NK	_	_
+12	entgegenkommt	entgegenkommen	_	VVFIN	sg|3|pres|ind	4	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#44
+#<Gen 25:22>c
+# Wenn das so ist , was soll dann aus mir werden ?
+1	Wenn	wenn	_	KOUS	_	4	CP	_	_
+2	das	der	_	PDS	nom|sg|neut	4	SB	_	_
+3	so	so	_	ADV	_	4	MO	_	_
+4	ist	sein	_	VAFIN	sg|3|pres|ind	7	MO	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	was	was	_	PWS	nom|sg|neut	7	SB	_	_
+7	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+8	dann	dann	_	ADV	_	7	MO	_	_
+9	aus	aus	_	APPR	_	11	MO	_	_
+10	mir	sich	_	PPER	dat|sg|*|1	9	NK	_	_
+11	werden	werden	_	VAINF	_	7	OC	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#45
+#<Gen 25:32>a
+# Schau , ich sterbe vor Hunger , sagte Esau , was soll mir da das Erstgeburtsrecht ?
+1	Schau	Schau	_	NE	nom|sg|*	8	DA	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	4	SB	_	_
+4	sterbe	sterben	_	VVFIN	sg|1|pres|ind	1	RC	_	_
+5	vor	vor	_	APPR	_	4	MO	_	_
+6	Hunger	Hunger	_	NE	dat|sg|masc	5	NK	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	sagte	sagen	_	VVFIN	sg|3|past|ind	0	--	_	_
+9	Esau	Esau	_	NE	nom|sg|*	8	SB	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	was	was	_	PWS	nom|sg|neut	12	SB	_	_
+12	soll	sollen	_	VMFIN	sg|3|pres|ind	8	OC	_	_
+13	mir	sich	_	PPER	dat|sg|*|1	12	DA	_	_
+14	da	da	_	ADV	_	12	MO	_	_
+15	das	der	_	ART	nom|sg|neut	16	NK	_	_
+16	Erstgeburtsrecht	Erstgeburtsrecht	_	NN	acc|sg|neut	12	OA	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#46
+#<Gen 26:9>c
+# Wie konntest du behaupten , sie sei deine Schwester ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	konntest	konntest	_	ADJD	pos	4	MO	_	_
+3	du	du	_	PPER	nom|sg|*|2	4	SB	_	_
+4	behaupten	behaupten	_	VVINF	_	0	--	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	sie	sie	_	PPER	nom|sg|fem|3	7	SB	_	_
+7	sei	sein	_	VAFIN	sg|3|pres|subj	4	OC	_	_
+8	deine	dein	_	PPOSAT	nom|sg|fem	9	NK	_	_
+9	Schwester	Schwester	_	NN	nom|sg|fem	7	PD	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#47
+#<Gen 26:10>b
+# Was hast du uns da angetan ?
+1	Was	was	_	PWS	nom|sg|neut	6	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	uns	uns	_	PPER	dat|pl|*|1	6	DA	_	_
+5	da	da	_	ADV	_	6	MO	_	_
+6	angetan	antun	_	VVPP	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#48
+#<Gen 26:27>b
+# Weshalb kommt ihr zu mir ?
+1	Weshalb	weshalb	_	PWAV	_	2	MO	_	_
+2	kommt	kommen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	zu	zu	_	APPR	_	2	MO	_	_
+5	mir	sich	_	PPER	dat|sg|*|1	4	NK	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#49
+#<Gen 27:18>c
+# Ja , antwortete er , wer bist du , mein Sohn ?
+1	Ja	ja	_	PTKANT	_	3	DM	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	antwortete	antworten	_	VVFIN	sg|3|past|ind	0	--	_	_
+4	er	er	_	PPER	nom|sg|masc|3	3	SB	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	wer	wer	_	PWS	nom|sg|masc	7	SB	_	_
+7	bist	sein	_	VAFIN	sg|2|pres|ind	3	OC	_	_
+8	du	du	_	ADJD	nom|sg|*|2	7	MO	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	mein	mein	_	PPOSAT	nom|sg|masc	11	NK	_	_
+11	Sohn	Sohn	_	NN	nom|sg|masc	7	PD	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#50
+#<Gen 27:20>b
+# Wie hast du nur so schnell etwas finden können , mein Sohn ?
+1	Wie	wie	_	PWAV	_	9	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	nur	nur	_	ADV	_	6	MO	_	_
+5	so	so	_	ADV	_	6	MO	_	_
+6	schnell	schnell	_	ADJD	pos	9	MO	_	_
+7	etwas	etwas	_	PIS	*|*|neut	8	OA	_	_
+8	finden	finden	_	VVINF	_	9	OC	_	_
+9	können	können	_	VMINF	_	2	OC	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	mein	mein	_	PPOSAT	nom|sg|masc	12	NK	_	_
+12	Sohn	Sohn	_	NN	nom|sg|masc	2	CJ	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#51
+#<Gen 27:24>b
+# Bist du es , mein Sohn Esau ?
+1	Bist	sein	_	VAFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	es	es	_	PPER	acc|sg|neut|3	1	PD	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	mein	mein	_	PPOSAT	nom|sg|masc	6	NK	_	_
+6	Sohn	Sohn	_	NN	nom|sg|masc	3	CJ	_	_
+7	Esau	Esau	_	NE	nom|sg|masc	6	NK	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#52
+#<Gen 27:32>b
+# Wer bist du ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	bist	sein	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	PD	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#53
+#<Gen 27:33>b
+# Wer war es denn , der das Wildbret gejagt und es mir gebracht hat ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	war	sein	_	VAFIN	sg|3|past|ind	0	--	_	_
+3	es	es	_	PPER	nom|sg|neut|3	2	PD	_	_
+4	denn	denn	_	ADV	_	3	MO	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	der	der	_	PRELS	nom|sg|masc	14	SB	_	_
+7	das	der	_	ART	acc|sg|neut	8	NK	_	_
+8	Wildbret	Wildbret	_	NN	acc|sg|neut	9	OA	_	_
+9	gejagt	jagen	_	VVPP	_	14	OC	_	_
+10	und	und	_	KON	_	9	CD	_	_
+11	es	es	_	PPER	acc|sg|neut|3	13	OA	_	_
+12	mir	sich	_	PPER	dat|sg|*|1	13	DA	_	_
+13	gebracht	bringen	_	VVPP	_	10	CJ	_	_
+14	hat	haben	_	VAFIN	sg|3|pres|ind	4	RC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#54
+#<Gen 27:36>f
+# Hast du mir keinen Segen aufgehoben ?
+1	Hast	Hast	_	VAFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	mir	sich	_	PPER	dat|sg|*|1	6	DA	_	_
+4	keinen	kein	_	PIAT	acc|sg|masc	5	NK	_	_
+5	Segen	Segen	_	NN	acc|sg|masc	6	OA	_	_
+6	aufgehoben	aufheben	_	VVPP	_	1	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#55
+#<Gen 27:37>d
+# Was kann ich da noch für dich tun , mein Sohn ?
+1	Was	was	_	PDS	acc|sg|neut	8	OA	_	_
+2	kann	können	_	VMFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	da	da	_	ADV	_	2	MO	_	_
+5	noch	noch	_	ADV	_	8	MO	_	_
+6	für	für	_	APPR	_	8	MO	_	_
+7	dich	dich	_	PPER	acc|sg|2	6	NK	_	_
+8	tun	tun	_	VVINF	_	2	OC	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	mein	mein	_	PPOSAT	nom|sg|masc	11	NK	_	_
+11	Sohn	Sohn	_	NN	nom|sg|masc	2	CJ	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#56
+#<Gen 27:38>b
+# Hattest du denn nur einen einzigen Segen , Vater ?
+1	Hattest	hattest	_	VVFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	denn	denn	_	ADV	_	1	MO	_	_
+4	nur	nur	_	ADV	_	7	MO	_	_
+5	einen	ein	_	ART	acc|sg|masc	7	NK	_	_
+6	einzigen	einzig	_	ADJA	acc|sg|masc|pos	7	NK	_	_
+7	Segen	Segen	_	NN	acc|sg|masc	1	OA	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	Vater	Vater	_	NN	nom|sg|masc	7	CJ	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#57
+#<Gen 27:45>b
+# Warum soll ich euch beide an einem Tag verlieren ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	soll	sollen	_	VMFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	euch	euch	_	PPER	dat|pl|*|2	9	OA	_	_
+5	beide	beide	_	PIS	nom|pl|*	4	NK	_	_
+6	an	an	_	APPR	_	9	MO	_	_
+7	einem	ein	_	ART	dat|sg|masc	8	NK	_	_
+8	Tag	Tag	_	NN	dat|sg|masc	6	NK	_	_
+9	verlieren	verlieren	_	VVINF	_	2	OC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#58
+#<Gen 27:46>c
+# Wenn Jakob so eine Hetiterin , eine Einheimische , zur Frau nimmt , was liegt mir dann noch am Leben ?
+1	Wenn	wenn	_	KOUS	_	12	CP	_	_
+2	Jakob	Jakob	_	NE	nom|sg|masc	12	SB	_	_
+3	so	so	_	ADV	_	12	MO	_	_
+4	eine	ein	_	ART	nom|sg|fem	5	NK	_	_
+5	Hetiterin	Hetiterin	_	NN	nom|sg|fem	12	OA	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	eine	ein	_	ART	nom|sg|fem	8	NK	_	_
+8	Einheimische	einheimisch	_	NN	nom|sg|fem	5	APP	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	zur	zu	_	APPRART	dat|sg|fem	12	MO	_	_
+11	Frau	Frau	_	NN	dat|sg|fem	10	NK	_	_
+12	nimmt	nehmen	_	VVFIN	sg|3|pres|ind	15	MO	_	_
+13	,	--	_	$,	_	12	--	_	_
+14	was	was	_	PWS	nom|sg|neut	15	SB	_	_
+15	liegt	liegen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+16	mir	sich	_	PPER	dat|sg|*|1	15	DA	_	_
+17	dann	dann	_	ADV	_	15	MO	_	_
+18	noch	noch	_	ADV	_	15	MO	_	_
+19	am	an	_	APPRART	dat|sg|neut	15	MO	_	_
+20	Leben	Leben	_	NN	dat|sg|neut	19	NK	_	_
+21	?	--	_	$.	_	20	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#59
+#<Gen 29:4>b
+# Meine Brüder , woher seid ihr ?
+1	Meine	mein	_	PPOSAT	nom|pl|masc	2	NK	_	_
+2	Brüder	Bruder	_	NN	nom|pl|masc	5	PD	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	woher	woher	_	PWAV	_	5	MO	_	_
+5	seid	sein	_	VAFIN	pl|2|pres|ind	0	--	_	_
+6	ihr	ihr	_	PPER	dat|sg|fem|3	5	SB	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#60
+#<Gen 29:5>b
+# Kennt ihr Laban , den Sohn Nahors ?
+1	Kennt	Kennt	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	ihr	ihr	_	PPOSAT	nom|sg|masc	3	NK	_	_
+3	Laban	Laban	_	NN	nom|sg|masc	1	SB	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	den	der	_	ART	acc|sg|masc	6	NK	_	_
+6	Sohn	Sohn	_	NN	acc|sg|masc	1	OA	_	_
+7	Nahors	Nahor	_	NE	gen|sg|*	6	AG	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#61
+#<Gen 29:6>b
+# Geht es ihm gut ?
+1	Geht	gehen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	es	es	_	PPER	nom|sg|neut|3	1	EP	_	_
+3	ihm	ihm	_	PPER	dat|sg|*|3	1	DA	_	_
+4	gut	gut	_	ADJD	pos	1	MO	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#62
+#<Gen 29:15>b
+# Sollst du mir umsonst dienen , weil du mein Bruder bist ?
+1	Sollst	sollst	_	VMFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	mir	sich	_	PPER	dat|sg|*|1	5	OA	_	_
+4	umsonst	umsonst	_	ADV	_	1	MO	_	_
+5	dienen	dienen	_	VVINF	_	1	OC	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	weil	weil	_	KOUS	_	11	CP	_	_
+8	du	du	_	PPER	nom|sg|*|2	11	SB	_	_
+9	mein	mein	_	PPOSAT	nom|sg|masc	10	NK	_	_
+10	Bruder	Bruder	_	NN	nom|sg|masc	11	PD	_	_
+11	bist	sein	_	VAFIN	sg|2|pres|ind	1	MO	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#63
+#<Gen 29:25>d
+# Was hast du mir angetan ?
+1	Was	was	_	PWS	nom|sg|neut	5	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mir	sich	_	PRF	dat|sg|*|1	5	DA	_	_
+5	angetan	antun	_	VVPP	_	2	OC	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#64
+#<Gen 29:25>e
+# Habe ich dir denn nicht um Rahel gedient ?
+1	Habe	haben	_	VAFIN	sg|1|pres|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	dir	dir	_	PPER	acc|sg|fem	8	OA	_	_
+4	denn	denn	_	ADV	_	8	MO	_	_
+5	nicht	nicht	_	PTKNEG	_	8	NG	_	_
+6	um	um	_	APPR	_	8	OP	_	_
+7	Rahel	Rahel	_	NN	acc|sg|masc	6	NK	_	_
+8	gedient	dienen	_	VVPP	_	1	OC	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#65
+#<Gen 29:25>f
+# Warum hast du mich hintergangen ?
+1	Warum	warum	_	PWAV	_	5	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mich	mich	_	PRF	acc|sg|1	5	OA	_	_
+5	hintergangen	hintergangen	_	VVPP	_	2	OC	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#66
+#<Gen 30:2>b
+# Nehme ich etwa die Stelle Gottes ein , der dir die Leibesfrucht versagt ?
+1	Nehme	nehmen	_	VVFIN	sg|1|past|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	etwa	etwa	_	ADV	_	1	MO	_	_
+4	die	der	_	ART	acc|sg|fem	5	NK	_	_
+5	Stelle	Stelle	_	NN	acc|sg|fem	1	OA	_	_
+6	Gottes	Gott	_	NE	gen|sg|masc	5	AG	_	_
+7	ein	ein	_	PTKVZ	_	1	SVP	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	der	der	_	PRELS	nom|sg|masc	13	SB	_	_
+10	dir	dir	_	PPER	dat|sg|fem|3	13	DA	_	_
+11	die	der	_	ART	acc|sg|fem	12	NK	_	_
+12	Leibesfrucht	Leibesfrucht	_	NN	acc|sg|fem	13	OA	_	_
+13	versagt	versagen	_	VVFIN	sg|3|pres|ind	5	RC	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#67
+#<Gen 30:15>b-c
+# Ist es dir nicht genug , mir meinen Mann wegzunehmen ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	es	es	_	PPER	nom|sg|neut|3	1	SB	_	_
+3	dir	dir	_	PPER	dat|sg|*|2	10	DA	_	_
+4	nicht	nicht	_	PTKNEG	_	5	NG	_	_
+5	genug	genug	_	ADV	_	10	MO	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	mir	sich	_	PPER	dat|sg|*|1	10	DA	_	_
+8	meinen	mein	_	PPOSAT	acc|sg|masc	9	NK	_	_
+9	Mann	Mann	_	NN	acc|sg|masc	10	OA	_	_
+10	wegzunehmen	wegzunehmen	_	VVINF	_	1	OC	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Nun willst du mir auch noch die Alraunen meines Sohnes nehmen ?
+1	Nun	nun	_	ADV	_	2	MO	_	_
+2	willst	wollen	_	VMFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mir	sich	_	PPER	dat|sg|*|1	11	DA	_	_
+5	auch	auch	_	ADV	_	8	MO	_	_
+6	noch	noch	_	ADV	_	8	MO	_	_
+7	die	der	_	ART	nom|pl|fem	8	NK	_	_
+8	Alraunen	Alraune	_	NN	nom|pl|fem	11	OA	_	_
+9	meines	mein	_	PPOSAT	gen|sg|masc	10	NK	_	_
+10	Sohnes	Sohn	_	NN	gen|sg|masc	8	AG	_	_
+11	nehmen	nehmen	_	VVINF	_	2	OC	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#68
+#<Gen 30:30>b
+# Und jetzt - wann werde auch ich etwas für mein eigenes Haus tun können ?
+1	Und	und	_	KON	_	5	JU	_	_
+2	jetzt	jetzt	_	ADV	_	14	MO	_	_
+3	-	--	_	$(	_	2	--	_	_
+4	wann	wann	_	PWAV	_	14	MO	_	_
+5	werde	werden	_	VAFIN	sg|3|pres|subj	0	--	_	_
+6	auch	auch	_	ADV	_	7	MO	_	_
+7	ich	ich	_	PPER	nom|sg|*|1	5	SB	_	_
+8	etwas	etwas	_	PIS	*|*|neut	13	OA	_	_
+9	für	für	_	APPR	_	13	MO	_	_
+10	mein	mein	_	PPOSAT	acc|sg|neut	12	NK	_	_
+11	eigenes	eigen	_	ADJA	acc|sg|neut|pos	12	NK	_	_
+12	Haus	Haus	_	NN	acc|sg|neut	9	NK	_	_
+13	tun	tun	_	VVINF	_	14	OC	_	_
+14	können	können	_	VMINF	_	5	OC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#69
+#<Gen 30:31>b
+# Was soll ich dir geben ?
+1	Was	was	_	PWS	acc|sg|neut	5	OA	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	dir	dir	_	PPER	dat|sg|*|2	5	DA	_	_
+5	geben	geben	_	VVINF	_	2	OC	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#70
+#<Gen 31:14>b
+# Haben wir noch Anteil oder Erbe im Haus unseres Vaters ?
+1	Haben	haben	_	VAFIN	pl|1|pres|ind	0	--	_	_
+2	wir	wir	_	PPER	nom|pl|*|1	1	SB	_	_
+3	noch	noch	_	ADV	_	4	MO	_	_
+4	Anteil	Anteil	_	NN	nom|sg|masc	1	OA	_	_
+5	oder	oder	_	KON	_	4	CD	_	_
+6	Erbe	Erbe	_	NN	acc|sg|neut	5	CJ	_	_
+7	im	in	_	APPRART	dat|sg|neut	4	MNR	_	_
+8	Haus	Haus	_	NN	dat|sg|neut	7	NK	_	_
+9	unseres	unser	_	PPOSAT	gen|sg|masc	10	NK	_	_
+10	Vaters	Vater	_	NN	gen|sg|masc	8	AG	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#71
+#<Gen 31:15>a
+# Gelten wir ihm nicht wie Fremde ?
+1	Gelten	gelten	_	VVFIN	pl|1|past|subj	0	--	_	_
+2	wir	wir	_	PPER	nom|pl|*|1	1	SB	_	_
+3	ihm	ihm	_	PPER	dat|sg|masc|3	1	DA	_	_
+4	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+5	wie	wie	_	KOKOM	_	6	CM	_	_
+6	Fremde	Fremde	_	NN	acc|sg|fem	1	MO	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#72
+#<Gen 31:26>b
+# Was hast du getan ?
+1	Was	was	_	PWS	acc|sg|neut	4	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	getan	tun	_	VVPP	_	2	OC	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#73
+#<Gen 31:27>a
+# Warum hast du mir verheimlicht , dass du dich davonmachen wolltest , und warum hast du mich überlistet und mir nichts gesagt ?
+1	Warum	warum	_	PWAV	_	5	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mir	sich	_	PPER	dat|sg|*|1	5	DA	_	_
+5	verheimlicht	verheimlichen	_	VVPP	_	2	OC	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	dass	daß	_	KOUS	_	11	CP	_	_
+8	du	du	_	PPER	nom|sg|*|2	11	SB	_	_
+9	dich	dich	_	PPER	acc|sg|2	10	OA	_	_
+10	davonmachen	davonmachen	_	VVINF	_	11	OC	_	_
+11	wolltest	wolltest	_	VMFIN	_	5	MO	_	_
+12	,	--	_	$,	_	11	--	_	_
+13	und	und	_	KON	_	2	CD	_	_
+14	warum	warum	_	PWAV	_	18	MO	_	_
+15	hast	haben	_	VAFIN	sg|2|pres|ind	13	CJ	_	_
+16	du	du	_	PPER	nom|sg|*|2	15	SB	_	_
+17	mich	mich	_	PPER	acc|sg|*|1	18	OA	_	_
+18	überlistet	überlisten	_	VVPP	_	15	OC	_	_
+19	und	und	_	KON	_	18	CD	_	_
+20	mir	sich	_	PPER	dat|sg|*|1	22	DA	_	_
+21	nichts	nichts	_	PIS	*|*|neut	22	OA	_	_
+22	gesagt	sagen	_	VVPP	_	19	CJ	_	_
+23	?	--	_	$.	_	22	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#74
+#<Gen 31:30>b
+# Aber warum hast du meine Götter gestohlen ?
+1	Aber	aber	_	KON	_	3	JU	_	_
+2	warum	warum	_	PWAV	_	7	MO	_	_
+3	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+4	du	du	_	PPER	nom|sg|*|2	3	SB	_	_
+5	meine	mein	_	PPOSAT	acc|pl|masc	6	NK	_	_
+6	Götter	Gott	_	NN	acc|pl|masc	7	OA	_	_
+7	gestohlen	stehlen	_	VVPP	_	3	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#75
+#<Gen 31:36>b-c
+# Jakob ergriff das Wort und sagte zu Laban :
+1	Jakob	Jakob	_	NE	nom|sg|*	2	SB	_	_
+2	ergriff	ergreifen	_	VVFIN	sg|3|past|ind	0	--	_	_
+3	das	der	_	ART	acc|sg|neut	4	NK	_	_
+4	Wort	Wort	_	NN	acc|sg|neut	2	OA	_	_
+5	und	und	_	KON	_	2	CD	_	_
+6	sagte	sagen	_	VVFIN	sg|3|past|ind	5	CJ	_	_
+7	zu	zu	_	APPR	_	6	MO	_	_
+8	Laban	Laban	_	NE	dat|sg|neut	7	NK	_	_
+9	:	--	_	$.	_	8	--	_	_
+
+# Was habe ich verbrochen , was habe ich Unrechtes getan , dass du mir nachhetzt ?
+1	Was	was	_	PWS	acc|sg|neut	4	OA	_	_
+2	habe	haben	_	VAFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	verbrochen	verbrechen	_	VVPP	_	2	OC	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	was	was	_	PIS	acc|sg|neut	9	NK	_	_
+7	habe	haben	_	VAFIN	sg|1|pres|ind	4	OC	_	_
+8	ich	ich	_	PPER	nom|sg|*|1	7	SB	_	_
+9	Unrechtes	Unrecht	_	NN	acc|sg|neut	10	OA	_	_
+10	getan	tun	_	VVPP	_	7	OC	_	_
+11	,	--	_	$,	_	10	--	_	_
+12	dass	daß	_	KOUS	_	15	CP	_	_
+13	du	du	_	PPER	nom|sg|*|2	15	SB	_	_
+14	mir	sich	_	PPER	dat|sg|*|1	15	DA	_	_
+15	nachhetzt	nachhetzt	_	VVFIN	_	10	MO	_	_
+16	?	--	_	$.	_	15	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#76
+#<Gen 31:37>b
+# Was hast du gefunden an Sachen , die zu deinem Haus gehören ?
+1	Was	was	_	PWS	nom|sg|neut	2	SB	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	4	OA	_	_
+4	gefunden	finden	_	VVPP	_	2	OC	_	_
+5	an	an	_	APPR	_	4	MO	_	_
+6	Sachen	Sache	_	NN	dat|pl|fem	5	NK	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	die	der	_	PRELS	nom|pl|fem	12	SB	_	_
+9	zu	zu	_	APPR	_	12	OP	_	_
+10	deinem	dein	_	ART	dat|sg|neut	11	NK	_	_
+11	Haus	Haus	_	NN	dat|sg|neut	9	NK	_	_
+12	gehören	gehören	_	VVFIN	pl|3|pres|ind	6	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#77
+#<Gen 31:43>c
+# Was kann ich heute für meine Töchter tun oder für die Söhne , die sie geboren haben ?
+1	Was	was	_	PWS	acc|sg|neut	8	OA	_	_
+2	kann	können	_	VMFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	heute	heute	_	ADV	_	8	MO	_	_
+5	für	für	_	APPR	_	8	MO	_	_
+6	meine	mein	_	PPOSAT	acc|pl|fem	7	NK	_	_
+7	Töchter	Tochter	_	NN	acc|pl|fem	5	NK	_	_
+8	tun	tun	_	VVINF	_	2	OC	_	_
+9	oder	oder	_	KON	_	8	CD	_	_
+10	für	für	_	APPR	_	9	CJ	_	_
+11	die	der	_	ART	acc|sg|fem	12	NK	_	_
+12	Söhne	Sohn	_	NN	acc|sg|fem	10	NK	_	_
+13	,	--	_	$,	_	12	--	_	_
+14	die	der	_	PRELS	acc|pl|neut	16	OA	_	_
+15	sie	sie	_	PPER	nom|pl|*|3	17	SB	_	_
+16	geboren	gebären	_	VVPP	_	17	OC	_	_
+17	haben	haben	_	VAFIN	pl|3|pres|ind	12	RC	_	_
+18	?	--	_	$.	_	17	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#78
+#<Gen 32:18>c
+# Zu wem gehörst du , wohin gehst du und wem gehört das da vor dir ?
+1	Zu	zu	_	APPR	_	3	OP	_	_
+2	wem	wem	_	PWS	dat|sg|masc	1	NK	_	_
+3	gehörst	gehören	_	VVFIN	sg|2|pres|ind	0	--	_	_
+4	du	du	_	PPER	nom|sg|*|2	3	SB	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	wohin	wohin	_	PWAV	_	11	MO	_	_
+7	gehst	gehen	_	ADV	_	8	MO	_	_
+8	du	du	_	PPER	nom|sg|*|2	11	DA	_	_
+9	und	und	_	KON	_	8	CD	_	_
+10	wem	wem	_	PIS	dat|sg|masc	9	CJ	_	_
+11	gehört	gehören	_	VVFIN	sg|3|pres|ind	3	OC	_	_
+12	das	der	_	PDS	nom|sg|neut	11	SB	_	_
+13	da	da	_	ADV	_	11	MO	_	_
+14	vor	vor	_	APPR	_	11	MO	_	_
+15	dir	dir	_	PPER	dat|sg|*|2	14	NK	_	_
+16	?	--	_	$.	_	15	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#79
+#<Gen 32:28>b
+# Wie heißt du ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	heißt	heißen	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#80
+#<Gen 32:30>c
+# Was fragst du mich nach meinem Namen ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	fragst	fragen	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mich	mich	_	PRF	acc|sg|1	2	OA	_	_
+5	nach	nach	_	APPR	_	2	MO	_	_
+6	meinem	mein	_	PPOSAT	dat|sg|masc	7	NK	_	_
+7	Namen	Name	_	NN	dat|sg|masc	5	NK	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#81
+#<Gen 33:5>c
+# Wer sind die dort bei dir ?
+1	Wer	wer	_	PWS	nom|pl|masc	2	SB	_	_
+2	sind	sein	_	VAFIN	pl|3|pres|ind	0	--	_	_
+3	die	der	_	PDS	nom|pl|masc	2	PD	_	_
+4	dort	dort	_	ADV	_	3	MNR	_	_
+5	bei	bei	_	APPR	_	4	MO	_	_
+6	dir	dir	_	PPER	dat|sg|fem|3	5	NK	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#82
+#<Gen 33:8>b
+# Was willst du mit dem ganzen Auftrieb dort , auf den ich gestoßen bin ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	willst	wollen	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mit	mit	_	APPR	_	2	MO	_	_
+5	dem	der	_	ART	dat|sg|masc	7	NK	_	_
+6	ganzen	ganz	_	ADJA	dat|sg|masc|pos	7	NK	_	_
+7	Auftrieb	Auftrieb	_	NN	dat|sg|masc	4	NK	_	_
+8	dort	dort	_	ADV	_	7	MNR	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	auf	auf	_	APPR	_	13	MO	_	_
+11	den	der	_	PRELS	acc|sg|masc	10	NK	_	_
+12	ich	ich	_	PPER	nom|sg|*|1	14	SB	_	_
+13	gestoßen	stoßen	_	VVPP	_	14	OC	_	_
+14	bin	sein	_	VAFIN	sg|1|pres|ind	7	RC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#83
+#<Gen 33:15>c-d
+# Wozu ?
+1	Wozu	wozu	_	PWAV	_	0	--	_	_
+2	?	--	_	$.	_	1	--	_	_
+
+# , erwiderte Jakob , ich finde ja das Wohlwollen meines Herrn .
+1	,	--	_	$,	_	2	--	_	_
+2	erwiderte	erwidern	_	VVFIN	sg|3|past|ind	0	--	_	_
+3	Jakob	Jakob	_	NE	nom|sg|masc	2	SB	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	ich	ich	_	PPER	nom|sg|*|1	6	SB	_	_
+6	finde	finden	_	VVFIN	sg|1|pres|ind	2	OC	_	_
+7	ja	ja	_	ADV	_	6	MO	_	_
+8	das	der	_	ART	acc|sg|neut	9	NK	_	_
+9	Wohlwollen	Wohlwollen	_	NN	nom|sg|neut	6	OA	_	_
+10	meines	mein	_	PPOSAT	gen|sg|masc	11	NK	_	_
+11	Herrn	Herr	_	NN	gen|sg|masc	9	AG	_	_
+12	.	--	_	$.	_	11	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#84
+#<Gen 34:31>b
+# Durfte er unsere Schwester wie eine Dirne behandeln ?
+1	Durfte	dürfen	_	VMFIN	sg|3|past|ind	0	--	_	_
+2	er	er	_	PPER	nom|sg|masc|3	1	SB	_	_
+3	unsere	unser	_	PPOSAT	acc|pl|fem	4	NK	_	_
+4	Schwester	Schwester	_	NN	acc|pl|neut	8	OA	_	_
+5	wie	wie	_	KOKOM	_	7	CM	_	_
+6	eine	ein	_	ART	acc|sg|fem	7	NK	_	_
+7	Dirne	Dirne	_	NN	acc|sg|fem	8	MO	_	_
+8	behandeln	behandeln	_	VVINF	_	1	OC	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=2;NISQ
+#gold_annotation=declarative
+
+#85
+#<Gen 37:8>b
+# Willst du etwa König über uns werden oder dich als Herr über uns aufspielen ?
+1	Willst	willst	_	NE	nom|sg|masc	2	PNC	_	_
+2	du	du	_	NE	*|*|*	4	SB	_	_
+3	etwa	etwa	_	ADV	_	4	MO	_	_
+4	König	König	_	NN	nom|sg|masc	0	--	_	_
+5	über	über	_	APPR	_	4	MNR	_	_
+6	uns	uns	_	PPER	dat|pl|*|1	5	NK	_	_
+7	werden	werden	_	VAFIN	pl|1|pres|ind	4	CJ	_	_
+8	oder	oder	_	KON	_	7	CD	_	_
+9	dich	dich	_	PPER	acc|sg|*|1	14	OA	_	_
+10	als	als	_	APPR	_	14	MO	_	_
+11	Herr	Herr	_	NN	nom|sg|masc	10	NK	_	_
+12	über	über	_	APPR	_	14	MO	_	_
+13	uns	uns	_	PPER	dat|pl|*|1	12	NK	_	_
+14	aufspielen	aufspielen	_	VVINF	_	8	CJ	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#86
+#<Gen 37:10>b
+# Was soll das , was du da geträumt hast ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	das	der	_	PDS	nom|sg|neut	2	SB	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	was	was	_	PRELS	acc|sg|neut	8	OA	_	_
+6	du	du	_	PPER	nom|sg|*|2	9	SB	_	_
+7	da	da	_	ADV	_	8	MO	_	_
+8	geträumt	geäumen	_	VVPP	_	9	OC	_	_
+9	hast	haben	_	VAFIN	sg|2|pres|ind	3	RC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#87
+#<Gen 37:10>c
+# Sollen wir vielleicht , ich , deine Mutter und deine Brüder , kommen und uns vor dir zur Erde niederwerfen ?
+1	Sollen	sollen	_	VMFIN	pl|1|pres|ind	0	--	_	_
+2	wir	wir	_	PPER	nom|pl|*|1	1	SB	_	_
+3	vielleicht	vielleicht	_	ADV	_	1	MO	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	ich	ich	_	PPER	nom|sg|*|1	13	OA	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	deine	dein	_	PPOSAT	nom|pl|masc	8	NK	_	_
+8	Mutter	Mutter	_	NN	nom|sg|fem	5	CJ	_	_
+9	und	und	_	KON	_	8	CD	_	_
+10	deine	dein	_	PPOSAT	acc|pl|masc	11	NK	_	_
+11	Brüder	Bruder	_	NN	acc|pl|neut	9	CJ	_	_
+12	,	--	_	$,	_	11	--	_	_
+13	kommen	kommen	_	VVINF	pl|3|pres|ind	1	OC	_	_
+14	und	und	_	KON	_	13	CD	_	_
+15	uns	uns	_	PPER	acc|pl|*|1	20	OA	_	_
+16	vor	vor	_	APPR	_	20	MO	_	_
+17	dir	dir	_	PPER	dat|sg|*|2	16	NK	_	_
+18	zur	zu	_	APPRART	dat|sg|fem	20	MO	_	_
+19	Erde	Erde	_	NN	dat|sg|fem	18	NK	_	_
+20	niederwerfen	niederwerfen	_	VVINF	_	14	CJ	_	_
+21	?	--	_	$.	_	20	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#88
+#<Gen 37:15>c
+# Was suchst du ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	suchst	suchen	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#89
+#<Gen 37:26>b
+# Was haben wir davon , wenn wir unseren Bruder erschlagen und sein Blut zudecken ?
+1	Was	was	_	PDS	acc|sg|neut	4	OA	_	_
+2	haben	haben	_	VAFIN	pl|1|pres|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	davon	davon	_	PROAV	_	2	OC	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	wenn	wenn	_	KOUS	_	10	CP	_	_
+7	wir	wir	_	PPER	nom|pl|*|1	10	SB	_	_
+8	unseren	unser	_	PPOSAT	acc|sg|masc	9	NK	_	_
+9	Bruder	Bruder	_	NN	acc|sg|masc	10	OA	_	_
+10	erschlagen	erschlagen	_	VVINF	_	4	RE	_	_
+11	und	und	_	KON	_	10	CD	_	_
+12	sein	sein	_	PPOSAT	acc|sg|neut	13	NK	_	_
+13	Blut	Blut	_	NN	acc|sg|neut	14	OA	_	_
+14	zudecken	zudecken	_	VVINF	_	11	CJ	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#90
+#<Gen 37:30>c
+# Und ich , was soll ich jetzt anfangen ?
+1	Und	und	_	KON	_	5	JU	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	8	DA	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	was	was	_	PWS	acc|sg|neut	8	OA	_	_
+5	soll	sollen	_	VMFIN	sg|1|pres|ind	0	--	_	_
+6	ich	ich	_	PPER	nom|sg|*|1	5	SB	_	_
+7	jetzt	jetzt	_	ADV	_	5	MO	_	_
+8	anfangen	anfangen	_	VVINF	_	5	OC	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#91
+#<Gen 38:16>e
+# Was gibst du mir , wenn du zu mir kommen darfst ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	gibst	giben	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mir	sich	_	PPER	dat|sg|*|1	2	DA	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	wenn	wenn	_	KOUS	_	10	CP	_	_
+7	du	du	_	PPER	nom|sg|*|2	10	SB	_	_
+8	zu	zu	_	APPR	_	10	MO	_	_
+9	mir	sich	_	PPER	dat|sg|*|1	8	NK	_	_
+10	kommen	kommen	_	VVFIN	pl|3|pres|ind	2	MO	_	_
+11	darfst	darfst	_	PTKVZ	_	10	SVP	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#92
+#<Gen 38:18>b
+# Was für ein Pfand soll ich dir dalassen ?
+1	Was	was	_	PWS	nom|sg|neut	5	SB	_	_
+2	für	für	_	APPR	_	1	MNR	_	_
+3	ein	ein	_	ART	acc|sg|neut	4	NK	_	_
+4	Pfand	Pfand	_	NN	acc|sg|neut	2	NK	_	_
+5	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+6	ich	ich	_	PPER	nom|sg|*|1	8	OA	_	_
+7	dir	dir	_	ADJD	dat|sg|*|2	8	MO	_	_
+8	dalassen	dalassen	_	VVINF	_	5	OC	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#93
+#<Gen 38:21>b
+# Wo ist die Dirne , die in Enajim an der Straße saß ?
+1	Wo	wo	_	PWAV	_	2	PD	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	die	der	_	ART	nom|sg|fem	4	NK	_	_
+4	Dirne	Dirne	_	NN	nom|sg|fem	2	SB	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	die	der	_	PRELS	nom|sg|fem	12	SB	_	_
+7	in	in	_	APPR	_	12	MO	_	_
+8	Enajim	Enajim	_	NE	dat|sg|neut	7	NK	_	_
+9	an	an	_	APPR	_	12	MO	_	_
+10	der	der	_	ART	dat|sg|fem	11	NK	_	_
+11	Straße	Straße	_	NN	dat|sg|fem	9	NK	_	_
+12	saß	sitzen	_	VVFIN	sg|3|past|ind	4	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#94
+#<Gen 38:29>c
+# Warum hast du dir den Durchbruch erzwungen ?
+1	Warum	warum	_	PWAV	_	7	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	dir	dir	_	PPER	dat|sg|*|2	7	DA	_	_
+5	den	der	_	ART	acc|sg|masc	6	NK	_	_
+6	Durchbruch	Durchbruch	_	NN	acc|sg|masc	7	OA	_	_
+7	erzwungen	erzwingen	_	VVPP	_	2	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#95
+#<Gen 39:9>b
+# Wie könnte ich da ein so großes Unrecht begehen und gegen Gott sündigen ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	könnte	können	_	VMFIN	sg|1|past|subj	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	da	da	_	ADV	_	2	MO	_	_
+5	ein	ein	_	ART	acc|sg|neut	8	NK	_	_
+6	so	so	_	ADV	_	7	MO	_	_
+7	großes	groß	_	ADJA	acc|sg|neut|pos	8	NK	_	_
+8	Unrecht	Unrecht	_	NN	acc|sg|neut	9	OA	_	_
+9	begehen	begehen	_	VVINF	_	2	OC	_	_
+10	und	und	_	KON	_	9	CD	_	_
+11	gegen	gegen	_	APPR	_	13	MO	_	_
+12	Gott	Gott	_	NN	acc|sg|masc	11	NK	_	_
+13	sündigen	sündig	_	VVINF	_	10	CJ	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#96
+#<Gen 40:7>b
+# Warum seht ihr heute so böse drein ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	seht	sehen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	heute	heute	_	ADV	_	2	MO	_	_
+5	so	so	_	ADV	_	6	MO	_	_
+6	böse	böse	_	ADJD	pos	2	MO	_	_
+7	drein	drein	_	PTKVZ	_	2	SVP	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#97
+#<Gen 40:8>d
+# Ist nicht das Träumedeuten Sache Gottes ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+3	das	der	_	ART	nom|sg|neut	4	NK	_	_
+4	Träumedeuten	Träumedeut	_	NN	nom|sg|neut	1	PD	_	_
+5	Sache	Sache	_	NN	nom|sg|fem	4	NK	_	_
+6	Gottes	Gott	_	NN	gen|sg|masc	4	AG	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#98
+#<Gen 41:38>b
+# Finden wir einen Mann wie diesen hier , einen , in dem der Geist Gottes wohnt ?
+1	Finden	Finden	_	VVFIN	pl|1|pres|ind	0	--	_	_
+2	wir	wir	_	PPER	nom|pl|*|1	1	SB	_	_
+3	einen	ein	_	ART	acc|sg|masc	4	NK	_	_
+4	Mann	Mann	_	NN	acc|sg|masc	1	OA	_	_
+5	wie	wie	_	KOKOM	_	6	CM	_	_
+6	diesen	dieser	_	PDS	acc|sg|masc	4	CC	_	_
+7	hier	hier	_	ADV	_	1	MO	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	einen	ein	_	PIS	acc|sg|masc	6	NK	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	in	in	_	APPR	_	16	MO	_	_
+12	dem	der	_	PRELS	dat|sg|neut	11	NK	_	_
+13	der	der	_	ART	nom|sg|masc	14	NK	_	_
+14	Geist	Geist	_	NN	nom|sg|masc	16	SB	_	_
+15	Gottes	Gott	_	NN	gen|sg|masc	14	AG	_	_
+16	wohnt	wohnen	_	VVFIN	sg|3|pres|ind	9	RC	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#99
+#<Gen 42:1>b
+# Warum schaut ihr einander so an ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	schaut	schauen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|sg|masc	2	SB	_	_
+4	einander	einander	_	PRF	nom|sg|masc	2	OA	_	_
+5	so	so	_	ADV	_	2	MO	_	_
+6	an	an	_	PTKVZ	_	2	SVP	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#100
+#<Gen 42:7>d
+# Wo kommt ihr her ?
+1	Wo	wo	_	PWAV	_	2	MO	_	_
+2	kommt	kommen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|sg|masc	2	SB	_	_
+4	her	her	_	PTKVZ	_	2	SVP	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#101
+#<Gen 42:22>b-c
+# Habe ich euch nicht gesagt :
+1	Habe	haben	_	VAFIN	sg|1|pres|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	euch	euch	_	PRF	acc|pl|2	5	OA	_	_
+4	nicht	nicht	_	PTKNEG	_	5	NG	_	_
+5	gesagt	sagen	_	VVPP	_	1	OC	_	_
+6	:	--	_	$.	_	5	--	_	_
+
+# Versündigt euch nicht an dem Kind !
+1	Versündigt	versündigen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	euch	euch	_	PPER	acc|pl|2	1	OA	_	_
+3	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+4	an	an	_	APPR	_	1	MO	_	_
+5	dem	der	_	ART	dat|sg|neut	6	NK	_	_
+6	Kind	Kind	_	NN	dat|sg|neut	4	NK	_	_
+7	!	--	_	$.	_	6	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#102
+#<Gen 42:28>e
+# Was hat uns Gott da angetan ?
+1	Was	was	_	PWS	nom|sg|neut	2	SB	_	_
+2	hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	uns	uns	_	PPER	dat|pl|*|1	6	DA	_	_
+4	Gott	Gott	_	NN	acc|sg|masc	6	OA	_	_
+5	da	da	_	ADV	_	6	MO	_	_
+6	angetan	antun	_	VVPP	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#103
+#<Gen 43:6>b
+# Warum habt ihr mir so etwas Schlimmes angetan , jenem Mann zu sagen , dass ihr noch einen Bruder habt ?
+1	Warum	warum	_	PWAV	_	8	MO	_	_
+2	habt	haben	_	VAFIN	pl|2|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	mir	sich	_	PPER	dat|sg|*|1	8	DA	_	_
+5	so	so	_	ADV	_	8	MO	_	_
+6	etwas	etwas	_	PIAT	*|*|*	7	NK	_	_
+7	Schlimmes	schlimme	_	NN	acc|sg|neut	8	OA	_	_
+8	angetan	antun	_	VVPP	_	2	OC	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	jenem	jener	_	PDAT	dat|sg|masc	11	NK	_	_
+11	Mann	Mann	_	NN	dat|sg|masc	13	DA	_	_
+12	zu	zu	_	PTKZU	_	13	PM	_	_
+13	sagen	sagen	_	VVINF	_	7	OC	_	_
+14	,	--	_	$,	_	13	--	_	_
+15	dass	dass	_	KOUS	_	20	CP	_	_
+16	ihr	ihr	_	PPER	dat|sg|fem|3	20	SB	_	_
+17	noch	noch	_	ADV	_	20	MO	_	_
+18	einen	ein	_	ART	acc|sg|masc	19	NK	_	_
+19	Bruder	Bruder	_	NN	acc|sg|masc	20	OA	_	_
+20	habt	haben	_	VAFIN	sg|3|pres|ind	13	OC	_	_
+21	?	--	_	$.	_	20	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#104
+#<Gen 43:7>b
+# Lebt euer Vater noch , habt ihr noch einen Bruder ?
+1	Lebt	leben	_	VVFIN	sg|3|pres|ind	6	MO	_	_
+2	euer	euer	_	ADJA	nom|sg|masc|pos	3	NK	_	_
+3	Vater	Vater	_	NN	nom|sg|masc	1	SB	_	_
+4	noch	noch	_	ADV	_	1	MO	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	habt	haben	_	VAFIN	pl|2|pres|ind	0	--	_	_
+7	ihr	ihr	_	PPER	dat|sg|fem|3	6	SB	_	_
+8	noch	noch	_	ADV	_	6	MO	_	_
+9	einen	ein	_	ART	acc|sg|masc	10	NK	_	_
+10	Bruder	Bruder	_	NN	acc|sg|masc	6	OA	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#105
+#<Gen 43:7>d-e
+# Konnten wir denn wissen , dass er sagen würde :
+1	Konnten	konnto	_	VMFIN	pl|1|past|subj	0	--	_	_
+2	wir	wir	_	PPER	nom|pl|*|1	1	SB	_	_
+3	denn	denn	_	ADV	_	1	MO	_	_
+4	wissen	wissen	_	VVINF	_	1	OC	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	dass	daß	_	KOUS	_	9	CP	_	_
+7	er	er	_	PPER	nom|sg|masc|3	9	SB	_	_
+8	sagen	sagen	_	VVINF	_	9	OC	_	_
+9	würde	werden	_	VAFIN	sg|3|past|subj	4	OC	_	_
+10	:	--	_	$.	_	9	--	_	_
+
+# Bringt euren Bruder her !
+1	Bringt	bringen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	euren	euer	_	PPOSAT	acc|sg|masc	3	NK	_	_
+3	Bruder	Bruder	_	NN	nom|sg|masc	1	SB	_	_
+4	her	her	_	PTKVZ	_	1	SVP	_	_
+5	!	--	_	$.	_	4	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#106
+#<Gen 43:27>b
+# Geht es eurem alten Vater gut , von dem ihr erzählt habt ?
+1	Geht	gehen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	es	es	_	PPER	nom|sg|neut|3	1	EP	_	_
+3	eurem	eur	_	PROAV	_	1	MO	_	_
+4	alten	alt	_	ADJA	acc|sg|masc|pos	5	NK	_	_
+5	Vater	Vater	_	NN	acc|sg|masc	1	OA	_	_
+6	gut	gut	_	ADJD	pos	1	MO	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	von	von	_	APPR	_	11	MO	_	_
+9	dem	der	_	PRELS	dat|sg|masc	8	NK	_	_
+10	ihr	ihr	_	PPER	dat|sg|fem|3	12	SB	_	_
+11	erzählt	erzählen	_	VVPP	_	12	OC	_	_
+12	habt	haben	_	VAFIN	pl|2|pres|ind	5	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#107
+#<Gen 43:29>b
+# Ist das euer jüngster Bruder , von dem ihr mir erzählt habt ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	das	der	_	ART	nom|sg|neut	5	NK	_	_
+3	euer	euer	_	ADJA	*|*|*|pos	5	NK	_	_
+4	jüngster	jung	_	ADJA	nom|sg|masc|sup	5	NK	_	_
+5	Bruder	Bruder	_	NN	nom|sg|masc	1	SB	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	von	von	_	APPR	_	11	MO	_	_
+8	dem	der	_	PRELS	dat|sg|masc	7	NK	_	_
+9	ihr	ihr	_	PPER	dat|sg|fem|3	12	SB	_	_
+10	mir	sich	_	PPER	dat|sg|*|1	11	DA	_	_
+11	erzählt	erzählen	_	VVPP	_	12	OC	_	_
+12	habt	haben	_	VAFIN	pl|2|pres|ind	5	RC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#108
+#<Gen 44:4>d
+# Warum habt ihr Gutes mit Bösem vergolten und mir den Silberbecher gestohlen ?
+1	Warum	warum	_	PWAV	_	7	MO	_	_
+2	habt	haben	_	VAFIN	pl|2|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPOSAT	acc|sg|neut	4	NK	_	_
+4	Gutes	gut	_	NN	acc|sg|neut	2	SB	_	_
+5	mit	mit	_	APPR	_	7	MO	_	_
+6	Bösem	Bösem	_	NN	dat|sg|neut	5	NK	_	_
+7	vergolten	vergolen	_	VVPP	_	2	OC	_	_
+8	und	und	_	KON	_	7	CD	_	_
+9	mir	sich	_	PPER	dat|sg|*|1	12	DA	_	_
+10	den	der	_	ART	acc|sg|masc	11	NK	_	_
+11	Silberbecher	Silberbecher	_	NN	acc|sg|masc	12	OA	_	_
+12	gestohlen	stehlen	_	VVPP	_	8	CJ	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#109
+#<Gen 44:5>a
+# Das ist doch der , aus dem mein Herr trinkt und aus dem er wahrsagt .
+1	Das	der	_	PDS	nom|sg|neut	2	SB	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	doch	doch	_	KON	_	2	CD	_	_
+4	der	der	_	PDS	nom|sg|masc	10	SB	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	aus	aus	_	APPR	_	10	MO	_	_
+7	dem	der	_	PRELS	dat|sg|masc	6	NK	_	_
+8	mein	mein	_	PPOSAT	nom|sg|masc	9	NK	_	_
+9	Herr	Herr	_	NN	nom|sg|masc	10	SB	_	_
+10	trinkt	trinken	_	VVFIN	sg|3|pres|ind	3	CJ	_	_
+11	und	und	_	KON	_	10	CD	_	_
+12	aus	aus	_	APPR	_	15	MO	_	_
+13	dem	der	_	PRELS	dat|sg|neut	12	NK	_	_
+14	er	er	_	PPER	nom|sg|masc|3	15	SB	_	_
+15	wahrsagt	wahrsagen	_	VVFIN	sg|3|pres|ind	11	CJ	_	_
+16	.	--	_	$.	_	15	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#110
+#<Gen 44:7>b
+# Wie kann mein Herr so etwas sagen ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	kann	können	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	mein	mein	_	PPOSAT	nom|sg|masc	4	NK	_	_
+4	Herr	Herr	_	NN	nom|sg|masc	2	SB	_	_
+5	so	so	_	ADV	_	6	MO	_	_
+6	etwas	etwas	_	PIS	*|*|neut	7	OA	_	_
+7	sagen	sagen	_	VVINF	_	2	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#111
+#<Gen 44:8>b
+# Wie könnten wir da aus dem Haus deines Herrn Silber oder Gold stehlen ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	könnten	können	_	VMFIN	pl|1|past|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	da	da	_	ADV	_	2	MO	_	_
+5	aus	aus	_	APPR	_	13	MO	_	_
+6	dem	der	_	ART	dat|sg|neut	7	NK	_	_
+7	Haus	Haus	_	NN	dat|sg|neut	5	NK	_	_
+8	deines	dein	_	PPOSAT	gen|sg|masc	9	NK	_	_
+9	Herrn	Herr	_	NN	gen|sg|masc	7	AG	_	_
+10	Silber	Silber	_	NN	nom|sg|masc	9	NK	_	_
+11	oder	oder	_	KON	_	10	CD	_	_
+12	Gold	Gold	_	NN	nom|sg|neut	11	CJ	_	_
+13	stehlen	stehlen	_	VVINF	_	2	OC	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#112
+#<Gen 44:15>b
+# Was habt ihr getan ?
+1	Was	was	_	PWS	nom|sg|neut	2	SB	_	_
+2	habt	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	dat|sg|fem|3	4	DA	_	_
+4	getan	tun	_	VVPP	_	2	OC	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#113
+#<Gen 44:15>c
+# Wusstet ihr denn nicht , dass ein Mann wie ich wahrsagen kann ?
+1	Wusstet	wusstet	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	ihr	ihr	_	PPER	nom|pl|*|2	1	SB	_	_
+3	denn	denn	_	ADV	_	1	MO	_	_
+4	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	dass	daß	_	KOUS	_	12	CP	_	_
+7	ein	ein	_	ART	nom|sg|masc	8	NK	_	_
+8	Mann	Mann	_	NN	nom|sg|masc	12	SB	_	_
+9	wie	wie	_	KOKOM	_	10	CM	_	_
+10	ich	ich	_	PPER	nom|sg|*|1	11	OA	_	_
+11	wahrsagen	wahrsagen	_	VVINF	_	12	OC	_	_
+12	kann	können	_	VMFIN	sg|3|pres|ind	1	MO	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#114
+#<Gen 44:16>b
+# Was sollen wir unserem Herrn sagen , was sollen wir vorbringen , womit uns rechtfertigen ?
+1	Was	was	_	PWS	acc|sg|neut	6	OA	_	_
+2	sollen	sollen	_	VMFIN	pl|1|pres|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	unserem	unser	_	PPOSAT	dat|sg|masc	5	NK	_	_
+5	Herrn	Herr	_	NN	dat|sg|masc	6	DA	_	_
+6	sagen	sagen	_	VVINF	_	2	OC	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	was	was	_	PWS	acc|sg|neut	11	OA	_	_
+9	sollen	sollen	_	VMFIN	pl|1|pres|ind	6	OC	_	_
+10	wir	wir	_	PPER	nom|pl|*|1	9	SB	_	_
+11	vorbringen	vorbringen	_	VVINF	_	9	OC	_	_
+12	,	--	_	$,	_	11	--	_	_
+13	womit	womit	_	PWAV	_	15	MO	_	_
+14	uns	uns	_	PPER	acc|pl|*|1	15	OA	_	_
+15	rechtfertigen	rechtfertigen	_	VVINF	_	11	CJ	_	_
+16	?	--	_	$.	_	15	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#115
+#<Gen 44:19>b
+# Habt ihr einen Vater oder Bruder ?
+1	Habt	habt	_	VVFIN	sg|3|pres|ind	0	--	_	_
+2	ihr	ihr	_	PPER	dat|sg|fem|3	1	DA	_	_
+3	einen	ein	_	ART	acc|sg|masc	4	NK	_	_
+4	Vater	Vater	_	NN	acc|sg|masc	1	OA	_	_
+5	oder	oder	_	KON	_	4	CD	_	_
+6	Bruder	Bruder	_	NN	nom|sg|masc	5	CJ	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#116
+#<Gen 44:34>a
+# Denn wie könnte ich zu meinem Vater hinaufziehen , ohne dass der Knabe bei mir wäre ?
+1	Denn	denn	_	KON	_	3	JU	_	_
+2	wie	wie	_	PWAV	_	3	MO	_	_
+3	könnte	können	_	VMFIN	sg|1|past|subj	0	--	_	_
+4	ich	ich	_	PPER	nom|sg|*|1	3	SB	_	_
+5	zu	zu	_	APPR	_	8	MO	_	_
+6	meinem	mein	_	PPOSAT	dat|sg|masc	7	NK	_	_
+7	Vater	Vater	_	NN	dat|sg|masc	5	NK	_	_
+8	hinaufziehen	hinaufziehen	_	VVINF	_	3	OC	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	ohne	ohne	_	KOUI	_	16	NK	_	_
+11	dass	dass	_	KOUS	_	16	CP	_	_
+12	der	der	_	ART	nom|sg|masc	13	NK	_	_
+13	Knabe	Knabe	_	NN	nom|sg|masc	16	SB	_	_
+14	bei	bei	_	APPR	_	16	MO	_	_
+15	mir	sich	_	PPER	dat|sg|*|1	14	NK	_	_
+16	wäre	sein	_	VAFIN	sg|3|past|subj	3	MO	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#117
+#<Gen 45:3>c
+# Ist mein Vater noch am Leben ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	mein	mein	_	PPOSAT	nom|sg|masc	3	NK	_	_
+3	Vater	Vater	_	NN	nom|sg|masc	1	SB	_	_
+4	noch	noch	_	ADV	_	1	MO	_	_
+5	am	an	_	APPRART	dat|sg|neut	1	MO	_	_
+6	Leben	Leben	_	NN	dat|sg|neut	5	NK	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#118
+#<Gen 46:33>a
+# Der Pharao wird euch rufen lassen und euch fragen , womit ihr euch beschäftigt .
+1	Der	der	_	ART	nom|sg|masc	2	NK	_	_
+2	Pharao	Pharao	_	NN	nom|sg|masc	3	SB	_	_
+3	wird	werden	_	VAFIN	sg|3|pres|ind	0	--	_	_
+4	euch	euch	_	ADJD	acc|pl|2	5	MO	_	_
+5	rufen	rufen	_	VVINF	_	6	OC	_	_
+6	lassen	lassen	_	VVINF	_	3	OC	_	_
+7	und	und	_	KON	_	6	CD	_	_
+8	euch	euch	_	PPER	acc|pl|2	9	OA	_	_
+9	fragen	fragen	_	VVINF	_	7	CJ	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	womit	womit	_	PWAV	_	14	MO	_	_
+12	ihr	ihr	_	PPER	dat|sg|fem|3	14	SB	_	_
+13	euch	euch	_	PPER	acc|pl|*|2	14	OA	_	_
+14	beschäftigt	beschäftigen	_	VVFIN	sg|3|pres|ind	9	OC	_	_
+15	.	--	_	$.	_	14	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#119
+#<Gen 47:3>b
+# Womit beschäftigt ihr euch ?
+1	Womit	womit	_	PWAV	_	2	MO	_	_
+2	beschäftigt	beschäftigen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	euch	euch	_	PPER	acc|pl|*|2	2	OA	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#120
+#<Gen 47:8>b
+# Wie viele Lebensjahre zählst du ?
+1	Wie	wie	_	KOKOM	_	3	CM	_	_
+2	viele	vieler	_	PIAT	nom|pl|*	3	NK	_	_
+3	Lebensjahre	Lebensjahr	_	NN	nom|pl|neut	4	MO	_	_
+4	zählst	zählen	_	VVFIN	sg|2|pres|ind	0	--	_	_
+5	du	du	_	PPER	nom|sg|*|2	4	SB	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#121
+#<Gen 47:15>d
+# Warum sollen wir vor deinen Augen umkommen ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	sollen	sollen	_	VMFIN	pl|1|pres|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	vor	vor	_	APPR	_	7	MO	_	_
+5	deinen	dein	_	PPOSAT	dat|pl|neut	6	NK	_	_
+6	Augen	Auge	_	NN	dat|pl|neut	4	NK	_	_
+7	umkommen	umkommen	_	VVINF	_	2	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#122
+#<Gen 47:19>a
+# Warum sollen wir vor deinen Augen umkommen , wir selbst und auch unser Ackerland ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	sollen	sollen	_	VMFIN	pl|1|pres|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	vor	vor	_	APPR	_	7	MO	_	_
+5	deinen	dein	_	PPOSAT	dat|pl|neut	6	NK	_	_
+6	Augen	Auge	_	NN	dat|pl|neut	4	NK	_	_
+7	umkommen	umkommen	_	VVINF	_	2	OC	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	wir	wir	_	PPER	nom|pl|*|1	7	SB	_	_
+10	selbst	selbst	_	ADV	_	9	MO	_	_
+11	und	und	_	KON	_	9	CD	_	_
+12	auch	auch	_	ADV	_	14	MO	_	_
+13	unser	unser	_	PPOSAT	nom|sg|neut	14	NK	_	_
+14	Ackerland	Ackerland	_	NN	nom|sg|neut	11	CJ	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#123
+#<Gen 48:8>b
+# Wer sind diese ?
+1	Wer	wer	_	PWS	nom|pl|masc	2	SB	_	_
+2	sind	sein	_	VAFIN	pl|3|pres|ind	0	--	_	_
+3	diese	dieser	_	PDS	nom|pl|masc	2	PD	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#124
+#<Gen 49:9>d
+# Wer wagt , sie zu scheuchen ?
+1	Wer	wer	_	PWS	nom|sg|*	2	SB	_	_
+2	wagt	wagen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	sie	sie	_	PPER	acc|pl|*|3	6	OA	_	_
+5	zu	zu	_	PTKZU	_	6	PM	_	_
+6	scheuchen	scheuchen	_	VVINF	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#125
+#<Gen 50:19>c
+# Stehe ich denn an Gottes Stelle ?
+1	Stehe	stehen	_	VVFIN	sg|1|pres|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	denn	denn	_	ADV	_	1	MO	_	_
+4	an	an	_	APPR	_	1	MO	_	_
+5	Gottes	Gott	_	NN	gen|sg|masc	6	AG	_	_
+6	Stelle	Stelle	_	NN	dat|sg|fem	4	NK	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#126
+#<Ex 1:18>b
+# Warum tut ihr das und lasst die Kinder am Leben ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	tut	tun	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	dat|sg|fem|3	2	SB	_	_
+4	das	der	_	PDS	acc|sg|neut	2	OA	_	_
+5	und	und	_	KON	_	2	CD	_	_
+6	lasst	lassen	_	VVFIN	sg|3|pres|ind	5	CJ	_	_
+7	die	der	_	ART	acc|pl|neut	8	NK	_	_
+8	Kinder	Kind	_	NN	acc|pl|neut	6	OA	_	_
+9	am	an	_	APPRART	dat|sg|neut	6	MO	_	_
+10	Leben	Leben	_	NN	dat|sg|neut	9	NK	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#127
+#<Ex 2:7>b
+# Soll ich zu den Hebräerinnen gehen und dir eine Amme rufen , damit sie dir das Kind stillt ?
+1	Soll	sollen	_	VMFIN	sg|1|pres|ind	0	--	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	1	SB	_	_
+3	zu	zu	_	APPR	_	6	MO	_	_
+4	den	der	_	ART	dat|pl|fem	5	NK	_	_
+5	Hebräerinnen	Hebräerin	_	NN	dat|pl|fem	3	NK	_	_
+6	gehen	gehen	_	VVINF	_	1	OC	_	_
+7	und	und	_	KON	_	6	CD	_	_
+8	dir	dir	_	PPER	dat|sg|*|2	11	DA	_	_
+9	eine	ein	_	ART	acc|sg|fem	10	NK	_	_
+10	Amme	Amme	_	NN	acc|sg|fem	11	OA	_	_
+11	rufen	rufen	_	VVINF	_	7	CJ	_	_
+12	,	--	_	$,	_	11	--	_	_
+13	damit	damit	_	KOUS	_	18	CP	_	_
+14	sie	sie	_	PPER	nom|sg|fem|3	18	SB	_	_
+15	dir	dir	_	PPER	dat|sg|*|2	18	DA	_	_
+16	das	der	_	ART	acc|sg|neut	17	NK	_	_
+17	Kind	Kind	_	NN	acc|sg|neut	18	OA	_	_
+18	stillt	stillen	_	VVFIN	sg|3|pres|ind	11	MO	_	_
+19	?	--	_	$.	_	18	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#128
+#<Ex 2:13>c
+# Warum schlägst du deinen Stammesgenossen ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	schlägst	schlägen	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	deinen	dein	_	PIAT	acc|sg|masc	5	NK	_	_
+5	Stammesgenossen	Stammesgenosse	_	NN	gen|pl|masc	2	OA	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#129
+#<Ex 2:14>b
+# Wer hat dich zum Aufseher und Schiedsrichter über uns bestellt ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	dich	dich	_	PRF	dat|sg|3	10	OA	_	_
+4	zum	zu	_	APPRART	dat|sg|masc	10	MO	_	_
+5	Aufseher	Aufseher	_	NN	dat|sg|masc	4	NK	_	_
+6	und	und	_	KON	_	5	CD	_	_
+7	Schiedsrichter	Schiedsrichter	_	NN	dat|sg|masc	6	CJ	_	_
+8	über	über	_	APPR	_	10	MO	_	_
+9	uns	uns	_	PPER	dat|pl|*|1	8	NK	_	_
+10	bestellt	bestellen	_	VVPP	_	2	OC	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#130
+#<Ex 2:14>c
+# Meinst du , du könntest mich umbringen , wie du den Ägypter umgebracht hast ?
+1	Meinst	meinst	_	VVFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	du	du	_	PPER	nom|sg|*|2	5	SB	_	_
+5	könntest	könntest	_	VVFIN	sg|2|pres|ind	1	OC	_	_
+6	mich	mich	_	PPER	acc|sg|*|1	5	OA	_	_
+7	umbringen	umbringen	_	VVINF	_	5	OC	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	wie	wie	_	PWAV	_	13	MO	_	_
+10	du	du	_	PPER	nom|sg|*|2	14	SB	_	_
+11	den	der	_	ART	acc|sg|masc	12	NK	_	_
+12	Ägypter	Ägypter	_	NN	acc|sg|masc	13	OA	_	_
+13	umgebracht	umbringen	_	VVPP	_	14	OC	_	_
+14	hast	haben	_	VAFIN	sg|2|pres|ind	7	OC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#131
+#<Ex 2:18>b
+# Warum seid ihr heute so schnell wieder da ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	seid	sein	_	VAFIN	pl|2|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	heute	heute	_	ADV	_	2	MO	_	_
+5	so	so	_	ADV	_	6	MO	_	_
+6	schnell	schnell	_	ADJD	pos	2	MO	_	_
+7	wieder	wieder	_	ADV	_	2	MO	_	_
+8	da	da	_	PTKVZ	_	2	SVP	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#132
+#<Ex 2:20>b
+# Wo ist er ?
+1	Wo	wo	_	PWAV	_	2	MO	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	er	er	_	PPER	nom|sg|masc|3	2	SB	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#133
+#<Ex 2:20>c
+# Warum habt ihr ihn dort gelassen ?
+1	Warum	warum	_	PWAV	_	6	MO	_	_
+2	habt	haben	_	VAFIN	pl|2|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	ihn	ihn	_	PPER	acc|sg|masc|3	6	OA	_	_
+5	dort	dort	_	ADV	_	6	MO	_	_
+6	gelassen	gelassen	_	VVPP	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#134
+#<Ex 3:11>b
+# Wer bin ich , dass ich zum Pharao gehen und die Israeliten aus Ägypten herausführen könnte ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	bin	sein	_	VAFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|fem|1	2	PD	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	dass	daß	_	KOUS	_	16	CP	_	_
+6	ich	ich	_	PPER	nom|sg|*|1	16	SB	_	_
+7	zum	zu	_	APPRART	dat|sg|neut	9	MO	_	_
+8	Pharao	Pharao	_	NN	dat|sg|neut	7	NK	_	_
+9	gehen	gehen	_	VVINF	_	16	OC	_	_
+10	und	und	_	KON	_	9	CD	_	_
+11	die	der	_	ART	nom|pl|fem	12	NK	_	_
+12	Israeliten	Israelit	_	NN	nom|pl|fem	15	OA	_	_
+13	aus	aus	_	APPR	_	12	MNR	_	_
+14	Ägypten	Ägypten	_	NE	dat|sg|neut	13	NK	_	_
+15	herausführen	herausführen	_	VVINF	_	10	CJ	_	_
+16	könnte	können	_	VMFIN	sg|3|past|subj	3	RE	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#135
+#<Ex 3:13>e
+# Wie heißt er ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	heißt	heißen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	er	er	_	PPER	nom|sg|masc|3	2	SB	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#136
+#<Ex 3:13>f
+# Was soll ich ihnen darauf sagen ?
+1	Was	was	_	PWS	acc|sg|neut	6	OA	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	ihnen	ihnen	_	PPER	dat|pl|*|3	6	DA	_	_
+5	darauf	darauf	_	PROAV	_	6	OP	_	_
+6	sagen	sagen	_	VVINF	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#137
+#<Ex 4:1>b-c
+# Was aber , wenn sie mir nicht glauben und nicht auf mich hören , sondern sagen :
+1	Was	was	_	PWS	nom|sg|neut	8	SB	_	_
+2	aber	aber	_	ADV	_	8	MO	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	wenn	wenn	_	KOUS	_	8	CP	_	_
+5	sie	sie	_	PPER	nom|pl|*|3	8	SB	_	_
+6	mir	sich	_	PPER	dat|sg|*|1	8	DA	_	_
+7	nicht	nicht	_	PTKNEG	_	8	NG	_	_
+8	glauben	glauben	_	VVFIN	pl|3|pres|ind	0	--	_	_
+9	und	und	_	KON	_	8	CD	_	_
+10	nicht	nicht	_	PTKNEG	_	13	NG	_	_
+11	auf	auf	_	APPR	_	13	MO	_	_
+12	mich	mich	_	PPER	acc|sg|*|1	11	NK	_	_
+13	hören	hören	_	VVFIN	_	9	CJ	_	_
+14	,	--	_	$,	_	13	--	_	_
+15	sondern	sondern	_	KON	_	8	CD	_	_
+16	sagen	sagen	_	VVFIN	pl|3|pres|ind	15	CJ	_	_
+17	:	--	_	$.	_	16	--	_	_
+
+# Jahwe ist dir nicht erschienen ?
+1	Jahwe	Jahwe	_	NE	nom|sg|neut	2	SB	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	dir	dir	_	PPER	dat|sg|*|2	5	DA	_	_
+4	nicht	nicht	_	PTKNEG	_	5	NG	_	_
+5	erschienen	erscheinen	_	VVPP	_	2	OC	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#138
+#<Ex 4:2>b
+# Was hast du da in der Hand ?
+1	Was	was	_	PWS	nom|sg|neut	2	SB	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	4	DA	_	_
+4	da	da	_	ADV	_	2	OC	_	_
+5	in	in	_	APPR	_	4	MO	_	_
+6	der	der	_	ART	dat|sg|fem	7	NK	_	_
+7	Hand	Hand	_	NN	dat|sg|fem	5	NK	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#139
+#<Ex 4:11>b
+# Wer hat dem Menschen den Mund gegeben und wer macht taub oder stumm , sehend oder blind ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	dem	der	_	ART	dat|sg|masc	4	NK	_	_
+4	Menschen	Mensch	_	NN	dat|sg|masc	7	DA	_	_
+5	den	der	_	ART	acc|sg|masc	6	NK	_	_
+6	Mund	Mund	_	NN	acc|sg|masc	7	OA	_	_
+7	gegeben	geben	_	VVPP	_	2	OC	_	_
+8	und	und	_	KON	_	2	CD	_	_
+9	wer	wer	_	PWS	nom|sg|masc	10	SB	_	_
+10	macht	machen	_	VVFIN	sg|3|pres|ind	8	CJ	_	_
+11	taub	Taub	_	ADJD	pos	10	MO	_	_
+12	oder	oder	_	KON	_	11	CD	_	_
+13	stumm	stumm	_	ADJD	pos	12	CJ	_	_
+14	,	--	_	$,	_	13	--	_	_
+15	sehend	sehend	_	ADJD	pos	13	CJ	_	_
+16	oder	oder	_	KON	_	15	CD	_	_
+17	blind	blind	_	ADJD	pos	16	CJ	_	_
+18	?	--	_	$.	_	17	--	_	_
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+#140
+#<Ex 4:11>c
+# Doch wohl ich , der Herr !
+1	Doch	doch	_	KON	_	3	CD	_	_
+2	wohl	wohl	_	ADV	_	3	MO	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	0	--	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	der	der	_	ART	nom|sg|masc	6	NK	_	_
+6	Herr	Herr	_	NN	nom|sg|masc	3	APP	_	_
+7	!	--	_	$.	_	6	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#141
+#<Ex 4:14>b
+# Hast du nicht noch einen Bruder , den Leviten Aaron ?
+1	Hast	Hast	_	VAFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	nicht	nicht	_	PTKNEG	_	6	NG	_	_
+4	noch	noch	_	ADV	_	6	MO	_	_
+5	einen	ein	_	ART	acc|sg|masc	6	NK	_	_
+6	Bruder	Bruder	_	NN	acc|sg|masc	1	PD	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	den	der	_	ART	acc|sg|masc	9	NK	_	_
+9	Leviten	Levit	_	NN	acc|sg|masc	6	APP	_	_
+10	Aaron	Aaron	_	NE	nom|sg|masc	9	NK	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#142
+#<Ex 5:2>b
+# Wer ist Jahwe , dass ich auf ihn hören und Israel ziehen lassen sollte ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	Jahwe	Jahwe	_	NN	nom|sg|masc	2	PD	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	dass	daß	_	KOUS	_	14	CP	_	_
+6	ich	ich	_	PPER	nom|sg|*|1	14	SB	_	_
+7	auf	auf	_	APPR	_	9	MO	_	_
+8	ihn	ihn	_	PPER	acc|sg|masc|3	7	NK	_	_
+9	hören	hören	_	VVINF	_	14	OC	_	_
+10	und	und	_	KON	_	9	CD	_	_
+11	Israel	Israel	_	NE	nom|sg|neut	12	OA	_	_
+12	ziehen	ziehen	_	VVINF	_	13	OC	_	_
+13	lassen	lassen	_	VVINF	_	10	CJ	_	_
+14	sollte	sollen	_	VMFIN	sg|3|past|ind	2	MO	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#143
+#<Ex 5:4>b
+# Warum , Mose und Aaron , wollt ihr die Leute zum Nichtstun verleiten ?
+1	Warum	warum	_	NN	_	7	SB	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	Mose	Mose	_	NN	acc|sg|fem	1	CJ	_	_
+4	und	und	_	KON	_	3	CD	_	_
+5	Aaron	Aaron	_	NN	acc|sg|fem	4	CJ	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	wollt	wollen	_	VMFIN	pl|2|pres|ind	0	--	_	_
+8	ihr	ihr	_	PPER	dat|sg|fem|3	13	DA	_	_
+9	die	der	_	ART	acc|pl|*	10	NK	_	_
+10	Leute	Leute	_	NN	acc|pl|*	13	OA	_	_
+11	zum	zu	_	APPRART	dat|sg|neut	13	MO	_	_
+12	Nichtstun	Nichtstun	_	NN	dat|sg|neut	11	NK	_	_
+13	verleiten	verleiten	_	VVINF	_	7	OC	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#144
+#<Ex 5:5>b
+# So viele Leute sind jetzt im Land und ihr wollt sie vom Frondienst abhalten ?
+1	So	so	_	ADV	_	2	MO	_	_
+2	viele	vieler	_	PIAT	nom|pl|*	3	NK	_	_
+3	Leute	Leute	_	NN	nom|pl|*	4	SB	_	_
+4	sind	sein	_	VAFIN	pl|3|pres|ind	0	--	_	_
+5	jetzt	jetzt	_	ADV	_	4	MO	_	_
+6	im	in	_	APPRART	dat|sg|neut	4	MO	_	_
+7	Land	Land	_	NN	dat|sg|neut	6	NK	_	_
+8	und	und	_	KON	_	4	CD	_	_
+9	ihr	ihr	_	PPER	dat|sg|fem|3	10	SB	_	_
+10	wollt	wollen	_	VMFIN	pl|2|pres|ind	8	CJ	_	_
+11	sie	sie	_	PPER	nom|pl|*|3	14	OA	_	_
+12	vom	von	_	APPRART	dat|sg|masc	14	MO	_	_
+13	Frondienst	Frondienst	_	NN	dat|sg|masc	12	NK	_	_
+14	abhalten	abhalten	_	VVINF	_	10	OC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#145
+#<Ex 5:14>b
+# Warum habt ihr heute nicht wie neulich noch das festgesetzte Soll an Ziegeln erfüllt ?
+1	Warum	warum	_	PWAV	_	14	MO	_	_
+2	habt	haben	_	VAFIN	pl|2|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	heute	heute	_	ADV	_	14	MO	_	_
+5	nicht	nicht	_	PTKNEG	_	14	NG	_	_
+6	wie	wie	_	KOKOM	_	7	CM	_	_
+7	neulich	neulich	_	ADV	_	14	MO	_	_
+8	noch	noch	_	ADV	_	14	MO	_	_
+9	das	der	_	ART	nom|sg|neut	11	NK	_	_
+10	festgesetzte	festgesetzt	_	ADJA	nom|sg|neut|pos	11	NK	_	_
+11	Soll	Sollen	_	NN	nom|sg|neut	14	OA	_	_
+12	an	an	_	APPR	_	11	MNR	_	_
+13	Ziegeln	Ziegel	_	NN	dat|pl|fem	12	NK	_	_
+14	erfüllt	erfüllen	_	VVPP	_	2	OC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#146
+#<Ex 5:15>b
+# Warum tust du deinen Sklaven das an ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	tust	tun	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	deinen	dein	_	PPOSAT	acc|sg|masc	5	NK	_	_
+5	Sklaven	Sklave	_	NN	acc|sg|masc	2	DA	_	_
+6	das	der	_	PDS	acc|sg|neut	2	OA	_	_
+7	an	an	_	PTKVZ	_	2	SVP	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#147
+#<Ex 5:22>b
+# Mein Herr , warum behandelst du dieses Volk so schlecht ?
+1	Mein	mein	_	PPOSAT	nom|sg|masc	2	NK	_	_
+2	Herr	Herr	_	NN	nom|sg|masc	0	--	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	warum	warum	_	PWAV	_	5	MO	_	_
+5	behandelst	behandelen	_	ADJD	pos	10	MO	_	_
+6	du	du	_	PPER	nom|sg|*|2	10	DA	_	_
+7	dieses	dieser	_	PDAT	acc|sg|neut	8	NK	_	_
+8	Volk	Volk	_	NN	acc|sg|neut	10	OA	_	_
+9	so	so	_	ADV	_	10	MO	_	_
+10	schlecht	schlecht	_	ADJD	pos	2	PAR	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#148
+#<Ex 5:22>c
+# Wozu hast du mich denn gesandt ?
+1	Wozu	wozu	_	PWAV	_	6	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	mich	mich	_	PPER	acc|sg|*|1	6	OA	_	_
+5	denn	denn	_	ADV	_	6	MO	_	_
+6	gesandt	senden	_	VVPP	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#149
+#<Ex 6:12>b
+# Wenn schon die Israeliten nicht auf mich hörten , wie sollte mich dann der Pharao anhören , zumal ich ungeschickt im Reden bin ?
+1	Wenn	wenn	_	KOUS	_	8	CP	_	_
+2	schon	schon	_	ADV	_	4	MO	_	_
+3	die	der	_	ART	nom|pl|masc	4	NK	_	_
+4	Israeliten	Israelit	_	NN	nom|pl|masc	8	SB	_	_
+5	nicht	nicht	_	PTKNEG	_	8	NG	_	_
+6	auf	auf	_	APPR	_	8	MO	_	_
+7	mich	mich	_	PPER	acc|sg|*|1	6	NK	_	_
+8	hörten	hören	_	VVFIN	pl|3|past|subj	11	MO	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	wie	wie	_	PWAV	_	11	MO	_	_
+11	sollte	sollen	_	VMFIN	sg|3|past|ind	0	--	_	_
+12	mich	mich	_	PPER	acc|sg|*|1	16	OA	_	_
+13	dann	dann	_	ADV	_	11	MO	_	_
+14	der	der	_	ART	nom|sg|masc	15	NK	_	_
+15	Pharao	Pharao	_	NN	nom|sg|masc	11	SB	_	_
+16	anhören	anhören	_	VVINF	_	11	OC	_	_
+17	,	--	_	$,	_	16	--	_	_
+18	zumal	zumal	_	KOUS	_	23	CP	_	_
+19	ich	ich	_	PPER	nom|sg|*|1	23	SB	_	_
+20	ungeschickt	ungeschickt	_	ADJD	pos	23	MO	_	_
+21	im	in	_	APPRART	dat|sg|masc	23	MO	_	_
+22	Reden	Rede	_	NN	dat|sg|masc	21	NK	_	_
+23	bin	sein	_	VAFIN	sg|1|pres|ind	16	MO	_	_
+24	?	--	_	$.	_	23	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#150
+#<Ex 6:30>c
+# wie soll der Pharao auf mich hören ?
+1	wie	wie	_	PWAV	_	2	MO	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	der	der	_	ART	nom|sg|masc	4	NK	_	_
+4	Pharao	Pharao	_	NN	nom|sg|masc	2	SB	_	_
+5	auf	auf	_	APPR	_	7	MO	_	_
+6	mich	mich	_	PPER	acc|sg|*|1	5	NK	_	_
+7	hören	hören	_	VVINF	_	2	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=0;ISQ
+#gold_annotation=declarative
+
+#151
+#<Ex 9:17>a
+# Wenn du dich weiterhin als den großen Herrn über mein Volk aufspielst und sie nicht ziehen lässt ,
+1	Wenn	wenn	_	KOUS	_	12	CP	_	_
+2	du	du	_	PPER	nom|sg|*|2	12	SB	_	_
+3	dich	dich	_	ADJD	acc|sg|masc|2	12	MO	_	_
+4	weiterhin	weiterhin	_	ADV	_	12	MO	_	_
+5	als	als	_	APPR	_	12	MO	_	_
+6	den	der	_	ART	acc|sg|masc	8	NK	_	_
+7	großen	groß	_	ADJA	acc|sg|masc|pos	8	NK	_	_
+8	Herrn	Herr	_	NN	acc|sg|masc	5	NK	_	_
+9	über	über	_	APPR	_	8	MNR	_	_
+10	mein	mein	_	PPOSAT	acc|sg|neut	11	NK	_	_
+11	Volk	Volk	_	NN	acc|sg|neut	9	NK	_	_
+12	aufspielst	aufspielst	_	VVFIN	sg|3|pres|ind	0	--	_	_
+13	und	und	_	KON	_	12	CD	_	_
+14	sie	sie	_	PPER	nom|pl|*|3	17	SB	_	_
+15	nicht	nicht	_	PTKNEG	_	16	NG	_	_
+16	ziehen	ziehen	_	VVINF	_	17	OC	_	_
+17	lässt	lässen	_	VVFIN	sg|3|pres|ind	13	CJ	_	_
+18	,	--	_	$,	_	17	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#152
+#<Ex 10:3>c
+# Wie lange willst du dich noch weigern , dich mir zu unterwerfen ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	lange	lange	_	ADV	_	3	MO	_	_
+3	willst	wollen	_	VMFIN	sg|2|pres|ind	0	--	_	_
+4	du	du	_	PPER	nom|sg|*|2	3	SB	_	_
+5	dich	dich	_	PRF	acc|sg|2	7	OA	_	_
+6	noch	noch	_	ADV	_	3	MO	_	_
+7	weigern	weigern	_	VVINF	_	3	OC	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	dich	dich	_	PRF	acc|sg|masc|2	12	OA	_	_
+10	mir	sich	_	PPER	dat|sg|*|1	12	DA	_	_
+11	zu	zu	_	PTKZU	_	12	PM	_	_
+12	unterwerfen	unterwerfen	_	VVINF	_	7	OC	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#153
+#<Ex 10:7>b
+# Wie lange soll uns dieser Mann noch Unglück bringen ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	lange	lange	_	ADV	_	3	MO	_	_
+3	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+4	uns	uns	_	PPER	dat|pl|*|1	9	DA	_	_
+5	dieser	dieser	_	PDAT	nom|sg|masc	6	NK	_	_
+6	Mann	Mann	_	NN	nom|sg|masc	3	SB	_	_
+7	noch	noch	_	ADV	_	9	MO	_	_
+8	Unglück	Unglück	_	NN	acc|sg|neut	9	OA	_	_
+9	bringen	bringen	_	VVINF	_	3	OC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#154
+#<Ex 10:7>d
+# Merkst du denn noch immer nicht , dass Ägypten zugrunde geht ?
+1	Merkst	merkst	_	VVFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	denn	denn	_	ADV	_	1	MO	_	_
+4	noch	noch	_	ADV	_	1	MO	_	_
+5	immer	immer	_	ADV	_	1	MO	_	_
+6	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	dass	dass	_	KOUS	_	11	CP	_	_
+9	Ägypten	Ägypten	_	NE	nom|sg|neut	11	SB	_	_
+10	zugrunde	zugrunde	_	ADV	_	11	MO	_	_
+11	geht	gehen	_	VVFIN	sg|3|pres|ind	1	MO	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#155
+#<Ex 10:8>c
+# Wer von euch will denn mitgehen ?
+1	Wer	wer	_	PWS	nom|sg|masc	4	SB	_	_
+2	von	von	_	APPR	_	1	PG	_	_
+3	euch	euch	_	PPER	dat|pl|*|2	2	NK	_	_
+4	will	wollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+5	denn	denn	_	ADV	_	4	MO	_	_
+6	mitgehen	mitgehen	_	VVINF	_	4	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#156
+#<Ex 10:10>b
+# Dann sei Jahwe ebenso wenig mit euch , wie ich euch und eure Kinder ziehen lasse .
+1	Dann	dann	_	ADV	_	16	MO	_	_
+2	sei	sein	_	VAFIN	sg|3|pres|subj	0	--	_	_
+3	Jahwe	Jahwe	_	NE	nom|sg|fem	2	SB	_	_
+4	ebenso	ebenso	_	ADV	_	16	MO	_	_
+5	wenig	wenig	_	PIS	*|*|*	2	PD	_	_
+6	mit	mit	_	APPR	_	16	MO	_	_
+7	euch	euch	_	PPER	dat|pl|*|2	6	NK	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	wie	wie	_	PWAV	_	15	MO	_	_
+10	ich	ich	_	PPER	nom|sg|*|1	16	SB	_	_
+11	euch	euch	_	PPER	acc|pl|2	15	OA	_	_
+12	und	und	_	KON	_	11	CD	_	_
+13	eure	euer	_	PPOSAT	sg|1|pres|ind	14	NK	_	_
+14	Kinder	Kind	_	NN	acc|pl|neut	12	CJ	_	_
+15	ziehen	ziehen	_	VVINF	_	16	OC	_	_
+16	lasse	lassen	_	VVFIN	sg|3|pres|subj	5	RC	_	_
+17	.	--	_	$.	_	16	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#157
+#<Ex 12:26>b
+# Was bedeutet diese Feier ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	bedeutet	bedeuten	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	diese	dieser	_	PDAT	nom|sg|fem	4	NK	_	_
+4	Feier	Feier	_	NN	nom|sg|fem	2	SB	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#158
+#<Ex 13:14>b
+# Was bedeutet das ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	bedeutet	bedeuten	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	das	der	_	PDS	nom|sg|neut	2	SB	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#159
+#<Ex 14:5>b
+# Wie konnten wir nur Israel aus unserem Dienst entlassen !
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	konnten	können	_	VMFIN	pl|1|past|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	nur	nur	_	ADV	_	5	MO	_	_
+5	Israel	Israel	_	NE	acc|sg|neut	9	OA	_	_
+6	aus	aus	_	APPR	_	9	MO	_	_
+7	unserem	unser	_	PPOSAT	dat|sg|masc	8	NK	_	_
+8	Dienst	Dienst	_	NN	dat|sg|masc	6	NK	_	_
+9	entlassen	entlassen	_	VVINF	_	2	OC	_	_
+10	!	--	_	$.	_	9	--	_	_
+#annotation=
+#gold_annotation=declarative
+
+#160
+#<Ex 14:11>b
+# Gab es denn keine Gräber in Ägypten , dass du uns zum Sterben in die Wüste holst ?
+1	Gab	geben	_	VVFIN	sg|3|past|ind	0	--	_	_
+2	es	es	_	PPER	nom|sg|neut|3	1	EP	_	_
+3	denn	denn	_	ADV	_	1	MO	_	_
+4	keine	kein	_	PIAT	acc|pl|neut	5	NK	_	_
+5	Gräber	Gräber	_	NN	acc|pl|neut	1	OA	_	_
+6	in	in	_	APPR	_	5	MNR	_	_
+7	Ägypten	Ägypten	_	NE	dat|sg|neut	6	NK	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	dass	daß	_	KOUS	_	17	CP	_	_
+10	du	du	_	PPER	nom|sg|*|2	17	SB	_	_
+11	uns	uns	_	PRF	acc|pl|*|1	17	OA	_	_
+12	zum	zu	_	APPRART	dat|sg|neut	17	MO	_	_
+13	Sterben	sterben	_	NN	dat|sg|neut	12	NK	_	_
+14	in	in	_	APPR	_	17	MO	_	_
+15	die	der	_	ART	acc|sg|fem	16	NK	_	_
+16	Wüste	Wüste	_	NN	acc|sg|fem	14	NK	_	_
+17	holst	holen	_	VVFIN	sg|3|pres|ind	1	MO	_	_
+18	?	--	_	$.	_	17	--	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#161
+#<Ex 14:11>c
+# Was hast du uns da angetan ?
+1	Was	was	_	PWS	nom|sg|neut	6	OA	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	uns	uns	_	PPER	dat|pl|*|1	6	DA	_	_
+5	da	da	_	ADV	_	6	MO	_	_
+6	angetan	antun	_	VVPP	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+# Warum hast du uns aus Ägypten herausgeführt ?
+1	Warum	warum	_	PWAV	_	7	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	uns	uns	_	PPER	acc|pl|*|1	7	OA	_	_
+5	aus	aus	_	APPR	_	7	MO	_	_
+6	Ägypten	Ägypten	_	NE	dat|sg|neut	5	NK	_	_
+7	herausgeführt	herausführen	_	VVPP	_	2	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#162
+#<Ex 14:15>b
+# Was schreist du zu mir ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	schreist	schreien	_	VVFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	zu	zu	_	APPR	_	2	MO	_	_
+5	mir	sich	_	PPER	dat|sg|*|1	4	NK	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#163
+#<Ex 15:11>a
+# Wer ist wie du unter den Göttern , o Herr ?
+1	Wer	wer	_	PWS	nom|sg|masc	2	SB	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	wie	wie	_	KOKOM	_	4	CM	_	_
+4	du	du	_	PPER	nom|sg|*|2	2	PD	_	_
+5	unter	unter	_	APPR	_	4	MNR	_	_
+6	den	der	_	ART	dat|pl|neut	7	NK	_	_
+7	Göttern	Götter	_	NN	dat|pl|neut	5	NK	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	o	o	_	APPRART	acc|sg|neut	5	CJ	_	_
+10	Herr	Herr	_	NN	dat|sg|masc	9	NK	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#164
+#<Ex 15:11>b
+# / Wer ist wie du gewaltig und heilig , / gepriesen als furchtbar , Wunder vollbringend ?
+1	/	--	_	$(	_	2	--	_	_
+2	Wer	wer	_	PWS	nom|sg|masc	3	SB	_	_
+3	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+4	wie	wie	_	KOKOM	_	5	CM	_	_
+5	du	du	_	PPER	pos	11	OA	_	_
+6	gewaltig	gewaltig	_	ADJD	pos	11	MO	_	_
+7	und	und	_	KON	_	6	CD	_	_
+8	heilig	heilig	_	ADJD	pos	7	CJ	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	/	--	_	$(	_	9	--	_	_
+11	gepriesen	preisen	_	VVPP	_	3	OC	_	_
+12	als	als	_	APPR	_	11	MO	_	_
+13	furchtbar	furchtbar	_	ADJD	pos	12	NK	_	_
+14	,	--	_	$,	_	13	--	_	_
+15	Wunder	Wunder	_	NN	nom|pl|neut	13	CJ	_	_
+16	vollbringend	vollbringend	_	ADJD	pos	15	PD	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#165
+#<Ex 15:24>b
+# Was sollen wir trinken ?
+1	Was	was	_	PWS	acc|sg|neut	4	OA	_	_
+2	sollen	sollen	_	VMFIN	pl|1|pres|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	trinken	trinken	_	VVINF	_	2	OC	_	_
+5	?	--	_	$.	_	4	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#166
+#<Ex 16:7>c
+# Aber wer sind schon wir , dass ihr gegen uns murrt ?
+1	Aber	aber	_	KON	_	3	JU	_	_
+2	wer	wer	_	PWS	nom|sg|masc	3	SB	_	_
+3	sind	sein	_	VAFIN	pl|3|pres|ind	0	--	_	_
+4	schon	schon	_	ADV	_	5	MO	_	_
+5	wir	wir	_	PPER	nom|pl|*|1	3	SB	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	dass	dass	_	KOUS	_	11	CP	_	_
+8	ihr	ihr	_	PPER	dat|sg|fem|3	11	SB	_	_
+9	gegen	gegen	_	APPR	_	11	MO	_	_
+10	uns	uns	_	PPER	dat|pl|*|1	9	NK	_	_
+11	murrt	murren	_	VVFIN	sg|3|pres|ind	3	MO	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#167
+#<Ex 16:8>b
+# Wenn der Herr euch heute Abend Fleisch zu essen gibt und euch am Morgen mit Brot sättigt , wenn er also euer Murren hört , mit dem ihr ihn bedrängt , was sind wir dann ?
+1	Wenn	wenn	_	KOUS	_	10	CP	_	_
+2	der	der	_	ART	nom|sg|masc	3	NK	_	_
+3	Herr	Herr	_	NN	nom|sg|masc	10	SB	_	_
+4	euch	euch	_	PPER	dat|pl|*|2	10	DA	_	_
+5	heute	heute	_	ADV	_	10	MO	_	_
+6	Abend	Abend	_	NN	acc|sg|masc	10	OA	_	_
+7	Fleisch	Fleisch	_	NN	acc|sg|masc	9	OA	_	_
+8	zu	zu	_	PTKZU	_	9	PM	_	_
+9	essen	essen	_	VVINF	_	10	OC	_	_
+10	gibt	geben	_	VVFIN	sg|3|pres|ind	0	--	_	_
+11	und	und	_	KON	_	10	CD	_	_
+12	euch	euch	_	PPER	acc|pl|*|2	17	OA	_	_
+13	am	an	_	APPRART	dat|sg|masc	17	MO	_	_
+14	Morgen	Morgen	_	NN	dat|sg|masc	13	NK	_	_
+15	mit	mit	_	APPR	_	17	MO	_	_
+16	Brot	Brot	_	NN	dat|sg|fem	15	NK	_	_
+17	sättigt	sättigen	_	VVFIN	sg|3|pres|ind	11	CJ	_	_
+18	,	--	_	$,	_	17	--	_	_
+19	wenn	wenn	_	KOUS	_	24	CP	_	_
+20	er	er	_	PPER	nom|sg|masc|3	24	SB	_	_
+21	also	also	_	ADV	_	24	MO	_	_
+22	euer	euer	_	ADJA	gen|pl|fem|pos	23	NK	_	_
+23	Murren	Murren	_	NN	gen|pl|fem	24	OA	_	_
+24	hört	hören	_	VVFIN	sg|3|pres|ind	17	MO	_	_
+25	,	--	_	$,	_	24	--	_	_
+26	mit	mit	_	APPR	_	30	MO	_	_
+27	dem	der	_	PRELS	dat|sg|masc	26	NK	_	_
+28	ihr	ihr	_	PPER	dat|sg|fem|3	30	SB	_	_
+29	ihn	ihn	_	PPER	acc|sg|masc|3	30	OA	_	_
+30	bedrängt	bedrängen	_	VVFIN	sg|3|pres|ind	24	CJ	_	_
+31	,	--	_	$,	_	30	--	_	_
+32	was	was	_	PWS	nom|sg|neut	33	PD	_	_
+33	sind	sein	_	VAFIN	pl|1|pres|ind	30	OC	_	_
+34	wir	wir	_	PPER	nom|pl|*|1	33	SB	_	_
+35	dann	dann	_	ADV	_	33	MO	_	_
+36	?	--	_	$.	_	35	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#168
+#<Ex 16:15>b
+# Was ist das ?
+1	Was	was	_	PWS	nom|sg|neut	2	PD	_	_
+2	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	das	der	_	PDS	nom|sg|neut	2	SB	_	_
+4	?	--	_	$.	_	3	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#169
+#<Ex 16:28>b
+# Wie lange wollt ihr euch noch weigern , meine Gebote und Weisungen zu befolgen ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	lange	lange	_	ADV	_	3	MO	_	_
+3	wollt	wollen	_	VMFIN	pl|2|pres|ind	0	--	_	_
+4	ihr	ihr	_	PPER	nom|pl|*|2	3	SB	_	_
+5	euch	euch	_	PPER	dat|pl|*|2	7	OA	_	_
+6	noch	noch	_	ADV	_	7	MO	_	_
+7	weigern	weigern	_	VVINF	_	3	OC	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	meine	mein	_	PPOSAT	acc|pl|neut	10	NK	_	_
+10	Gebote	Gebot	_	NN	acc|pl|neut	14	OA	_	_
+11	und	und	_	KON	_	10	CD	_	_
+12	Weisungen	Weisung	_	NN	acc|pl|fem	11	CJ	_	_
+13	zu	zu	_	PTKZU	_	14	PM	_	_
+14	befolgen	befolgen	_	VVINF	_	7	OC	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#170
+#<Ex 17:2>d-e
+# Was streitet ihr mit mir ?
+1	Was	was	_	PWS	nom|sg|neut	2	SB	_	_
+2	streitet	streiten	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	dat|sg|fem|3	2	OA	_	_
+4	mit	mit	_	APPR	_	2	MO	_	_
+5	mir	sich	_	PPER	dat|sg|*|1	4	NK	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# Warum stellt ihr den Herrn auf die Probe ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	stellt	stellen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	den	der	_	ART	acc|sg|masc	5	NK	_	_
+5	Herrn	Herr	_	NN	acc|sg|masc	2	OA	_	_
+6	auf	auf	_	APPR	_	2	MO	_	_
+7	die	der	_	ART	acc|sg|fem	8	NK	_	_
+8	Probe	Probe	_	NN	acc|sg|fem	6	NK	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#171
+#<Ex 17:3>c-d
+# Warum hast du uns überhaupt aus Ägypten hierher geführt ?
+1	Warum	warum	_	PWAV	_	9	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	uns	uns	_	PPER	dat|pl|*|1	9	DA	_	_
+5	überhaupt	überhaupt	_	ADV	_	9	MO	_	_
+6	aus	aus	_	APPR	_	9	MO	_	_
+7	Ägypten	Ägypten	_	NE	dat|sg|neut	6	NK	_	_
+8	hierher	hierher	_	ADV	_	9	MO	_	_
+9	geführt	führen	_	VVPP	_	2	OC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# Um uns , unsere Söhne und unser Vieh verdursten zu lassen ?
+1	Um	um	_	KOUI	_	11	CP	_	_
+2	uns	uns	_	PPER	dat|pl|*|1	11	DA	_	_
+3	,	--	_	$,	_	2	--	_	_
+4	unsere	unser	_	PPOSAT	nom|pl|masc	5	NK	_	_
+5	Söhne	Sohn	_	NN	nom|pl|masc	2	CJ	_	_
+6	und	und	_	KON	_	5	CD	_	_
+7	unser	unser	_	PPOSAT	nom|sg|neut	8	NK	_	_
+8	Vieh	Vieh	_	NN	acc|sg|neut	6	CJ	_	_
+9	verdursten	verdursten	_	ADJD	_	11	MO	_	_
+10	zu	zu	_	PTKZU	_	11	PM	_	_
+11	lassen	lassen	_	VVINF	_	0	--	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#172
+#<Ex 17:4>b
+# Was soll ich mit diesem Volk anfangen ?
+1	Was	was	_	PDS	acc|sg|neut	7	OA	_	_
+2	soll	sollen	_	VMFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	mit	mit	_	APPR	_	7	MO	_	_
+5	diesem	dieser	_	PDAT	dat|sg|neut	6	NK	_	_
+6	Volk	Volk	_	NN	dat|sg|neut	4	NK	_	_
+7	anfangen	anfangen	_	VVINF	_	2	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#173
+#<Ex 17:7>b
+# Ist der Herr in unserer Mitte oder nicht ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	der	der	_	ART	nom|sg|masc	3	NK	_	_
+3	Herr	Herr	_	NN	nom|sg|masc	1	SB	_	_
+4	in	in	_	APPR	_	1	MO	_	_
+5	unserer	unser	_	PPOSAT	dat|sg|fem	6	NK	_	_
+6	Mitte	Mitte	_	NN	dat|sg|fem	4	NK	_	_
+7	oder	oder	_	KON	_	4	CD	_	_
+8	nicht	nicht	_	PTKNEG	_	7	CJ	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#174
+#<Ex 18:14>b
+# Was soll das , was du da für das Volk tust ?
+1	Was	was	_	PWS	acc|sg|neut	2	OA	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	das	der	_	PDS	nom|sg|neut	2	SB	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	was	was	_	PRELS	acc|sg|neut	11	OA	_	_
+6	du	du	_	PPER	nom|sg|*|2	11	SB	_	_
+7	da	da	_	ADV	_	11	MO	_	_
+8	für	für	_	APPR	_	11	MO	_	_
+9	das	der	_	ART	acc|sg|neut	10	NK	_	_
+10	Volk	Volk	_	NN	acc|sg|neut	8	NK	_	_
+11	tust	tun	_	VVFIN	sg|3|pres|ind	3	RC	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#175
+#<Ex 18:14>c
+# Warum sitzt du hier allein und die vielen Leute müssen vom Morgen bis zum Abend vor dir anstehen ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	sitzt	sitzen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	hier	hier	_	ADV	_	2	MO	_	_
+5	allein	allein	_	ADV	_	2	MO	_	_
+6	und	und	_	KON	_	2	CD	_	_
+7	die	der	_	ART	nom|pl|*	9	NK	_	_
+8	vielen	vieler	_	PIAT	acc|pl|*	9	NK	_	_
+9	Leute	Leute	_	NN	nom|pl|*	10	SB	_	_
+10	müssen	müssen	_	VMFIN	pl|3|pres|ind	6	CJ	_	_
+11	vom	von	_	APPRART	dat|sg|masc	18	MO	_	_
+12	Morgen	Morgen	_	NN	dat|sg|masc	11	NK	_	_
+13	bis	bis	_	APPR	_	14	AC	_	_
+14	zum	zu	_	APPRART	dat|sg|masc	18	MO	_	_
+15	Abend	Abend	_	NN	dat|sg|masc	14	NK	_	_
+16	vor	vor	_	APPR	_	18	MO	_	_
+17	dir	dir	_	PPER	dat|sg|*|2	16	NK	_	_
+18	anstehen	anstehen	_	VVINF	_	10	OC	_	_
+19	?	--	_	$.	_	18	--	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#176
+#<Ex 22:26>b
+# Worin soll er sonst schlafen ?
+1	Worin	worin	_	PWAV	_	2	MO	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	er	er	_	PPER	nom|sg|masc|3	2	SB	_	_
+4	sonst	sonst	_	ADV	_	5	MO	_	_
+5	schlafen	schlafen	_	VVINF	_	2	OC	_	_
+6	?	--	_	$.	_	5	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#177
+#<Ex 32:11>b
+# Warum , Herr , ist dein Zorn gegen dein Volk entbrannt ?
+1	Warum	warum	_	PWAV	_	11	MO	_	_
+2	,	--	_	$,	_	1	--	_	_
+3	Herr	Herr	_	NN	nom|sg|masc	5	VO	_	_
+4	,	--	_	$,	_	3	--	_	_
+5	ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+6	dein	dein	_	PPOSAT	nom|sg|masc	7	NK	_	_
+7	Zorn	Zorn	_	NN	nom|sg|neut	5	SB	_	_
+8	gegen	gegen	_	APPR	_	11	MO	_	_
+9	dein	dein	_	PPOSAT	acc|sg|neut	10	NK	_	_
+10	Volk	Volk	_	NN	acc|sg|neut	8	NK	_	_
+11	entbrannt	entbrennen	_	VVPP	_	5	PD	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#178
+#<Ex 32:21>b
+# Was hat dir dieses Volk getan , dass du ihm eine so große Schuld aufgeladen hast ?
+1	Was	was	_	PWS	nom|sg|neut	2	SB	_	_
+2	hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+3	dir	dir	_	PPER	dat|sg|*|2	6	DA	_	_
+4	dieses	dieser	_	PDAT	acc|sg|neut	5	NK	_	_
+5	Volk	Volk	_	NN	acc|sg|neut	6	OA	_	_
+6	getan	tun	_	VVPP	_	2	OC	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	dass	daß	_	KOUS	_	16	CP	_	_
+9	du	du	_	PPER	nom|sg|*|2	16	SB	_	_
+10	ihm	ihm	_	PPER	dat|sg|masc|3	15	DA	_	_
+11	eine	ein	_	ART	acc|sg|fem	14	NK	_	_
+12	so	so	_	ADV	_	13	MO	_	_
+13	große	groß	_	ADJA	acc|sg|fem|pos	14	NK	_	_
+14	Schuld	Schuld	_	NN	acc|sg|fem	15	OA	_	_
+15	aufgeladen	aufladen	_	VVPP	_	16	OC	_	_
+16	hast	haben	_	VAFIN	sg|2|pres|ind	6	MO	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#179
+#<Ex 33:16>a
+# Woran soll man erkennen , dass ich zusammen mit deinem Volk deine Gnade gefunden habe ?
+1	Woran	woran	_	PWAV	_	2	MO	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	man	man	_	PIS	nom|sg|*	2	SB	_	_
+4	erkennen	erkennen	_	VVINF	_	2	OC	_	_
+5	,	--	_	$,	_	4	--	_	_
+6	dass	daß	_	KOUS	_	15	CP	_	_
+7	ich	ich	_	PPER	nom|sg|*|1	15	SB	_	_
+8	zusammen	zusammen	_	ADV	_	9	MO	_	_
+9	mit	mit	_	APPR	_	14	MO	_	_
+10	deinem	dein	_	PPOSAT	dat|sg|neut	11	NK	_	_
+11	Volk	Volk	_	NN	dat|sg|neut	9	NK	_	_
+12	deine	dein	_	PPOSAT	acc|sg|fem	13	NK	_	_
+13	Gnade	Gnade	_	NN	acc|sg|fem	14	OA	_	_
+14	gefunden	finden	_	VVPP	_	15	OC	_	_
+15	habe	haben	_	VAFIN	sg|3|pres|subj	4	OC	_	_
+16	?	--	_	$.	_	15	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#180
+#<Lev 10:17>a
+# Warum habt ihr das Sündopfer nicht an einem heiligen Ort gegessen ?
+1	Warum	warum	_	PWAV	_	11	MO	_	_
+2	habt	haben	_	VAFIN	pl|2|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	dat|sg|fem|3	11	DA	_	_
+4	das	der	_	ART	acc|sg|neut	5	NK	_	_
+5	Sündopfer	Sündopfer	_	NN	acc|sg|neut	11	OA	_	_
+6	nicht	nicht	_	PTKNEG	_	11	NG	_	_
+7	an	an	_	APPR	_	11	MO	_	_
+8	einem	ein	_	ART	dat|sg|masc	10	NK	_	_
+9	heiligen	heilig	_	ADJA	dat|sg|masc|pos	10	NK	_	_
+10	Ort	Ort	_	NN	dat|sg|masc	7	NK	_	_
+11	gegessen	gegessen	_	VVPP	_	2	OC	_	_
+12	?	--	_	$.	_	11	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#181
+#<Lev 10:19>b
+# Wenn ich heute das Sündopfer gegessen hätte , hätte das dem Herrn gefallen ?
+1	Wenn	wenn	_	KOUS	_	7	CP	_	_
+2	ich	ich	_	PPER	nom|sg|*|1	7	SB	_	_
+3	heute	heute	_	ADV	_	6	MO	_	_
+4	das	der	_	ART	acc|sg|neut	5	NK	_	_
+5	Sündopfer	Sündopfer	_	NN	nom|sg|neut	6	OA	_	_
+6	gegessen	gegessen	_	VVPP	_	7	OC	_	_
+7	hätte	haben	_	VAFIN	sg|3|past|subj	13	MO	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	hätte	haben	_	VAFIN	sg|3|past|subj	0	--	_	_
+10	das	der	_	PDS	nom|sg|neut	9	SB	_	_
+11	dem	der	_	ART	dat|sg|masc	12	NK	_	_
+12	Herrn	Herr	_	NN	dat|sg|masc	13	DA	_	_
+13	gefallen	fallen	_	VVPP	_	9	OC	_	_
+14	?	--	_	$.	_	13	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#182
+#<Lev 25:20>b
+# Was sollen wir im siebten Jahr essen , wenn wir nicht säen und unseren Ertrag nicht ernten dürfen ?
+1	Was	was	_	PWS	acc|sg|neut	7	OA	_	_
+2	sollen	sollen	_	VMFIN	pl|1|pres|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	im	in	_	APPRART	dat|sg|neut	7	MO	_	_
+5	siebten	siebter	_	ADJA	dat|sg|neut|pos	6	NK	_	_
+6	Jahr	Jahr	_	NN	dat|sg|neut	4	NK	_	_
+7	essen	essen	_	VVINF	_	2	OC	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	wenn	wenn	_	KOUS	_	12	CP	_	_
+10	wir	wir	_	PPER	nom|pl|*|1	12	SB	_	_
+11	nicht	nicht	_	PTKNEG	_	12	NG	_	_
+12	säen	säen	_	VVFIN	pl|1|pres|ind	7	MO	_	_
+13	und	und	_	KON	_	12	CD	_	_
+14	unseren	unser	_	PPOSAT	acc|sg|masc	15	NK	_	_
+15	Ertrag	Ertrag	_	NN	acc|sg|masc	17	OA	_	_
+16	nicht	nicht	_	PTKNEG	_	18	NG	_	_
+17	ernten	ernten	_	VVINF	_	18	OC	_	_
+18	dürfen	dürfen	_	VMINF	_	13	CJ	_	_
+19	?	--	_	$.	_	18	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#183
+#<Num 9:7>c
+# Warum soll es uns verwehrt sein , zur festgesetzten Zeit wie die anderen Israeliten dem Herrn unsere Opfergabe darzubringen ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+3	es	es	_	PPER	nom|sg|neut|3	2	SB	_	_
+4	uns	uns	_	PPER	dat|pl|*|1	5	DA	_	_
+5	verwehrt	verwehren	_	VVPP	_	6	PD	_	_
+6	sein	sein	_	VAINF	_	2	OC	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	zur	zu	_	APPRART	dat|sg|fem	19	MO	_	_
+9	festgesetzten	festgesetzt	_	ADJA	dat|sg|fem|pos	10	NK	_	_
+10	Zeit	Zeit	_	NN	dat|sg|fem	8	NK	_	_
+11	wie	wie	_	KOKOM	_	14	CM	_	_
+12	die	der	_	ART	nom|pl|fem	14	NK	_	_
+13	anderen	anderer	_	ADJA	nom|pl|fem|pos	14	NK	_	_
+14	Israeliten	Israelit	_	NN	nom|pl|fem	19	MO	_	_
+15	dem	der	_	ART	dat|sg|masc	16	NK	_	_
+16	Herrn	Herr	_	NN	dat|sg|masc	19	DA	_	_
+17	unsere	unser	_	PPOSAT	acc|sg|fem	18	NK	_	_
+18	Opfergabe	Opfergabe	_	NN	acc|sg|fem	19	OA	_	_
+19	darzubringen	darzubringen	_	VVIZU	_	3	RE	_	_
+20	?	--	_	$.	_	19	--	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#184
+#<Num 11:11>b
+# Warum hast du deinen Knecht so schlecht behandelt und warum habe ich nicht deine Gnade gefunden , dass du mir die Last mit diesem ganzen Volk auferlegst ?
+1	Warum	warum	_	PWAV	_	8	MO	_	_
+2	hast	haben	_	VAFIN	sg|2|pres|ind	0	--	_	_
+3	du	du	_	PPER	nom|sg|*|2	2	SB	_	_
+4	deinen	dein	_	PPOSAT	acc|sg|masc	5	NK	_	_
+5	Knecht	Knecht	_	NN	acc|sg|masc	8	OA	_	_
+6	so	so	_	ADV	_	7	MO	_	_
+7	schlecht	schlecht	_	ADJD	pos	8	MO	_	_
+8	behandelt	behandeln	_	VVPP	_	2	OC	_	_
+9	und	und	_	KON	_	2	CD	_	_
+10	warum	warum	_	PWAV	_	16	MO	_	_
+11	habe	haben	_	VAFIN	sg|1|pres|ind	9	CJ	_	_
+12	ich	ich	_	PPER	nom|sg|*|1	11	SB	_	_
+13	nicht	nicht	_	PTKNEG	_	16	NG	_	_
+14	deine	dein	_	PPOSAT	acc|sg|fem	15	NK	_	_
+15	Gnade	Gnade	_	NN	acc|sg|fem	16	OA	_	_
+16	gefunden	finden	_	VVPP	_	11	OC	_	_
+17	,	--	_	$,	_	16	--	_	_
+18	dass	daß	_	KOUS	_	27	CP	_	_
+19	du	du	_	PPER	nom|sg|*|2	27	SB	_	_
+20	mir	sich	_	PPER	dat|sg|*|1	27	DA	_	_
+21	die	der	_	ART	acc|sg|fem	22	NK	_	_
+22	Last	Last	_	NN	acc|sg|fem	27	OA	_	_
+23	mit	mit	_	APPR	_	27	MO	_	_
+24	diesem	dieser	_	PDAT	dat|sg|neut	26	NK	_	_
+25	ganzen	ganz	_	ADJA	dat|sg|neut|pos	26	NK	_	_
+26	Volk	Volk	_	NN	dat|sg|neut	23	NK	_	_
+27	auferlegst	auferlegst	_	VVFIN	sg|3|pres|ind	16	MO	_	_
+28	?	--	_	$.	_	27	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#185
+#<Num 11:12>a-b
+# Habe denn ich dieses ganze Volk in meinem Schoß getragen oder habe ich es geboren , dass du zu mir sagen kannst :
+1	Habe	Haben	_	VAFIN	nom|sg|fem	0	--	_	_
+2	denn	denn	_	ADV	_	10	MO	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	10	OA	_	_
+4	dieses	dieser	_	PDAT	acc|sg|neut	6	NK	_	_
+5	ganze	ganz	_	ADJA	acc|sg|neut|pos	6	NK	_	_
+6	Volk	Volk	_	NN	acc|sg|neut	10	OA	_	_
+7	in	in	_	APPR	_	10	MO	_	_
+8	meinem	mein	_	PPOSAT	dat|sg|masc	9	NK	_	_
+9	Schoß	Schoß	_	NN	dat|sg|masc	7	NK	_	_
+10	getragen	tragen	_	VVPP	_	1	OC	_	_
+11	oder	oder	_	KON	_	1	CD	_	_
+12	habe	haben	_	VAFIN	sg|1|pres|ind	11	CJ	_	_
+13	ich	ich	_	PPER	nom|sg|*|1	12	SB	_	_
+14	es	es	_	PPER	acc|sg|neut|3	15	OA	_	_
+15	geboren	gebären	_	VVPP	_	12	OC	_	_
+16	,	--	_	$,	_	15	--	_	_
+17	dass	daß	_	KOUS	_	22	CP	_	_
+18	du	du	_	PPER	nom|sg|*|2	22	SB	_	_
+19	zu	zu	_	APPR	_	21	OP	_	_
+20	mir	sich	_	PPER	dat|sg|*|1	19	NK	_	_
+21	sagen	sagen	_	VVINF	_	22	OC	_	_
+22	kannst	kannen	_	VVFIN	sg|3|pres|ind	14	RE	_	_
+23	:	--	_	$.	_	22	--	_	_
+
+# Nimm es an deine Brust , wie der Wärter den Säugling , und trag es in das Land , das ich seinen Vätern mit einem Eid zugesichert habe ?
+1	Nimm	nimm	_	KOUS	_	9	CP	_	_
+2	es	es	_	PPER	nom|sg|neut|3	9	RE	_	_
+3	an	an	_	APPR	_	9	MNR	_	_
+4	deine	dein	_	PPOSAT	acc|sg|fem	5	NK	_	_
+5	Brust	Brust	_	NN	acc|sg|fem	3	NK	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	wie	wie	_	PWAV	_	9	MO	_	_
+8	der	der	_	ART	nom|sg|masc	9	NK	_	_
+9	Wärter	Wärter	_	NN	nom|sg|masc	0	--	_	_
+10	den	der	_	ART	acc|sg|masc	11	NK	_	_
+11	Säugling	Säugling	_	NN	acc|sg|masc	9	OA	_	_
+12	,	--	_	$,	_	11	--	_	_
+13	und	und	_	KON	_	7	CD	_	_
+14	trag	trag	_	VVFIN	sg|3|past|subj	13	CJ	_	_
+15	es	es	_	PPER	nom|sg|neut|3	14	EP	_	_
+16	in	in	_	APPR	_	14	MO	_	_
+17	das	der	_	ART	acc|sg|neut	18	NK	_	_
+18	Land	Land	_	NN	acc|sg|neut	16	NK	_	_
+19	,	--	_	$,	_	18	--	_	_
+20	das	der	_	PRELS	nom|sg|neut	28	SB	_	_
+21	ich	ich	_	PPER	nom|sg|*|1	27	OA	_	_
+22	seinen	sein	_	PPOSAT	dat|pl|masc	23	NK	_	_
+23	Vätern	Vater	_	NN	dat|pl|masc	27	DA	_	_
+24	mit	mit	_	APPR	_	27	MO	_	_
+25	einem	ein	_	ART	dat|sg|masc	26	NK	_	_
+26	Eid	Eid	_	NN	dat|sg|masc	24	NK	_	_
+27	zugesichert	zusichern	_	VVPP	_	28	OC	_	_
+28	habe	haben	_	VAFIN	sg|3|pres|subj	18	RC	_	_
+29	?	--	_	$.	_	28	--	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#186
+#<Num 11:13>a
+# Woher soll ich für dieses ganze Volk Fleisch nehmen ?
+1	Woher	woher	_	PWAV	_	2	MO	_	_
+2	soll	sollen	_	VMFIN	sg|1|pres|ind	0	--	_	_
+3	ich	ich	_	PPER	nom|sg|*|1	2	SB	_	_
+4	für	für	_	APPR	_	9	MO	_	_
+5	dieses	dieser	_	PDAT	acc|sg|neut	7	NK	_	_
+6	ganze	ganz	_	ADJA	acc|sg|neut|pos	7	NK	_	_
+7	Volk	Volk	_	NN	acc|sg|neut	4	NK	_	_
+8	Fleisch	Fleisch	_	NN	acc|sg|neut	9	OA	_	_
+9	nehmen	nehmen	_	VVINF	_	2	OC	_	_
+10	?	--	_	$.	_	9	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#187
+#<Num 11:20>c
+# Warum sind wir aus Ägypten weggezogen ?
+1	Warum	warum	_	PWAV	_	6	MO	_	_
+2	sind	sein	_	VAFIN	pl|1|pres|ind	0	--	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	2	SB	_	_
+4	aus	aus	_	APPR	_	6	MO	_	_
+5	Ägypten	Ägypten	_	NE	dat|sg|neut	4	NK	_	_
+6	weggezogen	wegziehen	_	VVPP	_	2	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#188
+#<Num 11:22>a
+# Selbst wenn man alle Schafe , Ziegen und Rinder für sie schlachtet , reicht das für sie ?
+1	Selbst	selbst	_	ADV	_	12	MO	_	_
+2	wenn	wenn	_	KOUS	_	12	CP	_	_
+3	man	man	_	PIS	nom|sg|*	12	SB	_	_
+4	alle	aller	_	PIAT	acc|pl|masc	5	NK	_	_
+5	Schafe	Schaf	_	NN	acc|pl|masc	12	OA	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	Ziegen	Ziege	_	NN	nom|pl|masc	5	CJ	_	_
+8	und	und	_	KON	_	7	CD	_	_
+9	Rinder	Rinder	_	NN	nom|pl|neut	8	CJ	_	_
+10	für	für	_	APPR	_	12	MO	_	_
+11	sie	sie	_	PPER	acc|pl|masc|3	10	NK	_	_
+12	schlachtet	schlachten	_	VVFIN	sg|3|pres|ind	14	MO	_	_
+13	,	--	_	$,	_	12	--	_	_
+14	reicht	reichen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+15	das	der	_	PDS	nom|sg|neut	14	SB	_	_
+16	für	für	_	APPR	_	14	MO	_	_
+17	sie	sie	_	PPER	acc|pl|masc|3	16	NK	_	_
+18	?	--	_	$.	_	17	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#189
+#<Num 11:22>b
+# Wenn man alle Fische des Meeres für sie fängt , reicht das für sie ?
+1	Wenn	wenn	_	KOUS	_	9	CP	_	_
+2	man	man	_	PIS	nom|sg|*	9	SB	_	_
+3	alle	aller	_	PIAT	acc|pl|masc	4	NK	_	_
+4	Fische	Fisch	_	NN	acc|pl|masc	9	OA	_	_
+5	des	der	_	ART	gen|sg|neut	6	NK	_	_
+6	Meeres	Meer	_	NN	gen|sg|neut	4	AG	_	_
+7	für	für	_	APPR	_	6	MNR	_	_
+8	sie	sie	_	PPER	acc|pl|masc|3	7	NK	_	_
+9	fängt	fangen	_	VVFIN	sg|3|pres|ind	11	MO	_	_
+10	,	--	_	$,	_	9	--	_	_
+11	reicht	reichen	_	VVFIN	sg|3|pres|ind	0	--	_	_
+12	das	der	_	PDS	nom|sg|neut	11	SB	_	_
+13	für	für	_	APPR	_	11	MO	_	_
+14	sie	sie	_	PPER	acc|pl|masc|3	13	NK	_	_
+15	?	--	_	$.	_	14	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#190
+#<Num 11:23>b
+# Ist etwa der Arm des Herrn zu kurz ?
+1	Ist	sein	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	etwa	etwa	_	ADV	_	4	MO	_	_
+3	der	der	_	ART	nom|sg|masc	4	NK	_	_
+4	Arm	Arm	_	NN	nom|sg|masc	1	SB	_	_
+5	des	der	_	ART	gen|sg|masc	6	NK	_	_
+6	Herrn	Herr	_	NN	gen|sg|masc	4	AG	_	_
+7	zu	zu	_	PTKA	_	8	MO	_	_
+8	kurz	kurz	_	ADJD	pos	1	PD	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#191
+#<Num 11:29>b
+# Willst du dich für mich ereifern ?
+1	Willst	willst	_	VAFIN	sg|2|pres|ind	0	--	_	_
+2	du	du	_	PPER	nom|sg|*|2	1	SB	_	_
+3	dich	dich	_	PPER	acc|sg|2	6	OA	_	_
+4	für	für	_	APPR	_	6	MO	_	_
+5	mich	mich	_	PPER	acc|sg|*|1	4	NK	_	_
+6	ereifern	ereifern	_	VVINF	_	1	OC	_	_
+7	?	--	_	$.	_	6	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#192
+#<Num 12:2>b
+# Hat etwa der Herr nur mit Mose gesprochen ?
+1	Hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	etwa	etwa	_	ADV	_	4	MO	_	_
+3	der	der	_	ART	nom|sg|masc	4	NK	_	_
+4	Herr	Herr	_	NN	nom|sg|masc	1	SB	_	_
+5	nur	nur	_	ADV	_	6	MO	_	_
+6	mit	mit	_	APPR	_	8	MO	_	_
+7	Mose	Mose	_	NN	dat|sg|fem	6	NK	_	_
+8	gesprochen	sprechen	_	VVPP	_	1	OC	_	_
+9	?	--	_	$.	_	8	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#193
+#<Num 12:2>c
+# Hat er nicht auch mit uns gesprochen ?
+1	Hat	haben	_	VAFIN	sg|3|pres|ind	0	--	_	_
+2	er	er	_	PPER	nom|sg|masc|3	1	SB	_	_
+3	nicht	nicht	_	PTKNEG	_	7	NG	_	_
+4	auch	auch	_	ADV	_	7	MO	_	_
+5	mit	mit	_	APPR	_	7	OP	_	_
+6	uns	uns	_	PPER	dat|pl|*|1	5	NK	_	_
+7	gesprochen	sprechen	_	VVPP	_	1	OC	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#194
+#<Num 12:8>c
+# Warum habt ihr es gewagt , über meinen Knecht Mose zu reden ?
+1	Warum	warum	_	PWAV	_	5	MO	_	_
+2	habt	haben	_	VAFIN	pl|2|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	acc|sg|neut	2	SB	_	_
+4	es	es	_	PPER	nom|sg|neut|3	5	OA	_	_
+5	gewagt	wagen	_	VVPP	_	2	OC	_	_
+6	,	--	_	$,	_	5	--	_	_
+7	über	über	_	APPR	_	12	OP	_	_
+8	meinen	mein	_	PPOSAT	acc|sg|masc	9	NK	_	_
+9	Knecht	Knecht	_	NN	acc|sg|masc	7	NK	_	_
+10	Mose	Mose	_	NE	acc|sg|fem	9	NK	_	_
+11	zu	zu	_	PTKZU	_	12	PM	_	_
+12	reden	reden	_	VVINF	_	4	RE	_	_
+13	?	--	_	$.	_	12	--	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#195
+#<Num 12:14>b
+# Wenn ihr Vater ihr ins Gesicht gespuckt hätte , müsste sie sich dann nicht sieben Tage lang schämen ?
+1	Wenn	wenn	_	KOUS	_	8	CP	_	_
+2	ihr	ihr	_	PPOSAT	nom|sg|masc	3	NK	_	_
+3	Vater	Vater	_	NN	nom|sg|masc	8	SB	_	_
+4	ihr	ihr	_	PPER	dat|sg|fem|3	7	DA	_	_
+5	ins	in	_	APPRART	acc|sg|neut	7	MO	_	_
+6	Gesicht	Gesicht	_	NN	acc|sg|neut	5	NK	_	_
+7	gespuckt	spucken	_	VVPP	_	8	OC	_	_
+8	hätte	haben	_	VAFIN	sg|3|past|subj	10	MO	_	_
+9	,	--	_	$,	_	8	--	_	_
+10	müsste	müssen	_	VMFIN	sg|3|pres|subj	0	--	_	_
+11	sie	sie	_	PPER	nom|sg|fem|3	10	SB	_	_
+12	sich	sich	_	PRF	acc|sg|3	18	OA	_	_
+13	dann	dann	_	ADV	_	10	MO	_	_
+14	nicht	nicht	_	PTKNEG	_	10	NG	_	_
+15	sieben	sieben	_	CARD	_	16	NK	_	_
+16	Tage	Tag	_	NN	acc|pl|masc	17	AMS	_	_
+17	lang	lang	_	ADJD	pos	18	MO	_	_
+18	schämen	schämen	_	VVINF	_	10	OC	_	_
+19	?	--	_	$.	_	18	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#196
+#<Num 14:3>a-b
+# Warum nur will uns der Herr in jenes Land bringen ?
+1	Warum	warum	_	PWAV	_	3	MO	_	_
+2	nur	nur	_	ADV	_	3	MO	_	_
+3	will	wollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+4	uns	uns	_	PPER	acc|pl|*|1	10	OA	_	_
+5	der	der	_	ART	nom|sg|masc	6	NK	_	_
+6	Herr	Herr	_	NN	nom|sg|masc	3	SB	_	_
+7	in	in	_	APPR	_	10	MO	_	_
+8	jenes	jener	_	PDAT	acc|sg|neut	9	NK	_	_
+9	Land	Land	_	NN	acc|sg|neut	7	NK	_	_
+10	bringen	bringen	_	VVINF	_	3	OC	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Etwa damit wir durch das Schwert umkommen und unsere Frauen und Kinder eine Beute der Feinde werden ?
+1	Etwa	etwa	_	ADV	_	7	MO	_	_
+2	damit	damit	_	KOUS	_	7	CP	_	_
+3	wir	wir	_	PPER	nom|pl|*|1	7	SB	_	_
+4	durch	durch	_	APPR	_	7	MO	_	_
+5	das	der	_	ART	acc|sg|neut	6	NK	_	_
+6	Schwert	Schwert	_	NN	acc|sg|neut	4	NK	_	_
+7	umkommen	umkommen	_	VVFIN	_	0	--	_	_
+8	und	und	_	KON	_	7	CD	_	_
+9	unsere	unser	_	PPOSAT	nom|pl|fem	10	NK	_	_
+10	Frauen	Frau	_	NN	nom|pl|fem	17	SB	_	_
+11	und	und	_	KON	_	10	CD	_	_
+12	Kinder	Kind	_	NN	nom|pl|neut	11	CJ	_	_
+13	eine	ein	_	ART	nom|sg|fem	14	NK	_	_
+14	Beute	Beute	_	NN	nom|sg|fem	17	PD	_	_
+15	der	der	_	ART	gen|sg|fem	16	NK	_	_
+16	Feinde	Feind	_	NN	gen|sg|fem	14	AG	_	_
+17	werden	werden	_	VAFIN	_	8	CJ	_	_
+18	?	--	_	$.	_	17	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#197
+#<Num 14:3>c
+# Wäre es für uns nicht besser , nach Ägypten zurückzukehren ?
+1	Wäre	sein	_	VAFIN	sg|3|past|subj	0	--	_	_
+2	es	es	_	PPER	nom|sg|neut|3	1	SB	_	_
+3	für	für	_	APPR	_	1	MO	_	_
+4	uns	uns	_	PPER	acc|pl|*|1	3	NK	_	_
+5	nicht	nicht	_	PTKNEG	_	1	NG	_	_
+6	besser	gut	_	ADJD	comp	1	PD	_	_
+7	,	--	_	$,	_	6	--	_	_
+8	nach	nach	_	APPR	_	10	MO	_	_
+9	Ägypten	Ägypten	_	NE	dat|sg|neut	8	NK	_	_
+10	zurückzukehren	zurückzukehren	_	VVIZU	_	6	OC	_	_
+11	?	--	_	$.	_	10	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#198
+#<Num 14:11>b
+# Wie lange verachtet mich dieses Volk noch , wie lange noch wollen sie nicht an mich glauben trotz all der Zeichen , die ich mitten unter ihnen vollbracht habe ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	lange	lange	_	ADV	_	3	MO	_	_
+3	verachtet	verachten	_	VVFIN	sg|3|pres|ind	0	--	_	_
+4	mich	mich	_	PPER	acc|sg|*|1	3	OA	_	_
+5	dieses	dieser	_	PDAT	nom|sg|neut	6	NK	_	_
+6	Volk	Volk	_	NN	nom|sg|neut	3	SB	_	_
+7	noch	noch	_	ADV	_	3	MO	_	_
+8	,	--	_	$,	_	7	--	_	_
+9	wie	wie	_	PWAV	_	10	MO	_	_
+10	lange	lange	_	ADV	_	17	MO	_	_
+11	noch	noch	_	ADV	_	12	MO	_	_
+12	wollen	wollen	_	VMFIN	pl|3|pres|ind	3	CJ	_	_
+13	sie	sie	_	PPER	nom|pl|*|3	12	SB	_	_
+14	nicht	nicht	_	PTKNEG	_	12	NG	_	_
+15	an	an	_	APPR	_	17	MO	_	_
+16	mich	mich	_	PPER	acc|sg|*|1	15	NK	_	_
+17	glauben	glauben	_	VVINF	pl|3|pres|ind	12	OC	_	_
+18	trotz	trotz	_	APPR	_	17	MO	_	_
+19	all	all	_	PIAT	*|*|*	21	NK	_	_
+20	der	der	_	ART	gen|pl|*	21	NK	_	_
+21	Zeichen	Zeichen	_	NN	gen|pl|*	18	NK	_	_
+22	,	--	_	$,	_	21	--	_	_
+23	die	der	_	PRELS	acc|sg|fem	28	OA	_	_
+24	ich	ich	_	PPER	nom|sg|*|1	29	SB	_	_
+25	mitten	mitten	_	ADV	_	28	MO	_	_
+26	unter	unter	_	APPR	_	28	MO	_	_
+27	ihnen	ihnen	_	PPER	dat|pl|*|3	26	NK	_	_
+28	vollbracht	vobringen	_	VVPP	_	29	OC	_	_
+29	habe	haben	_	VAFIN	sg|3|pres|subj	21	RC	_	_
+30	?	--	_	$.	_	29	--	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#199
+#<Num 14:27>a
+# Wie lange soll das mit dieser bösen Gemeinde so weitergehen , die immer über mich murrt ?
+1	Wie	wie	_	PWAV	_	2	MO	_	_
+2	lange	lange	_	ADV	_	3	MO	_	_
+3	soll	sollen	_	VMFIN	sg|3|pres|ind	0	--	_	_
+4	das	der	_	PDS	nom|sg|neut	3	SB	_	_
+5	mit	mit	_	APPR	_	4	MNR	_	_
+6	dieser	dieser	_	PDAT	dat|sg|fem	8	NK	_	_
+7	bösen	böse	_	ADJA	dat|sg|fem|pos	8	NK	_	_
+8	Gemeinde	Gemeinde	_	NN	dat|sg|fem	5	NK	_	_
+9	so	so	_	ADV	_	10	MO	_	_
+10	weitergehen	weitergehen	_	VVINF	_	3	OC	_	_
+11	,	--	_	$,	_	10	--	_	_
+12	die	der	_	PRELS	nom|pl|fem	16	SB	_	_
+13	immer	immer	_	ADV	_	16	MO	_	_
+14	über	über	_	APPR	_	16	MO	_	_
+15	mich	mich	_	PPER	acc|sg|*|1	14	NK	_	_
+16	murrt	murren	_	VVFIN	sg|3|pres|ind	9	CC	_	_
+17	?	--	_	$.	_	16	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#200
+#<Num 14:41>b
+# Warum übertretet ihr den Befehl des Herrn ?
+1	Warum	warum	_	PWAV	_	2	MO	_	_
+2	übertretet	übertreten	_	VVFIN	sg|3|pres|ind	0	--	_	_
+3	ihr	ihr	_	PPER	nom|pl|*|2	2	SB	_	_
+4	den	der	_	ART	acc|sg|masc	5	NK	_	_
+5	Befehl	Befehl	_	NN	acc|sg|masc	2	OA	_	_
+6	des	der	_	ART	gen|sg|masc	7	NK	_	_
+7	Herrn	Herr	_	NN	gen|sg|masc	5	AG	_	_
+8	?	--	_	$.	_	7	--	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ

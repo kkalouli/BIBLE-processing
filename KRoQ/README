@@ -1,0 +1,36 @@
+The first version of the KRoQ corpus is made available via the
+LRE Map and contains the French, the Spanish and the Greek
+Bible texts, along with our annotations. The German Bible text
+cannot be made available because of copyright restrictions.
+For French and Spanish, the corpus is provided in the CoNLL-U
+format to facilitate further processing of the corpus. For
+consistency, the Greek text is also provided in this format,
+but is not parsed. Every sentence of each of the Bible
+translations contains its original Bible index (e.g. Génèse
+1:1 for Genesis, Chapter 1, Verse 1), the original sentence,
+its parsed structure and a comment field named "annotation".
+This field captures the annotations of the questions and is
+left blank for all non-questions. For the questions, the
+annotation field contains the final score that was
+automatically assigned across the four languages and our
+annotation based on that score and on setting 1, as presented
+in Section 4.
+
+Additionally to this main corpus, we also provide the gold
+standard files we used for better reproduction of the results.
+The gold standard contains the first 200 aligned questions of
+the Bible for each of the four languages. For German, French
+and Spanish, the ``gold" questions are provided in the CoNLL-U
+format. For Greek they are provided as raw text. Each item of
+the gold standard is numbered according to its occurrence in
+the Bible and contains the original question, its Bible index
+(e.g. Génèse 1:1 for Genesis, Chapter 1, Verse 1) and the
+parsed structure. The annotations are captured in the comment
+fields of each item: the final score that was automatically
+assigned across the four languages and the annotation based on
+that score and on setting 1 of Section 4 (in the comment field
+"annotation") and the manual, gold standard annotation of
+ISQ vs. NISQ (in the comment field "gold_annotation"). In
+order to see the alignment across languages, we add a
+spreadsheet where the 200 questions and their instances in the
+other languages are  aligned. 

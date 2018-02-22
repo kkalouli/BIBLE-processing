@@ -1,0 +1,4198 @@
+#1
+#<Génèse 3:9>b
+# Où es -tu ? "
+1	Où	où	_	ADVWH	s=int	2	mod	_	_
+2	es	e	_	V	g=f|n=p|s=c	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=p|p=1|s=suj	2	suj	_	_
+4	?	?	_	PONCT	s=w	2	ponct	_	_
+5	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#2
+#<Génèse 3:11>a
+# " Qui t' a appris que tu étais nu , demanda le Seigneur Dieu ;
+1	"	"	_	PONCT	s=w	5	ponct	_	_
+2	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	5	suj	_	_
+3	t'	t'	_	CLS	g=m|n=s|p=3|s=suj	5	suj	_	_
+4	a	avoir	_	V	m=ind|n=s|p=3|t=pst	5	aux.tps	_	_
+5	appris	apprendre	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+6	que	que	_	CS	s=s	5	obj	_	_
+7	tu	tu	_	DET	g=m|n=s|p=2|s=suj	8	det	_	_
+8	étais	étais	_	NC	g=m|mwehead=NC+|s=c|pred=y	11	suj	_	_
+9	nu	nu	_	NC	g=m|n=s|s=c	8	mod	_	_
+10	,	,	_	PONCT	s=w	11	ponct	_	_
+11	demanda	demander	_	V	m=ind|n=s|p=3|t=past	6	obj.cpl	_	_
+12	le	le	_	DET	g=m|n=s|s=def	13	det	_	_
+13	Seigneur	seigneur	_	NC	g=m|n=s|s=c	11	obj	_	_
+14	Dieu	dieu	_	NPP	g=m|n=s|s=p	13	mod	_	_
+15	;	;	_	PONCT	s=w	5	ponct	_	_
+
+# aurais -tu goûté au fruit que je t' avais défendu de manger ? "
+1	aurais	avoir	_	V	m=ind|n=s|p=1|t=cond	3	aux.tps	_	_
+2	-tu	il	_	CLS	g=m|m=part|n=s|t=past	3	suj	_	_
+3	goûté	goûter	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+4	au	à	_	P+D	s=def	3	mod	_	_
+5	fruit	fruit	_	NC	g=m|n=s|s=c	4	obj.p	_	_
+6	que	que	_	PROREL	g=m|n=s|p=3|s=rel	10	obj	_	_
+7	je	il	_	CLS	g=m|n=s|p=1|s=suj	10	suj	_	_
+8	t'	t'	_	CLS	g=f|n=s|p=2|s=suj	10	suj	_	_
+9	avais	avoir	_	V	m=ind|n=s|p=1|t=impft	10	aux.tps	_	_
+10	défendu	défendre	_	VPP	g=m|m=part|n=s|t=past	5	mod.rel	_	_
+11	de	de	_	P	_	10	de_obj	_	_
+12	manger	manger	_	NC	g=m|n=s|s=c	11	obj.p	_	_
+13	?	?	_	PONCT	s=w	3	ponct	_	_
+14	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#3
+#<Génèse 3:13>b
+# Pourquoi as -tu fait cela ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+2	as	avoir	_	V	g=m|n=s|p=2|s=obj	4	aux.tps	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	4	suj	_	_
+4	fait	faire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+5	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	4	obj	_	_
+6	?	?	_	PONCT	s=w	4	ponct	_	_
+7	"	"	_	PONCT	s=s	4	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#4
+#<Génèse 4:6>b
+# A quoi bon te fâcher et faire si triste mine ?
+1	A	avoir	_	P	_	0	root	_	_
+2	quoi	quoi	_	PROWH	g=m|n=s|p=3|s=int	1	obj.p	_	_
+3	bon	bon	_	ADJ	g=m|n=s|s=qual	5	mod	_	_
+4	te	te	_	CLO	g=m|n=s|p=1|s=obj	5	aff	_	_
+5	fâcher	fâcher	_	VINF	m=inf	1	obj.p	_	_
+6	et	et	_	CC	s=c	5	coord	_	_
+7	faire	faire	_	VINF	m=inf	6	dep.coord	_	_
+8	si	si	_	ADV	_	7	mod	_	_
+9	triste	triste	_	DET	g=m|n=s|s=qual	10	det	_	_
+10	mine	mine	_	NC	g=m|n=s|s=c	7	obj	_	_
+11	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#5
+#<Génèse 4:7>a
+# Si tu réagis comme il faut , tu reprendras le dessus ;
+1	Si	si	_	CS	s=s	0	root	_	_
+2	tu	tu	_	PRO	g=m|n=s|p=2|s=suj	1	obj.cpl	_	_
+3	réagis	réagir	_	VPP	g=m|m=part|n=p|t=past	2	mod	_	_
+4	comme	comme	_	CS	s=s	3	mod	_	_
+5	il	il	_	CLS	g=m|n=s|p=3|s=suj	6	suj	_	_
+6	faut	falloir	_	V	m=ind|n=s|p=3|t=pst	4	obj.cpl	_	_
+7	,	,	_	PONCT	s=w	6	ponct	_	_
+8	tu	tu	_	P+D	s=def	6	mod	_	_
+9	reprendras	repredras	_	NC	g=m|n=p|s=c	8	obj.p	_	_
+10	le	le	_	DET	g=m|n=s|s=def	11	det	_	_
+11	dessus	dessus	_	NC	g=m|n=s|s=c	9	mod	_	_
+12	;	;	_	PONCT	s=w	1	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#6
+#<Génèse 4:9>b
+# Où est ton frère Abel ? "
+1	Où	où	_	ADVWH	s=int	2	mod	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	ton	ton	_	DET	g=m|n=s|s=ind	4	det	_	_
+4	frère	frère	_	NC	g=m|n=s|s=c	2	suj	_	_
+5	Abel	abel	_	NPP	g=m|n=s|s=p	4	mod	_	_
+6	?	?	_	PONCT	s=w	2	ponct	_	_
+7	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#7
+#<Génèse 4:9>e
+# Est -ce à moi de surveiller mon frère ? "
+1	Est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+2	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	à	à	_	P	_	1	mod	_	_
+4	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	3	obj.p	_	_
+5	de	de	_	P	_	1	mod	_	_
+6	surveiller	surveiller	_	VINF	m=inf	5	obj.p	_	_
+7	mon	son	_	DET	g=m|n=s|p=1|s=poss	8	det	_	_
+8	frère	frère	_	NC	g=m|n=s|s=c	6	obj	_	_
+9	?	?	_	PONCT	s=w	1	ponct	_	_
+10	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#8
+#<Génèse 4:10>b
+# Pourquoi as -tu fait cela ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+2	as	avoir	_	V	g=m|n=s|p=2|s=obj	4	aux.tps	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	4	suj	_	_
+4	fait	faire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+5	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	4	obj	_	_
+6	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#9
+#<Génèse 12:18>b-c
+# Pourquoi m' as -tu fait cela ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	m'	me	_	CLS	g=m|n=s|p=1|s=obj	3	suj	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	5	suj	_	_
+5	fait	faire	_	V	m=ind|n=s|p=3|t=pst	3	mod	_	_
+6	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	5	obj	_	_
+7	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Pourquoi ne m' as -tu pas averti que c' était ta femme ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	7	mod	_	_
+2	ne	ne	_	ADV	s=neg	7	mod	_	_
+3	m'	me	_	CLS	g=m|n=s|p=1|s=refl	7	suj	_	_
+4	as	avoir	_	V	m=ind|n=s|p=2|t=pst	7	aux.tps	_	_
+5	-tu	il	_	CLS	g=m|m=part|n=s|t=past	7	suj	_	_
+6	pas	pas	_	ADV	s=neg	7	mod	_	_
+7	averti	avertir	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+8	que	que	_	CS	s=s	7	obj	_	_
+9	c'	ce	_	CLS	g=m|n=s|p=3|s=suj	10	suj	_	_
+10	était	être	_	V	m=ind|n=s|p=3|t=impft	8	obj.cpl	_	_
+11	ta	ta	_	DET	g=f|n=s|p=1|s=poss	12	det	_	_
+12	femme	femme	_	NC	g=f|n=s|s=c	10	ats	_	_
+13	?	?	_	PONCT	s=s	7	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#10
+#<Génèse 12:19>a
+# Pourquoi as -tu dit que c' était ta soeur , si bien que je l' ai prise pour femme ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	as	avoir	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=3|s=suj	4	suj	_	_
+4	dit	dire	_	V	m=ind|n=s|p=3|t=pst	2	mod	_	_
+5	que	que	_	CS	s=s	4	obj	_	_
+6	c'	ce	_	CLS	g=m|n=s|p=3|s=suj	7	suj	_	_
+7	était	être	_	V	m=ind|n=s|p=3|t=impft	5	obj.cpl	_	_
+8	ta	ta	_	DET	g=m|n=s|s=ind	9	det	_	_
+9	soeur	soeur	_	NC	g=m|n=s|s=c	7	ats	_	_
+10	,	,	_	PONCT	s=w	7	ponct	_	_
+11	si	si	_	ADV	mwehead=CS+|pred=y	7	mod	_	_
+12	bien	bien	_	ADV	_|pred=y	11	dep_cpd	_	_
+13	que	que	_	CS	s=s|pred=y	11	dep_cpd	_	_
+14	je	il	_	CLS	g=m|n=s|p=1|s=suj	17	suj	_	_
+15	l'	le	_	CLO	g=m|n=s|p=3|s=obj	17	obj	_	_
+16	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	17	aux.tps	_	_
+17	prise	prendre	_	VPP	g=f|m=part|n=s|t=past	11	obj.cpl	_	_
+18	pour	pour	_	P	_	17	mod	_	_
+19	femme	femme	_	NC	g=f|n=s|s=c|pred=y	18	obj.p	_	_
+20	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#11
+#<Génèse 13:9>a
+# Tu as tout le pays devant toi .
+1	Tu	tu	_	VPP	s=def	2	suj	_	_
+2	as	avoir	_	V	g=m|n=p|s=c	0	root	_	_
+3	tout	tout	_	ADJ	g=m|n=s|s=ind	5	mod	_	_
+4	le	le	_	DET	g=m|n=s|s=def	5	det	_	_
+5	pays	pays	_	NC	g=m|n=s|s=c	2	obj	_	_
+6	devant	devant	_	P	_	2	mod	_	_
+7	toi	toi	_	NC	g=m|n=s|p=2|s=obj	6	obj.p	_	_
+8	.	.	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#12
+#<Génèse 15:2-3>b
+# Seigneur mon Dieu , à quoi bon me donner quelque chose ?
+1	Seigneur	seigneur	_	ADJ	g=m|n=s|s=qual	3	mod	_	_
+2	mon	son	_	DET	g=m|n=s|p=1|s=poss	3	det	_	_
+3	Dieu	dieu	_	NC	g=m|n=s|s=p	0	root	_	_
+4	,	,	_	PONCT	s=w	3	ponct	_	_
+5	à	à	_	P	_	3	dep	_	_
+6	quoi	quoi	_	PROWH	g=m|n=s|p=3|s=int	5	obj.p	_	_
+7	bon	bon	_	ADJ	g=m|n=s|s=qual	5	obj.p	_	_
+8	me	me	_	NC	g=m|n=s|p=1|s=obj	7	dep_cpd	_	_
+9	donner	donner	_	VINF	m=inf	7	dep	_	_
+10	quelque	quelque	_	DET	mwehead=NC+|n=s|s=ind|pred=y	11	det	_	_
+11	chose	chose	_	NC	g=f|n=s|s=c|pred=y	9	obj	_	_
+12	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#13
+#<Génèse 15:8>a
+# " Seigneur Dieu , demanda Abram , comment pourrai -je être sûr que je le posséderai ? "
+1	"	"	_	PONCT	s=w	5	ponct	_	_
+2	Seigneur	seigneur	_	NC	g=m|n=s|s=c	5	suj	_	_
+3	Dieu	dieu	_	NPP	g=m|n=s|s=p	2	mod	_	_
+4	,	,	_	PONCT	s=w	5	ponct	_	_
+5	demanda	demanda	_	V	m=ind|n=s|p=3|t=past	0	root	_	_
+6	Abram	abram	_	NPP	g=m|n=s|s=p	5	suj	_	_
+7	,	,	_	PONCT	s=w	5	ponct	_	_
+8	comment	comment	_	ADVWH	s=int	9	mod	_	_
+9	pourrai	pourrai	_	V	m=ind|n=p|p=3|t=cond	5	mod	_	_
+10	-je	il	_	CLS	g=m|n=s|p=3|s=suj	9	suj	_	_
+11	être	être	_	VINF	m=inf	9	obj	_	_
+12	sûr	sûr	_	ADJ	g=m|n=s|s=qual	11	ats	_	_
+13	que	que	_	CS	s=s	11	mod	_	_
+14	je	il	_	CLS	g=m|n=s|p=1|s=suj	16	suj	_	_
+15	le	le	_	CLO	g=m|n=s|p=3|s=obj	16	obj	_	_
+16	posséderai	posséderai	_	V	m=ind|n=p|p=2|t=pst	13	obj.cpl	_	_
+17	?	?	_	PONCT	s=w	5	ponct	_	_
+18	"	"	_	PONCT	s=s	5	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#14
+#<Génèse 16:8>b
+# Agar , esclave de Saraï , d' où viens -tu et où vas -tu ? "
+1	Agar	agar	_	NPP	g=f|n=s|s=p	9	suj	_	_
+2	,	,	_	PONCT	s=w	1	ponct	_	_
+3	esclave	esclave	_	NC	g=f|n=s|s=c	1	mod	_	_
+4	de	de	_	P	_	3	dep	_	_
+5	Saraï	saraï	_	NPP	g=m|n=s|s=p	4	obj.p	_	_
+6	,	,	_	PONCT	s=w	3	ponct	_	_
+7	d'	de	_	P	_	3	dep	_	_
+8	où	où	_	ADV	g=m|n=s|p=3|s=rel	7	obj.p	_	_
+9	viens	vien	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+10	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	9	suj	_	_
+11	et	et	_	CC	s=c	9	coord	_	_
+12	où	où	_	PROREL	g=m|n=s|p=3|s=rel	13	mod	_	_
+13	vas	vas	_	V	m=ind|mwehead=V+|n=s|p=3|t=pst|pred=y	11	dep.coord	_	_
+14	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	13	suj	_	_
+15	?	?	_	PONCT	s=w	9	ponct	_	_
+16	"	"	_	PONCT	s=s	9	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#15
+#<Génèse 16:13>b
+# Ai -je réellement vu Celui qui me voit ? "
+1	Ai	ai	_	CC	s=s	0	root	_	_
+2	-je	il	_	CLS	g=m|n=s|p=3|s=suj	4	suj	_	_
+3	réellement	réellement	_	ADV	_	4	mod	_	_
+4	vu	voir	_	VPP	g=m|m=part|n=s|t=past	1	dep.coord	_	_
+5	Celui	celui	_	PRO	g=m|n=s|p=3|s=dem	4	obj	_	_
+6	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	8	suj	_	_
+7	me	me	_	CLO	g=m|n=s|p=1|s=obj	8	obj	_	_
+8	voit	voir	_	V	m=ind|n=s|p=3|t=pst	5	mod.rel	_	_
+9	?	?	_	PONCT	s=w	4	ponct	_	_
+10	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#16
+#<Génèse 17:17>b
+# Comment pourrais -je avoir un enfant , moi qui ai cent ans , et comment Sara qui en a quatre-vingt-dix pourrait -elle devenir mère ? " 
+1	Comment	comment	_	ADVWH	s=int	2	mod	_	_
+2	pourrais	pourrais	_	V	m=ind|n=p|p=3|t=cond	0	root	_	_
+3	-je	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	avoir	avoir	_	VINF	m=inf	2	obj	_	_
+5	un	un	_	DET	g=m|n=s|s=ind	6	det	_	_
+6	enfant	enfant	_	NC	g=m|n=s|s=c	4	obj	_	_
+7	,	,	_	PONCT	s=w	2	ponct	_	_
+8	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	2	mod	_	_
+9	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	10	suj	_	_
+10	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	8	mod.rel	_	_
+11	cent	cent	_	DET	g=m|n=p|s=card	12	det	_	_
+12	ans	an	_	NC	g=m|n=p|s=c	10	obj	_	_
+13	,	,	_	PONCT	s=w	2	ponct	_	_
+14	et	et	_	CC	s=c	2	coord	_	_
+15	comment	comment	_	CS	s=int	21	mod	_	_
+16	Sara	sara	_	NPP	g=m|n=s|s=p	21	suj	_	_
+17	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	19	suj	_	_
+18	en	en	_	CLO	g=m|n=s|p=3|s=obj	19	aff	_	_
+19	a	avoir	_	V	m=ind|n=s|p=3|t=pst	16	mod.rel	_	_
+20	quatre-vingt-dix	quatre-vintdix	_	PRO	g=m|n=p|s=card	19	obj	_	_
+21	pourrait	pouvoir	_	V	m=ind|n=s|p=3|t=cond	14	dep.coord	_	_
+22	-elle	il	_	CLS	g=f|n=s|p=3|s=suj	21	suj	_	_
+23	devenir	devenir	_	VINF	m=inf	21	obj	_	_
+24	mère	mère	_	NC	g=f|n=s|s=c	23	ats	_	_
+25	?	?	_	PONCT	s=w	2	ponct	_	_
+26	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#17
+#<Génèse 18:9>b
+# Où est ta femme Sara ? " "
+1	Où	où	_	ADVWH	s=int	2	mod	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	ta	ta	_	DET	g=f|n=s|s=def	4	det	_	_
+4	femme	femme	_	NC	g=f|n=s|s=c	2	suj	_	_
+5	Sara	sara	_	NPP	g=f|n=s|s=p	4	mod	_	_
+6	?	?	_	PONCT	s=w	2	ponct	_	_
+7	"	"	_	PONCT	s=w	2	ponct	_	_
+8	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#18
+#<Génèse 18:14>a
+# Y a -t-il donc quelque chose que le Seigneur soit incapable de réaliser ?
+1	Y	y	_	CLO	g=m|n=s|p=3|s=obj	2	obj	_	_
+2	a	avoir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	donc	donc	_	ADV	_	2	mod	_	_
+5	quelque	quelque	_	DET	mwehead=NC+|n=s|s=ind|pred=y	2	obj	_	_
+6	chose	chose	_	NC	g=f|n=s|s=c|pred=y	5	dep_cpd	_	_
+7	que	que	_	CS	s=s	5	dep	_	_
+8	le	le	_	DET	g=m|n=s|s=def	9	det	_	_
+9	Seigneur	seigneur	_	NC	g=m|n=s|s=c	10	suj	_	_
+10	soit	soit	_	VS	m=subj|n=s|p=3|t=pst	7	obj.cpl	_	_
+11	incapable	incapable	_	ADJ	g=m|n=s|s=qual	10	ats	_	_
+12	de	de	_	P	_	11	de_obj	_	_
+13	réaliser	réaliser	_	VINF	m=inf	12	obj.p	_	_
+14	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#19
+#<Génèse 18:23>b
+# Seigneur , vas -tu vraiment faire périr ensemble l' innocent et le coupable ?
+1	Seigneur	seigneur	_	NC	g=m|n=s|s=p	3	mod	_	_
+2	,	,	_	PONCT	s=w	3	ponct	_	_
+3	vas	vas	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+5	vraiment	vraiment	_	ADV	_	3	mod	_	_
+6	faire	faire	_	VINF	m=inf	7	aux.caus	_	_
+7	périr	périr	_	VINF	m=inf	3	obj	_	_
+8	ensemble	ensemble	_	ADV	_	7	mod	_	_
+9	l'	le	_	DET	g=m|n=s|p=3|s=obj	10	det	_	_
+10	innocent	innocent	_	ADJ	m=ind|n=p|p=3|t=pst	7	obj	_	_
+11	et	et	_	CC	s=c	10	coord	_	_
+12	le	le	_	DET	g=m|n=s|s=def	13	det	_	_
+13	coupable	coupable	_	NC	g=m|n=s|s=c	11	dep.coord	_	_
+14	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#20
+#<Génèse 18:24>b-c
+# Vas -tu quand même détruire cette ville ?
+1	Vas	vas	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+2	-tu	il	_	CLS	g=m|n=p|p=3|s=suj	1	suj	_	_
+3	quand	quand	_	ADV	s=s	1	mod	_	_
+4	même	même	_	ADV	_	3	dep_cpd	_	_
+5	détruire	détruire	_	VINF	m=inf	1	obj	_	_
+6	cette	ce	_	DET	g=f|n=s|s=dem	7	det	_	_
+7	ville	ville	_	NC	g=f|n=s|s=c	5	obj	_	_
+8	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+# Ne veux -tu pas lui pardonner à cause des cinquante justes qui s' y trouvent ?
+1	Ne	ne	_	ADV	_	2	mod	_	_
+2	veux	veux	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	pas	pas	_	ADV	s=neg	2	mod	_	_
+5	lui	lui	_	CLO	g=m|n=s|p=3|s=obj	6	a_obj	_	_
+6	pardonner	pardonner	_	VINF	m=inf	2	obj	_	_
+7	à	à	_	P	mwehead=P+D+|pred=y	6	mod	_	_
+8	cause	cause	_	NC	g=f|n=s|s=c|pred=y	7	dep_cpd	_	_
+9	des	de	_	P+D	s=def|pred=y	7	dep_cpd	_	_
+10	cinquante	cinquante	_	NC	g=f|n=p|s=card	7	obj.p	_	_
+11	justes	juste	_	ADJ	g=f|n=p|s=qual	10	dep_cpd	_	_
+12	qui	qui	_	PROREL	g=f|n=p|p=3|s=rel	15	suj	_	_
+13	s'	se	_	CLR	g=f|n=p|p=3|s=refl	15	aff	_	_
+14	y	y	_	CLO	g=f|n=s|p=3|s=obj	15	mod	_	_
+15	trouvent	trouver	_	V	m=ind|n=p|p=3|t=pst	10	mod.rel	_	_
+16	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#21
+#<Génèse 18:25>c
+# Il n' est pas possible que le juge de toute la terre ne respecte pas la justice . "
+1	Il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+2	n'	ne	_	ADV	s=neg	3	mod	_	_
+3	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	pas	pas	_	ADV	s=neg	3	mod	_	_
+5	possible	possible	_	ADJ	g=m|n=s|s=qual	3	ats	_	_
+6	que	que	_	CS	s=s	3	obj	_	_
+7	le	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	juge	juge	_	NC	g=m|n=s|s=c	14	suj	_	_
+9	de	de	_	P	_	8	dep	_	_
+10	toute	tout	_	ADJ	g=f|n=s|s=ind	12	mod	_	_
+11	la	le	_	DET	g=f|n=s|s=def	12	det	_	_
+12	terre	terre	_	NC	g=f|n=s|s=c	9	obj.p	_	_
+13	ne	ne	_	ADV	s=neg	14	mod	_	_
+14	respecte	respecter	_	V	m=ind|n=s|p=3|t=pst	6	obj.cpl	_	_
+15	pas	pas	_	ADV	s=neg	14	mod	_	_
+16	la	le	_	DET	g=f|n=s|s=def	17	det	_	_
+17	justice	justice	_	NC	g=f|n=s|s=c	14	obj	_	_
+18	.	.	_	PONCT	s=w	3	ponct	_	_
+19	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#22
+#<Génèse 18:28>b
+# Pour les cinq qui manquent détruiras -tu toute la ville ? "
+1	Pour	pour	_	P	_	0	root	_	_
+2	les	le	_	DET	g=m|n=p|s=def	3	det	_	_
+3	cinq	cinq	_	PRO	g=m|n=p|s=card	1	obj.p	_	_
+4	qui	qui	_	PROREL	g=m|n=p|p=3|s=rel	6	suj	_	_
+5	manquent	manquer	_	V	m=ind|n=p|p=3|t=pst	6	aux.pass	_	_
+6	détruiras	détruira	_	VPP	g=m|m=part|n=p|t=past	3	mod.rel	_	_
+7	-tu	il	_	P+D	g=m|n=s|p=2|s=suj	6	mod	_	_
+8	toute	tout	_	ADJ	g=f|n=s|s=ind	10	mod	_	_
+9	la	le	_	DET	g=f|n=s|s=def	10	det	_	_
+10	ville	ville	_	NC	g=f|n=s|s=c	7	obj.p	_	_
+11	?	?	_	PONCT	s=w	1	ponct	_	_
+12	"	"	_	PONCT	s=w	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#23
+#<Génèse 18:30>b
+# Je t' en prie , Seigneur , ne te fâche pas si je parle encore . 
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	2	suj	_	_
+2	t'	t'	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+3	en	en	_	P	mwehead=ADV+|pred=y	2	mod	_	_
+4	prie	prie	_	NC	g=f|n=s|s=c|pred=y	3	dep_cpd	_	_
+5	,	,	_	PONCT	s=w	2	ponct	_	_
+6	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	9	suj	_	_
+7	,	,	_	PONCT	s=w	9	ponct	_	_
+8	ne	ne	_	ADV	s=neg	9	mod	_	_
+9	te	te	_	V	m=ind|n=s|p=3|t=pst	2	mod	_	_
+10	fâche	fâche	_	ADV	_	11	mod	_	_
+11	pas	pas	_	ADV	s=neg	9	mod	_	_
+12	si	si	_	CS	s=s	9	obj	_	_
+13	je	il	_	CLS	g=m|n=s|p=1|s=suj	14	suj	_	_
+14	parle	parler	_	V	m=ind|n=s|p=1|t=pst	12	obj.cpl	_	_
+15	encore	encore	_	ADV	_	14	mod	_	_
+16	.	.	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#24
+#<Génèse 19:5>b
+# Où sont les gens qui sont venus chez toi ce soir ?
+1	Où	où	_	ADVWH	s=int	2	mod	_	_
+2	sont	être	_	V	m=ind|n=p|p=3|t=pst	0	root	_	_
+3	les	le	_	DET	g=f|n=p|s=def	4	det	_	_
+4	gens	gens	_	NC	g=f|n=p|s=c	2	suj	_	_
+5	qui	qui	_	PROREL	g=f|n=p|p=3|s=rel	7	suj	_	_
+6	sont	être	_	V	m=ind|n=p|p=3|t=pst	7	aux.tps	_	_
+7	venus	venir	_	VPP	g=m|m=part|n=p|t=past	4	mod.rel	_	_
+8	chez	chez	_	P	_	7	mod	_	_
+9	toi	toi	_	CLO	g=f|n=s|p=2|s=pers	11	mod	_	_
+10	ce	ce	_	DET	g=m|n=s|s=dem	11	det	_	_
+11	soir	soir	_	NC	g=m|n=s|s=c	8	obj.p	_	_
+12	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#25
+#<Génèse 19:9>b
+# Tu n' es qu' un étranger et tu voudrais faire la loi chez nous .
+1	Tu	tu	_	VPP	g=m|m=part|n=s|t=past	3	suj	_	_
+2	n'	ne	_	ADV	s=neg	3	mod	_	_
+3	es	e	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+4	qu'	que	_	ADV	s=neg	3	mod	_	_
+5	un	un	_	DET	g=m|n=s|s=ind	6	det	_	_
+6	étranger	étranger	_	NC	g=m|n=s|s=c	3	obj	_	_
+7	et	et	_	CC	s=c	6	coord	_	_
+8	tu	tu	_	P+D	g=m|n=p|s=card	7	dep.coord	_	_
+9	voudrais	voudrais	_	NC	g=m|n=p|s=c	8	obj.p	_	_
+10	faire	faire	_	VINF	m=inf	3	mod	_	_
+11	la	le	_	DET	g=f|n=s|s=def	12	det	_	_
+12	loi	loi	_	NC	g=f|n=s|s=c	10	obj	_	_
+13	chez	chez	_	P	_	10	mod	_	_
+14	nous	il	_	PRO	g=m|n=p|p=1|s=pers	13	obj.p	_	_
+15	.	.	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#26
+#<Génèse 19:12>b
+# Y a -t-il encore ici d' autres membres de ta famille , un gendre , des fils , des filles , n' importe quel parent ?
+1	Y	y	_	CLO	g=m|n=s|p=3|s=obj	2	obj	_	_
+2	a	avoir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	encore	encore	_	ADV	_	2	mod	_	_
+5	ici	ici	_	ADV	_	2	mod	_	_
+6	d'	de	_	DET	g=m|n=p|s=ind	8	det	_	_
+7	autres	autre	_	ADJ	g=m|n=p|s=ind	8	mod	_	_
+8	membres	membre	_	NC	g=m|n=p|s=c	2	obj	_	_
+9	de	de	_	P	_	8	dep	_	_
+10	ta	ta	_	DET	g=f|n=s|p=1|s=poss	11	det	_	_
+11	famille	famille	_	NC	g=f|n=s|s=c	9	obj.p	_	_
+12	,	,	_	PONCT	s=w	2	ponct	_	_
+13	un	un	_	DET	g=m|n=s|s=ind	14	det	_	_
+14	gendre	gendre	_	NC	g=m|n=s|s=c	23	suj	_	_
+15	,	,	_	PONCT	s=w	14	ponct	_	_
+16	des	de	_	P+D	s=def	14	dep	_	_
+17	fils	fils	_	NC	g=m|n=p|s=c	16	obj.p	_	_
+18	,	,	_	PONCT	s=w	17	ponct	_	_
+19	des	de	_	P+D	s=def	17	dep	_	_
+20	filles	fille	_	NC	g=f|n=p|s=c	19	obj.p	_	_
+21	,	,	_	PONCT	s=w	23	ponct	_	_
+22	n'	ne	_	ADV	mwehead=DET+|s=neg|pred=y	23	mod	_	_
+23	importe	importer	_	V	m=ind|n=s|p=3|t=pst	2	mod	_	_
+24	quel	quel	_	ADJWH	g=m|n=s|s=int	25	det	_	_
+25	parent	parent	_	NC	g=m|n=s|s=c	23	obj	_	_
+26	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#27
+#<Génèse 19:20>a
+# Tu vois cette petite ville ?
+1	Tu	tu	_	P+D	s=def	0	root	_	_
+2	vois	vois	_	ADJ	m=ind|n=s|p=1|t=pst	5	mod	_	_
+3	cette	ce	_	DET	g=f|n=s|s=dem	5	det	_	_
+4	petite	petit	_	ADJ	g=f|n=s|s=qual	5	mod	_	_
+5	ville	ville	_	NC	g=f|n=s|s=c	1	obj.p	_	_
+6	?	?	_	ADJ	s=s	5	mod	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#28
+#<Génèse 20:4>c
+# Vas -tu nous faire mourir quand même ?
+1	Vas	vas	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+2	-tu	il	_	CLS	g=f|n=s|p=3|s=suj	1	suj	_	_
+3	nous	il	_	CLO	g=m|n=p|p=1|s=obj	5	aff	_	_
+4	faire	faire	_	VINF	m=inf	5	aux.caus	_	_
+5	mourir	mourir	_	VINF	m=inf	1	obj	_	_
+6	quand	quand	_	ADV	mwehead=ADV+|pred=y	5	mod	_	_
+7	même	même	_	ADV	_	6	dep_cpd	_	_
+8	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#29
+#<Génèse 20:5>a
+# Abraham m' a dit lui-même qu' elle était sa soeur et elle a affirmé de son côté qu' il était son frère . 
+1	Abraham	abraham	_	NPP	g=m|n=s|s=p	4	suj	_	_
+2	m'	me	_	ADJ	g=m|n=s|p=1|s=obj	1	mod	_	_
+3	a	avoir	_	V	m=ind|n=s|p=3|t=pst	4	aux.tps	_	_
+4	dit	dire	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+5	lui-même	lui-même	_	ADJ	g=m|n=s|s=qual	4	ats	_	_
+6	qu'	que	_	CS	s=s	4	obj	_	_
+7	elle	il	_	CLS	g=f|n=s|p=3|s=suj	8	suj	_	_
+8	était	être	_	V	m=ind|n=s|p=3|t=impft	6	obj.cpl	_	_
+9	sa	son	_	DET	g=f|n=s|p=3|s=poss	10	det	_	_
+10	soeur	soeur	_	NC	g=f|n=s|s=c	8	obj	_	_
+11	et	et	_	CC	s=c	8	coord	_	_
+12	elle	il	_	CLS	g=f|n=s|p=3|s=suj	14	suj	_	_
+13	a	avoir	_	V	m=ind|n=s|p=3|t=pst	14	aux.tps	_	_
+14	affirmé	affirmer	_	VPP	g=m|m=part|n=s|t=past	11	dep.coord	_	_
+15	de	de	_	P	_	14	de_obj	_	_
+16	son	son	_	DET	g=m|n=s|p=3|s=poss	17	det	_	_
+17	côté	côté	_	NC	g=m|n=s|s=c	15	obj.p	_	_
+18	qu'	que	_	CS	s=s	14	obj	_	_
+19	il	il	_	CLS	g=m|n=s|p=3|s=suj	20	suj	_	_
+20	était	être	_	V	m=ind|n=s|p=3|t=impft	18	obj.cpl	_	_
+21	son	son	_	DET	g=m|n=s|p=3|s=poss	22	det	_	_
+22	frère	frère	_	NC	g=m|n=s|s=c	20	ats	_	_
+23	.	.	_	PONCT	s=s	4	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#30
+#<Génèse 20:9>b
+# Que nous as -tu fait là ?
+1	Que	que	_	CS	s=s	5	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	1	obj.cpl	_	_
+4	-tu	il	_	PRO	g=m|n=s|p=2|s=suj	3	obj	_	_
+5	fait	faire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+6	là	là	_	ADV	_	5	mod	_	_
+7	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#31
+#<Génèse 20:9>c
+# De quoi me suis -je rendu coupable envers toi pour que tu nous exposes , moi et mon royaume , à commettre une faute aussi grave ?
+1	De	de	_	P	_	6	mod	_	_
+2	quoi	quoi	_	PROWH	g=m|n=s|p=3|s=int	1	obj.p	_	_
+3	me	me	_	CLR	g=m|n=s|p=1|s=refl	6	suj	_	_
+4	suis	être	_	V	m=ind|n=s|p=1|t=pst	6	aux.tps	_	_
+5	-je	il	_	CLS	g=m|n=s|p=1|s=suj	6	suj	_	_
+6	rendu	rendre	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+7	coupable	coupable	_	ADJ	g=m|n=s|s=qual	6	mod	_	_
+8	envers	envers	_	P	_	6	mod	_	_
+9	toi	toi	_	ADV	g=f|n=s|p=2|s=pers	8	obj.p	_	_
+10	pour	pour	_	P	mwehead=CS+|pred=y	6	mod	_	_
+11	que	que	_	CS	s=s|pred=y	10	dep_cpd	_	_
+12	tu	tu	_	VPP	g=m|m=part|n=s|t=past	14	mod	_	_
+13	nous	il	_	CLS	g=m|n=p|p=1|s=suj	14	suj	_	_
+14	exposes	expose	_	V	g=f|n=p|s=qual	10	obj.cpl	_	_
+15	,	,	_	PONCT	s=w	14	ponct	_	_
+16	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	14	mod	_	_
+17	et	et	_	CC	s=c	16	coord	_	_
+18	mon	son	_	DET	g=m|n=s|p=1|s=poss	19	det	_	_
+19	royaume	royaume	_	NC	g=m|n=s|s=c	17	dep.coord	_	_
+20	,	,	_	PONCT	s=w	14	ponct	_	_
+21	à	à	_	P	_	14	a_obj	_	_
+22	commettre	commettre	_	VINF	m=inf	21	obj.p	_	_
+23	une	un	_	DET	g=f|n=s|s=ind	24	det	_	_
+24	faute	faute	_	NC	g=f|n=s|s=c	22	obj	_	_
+25	aussi	aussi	_	ADV	_	26	mod	_	_
+26	grave	grave	_	ADJ	g=f|n=s|s=qual	24	mod	_	_
+27	?	?	_	PONCT	s=s	6	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#32
+#<Génèse 20:10>a
+# Qu' est -ce qui t' a pris d' agir ainsi ? "
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	dep	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	7	suj	_	_
+5	t'	t'	_	CLO	g=m|n=s|p=3|s=obj	7	aff	_	_
+6	a	avoir	_	V	m=ind|n=s|p=3|t=pst	7	aux.tps	_	_
+7	pris	prendre	_	VPP	g=m|m=part|n=s|t=past	2	mod	_	_
+8	d'	de	_	P	_	7	obj	_	_
+9	agir	agir	_	VINF	m=inf	8	obj.p	_	_
+10	ainsi	ainsi	_	ADV	_	9	mod	_	_
+11	?	?	_	PONCT	s=w	2	ponct	_	_
+12	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#33
+#<Génèse 21:7>b
+# Qui aurait pu dire à Abraham qu' un jour Sara allaiterait des enfants ?
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	3	suj	_	_
+2	aurait	avoir	_	V	m=ind|n=s|p=3|t=cond	3	aux.tps	_	_
+3	pu	pouvoir	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+4	dire	dire	_	VINF	m=inf	3	obj	_	_
+5	à	à	_	P	_	4	mod	_	_
+6	Abraham	abraham	_	NPP	g=m|n=s|s=p	5	obj.p	_	_
+7	qu'	que	_	CS	s=s	4	obj	_	_
+8	un	un	_	DET	g=m|n=s|s=ind	9	det	_	_
+9	jour	jour	_	NC	g=m|n=s|s=c	11	suj	_	_
+10	Sara	sara	_	NPP	g=f|n=s|s=p	9	mod	_	_
+11	allaiterait	allaiter	_	V	m=ind|n=s|p=3|t=cond	7	obj.cpl	_	_
+12	des	de	_	P+D	s=def	11	de_obj	_	_
+13	enfants	enfant	_	NC	g=m|n=p|s=c	12	obj.p	_	_
+14	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#34
+#<Génèse 21:17>b
+# Qu' as -tu , Agar ?
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	as	avoir	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|m=part|n=s|t=past	2	suj	_	_
+4	,	,	_	PONCT	s=w	2	ponct	_	_
+5	Agar	agar	_	NPP	g=m|n=s|s=p	2	suj	_	_
+6	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#35
+#<Génèse 21:29>b
+# Pourquoi mets -tu ces sept brebis à part ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	mets	met	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=p|p=1|s=suj	2	suj	_	_
+4	ces	ce	_	DET	g=m|n=p|s=dem	6	det	_	_
+5	sept	sept	_	ADJ	g=m|n=p|s=card	6	mod	_	_
+6	brebis	brebis	_	NC	g=f|mwehead=NC+|s=c|pred=y	2	obj	_	_
+7	à	à	_	P	_|pred=y	6	dep_cpd	_	_
+8	part	part	_	NC	n=s|s=c|pred=y	6	dep_cpd	_	_
+9	?	?	_	PONCT	s=w	2	ponct	_	_
+10	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#36
+#<Génèse 22:7>f
+# Nous avons le feu et le bois , dit Isaac , mais où est l' agneau pour le sacrifice ? "
+1	Nous	il	_	CLS	g=m|n=p|p=1|s=suj	2	suj	_	_
+2	avons	avoir	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+3	le	le	_	DET	g=m|n=s|s=def	4	det	_	_
+4	feu	feu	_	NC	g=m|n=s|s=c	2	obj	_	_
+5	et	et	_	CC	s=c	4	coord	_	_
+6	le	le	_	DET	g=m|n=s|s=def	7	det	_	_
+7	bois	bois	_	NC	g=m|n=s|s=c	5	dep.coord	_	_
+8	,	,	_	PONCT	s=w	2	ponct	_	_
+9	dit	dire	_	V	m=ind|n=s|p=3|t=pst	2	mod	_	_
+10	Isaac	isaac	_	NPP	g=m|n=s|s=p	9	suj	_	_
+11	,	,	_	PONCT	s=w	2	ponct	_	_
+12	mais	mais	_	CC	s=c	2	coord	_	_
+13	où	où	_	PROREL	g=m|n=s|p=3|s=rel	14	mod	_	_
+14	est	être	_	V	m=ind|n=s|p=3|t=pst	12	dep.coord	_	_
+15	l'	le	_	DET	g=m|n=s|s=def	16	det	_	_
+16	agneau	agneau	_	NC	g=m|n=s|s=c	14	ats	_	_
+17	pour	pour	_	P	_	14	mod	_	_
+18	le	le	_	DET	g=m|n=s|s=def	19	det	_	_
+19	sacrifice	sacrifice	_	NC	g=m|n=s|s=c	17	obj.p	_	_
+20	?	?	_	PONCT	s=w	2	ponct	_	_
+21	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#37
+#<Génèse 23:14-15>c
+# Un terrain qui vaut quatre cents pièces d' argent , entre toi et moi c' est sans importance .
+1	Un	un	_	DET	g=m|n=s|s=ind	2	det	_	_
+2	terrain	terrain	_	NC	g=m|n=s|s=c	16	suj	_	_
+3	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	4	suj	_	_
+4	vaut	valoir	_	V	m=ind|n=s|p=3|t=pst	2	mod.rel	_	_
+5	quatre	quatre	_	DET	mwehead=DET+|s=card|pred=y	7	det	_	_
+6	cents	cents	_	DET	s=card|pred=y	5	dep_cpd	_	_
+7	pièces	pièce	_	NC	g=f|n=p|s=c	4	obj	_	_
+8	d'	de	_	P	_	7	dep	_	_
+9	argent	argent	_	NC	g=m|n=s|s=c	8	obj.p	_	_
+10	,	,	_	PONCT	s=w	4	ponct	_	_
+11	entre	entre	_	P	_	4	mod	_	_
+12	toi	toi	_	NC	g=f|n=s|p=2|s=pers	11	obj.p	_	_
+13	et	et	_	CC	s=c	12	coord	_	_
+14	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	13	dep.coord	_	_
+15	c'	ce	_	CLS	g=m|n=s|p=3|s=suj	16	suj	_	_
+16	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+17	sans	sans	_	P	_	16	ats	_	_
+18	importance	importance	_	NC	g=f|n=s|s=c	17	obj.p	_	_
+19	.	.	_	PONCT	s=s	16	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#38
+#<Génèse 24:5>c
+# Devrai -je alors ramener ton fils dans le pays que tu as quitté ? "
+1	Devrai	devrai	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+2	-je	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	alors	alors	_	ADV	_	1	mod	_	_
+4	ramener	ramener	_	VINF	m=inf	1	obj	_	_
+5	ton	ton	_	DET	g=m|n=p|s=ind	6	det	_	_
+6	fils	fils	_	NC	g=m|n=p|s=c	4	obj	_	_
+7	dans	dans	_	P	_	4	mod	_	_
+8	le	le	_	DET	g=m|n=s|s=def	9	det	_	_
+9	pays	pays	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+10	que	que	_	PROREL	g=m|n=s|p=3|s=rel	13	obj	_	_
+11	tu	tu	_	CLS	g=m|n=s|p=2|s=suj	13	suj	_	_
+12	as	avoir	_	V	m=ind|n=s|p=2|t=pst	13	aux.tps	_	_
+13	quitté	quitter	_	VPP	g=m|m=part|n=s|t=past	9	mod.rel	_	_
+14	?	?	_	PONCT	s=w	1	ponct	_	_
+15	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#39
+#<Génèse 24:23>b
+# De qui es -tu la fille ?
+1	De	de	_	P	_	3	mod	_	_
+2	qui	qui	_	PROWH	g=m|n=s|p=3|s=int	1	obj.p	_	_
+3	es	e	_	V	g=f|m=part|n=p|t=past	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+5	la	le	_	DET	g=f|n=s|s=def	6	det	_	_
+6	fille	fille	_	NC	g=f|n=s|s=c	3	obj	_	_
+7	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#40
+#<Génèse 24:31>b
+# Pourquoi restes -tu dehors ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	restes	reste	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=p|p=3|s=suj	2	suj	_	_
+4	dehors	dehors	_	ADV	_	2	mod	_	_
+5	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#41
+#<Génèse 24:47>a-b
+# Quand je lui ai demandé de qui elle était la fille , elle m' a répondu : "
+1	Quand	quand	_	CS	s=s	16	mod	_	_
+2	je	il	_	CLS	g=m|n=s|p=1|s=suj	5	suj	_	_
+3	lui	lui	_	CLO	g=m|n=s|p=3|s=obj	5	a_obj	_	_
+4	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	5	aux.tps	_	_
+5	demandé	demander	_	VPP	g=m|m=part|n=s|t=past	1	obj.cpl	_	_
+6	de	de	_	P	_	9	de_obj	_	_
+7	qui	qui	_	PROREL	g=f|n=s|p=3|s=rel	6	obj.p	_	_
+8	elle	il	_	CLS	g=f|n=s|p=3|s=suj	9	suj	_	_
+9	était	être	_	V	m=ind|n=s|p=3|t=impft	5	mod	_	_
+10	la	le	_	DET	g=f|n=s|s=def	11	det	_	_
+11	fille	fille	_	NC	g=f|n=s|s=c	9	ats	_	_
+12	,	,	_	PONCT	s=w	16	ponct	_	_
+13	elle	il	_	CLS	g=f|n=s|p=3|s=suj	16	suj	_	_
+14	m'	me	_	CLO	g=m|n=s|p=1|s=obj	16	a_obj	_	_
+15	a	avoir	_	V	m=ind|n=s|p=3|t=pst	16	aux.tps	_	_
+16	répondu	répondre	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+17	:	:	_	PONCT	s=w	16	ponct	_	_
+18	"	"	_	PONCT	s=s	16	ponct	_	_
+
+# Je suis la fille de Betouel et la petite-fille de Nahor et de Milka . "
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	2	suj	_	_
+2	suis	être	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+3	la	le	_	DET	g=f|n=s|s=def	4	det	_	_
+4	fille	fille	_	NC	g=f|n=s|s=c	2	ats	_	_
+5	de	de	_	P	_	4	dep	_	_
+6	Betouel	betouel	_	NPP	g=m|n=s|s=p	5	obj.p	_	_
+7	et	et	_	CC	s=c	4	coord	_	_
+8	la	le	_	DET	g=f|n=s|s=def	9	det	_	_
+9	petite-fille	petite-fille	_	NC	g=f|n=s|s=c	7	dep.coord	_	_
+10	de	de	_	P	_	9	dep	_	_
+11	Nahor	nahor	_	NPP	n=s|s=p	10	obj.p	_	_
+12	et	et	_	CC	s=c	10	coord	_	_
+13	de	de	_	P	_	12	dep.coord	_	_
+14	Milka	milka	_	NPP	g=m|n=s|s=p	13	obj.p	_	_
+15	.	.	_	PONCT	s=s	2	ponct	_	_
+16	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#42
+#<Génèse 24:58>b
+# Veux -tu partir avec cet homme ? " "
+1	Veux	veux	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+2	-tu	il	_	CLS	g=m|n=s|p=3|s=obj	1	suj	_	_
+3	partir	partir	_	VINF	m=inf	1	obj	_	_
+4	avec	avec	_	P	_	3	mod	_	_
+5	cet	ce	_	DET	g=m|n=s|s=dem	6	det	_	_
+6	homme	homme	_	NC	g=m|n=s|s=c	4	obj.p	_	_
+7	?	?	_	PONCT	s=w	1	ponct	_	_
+8	"	"	_	PONCT	s=w	1	ponct	_	_
+9	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#43
+#<Génèse 24:65>b
+# Qui est cet homme qui vient à notre rencontre dans la campagne ? " "
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	2	suj	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	cet	ce	_	DET	g=m|n=s|s=dem	4	det	_	_
+4	homme	homme	_	NC	g=m|n=s|s=c	2	ats	_	_
+5	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	6	suj	_	_
+6	vient	venir	_	V	m=ind|n=s|p=3|t=pst	4	mod.rel	_	_
+7	à	à	_	P	_	6	a_obj	_	_
+8	notre	son	_	DET	g=f|n=p|p=1|s=poss	9	det	_	_
+9	rencontre	rencontre	_	NC	g=f|n=s|s=c	7	obj.p	_	_
+10	dans	dans	_	P	_	6	mod	_	_
+11	la	le	_	DET	g=f|n=s|s=def	12	det	_	_
+12	campagne	campagne	_	NC	g=f|n=s|s=c	10	obj.p	_	_
+13	?	?	_	PONCT	s=w	2	ponct	_	_
+14	"	"	_	PONCT	s=w	2	ponct	_	_
+15	"	"	_	PONCT	s=w	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#44
+#<Génèse 25:22>c
+# S' il en est ainsi , à quoi bon être enceinte ? "
+1	S'	se	_	CS	s=s	11	mod	_	_
+2	il	il	_	CLS	g=m|n=s|p=3|s=suj	4	suj	_	_
+3	en	en	_	CLO	g=m|n=s|p=3|s=obj	4	aff	_	_
+4	est	être	_	V	m=ind|n=s|p=3|t=pst	1	obj.cpl	_	_
+5	ainsi	ainsi	_	ADV	_	4	mod	_	_
+6	,	,	_	PONCT	s=w	11	ponct	_	_
+7	à	à	_	P	_	11	a_obj	_	_
+8	quoi	quoi	_	PROWH	g=m|n=s|p=3|s=int	7	obj.p	_	_
+9	bon	bon	_	ADJ	g=m|n=s|s=qual	11	mod	_	_
+10	être	être	_	VINF	m=inf	11	aux.pass	_	_
+11	enceinte	enceinte	_	VPP	g=f|m=part|n=s|t=past	0	root	_	_
+12	?	?	_	PONCT	s=w	11	ponct	_	_
+13	"	"	_	PONCT	s=s	11	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#45
+#<Génèse 25:32>c
+# A quoi me serviront mes droits de fils aîné ? "
+1	A	avoir	_	P	_	4	a_obj	_	_
+2	quoi	quoi	_	PROWH	g=m|n=s|p=3|s=int	1	obj.p	_	_
+3	me	me	_	CLR	g=m|n=s|p=1|s=obj	4	aff	_	_
+4	serviront	servir	_	V	m=ind|n=p|p=3|t=fut	0	root	_	_
+5	mes	son	_	DET	g=m|n=s|p=1|s=poss	6	det	_	_
+6	droits	droit	_	NC	g=m|mwehead=NC+|n=p|s=c|pred=y	4	suj	_	_
+7	de	de	_	P	_|pred=y	6	dep_cpd	_	_
+8	fils	fils	_	NC	g=m|n=s|s=c	6	dep_cpd	_	_
+9	aîné	aîner	_	ADJ	g=m|n=s|s=qual|pred=y	6	dep_cpd	_	_
+10	?	?	_	PONCT	s=w	4	ponct	_	_
+11	"	"	_	PONCT	s=s	4	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#46
+#<Génèse 26:9>c
+# Pourquoi as -tu prétendu que c' était ta soeur ? " "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+2	as	avoir	_	V	m=ind|n=p|p=2|t=pst	4	aux.tps	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	4	suj	_	_
+4	prétendu	prétendre	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+5	que	que	_	CS	s=s	4	obj	_	_
+6	c'	ce	_	CLS	g=m|n=s|p=3|s=suj	7	suj	_	_
+7	était	être	_	V	m=ind|n=s|p=3|t=impft	5	obj.cpl	_	_
+8	ta	ta	_	DET	g=m|n=s|s=ind	9	det	_	_
+9	soeur	soeur	_	NC	g=m|n=s|s=c	7	ats	_	_
+10	?	?	_	PONCT	s=w	4	ponct	_	_
+11	"	"	_	PONCT	s=w	4	ponct	_	_
+12	"	"	_	PONCT	s=s	4	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#47
+#<Génèse 26:10>b
+# Que nous as -tu fait là ?
+1	Que	que	_	CS	s=s	5	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	1	obj.cpl	_	_
+4	-tu	il	_	PRO	g=m|n=s|p=2|s=suj	3	obj	_	_
+5	fait	faire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+6	là	là	_	ADV	_	5	mod	_	_
+7	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#48
+#<Génèse 26:27>b
+# Pourquoi êtes -vous venus me voir , alors que vous me détestez et que vous m' avez chassé de chez vous ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	êtes	ête	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	venus	venir	_	CLR	g=m|m=part|n=p|t=past	6	aff	_	_
+5	me	me	_	CLO	g=m|n=s|p=1|s=obj	6	obj	_	_
+6	voir	voir	_	VINF	m=inf	2	obj	_	_
+7	,	,	_	PONCT	s=w	2	ponct	_	_
+8	alors	alors	_	ADV	mwehead=CS+|pred=y	2	mod	_	_
+9	que	que	_	CS	s=s|pred=y	8	dep_cpd	_	_
+10	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	12	suj	_	_
+11	me	me	_	CLO	g=m|n=s|p=1|s=obj	12	aff	_	_
+12	détestez	détestez	_	VS	m=imp|n=p|p=2|t=pst	8	obj.cpl	_	_
+13	et	et	_	CC	s=c	12	coord	_	_
+14	que	que	_	CS	s=s	13	dep.coord	_	_
+15	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	18	suj	_	_
+16	m'	me	_	CLO	c=yes|g=m|n=s|p=1|s=obj	18	obj	_	_
+17	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	18	aux.tps	_	_
+18	chassé	chasser	_	VPP	g=m|m=part|n=s|t=past	14	obj.cpl	_	_
+19	de	de	_	P	_	18	de_obj	_	_
+20	chez	chez	_	P	_	19	obj.p	_	_
+21	vous	vous	_	PRO	g=m|n=p|p=2|s=pers	20	obj.p	_	_
+22	?	?	_	PONCT	s=w	2	ponct	_	_
+23	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#49
+#<Génèse 27:18>d
+# mais dis -moi qui tu es . "
+1	mais	mais	_	CC	s=c	0	root	_	_
+2	dis	dis	_	DET	_	3	det	_	_
+3	-moi	moi	_	PRO	g=m|n=s|p=3|s=dem	1	dep.coord	_	_
+4	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	5	suj	_	_
+5	tu	tu	_	V	m=ind|n=s|p=3|t=pst	3	mod.rel	_	_
+6	es	e	_	PRO	g=f|m=part|n=p|t=past	5	obj	_	_
+7	.	.	_	PONCT	s=w	1	ponct	_	_
+8	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#50
+#<Génèse 27:20>a
+# " Comment as -tu trouvé si vite du gibier , mon fils ? "
+1	"	"	_	PONCT	s=w	5	ponct	_	_
+2	Comment	comment	_	ADVWH	s=int	5	mod	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	5	aux.tps	_	_
+4	-tu	il	_	CLS	g=m|m=part|n=s|t=past	5	suj	_	_
+5	trouvé	trouver	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+6	si	si	_	ADV	_	7	mod	_	_
+7	vite	vite	_	ADV	_	5	mod	_	_
+8	du	de	_	P+D	s=def	5	de_obj	_	_
+9	gibier	gibier	_	NPP	g=m|n=s|s=c	8	obj.p	_	_
+10	,	,	_	PONCT	s=w	5	ponct	_	_
+11	mon	son	_	DET	g=m|n=s|p=1|s=poss	12	det	_	_
+12	fils	fils	_	NC	g=m|n=s|s=c	5	obj	_	_
+13	?	?	_	PONCT	s=w	5	ponct	_	_
+14	"	"	_	PONCT	s=s	5	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#51
+#<Génèse 27:24>b
+# Tu es bien mon fils Ésaü ? " "
+1	Tu	tu	_	DET	g=f|n=p|s=card	2	det	_	_
+2	es	e	_	NC	g=f|n=p|s=c	0	root	_	_
+3	bien	bien	_	ADV	_	2	mod	_	_
+4	mon	son	_	DET	g=m|n=s|p=1|s=poss	5	det	_	_
+5	fils	fils	_	NC	g=m|n=s|s=c	2	mod	_	_
+6	Ésaü	ésaü	_	ADJ	g=m|n=s|s=qual	5	mod	_	_
+7	?	?	_	PONCT	s=w	2	ponct	_	_
+8	"	"	_	PONCT	s=w	2	ponct	_	_
+9	"	"	_	PONCT	s=w	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#52
+#<Génèse 27:32>a
+# " Qui es -tu ? "
+1	"	"	_	PONCT	s=w	3	ponct	_	_
+2	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	3	suj	_	_
+3	es	e	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+5	?	?	_	PONCT	s=w	3	ponct	_	_
+6	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#53
+#<Génèse 27:33>b
+# Mais alors , qui est celui qui a chassé du gibier , me l' a apporté et m' a fait manger de tout avant ton arrivée ?
+1	Mais	mais	_	CC	s=c	0	root	_	_
+2	alors	alors	_	ADV	_	5	mod	_	_
+3	,	,	_	PONCT	s=w	5	ponct	_	_
+4	qui	qui	_	PROREL	g=f|n=s|p=3|s=rel	5	suj	_	_
+5	est	être	_	V	m=ind|n=s|p=3|t=pst	1	dep.coord	_	_
+6	celui	celui	_	PRO	g=m|n=s|p=3|s=dem	5	ats	_	_
+7	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	9	suj	_	_
+8	a	avoir	_	V	m=ind|n=s|p=3|t=pst	9	aux.tps	_	_
+9	chassé	chasser	_	VPP	g=m|m=part|n=s|t=past	6	mod.rel	_	_
+10	du	de	_	P+D	s=def	9	de_obj	_	_
+11	gibier	gibier	_	NC	g=m|n=s|s=c	10	obj.p	_	_
+12	,	,	_	PONCT	s=w	5	ponct	_	_
+13	me	me	_	CS	s=s	5	mod	_	_
+14	l'	le	_	CLO	g=m|n=s|p=3|s=obj	16	obj	_	_
+15	a	avoir	_	V	m=ind|n=s|p=3|t=pst	16	aux.tps	_	_
+16	apporté	apporter	_	VPP	g=m|m=part|n=s|t=past	13	obj.cpl	_	_
+17	et	et	_	CC	s=c	16	coord	_	_
+18	m'	me	_	CLS	g=m|n=s|p=1|s=obj	20	suj	_	_
+19	a	avoir	_	V	m=ind|n=s|p=3|t=pst	20	aux.tps	_	_
+20	fait	faire	_	VPP	g=m|m=part|n=s|t=past	17	dep.coord	_	_
+21	manger	manger	_	NC	g=m|n=s|s=c	20	obj	_	_
+22	de	de	_	P	_	21	dep	_	_
+23	tout	tout	_	ADV	_	24	mod	_	_
+24	avant	avant	_	P	_	22	obj.p	_	_
+25	ton	ton	_	DET	g=f|n=s|p=3|s=poss	26	det	_	_
+26	arrivée	arrivée	_	NC	g=f|n=s|s=c	24	obj.p	_	_
+27	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#54
+#<Génèse 27:36>e
+# Ne te reste -t-il pas une bénédiction pour moi ? "
+1	Ne	ne	_	ADV	s=neg	3	mod	_	_
+2	te	te	_	CLO	g=m|n=s|p=3|s=obj	3	suj	_	_
+3	reste	rester	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+5	pas	pas	_	ADV	s=neg	3	mod	_	_
+6	une	un	_	DET	g=f|n=s|s=ind	7	det	_	_
+7	bénédiction	bénédiction	_	NC	g=f|n=s|s=c	3	obj	_	_
+8	pour	pour	_	P	_	7	dep	_	_
+9	moi	moi	_	PRO	g=m|n=s|p=1|s=pers	8	obj.p	_	_
+10	?	?	_	PONCT	s=w	3	ponct	_	_
+11	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#55
+#<Génèse 27:37>d
+# Je ne peux rien faire pour toi , mon fils ! "
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	3	suj	_	_
+2	ne	ne	_	ADV	s=neg	3	mod	_	_
+3	peux	peu	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+4	rien	rien	_	ADV	g=m|n=s|p=3|s=neg	3	mod	_	_
+5	faire	faire	_	VINF	m=inf	3	obj	_	_
+6	pour	pour	_	P	_	5	mod	_	_
+7	toi	toi	_	NC	g=m|n=s|p=2|s=obj	6	obj.p	_	_
+8	,	,	_	PONCT	s=w	5	ponct	_	_
+9	mon	son	_	DET	g=m|n=s|p=1|s=poss	10	det	_	_
+10	fils	fils	_	NC	g=m|n=s|s=c	5	obj	_	_
+11	!	!	_	PONCT	s=w	3	ponct	_	_
+12	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#56
+#<Génèse 27:38>b
+# N' as -tu qu' une seule bénédiction ?
+1	N'	ne	_	ADV	s=neg	2	mod	_	_
+2	as	avoir	_	V	m=ind|n=p|p=1|t=cond	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	qu'	que	_	ADV	s=neg	2	mod	_	_
+5	une	un	_	DET	g=f|n=s|s=ind	7	det	_	_
+6	seule	seul	_	ADJ	g=f|n=s|s=ind	7	mod	_	_
+7	bénédiction	bénédiction	_	NC	g=f|n=s|s=c	2	obj	_	_
+8	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#57
+#<Génèse 27:45>c
+# Je ne veux pas vous perdre tous les deux le même jour . "
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	3	suj	_	_
+2	ne	ne	_	ADV	s=neg	3	mod	_	_
+3	veux	veu	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+4	pas	pas	_	ADV	s=neg	3	mod	_	_
+5	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	6	a_obj	_	_
+6	perdre	perdre	_	VINF	m=inf	3	obj	_	_
+7	tous	tout	_	ADJ	g=m|n=p|s=ind	9	mod	_	_
+8	les	le	_	DET	g=m|n=p|s=def	9	det	_	_
+9	deux	deux	_	NC	g=m|n=p|s=card	6	obj	_	_
+10	le	le	_	DET	g=m|n=s|s=def	12	det	_	_
+11	même	même	_	ADJ	g=m|n=s|s=ind	12	mod	_	_
+12	jour	jour	_	NC	g=m|n=s|s=c	6	mod	_	_
+13	.	.	_	PONCT	s=s	3	ponct	_	_
+14	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#58
+#<Génèse 27:46>c
+# Si Jacob épouse à son tour une fille de ce pays , je perdrai ma dernière raison de vivre ! "
+1	Si	si	_	CS	s=s	14	mod	_	_
+2	Jacob	jacob	_	NPP	g=m|n=s|s=p	3	suj	_	_
+3	épouse	époux	_	V	m=ind|n=s|p=3|t=pst	1	obj.cpl	_	_
+4	à	à	_	P	mwehead=ADV+|pred=y	3	mod	_	_
+5	son	son	_	DET	n=s|s=poss|pred=y	4	dep_cpd	_	_
+6	tour	tour	_	NC	n=s|s=c|pred=y	4	dep_cpd	_	_
+7	une	un	_	DET	g=f|n=s|s=ind	8	det	_	_
+8	fille	fille	_	NC	g=f|n=s|s=c	3	obj	_	_
+9	de	de	_	P	_	8	dep	_	_
+10	ce	ce	_	DET	g=m|n=s|s=dem	11	det	_	_
+11	pays	pays	_	NC	g=m|n=s|s=c	9	obj.p	_	_
+12	,	,	_	PONCT	s=w	14	ponct	_	_
+13	je	il	_	CLS	g=m|n=s|p=1|s=suj	14	suj	_	_
+14	perdrai	perdrai	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+15	ma	son	_	DET	g=f|n=s|p=1|s=poss	17	det	_	_
+16	dernière	dernier	_	ADJ	g=f|n=s|s=qual	17	mod	_	_
+17	raison	raison	_	NC	g=f|n=s|s=c	14	obj	_	_
+18	de	de	_	P	_	14	de_obj	_	_
+19	vivre	vivre	_	VINF	m=inf	18	obj.p	_	_
+20	!	!	_	PONCT	s=w	14	ponct	_	_
+21	"	"	_	PONCT	s=s	14	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#59
+#<Génèse 29:4>b
+# Mes amis , d' où venez -vous ? " "
+1	Mes	mes	_	NC	g=m|n=p|s=c	6	suj	_	_
+2	amis	ami	_	ADJ	g=m|n=p|s=qual	1	mod	_	_
+3	,	,	_	PONCT	s=w	1	ponct	_	_
+4	d'	de	_	P	_	1	dep	_	_
+5	où	où	_	PROWH	_|pred=y	4	obj.p	_	_
+6	venez	venez	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+7	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	6	suj	_	_
+8	?	?	_	PONCT	s=w	6	ponct	_	_
+9	"	"	_	PONCT	s=w	6	ponct	_	_
+10	"	"	_	PONCT	s=s	6	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#60
+#<Génèse 29:5>a
+# " Connaissez -vous Laban , le fils de Nahor ? " "
+1	"	"	_	PONCT	s=w	2	ponct	_	_
+2	Connaissez	connaissez	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	Laban	laban	_	NPP	g=m|n=s|s=p	2	mod	_	_
+5	,	,	_	PONCT	s=w	2	ponct	_	_
+6	le	le	_	DET	g=m|n=s|s=def	7	det	_	_
+7	fils	fils	_	NC	g=m|n=s|s=c	2	mod	_	_
+8	de	de	_	P	_	7	dep	_	_
+9	Nahor	nahor	_	NPP	g=m|n=s|s=p	8	obj.p	_	_
+10	?	?	_	PONCT	s=w	2	ponct	_	_
+11	"	"	_	PONCT	s=w	2	ponct	_	_
+12	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#61
+#<Génèse 29:6>a
+# " Comment va -t-il ? " "
+1	"	"	_	PONCT	s=w	3	ponct	_	_
+2	Comment	comment	_	ADVWH	s=int	3	mod	_	_
+3	va	aller	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+5	?	?	_	PONCT	s=w	3	ponct	_	_
+6	"	"	_	PONCT	s=w	3	ponct	_	_
+7	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#62
+#<Génèse 29:15>b
+# Tu es mon parent , mais ce n' est pas une raison pour que tu travailles gratuitement à mon service .
+1	Tu	tu	_	DET	g=f|n=p|s=card	2	det	_	_
+2	es	e	_	NC	g=f|n=p|s=c	4	suj	_	_
+3	mon	son	_	ADJ	g=f|n=s|p=1|s=poss	2	mod	_	_
+4	parent	parent	_	V	m=ind|n=p|p=3|t=past	0	root	_	_
+5	,	,	_	PONCT	s=w	4	ponct	_	_
+6	mais	mais	_	CC	s=c	4	coord	_	_
+7	ce	ce	_	CLS	g=m|n=s|p=3|s=suj	9	suj	_	_
+8	n'	ne	_	ADV	s=neg	9	mod	_	_
+9	est	être	_	V	m=ind|n=s|p=3|t=pst	6	dep.coord	_	_
+10	pas	pas	_	ADV	s=neg	9	mod	_	_
+11	une	un	_	DET	g=f|n=s|s=ind	12	det	_	_
+12	raison	raison	_	NC	g=f|n=s|s=c	9	ats	_	_
+13	pour	pour	_	P	mwehead=CS+|pred=y	9	mod	_	_
+14	que	que	_	CS	s=s|pred=y	13	dep_cpd	_	_
+15	tu	tu	_	DET	g=f|n=p|s=ind	16	det	_	_
+16	travailles	travaille	_	NC	g=f|n=p|s=c	13	obj.cpl	_	_
+17	gratuitement	gratuitement	_	ADV	_	16	mod	_	_
+18	à	à	_	P	_	16	dep	_	_
+19	mon	son	_	DET	g=m|n=s|p=1|s=poss	20	det	_	_
+20	service	service	_	NC	g=m|n=s|s=c	18	obj.p	_	_
+21	.	.	_	PONCT	s=s	4	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#63
+#<Génèse 29:25>b
+# Que m' as -tu fait là ?
+1	Que	que	_	CS	s=s	5	mod	_	_
+2	m'	me	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	1	obj.cpl	_	_
+4	-tu	il	_	PRO	g=m|n=s|p=2|s=suj	3	obj	_	_
+5	fait	faire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+6	là	là	_	ADV	_	5	mod	_	_
+7	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#64
+#<Génèse 29:25>c
+# N' est -ce pas pour épouser Rachel que j' ai travaillé à ton service ?
+1	N'	ne	_	ADV	s=neg	2	mod	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	pas	pas	_	ADV	s=neg	2	mod	_	_
+5	pour	pour	_	P	_	2	ats	_	_
+6	épouser	épouser	_	VINF	m=inf	5	obj.p	_	_
+7	Rachel	rachel	_	NPP	g=m|n=s|s=p	6	obj	_	_
+8	que	que	_	CS	s=s	6	mod	_	_
+9	j'	il	_	CLS	g=m|n=s|p=1|s=suj	11	suj	_	_
+10	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	11	aux.tps	_	_
+11	travaillé	travailler	_	VPP	g=m|m=part|n=s|t=past	8	obj.cpl	_	_
+12	à	à	_	P	_	11	mod	_	_
+13	ton	ton	_	DET	n=s|s=poss|pred=y	12	dep_cpd	_	_
+14	service	service	_	NC	g=m|n=s|s=c|pred=y	12	dep_cpd	_	_
+15	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#65
+#<Génèse 29:25>d
+# Pourquoi m' as -tu trompé ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	5	mod	_	_
+2	m'	me	_	CLO	g=m|n=s|p=1|s=obj	5	suj	_	_
+3	as	avoir	_	V	m=ind|n=p|p=3|t=pst	5	aux.tps	_	_
+4	-tu	il	_	CLS	g=m|m=part|n=s|t=past	5	suj	_	_
+5	trompé	tromper	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+6	?	?	_	PONCT	s=w	5	ponct	_	_
+7	"	"	_	PONCT	s=s	5	ponct	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#66
+#<Génèse 30:2>b
+# Me prends -tu pour Dieu lui-même ?
+1	Me	me	_	NC	g=m|n=s|s=c	2	suj	_	_
+2	prends	prend	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	pour	pour	_	P	_	2	mod	_	_
+5	Dieu	dieu	_	NPP	g=m|n=s|s=p	4	obj.p	_	_
+6	lui-même	lui-même	_	ADJ	g=m|n=s|s=qual	5	mod	_	_
+7	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#67
+#<Génèse 30:15>b-c
+# Il ne te suffit pas d' avoir pris mon mari ?
+1	Il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+2	ne	ne	_	ADV	s=neg	3	mod	_	_
+3	te	te	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	suffit	suffire	_	V	m=ind|n=s|p=3|t=pst	3	mod	_	_
+5	pas	pas	_	ADV	s=neg	4	mod	_	_
+6	d'	de	_	P	_	4	de_obj	_	_
+7	avoir	avoir	_	VINF	m=inf	8	aux.tps	_	_
+8	pris	prendre	_	VPP	g=m|m=part|n=s|t=past	6	obj.p	_	_
+9	mon	son	_	DET	g=m|n=s|p=1|s=poss	10	det	_	_
+10	mari	mari	_	NC	g=m|n=s|s=c	8	obj	_	_
+11	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Tu veux encore prendre les pommes d' amour de mon fils ! "
+1	Tu	tu	_	CC	_	0	root	_	_
+2	veux	veux	_	V	m=ind|n=s|p=1|t=pst	1	dep.coord	_	_
+3	encore	encore	_	ADV	_	2	mod	_	_
+4	prendre	prendre	_	VINF	m=inf	2	obj	_	_
+5	les	le	_	DET	g=f|n=p|s=def	6	det	_	_
+6	pommes	pomme	_	NC	g=f|n=p|s=c	4	obj	_	_
+7	d'	de	_	P	_	6	dep	_	_
+8	amour	amour	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+9	de	de	_	P	_	8	dep	_	_
+10	mon	son	_	DET	g=m|n=s|p=1|s=poss	11	det	_	_
+11	fils	fils	_	NC	g=m|n=s|s=c	9	obj.p	_	_
+12	!	!	_	PONCT	s=w	2	ponct	_	_
+13	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=NISQ
+
+#68
+#<Génèse 30:30>c
+# Ne serait -il pas temps que je puisse travailler aussi pour ma propre famille ? "
+1	Ne	ne	_	ADV	s=neg	2	mod	_	_
+2	serait	être	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+3	-il	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	pas	pas	_	ADV	s=neg	2	mod	_	_
+5	temps	temps	_	NC	g=m|n=s|s=c	2	ats	_	_
+6	que	que	_	CS	s=s	2	obj	_	_
+7	je	il	_	CLS	g=m|n=s|p=1|s=suj	8	suj	_	_
+8	puisse	pouvoir	_	VS	m=subj|n=s|p=3|t=pst	6	obj.cpl	_	_
+9	travailler	travailler	_	VINF	m=inf	8	obj	_	_
+10	aussi	aussi	_	ADV	_	9	mod	_	_
+11	pour	pour	_	P	_	9	mod	_	_
+12	ma	son	_	DET	g=f|n=s|p=1|s=poss	14	det	_	_
+13	propre	propre	_	ADJ	g=f|n=s|s=qual	14	mod	_	_
+14	famille	famille	_	NC	g=f|n=s|s=c	11	obj.p	_	_
+15	?	?	_	PONCT	s=w	2	ponct	_	_
+16	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#69
+#<Génèse 30:31>a
+# " Que dois -je te payer ? "
+1	"	"	_	PONCT	s=w	3	ponct	_	_
+2	Que	que	_	PROWH	g=m|n=s|p=3|s=int	3	suj	_	_
+3	dois	devoir	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+4	-je	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+5	te	te	_	CLO	g=m|n=s|p=3|s=obj	6	obj	_	_
+6	payer	payer	_	VINF	m=inf	3	obj	_	_
+7	?	?	_	PONCT	s=w	3	ponct	_	_
+8	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#70
+#<Génèse 31:14>b
+# Nous n' avons plus de part d' héritage dans la maison de notre père .
+1	Nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+2	n'	ne	_	ADV	s=neg	3	mod	_	_
+3	avons	avoir	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+4	plus	plus	_	ADV	s=neg	3	mod	_	_
+5	de	de	_	P	mwehead=P+|pred=y	3	de_obj	_	_
+6	part	part	_	NC	g=f|n=s|s=c	5	obj.p	_	_
+7	d'	de	_	P	_	6	dep	_	_
+8	héritage	héritage	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+9	dans	dans	_	P	_	3	mod	_	_
+10	la	le	_	DET	g=f|n=s|s=def	11	det	_	_
+11	maison	maison	_	NC	g=f|n=s|s=c	9	obj.p	_	_
+12	de	de	_	P	_	11	dep	_	_
+13	notre	son	_	DET	g=m|n=p|p=1|s=poss	14	det	_	_
+14	père	père	_	NC	g=m|n=s|s=c	12	obj.p	_	_
+15	.	.	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#71
+#<Génèse 31:15>a
+# Ne nous a -t-il pas considérées comme des étrangères , puisqu'il nous a vendues et qu' il a ensuite dépensé l' argent qui devait nous revenir ?
+1	Ne	ne	_	ADV	s=neg	6	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	6	suj	_	_
+3	a	avoir	_	V	m=ind|n=s|p=3|t=pst	6	aux.tps	_	_
+4	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	6	suj	_	_
+5	pas	pas	_	ADV	s=neg	6	mod	_	_
+6	considérées	considérer	_	VPP	g=f|m=part|n=p|t=past	0	root	_	_
+7	comme	comme	_	P	_	6	mod	_	_
+8	des	de	_	P+D	s=def|pred=y	7	dep_cpd	_	_
+9	étrangères	étranger	_	ADJ	g=f|n=p|s=qual|pred=y	7	obj.p	_	_
+10	,	,	_	PONCT	s=w	6	ponct	_	_
+11	puisqu'il	puisqu'il	_	CS	s=s	6	mod	_	_
+12	nous	il	_	CLS	g=m|n=p|p=1|s=suj	14	suj	_	_
+13	a	avoir	_	V	m=ind|n=s|p=3|t=pst	14	aux.tps	_	_
+14	vendues	vendre	_	VPP	g=f|m=part|n=p|t=past	11	obj.cpl	_	_
+15	et	et	_	CC	s=c	11	coord	_	_
+16	qu'	que	_	CS	s=s	15	dep.coord	_	_
+17	il	il	_	CLS	g=m|n=s|p=3|s=suj	20	suj	_	_
+18	a	avoir	_	V	m=ind|n=s|p=3|t=pst	20	aux.tps	_	_
+19	ensuite	ensuite	_	ADV	_	20	mod	_	_
+20	dépensé	dépenser	_	VPP	g=m|m=part|n=s|t=past	16	obj.cpl	_	_
+21	l'	le	_	DET	g=m|n=s|s=def	22	det	_	_
+22	argent	argent	_	NC	g=m|n=s|s=c	20	obj	_	_
+23	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	24	suj	_	_
+24	devait	devoir	_	V	m=ind|n=s|p=3|t=impft	22	mod.rel	_	_
+25	nous	il	_	CLO	g=m|n=p|p=1|s=obj	26	aff	_	_
+26	revenir	revenir	_	VINF	m=inf	24	obj	_	_
+27	?	?	_	PONCT	s=s	6	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#72
+#<Génèse 31:26>b
+# Qu' as -tu fait là ?
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	as	avoir	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=3|s=suj	4	suj	_	_
+4	fait	faire	_	V	m=ind|n=s|p=3|t=pst	2	suj	_	_
+5	là	là	_	ADV	_	4	mod	_	_
+6	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#73
+#<Génèse 31:27>a
+# Pourquoi t' es -tu enfui en cachette et m' as -tu ainsi trompé ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	5	mod	_	_
+2	t'	t'	_	DET	g=f|n=p|s=ind	3	det	_	_
+3	es	e	_	NC	g=f|n=p|s=c	5	suj	_	_
+4	-tu	il	_	CLS	g=m|n=p|p=1|s=suj	5	suj	_	_
+5	enfui	enfui	_	V	g=m|m=part|n=s|t=past	0	root	_	_
+6	en	en	_	P	_	5	mod	_	_
+7	cachette	cachette	_	NC	g=f|n=s|s=c	6	obj.p	_	_
+8	et	et	_	CC	s=c	5	coord	_	_
+9	m'	me	_	CLO	g=m|n=s|p=1|s=obj	13	a_obj	_	_
+10	as	avoir	_	V	m=ind|n=s|p=2|t=pst	13	aux.tps	_	_
+11	-tu	il	_	CLS	g=m|m=part|n=s|t=past	13	suj	_	_
+12	ainsi	ainsi	_	ADV	_	13	mod	_	_
+13	trompé	tromper	_	VPP	g=m|m=part|n=s|t=past	8	dep.coord	_	_
+14	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#74
+#<Génèse 31:30>b
+# Mais pourquoi m' as -tu volé mes dieux ? "
+1	Mais	mais	_	CC	s=c	0	root	_	_
+2	pourquoi	pourquoi	_	ADVWH	s=int	6	mod	_	_
+3	m'	me	_	CLS	g=m|n=s|p=1|s=obj	6	suj	_	_
+4	as	avoir	_	V	m=ind|n=s|p=1|t=pst	6	aux.tps	_	_
+5	-tu	il	_	CLS	g=m|m=part|n=s|t=past	6	suj	_	_
+6	volé	volé	_	VPP	g=m|m=part|n=s|t=past	1	dep.coord	_	_
+7	mes	son	_	DET	g=m|n=s|p=1|s=poss	8	det	_	_
+8	dieux	dieux	_	NC	g=m|n=p|s=c	6	obj	_	_
+9	?	?	_	PONCT	s=w	6	ponct	_	_
+10	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#75
+#<Génèse 31:36>c
+# Quelle faute , quel crime ai -je commis pour que tu t' acharnes à me poursuivre ?
+1	Quelle	quel	_	DETWH	g=f|n=s|s=int	2	det	_	_
+2	faute	faute	_	NC	g=f|n=s|s=c	8	mod	_	_
+3	,	,	_	PONCT	s=w	8	ponct	_	_
+4	quel	quel	_	DET	g=m|n=s|s=excl	5	det	_	_
+5	crime	crimer	_	NC	g=m|n=s|s=c	8	suj	_	_
+6	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	8	aux.tps	_	_
+7	-je	il	_	CLS	g=m|n=s|p=1|s=suj	8	suj	_	_
+8	commis	commettre	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+9	pour	pour	_	P	mwehead=CS+|pred=y	8	mod	_	_
+10	que	que	_	CS	s=s|pred=y	9	dep_cpd	_	_
+11	tu	tu	_	PRO	g=m|n=s|p=2|s=suj	9	dep_cpd	_	_
+12	t'	t'	_	ADV	_|pred=y	13	mod	_	_
+13	acharnes	acharne	_	ADJ	g=f|n=p|s=qual	8	mod	_	_
+14	à	à	_	P	_	13	a_obj	_	_
+15	me	me	_	CLO	g=m|n=s|p=1|s=obj	16	aff	_	_
+16	poursuivre	poursuivre	_	VINF	m=inf	14	obj.p	_	_
+17	?	?	_	PONCT	s=s	8	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#76
+#<Génèse 31:37>b
+# As -tu trouvé un seul objet venant de chez toi ?
+1	As	as	_	V	g=m|n=p|s=c	3	aux.tps	_	_
+2	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+3	trouvé	trouver	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+4	un	un	_	DET	g=m|n=s|s=ind	6	det	_	_
+5	seul	seul	_	ADJ	g=m|n=s|s=qual	6	mod	_	_
+6	objet	objet	_	NC	g=m|n=s|s=c	3	obj	_	_
+7	venant	venir	_	VPR	m=part|t=pst	6	mod	_	_
+8	de	de	_	P	_	7	de_obj	_	_
+9	chez	chez	_	P	_	8	obj.p	_	_
+10	toi	toi	_	ADVWH	g=f|n=s|p=2|s=pers	9	obj.p	_	_
+11	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#77
+#<Génèse 31:43>b
+# Ces filles sont les miennes , leurs enfants sont les miens , ces troupeaux sont à moi et tout ce que tu vois m' appartient .
+1	Ces	ce	_	DET	g=f|n=p|s=dem	2	det	_	_
+2	filles	fille	_	NC	g=f|n=p|s=c	3	suj	_	_
+3	sont	être	_	V	m=ind|n=p|p=3|t=pst	0	root	_	_
+4	les	le	_	DET	g=f|n=p|s=def	5	det	_	_
+5	miennes	mien	_	ADJ	g=f|n=p|s=qual	3	ats	_	_
+6	,	,	_	PONCT	s=w	3	ponct	_	_
+7	leurs	son	_	DET	g=m|n=p|p=3|s=poss	8	det	_	_
+8	enfants	enfant	_	NC	g=m|n=p|s=c	9	suj	_	_
+9	sont	être	_	V	m=ind|n=p|p=3|t=pst	3	mod	_	_
+10	les	le	_	DET	g=m|n=p|s=def	11	det	_	_
+11	miens	mien	_	NC	g=m|n=p|s=c	9	ats	_	_
+12	,	,	_	PONCT	s=w	9	ponct	_	_
+13	ces	ce	_	DET	g=m|n=p|s=dem	14	det	_	_
+14	troupeaux	troupeau	_	NC	g=m|n=p|s=c	15	suj	_	_
+15	sont	être	_	V	m=ind|n=p|p=3|t=pst	9	mod	_	_
+16	à	à	_	P	_	15	ats	_	_
+17	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	16	obj.p	_	_
+18	et	et	_	CC	s=c	15	coord	_	_
+19	tout	tout	_	PRO	g=m|n=s|p=3|s=ind	20	mod	_	_
+20	ce	ce	_	PRO	g=m|n=s|p=3|s=dem	18	dep.coord	_	_
+21	que	que	_	PROREL	g=m|n=s|p=3|s=rel	25	obj	_	_
+22	tu	tu	_	DET	g=m|n=p|s=ind	23	det	_	_
+23	vois	vois	_	NC	g=m|n=p|s=c	25	suj	_	_
+24	m'	me	_	CLO	g=m|n=s|p=1|s=obj	25	a_obj	_	_
+25	appartient	appartenir	_	V	m=ind|n=s|p=3|t=pst	20	mod.rel	_	_
+26	.	.	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#78
+#<Génèse 32:18>c-e
+# A qui appartiens -tu ?
+1	A	avoir	_	P	_	3	aux.tps	_	_
+2	qui	qui	_	PROWH	g=m|n=s|p=3|s=int	3	suj	_	_
+3	appartiens	appartien	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+5	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Où vas -tu ?
+1	Où	où	_	ADVWH	s=int	2	mod	_	_
+2	vas	vas	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# A qui appartient ce troupeau qui marche devant toi ? "
+1	A	avoir	_	P	_	3	mod	_	_
+2	qui	qui	_	PROREL	g=m|n=p|p=3|s=rel	1	obj.p	_	_
+3	appartient	appartenir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	ce	ce	_	DET	g=m|n=s|s=dem	5	det	_	_
+5	troupeau	troupeau	_	NC	g=m|n=s|s=c	3	suj	_	_
+6	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	7	suj	_	_
+7	marche	marcher	_	V	m=ind|n=s|p=3|t=pst	5	mod.rel	_	_
+8	devant	devant	_	P	_	7	mod	_	_
+9	toi	toi	_	ADV	g=f|n=s|p=2|s=pers	8	obj.p	_	_
+10	?	?	_	PONCT	s=w	3	ponct	_	_
+11	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#79
+#<Génèse 32:28>b
+# Comment t' appelles -tu ? " "
+1	Comment	comment	_	ADVWH	s=int	3	mod	_	_
+2	t'	t'	_	ADV	g=f|n=p|s=ind	3	mod	_	_
+3	appelles	appel	_	V	g=f|n=p|s=qual	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+5	?	?	_	PONCT	s=w	3	ponct	_	_
+6	"	"	_	PONCT	s=w	3	ponct	_	_
+7	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#80
+#<Génèse 32:30>c
+# Pourquoi me demandes -tu mon nom ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	me	me	_	CLO	g=m|n=s|p=1|s=obj	3	suj	_	_
+3	demandes	demande	_	V	g=f|n=p|s=c	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=p|p=3|s=suj	3	suj	_	_
+5	mon	son	_	DET	g=m|n=s|p=1|s=poss	6	det	_	_
+6	nom	nom	_	NC	g=m|n=s|s=c	3	obj	_	_
+7	?	?	_	PONCT	s=w	3	ponct	_	_
+8	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#81
+#<Génèse 33:5>b
+# Qui sont ces gens qui t' accompagnent ? " "
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	2	ats	_	_
+2	sont	être	_	V	m=ind|n=p|p=3|t=pst	0	root	_	_
+3	ces	ce	_	DET	g=m|n=p|s=dem	4	det	_	_
+4	gens	gens	_	NC	g=m|n=p|s=c	2	suj	_	_
+5	qui	qui	_	PROREL	g=f|n=p|p=3|s=rel	7	suj	_	_
+6	t'	t'	_	CLO	g=f|n=s|p=3|s=obj	7	obj	_	_
+7	accompagnent	accompagner	_	V	m=ind|n=p|p=3|t=pst	4	mod.rel	_	_
+8	?	?	_	PONCT	s=w	2	ponct	_	_
+9	"	"	_	PONCT	s=w	2	ponct	_	_
+10	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#82
+#<Génèse 33:8>b
+# Que comptais -tu faire avec tout ce troupeau que j' ai rencontré ? " "
+1	Que	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	comptais	comptais	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	faire	faire	_	VINF	m=inf	2	obj	_	_
+5	avec	avec	_	P	_	4	mod	_	_
+6	tout	tout	_	PRO	g=m|n=s|p=3|s=ind	5	obj.p	_	_
+7	ce	ce	_	DET	g=m|n=s|s=dem	8	det	_	_
+8	troupeau	troupeau	_	NC	g=m|n=s|s=c	4	obj	_	_
+9	que	que	_	PROREL	g=m|n=s|p=3|s=rel	12	obj	_	_
+10	j'	il	_	CLS	g=m|n=s|p=1|s=suj	12	suj	_	_
+11	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	12	aux.tps	_	_
+12	rencontré	rencontrer	_	VPP	g=m|m=part|n=s|t=past	8	mod.rel	_	_
+13	?	?	_	PONCT	s=w	2	ponct	_	_
+14	"	"	_	PONCT	s=w	2	ponct	_	_
+15	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#83
+#<Génèse 33:15>c
+# Pour quoi faire ?
+1	Pour	pour	_	P	_	0	root	_	_
+2	quoi	quoi	_	PROWH	g=m|n=s|p=3|s=int	1	dep_cpd	_	_
+3	faire	faire	_	VINF	m=inf	1	dep_cpd	_	_
+4	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#84
+#<Génèse 34:31>b
+# Cet individu n' avait pas le droit de traiter notre soeur comme une prostituée . "
+1	Cet	ce	_	DET	g=m|n=s|s=dem	2	det	_	_
+2	individu	individu	_	NC	g=m|n=s|s=c	4	suj	_	_
+3	n'	ne	_	ADV	s=neg	4	mod	_	_
+4	avait	avoir	_	V	m=ind|n=s|p=3|t=impft	0	root	_	_
+5	pas	pas	_	ADV	s=neg	4	mod	_	_
+6	le	le	_	DET	g=m|n=s|s=def	7	det	_	_
+7	droit	droit	_	NC	g=m|n=s|s=c	4	obj	_	_
+8	de	de	_	P	_	7	dep	_	_
+9	traiter	traiter	_	VINF	m=inf	8	obj.p	_	_
+10	notre	son	_	DET	g=m|n=p|p=1|s=poss	11	det	_	_
+11	soeur	soeur	_	NC	g=m|n=s|s=c	9	obj	_	_
+12	comme	comme	_	P	_	9	mod	_	_
+13	une	un	_	DET	g=f|n=s|s=ind	14	det	_	_
+14	prostituée	prostitué	_	NC	g=f|n=s|s=c	12	obj.p	_	_
+15	.	.	_	PONCT	s=s	4	ponct	_	_
+16	"	"	_	PONCT	s=s	4	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#85
+#<Génèse 37:8>a
+# " Est -ce que tu prétendrais devenir notre roi et dominer sur nous ? "
+1	"	"	_	PONCT	s=w	2	ponct	_	_
+2	Est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	que	que	_	CS	s=s	2	obj	_	_
+5	tu	tu	_	DET	g=m|n=p|s=ind	6	det	_	_
+6	prétendrais	prétendrais	_	NC	g=m|n=p|s=c	7	suj	_	_
+7	devenir	devenir	_	VINF	m=inf	4	obj.cpl	_	_
+8	notre	son	_	DET	g=m|n=p|p=1|s=poss	9	det	_	_
+9	roi	roi	_	NC	g=m|n=s|s=c	7	obj	_	_
+10	et	et	_	CC	s=c	7	coord	_	_
+11	dominer	dominer	_	VINF	m=inf	10	dep.coord	_	_
+12	sur	sur	_	P	_	11	mod	_	_
+13	nous	il	_	PRO	g=m|n=p|p=1|s=suj	12	obj.p	_	_
+14	?	?	_	PONCT	s=w	2	ponct	_	_
+15	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#86
+#<Génèse 37:10>c
+# Qu' as -tu rêvé là ?
+1	Qu'	que	_	ADV	s=s	4	mod	_	_
+2	as	avoir	_	V	m=ind|n=s|p=2|t=pst	4	aux.tps	_	_
+3	-tu	il	_	CLS	g=m|m=part|n=s|t=past	4	suj	_	_
+4	rêvé	rêver	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+5	là	là	_	ADV	_	4	mod	_	_
+6	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#87
+#<Génèse 37:10>d
+# Devrons -nous , tes frères , ta mère et moi-même , venir nous incliner jusqu'à terre devant toi ? "
+1	Devrons	devrons	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+2	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	1	suj	_	_
+3	,	,	_	PONCT	s=w	1	ponct	_	_
+4	tes	ton	_	DET	g=m|n=p|s=poss	5	det	_	_
+5	frères	frère	_	NC	g=m|n=p|s=c	1	mod	_	_
+6	,	,	_	PONCT	s=w	5	coord	_	_
+7	ta	ta	_	DET	g=f|n=s|s=neg	8	det	_	_
+8	mère	mère	_	NC	g=f|n=s|s=c	6	dep.coord	_	_
+9	et	et	_	CC	s=c	5	coord	_	_
+10	moi-même	moi-même	_	NC	g=m|n=s|s=c	9	dep.coord	_	_
+11	,	,	_	PONCT	s=w	1	ponct	_	_
+12	venir	venir	_	VINF	m=inf	1	obj	_	_
+13	nous	il	_	CLO	g=m|n=p|p=1|s=obj	14	obj	_	_
+14	incliner	incliner	_	VINF	m=inf	12	obj	_	_
+15	jusqu'à	jusqu'à	_	P	_	14	mod	_	_
+16	terre	terre	_	NC	g=f|n=s|s=c	15	obj.p	_	_
+17	devant	devant	_	P	_	14	mod	_	_
+18	toi	toi	_	PRO	g=f|n=s|p=2|s=pers	17	obj.p	_	_
+19	?	?	_	PONCT	s=w	1	ponct	_	_
+20	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#88
+#<Génèse 37:15>c
+# Que cherches -tu ? "
+1	Que	que	_	ADV	_	2	mod	_	_
+2	cherches	cherche	_	V	g=m|n=p|s=qual	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	?	?	_	PONCT	s=w	2	ponct	_	_
+5	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#89
+#<Génèse 37:26>b
+# Quel intérêt avons -nous à tuer notre frère et à cacher sa mort ?
+1	Quel	quel	_	ADJWH	g=m|n=s|s=int	2	det	_	_
+2	intérêt	intérêt	_	NC	g=m|n=s|s=c	3	suj	_	_
+3	avons	avoir	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+4	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+5	à	à	_	P	_	3	a_obj	_	_
+6	tuer	tuer	_	VINF	m=inf	5	obj.p	_	_
+7	notre	son	_	DET	g=m|n=p|p=1|s=poss	8	det	_	_
+8	frère	frère	_	NC	g=m|n=s|s=c	6	obj	_	_
+9	et	et	_	CC	s=c	5	coord	_	_
+10	à	à	_	P	_	9	dep.coord	_	_
+11	cacher	cacher	_	VINF	m=inf	10	obj.p	_	_
+12	sa	son	_	DET	g=f|n=s|p=3|s=poss	13	det	_	_
+13	mort	mort	_	NC	g=f|n=s|s=c	11	obj	_	_
+14	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#90
+#<Génèse 37:30>c
+# Que vais -je faire maintenant ? "
+1	Que	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	vais	aller	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+3	-je	il	_	CLS	g=m|n=s|p=1|s=suj	2	suj	_	_
+4	faire	faire	_	VINF	m=inf	2	obj	_	_
+5	maintenant	maintenant	_	ADV	_	4	mod	_	_
+6	?	?	_	PONCT	s=w	2	ponct	_	_
+7	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#91
+#<Génèse 38:16>c
+# Que me donneras -tu pour cela ? "
+1	Que	que	_	PROWH	g=m|n=s|p=3|s=int	3	obj	_	_
+2	me	me	_	CLR	g=m|n=s|p=1|s=refl	3	aff	_	_
+3	donneras	donnera	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+5	pour	pour	_	P	_	3	mod	_	_
+6	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	5	obj.p	_	_
+7	?	?	_	PONCT	s=w	3	ponct	_	_
+8	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#92
+#<Génèse 38:18>a
+# " Quel gage veux -tu ? "
+1	"	"	_	PONCT	s=w	4	ponct	_	_
+2	Quel	quel	_	DET	g=m|n=s|s=int	3	det	_	_
+3	gage	gager	_	NC	g=m|n=s|s=c	4	suj	_	_
+4	veux	veux	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+5	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	4	suj	_	_
+6	?	?	_	PONCT	s=w	4	ponct	_	_
+7	"	"	_	PONCT	s=s	4	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#93
+#<Génèse 38:21>b
+# Où est cette prostituée qui était au bord du chemin , près d' ici ? " "
+1	Où	où	_	ADVWH	s=int	2	mod	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	cette	ce	_	DET	g=f|n=s|s=dem	4	det	_	_
+4	prostituée	prostituer	_	NC	g=f|n=s|s=c	2	suj	_	_
+5	qui	qui	_	PROREL	g=f|n=s|p=3|s=rel	6	suj	_	_
+6	était	être	_	V	m=ind|n=s|p=3|t=impft	4	mod.rel	_	_
+7	au	à	_	P+D	mwehead=P+D+|s=def|pred=y	6	mod	_	_
+8	bord	bord	_	NC	g=m|n=s|s=c|pred=y	7	dep_cpd	_	_
+9	du	de	_	P+D	s=def|pred=y	7	dep_cpd	_	_
+10	chemin	chemin	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+11	,	,	_	PONCT	s=w	2	ponct	_	_
+12	près	près	_	ADV	mwehead=P+|pred=y	2	mod	_	_
+13	d'	de	_	P	_|pred=y	12	dep_cpd	_	_
+14	ici	ici	_	ADV	_|pred=y	12	dep_cpd	_	_
+15	?	?	_	PONCT	s=w	2	ponct	_	_
+16	"	"	_	PONCT	s=w	2	ponct	_	_
+17	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#94
+#<Génèse 38:29>b-c
+# La sage-femme s' exclama : "
+1	La	le	_	DET	g=f|n=s|s=def	2	det	_	_
+2	sage-femme	sage-femme	_	NC	g=f|n=s|s=c	4	suj	_	_
+3	s'	se	_	CLR	g=f|n=s|p=3|s=refl	4	aff	_	_
+4	exclama	exclama	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+5	:	:	_	PONCT	s=w	4	ponct	_	_
+6	"	"	_	PONCT	s=s	4	ponct	_	_
+
+# Quelle brèche tu as ouverte ! "
+1	Quelle	quel	_	DETWH	g=f|n=s|s=int	2	det	_	_
+2	brèche	brèche	_	NC	g=f|n=s|s=c	0	root	_	_
+3	tu	tu	_	P+D	s=def	2	dep	_	_
+4	as	avoir	_	NC	g=m|n=p|s=c	3	obj.p	_	_
+5	ouverte	ouvrir	_	ADJ	g=f|n=s|s=qual|pred=y	4	dep_cpd	_	_
+6	!	!	_	PONCT	s=w	2	ponct	_	_
+7	"	"	_	PONCT	s=w	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#95
+#<Génèse 39:9>c
+# Alors comment pourrais -je commettre un acte aussi abominable et pécher contre Dieu lui-même ? "
+1	Alors	alors	_	ADV	_	0	root	_	_
+2	comment	comment	_	CS	s=int	1	dep_cpd	_	_
+3	pourrais	pourrais	_	V	m=ind|n=p|p=3|t=cond	1	obj.cpl	_	_
+4	-je	il	_	CLS	g=m|n=s|p=1|s=suj	3	suj	_	_
+5	commettre	commettre	_	VINF	m=inf	3	obj	_	_
+6	un	un	_	DET	g=m|n=s|s=ind	7	det	_	_
+7	acte	acte	_	NC	g=m|n=s|s=c	5	obj	_	_
+8	aussi	aussi	_	ADV	_	9	mod	_	_
+9	abominable	abominable	_	ADJ	g=m|n=s|s=qual	7	mod	_	_
+10	et	et	_	CC	s=c	5	coord	_	_
+11	pécher	pécher	_	VINF	m=inf	10	dep.coord	_	_
+12	contre	contre	_	P	_	11	mod	_	_
+13	Dieu	dieu	_	PREF	g=m|n=s|s=p	14	mod	_	_
+14	lui-même	lui-même	_	NC	n=s|s=qual|pred=y	12	obj.p	_	_
+15	?	?	_	PONCT	s=w	1	ponct	_	_
+16	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#96
+#<Génèse 40:7>b
+# Pourquoi avez -vous l' air si triste aujourd'hui ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	l'	le	_	DET	g=m|n=s|s=def	5	det	_	_
+5	air	air	_	NC	g=m|n=s|s=c	2	obj	_	_
+6	si	si	_	ADV	_	7	mod	_	_
+7	triste	triste	_	ADJ	g=m|n=s|s=qual	5	mod	_	_
+8	aujourd'hui	aujourd'hui	_	NC	g=m|n=s|s=c	5	mod	_	_
+9	?	?	_	PONCT	s=w	2	ponct	_	_
+10	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#97
+#<Génèse 40:8>b
+# Dieu peut vous la donner , déclara Joseph .
+1	Dieu	dieu	_	NPP	g=m|n=s|s=p	2	suj	_	_
+2	peut	pouvoir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	vous	vous	_	PRO	g=m|n=p|p=2|s=obj	5	mod	_	_
+4	la	le	_	CLO	g=f|n=s|p=3|s=obj	5	obj	_	_
+5	donner	donner	_	VINF	m=inf	2	obj	_	_
+6	,	,	_	PONCT	s=w	2	ponct	_	_
+7	déclara	déclar	_	V	m=ind|n=s|p=3|t=past	2	mod	_	_
+8	Joseph	joseph	_	NPP	g=m|n=s|s=p	7	suj	_	_
+9	.	.	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#98
+#<Génèse 41:38>c
+# Pourrions -nous trouver quelqu'un de plus compétent que lui ? " 
+1	Pourrions	pourrion	_	V	m=ind|n=p|p=1|t=cond	0	root	_	_
+2	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	1	suj	_	_
+3	trouver	trouver	_	VINF	m=inf	1	obj	_	_
+4	quelqu'un	quelqu'un	_	PRO	g=m|n=s|p=3|s=ind	3	obj	_	_
+5	de	de	_	P	_	4	dep	_	_
+6	plus	plus	_	ADV	_	7	mod	_	_
+7	compétent	compétent	_	ADJ	g=m|n=s|s=qual	5	obj.p	_	_
+8	que	que	_	CS	s=s	7	dep	_	_
+9	lui	lui	_	PRO	g=m|n=s|p=3|s=pers	8	obj.cpl	_	_
+10	?	?	_	PONCT	s=w	1	ponct	_	_
+11	"	"	_	PONCT	s=w	1	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#99
+#<Génèse 42:1>c
+# Pourquoi restez -vous là à vous regarder les uns les autres ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	restez	rester	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	là	là	_	ADV	_	2	mod	_	_
+5	à	à	_	P	_	2	a_obj	_	_
+6	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	7	obj	_	_
+7	regarder	regarder	_	VINF	m=inf	5	obj.p	_	_
+8	les	le	_	DET	g=m|n=p|s=def	9	det	_	_
+9	uns	un	_	PRO	g=m|n=p|p=3|s=ind	7	obj	_	_
+10	les	le	_	DET	g=m|n=p|s=def	11	det	_	_
+11	autres	autre	_	PRO	g=m|n=p|p=3|s=ind	9	mod	_	_
+12	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#100
+#<Génèse 42:7>c
+# D' où venez -vous ? " "
+1	D'	de	_	P	mwehead=P+|pred=y	0	root	_	_
+2	où	où	_	PROWH	_|pred=y	1	dep_cpd	_	_
+3	venez	venez	_	ET	m=ind|n=p|p=2|t=pst	1	dep_cpd	_	_
+4	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	1	dep_cpd	_	_
+5	?	?	_	PONCT	s=w	1	ponct	_	_
+6	"	"	_	PONCT	s=w	1	ponct	_	_
+7	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#101
+#<Génèse 42:22>b-c
+# Je vous l' avais bien dit : "
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	2	suj	_	_
+2	vous	vous	_	V	g=m|n=p|p=2|s=suj	0	root	_	_
+3	l'	le	_	DET	g=m|n=s|s=def	4	det	_	_
+4	avais	avoir	_	NC	g=m|n=s|s=c	2	obj	_	_
+5	bien	bien	_	ADV	_	6	mod	_	_
+6	dit	dire	_	VPP	g=m|m=part|n=s|t=past	4	mod	_	_
+7	:	:	_	PONCT	s=w	2	ponct	_	_
+8	"	"	_	PONCT	s=s	2	ponct	_	_
+
+# Ne commettez pas ce crime à l' égard de Joseph " .
+1	Ne	ne	_	ADV	s=neg	2	mod	_	_
+2	commettez	commettez	_	VIMP	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	pas	pas	_	ADV	s=neg	2	mod	_	_
+4	ce	ce	_	DET	g=m|n=s|s=dem	5	det	_	_
+5	crime	crime	_	NC	g=m|n=s|s=c	2	obj	_	_
+6	à	à	_	P	mwehead=P+|pred=y	2	mod	_	_
+7	l'	le	_	DET	n=s|s=def|pred=y	6	dep_cpd	_	_
+8	égard	égard	_	NC	g=m|n=s|s=c|pred=y	6	dep_cpd	_	_
+9	de	de	_	P	_|pred=y	6	dep_cpd	_	_
+10	Joseph	joseph	_	NPP	g=m|n=s|s=p	6	obj.p	_	_
+11	"	"	_	PONCT	s=w	2	ponct	_	_
+12	.	.	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#102
+#<Génèse 42:28>e
+# Qu' est -ce que Dieu nous a fait là ? "
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	dep	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	que	que	_	CS	s=s	2	obj	_	_
+5	Dieu	dieu	_	NPP	g=m|n=s|s=p	8	suj	_	_
+6	nous	il	_	CLO	g=m|n=p|p=1|s=suj	8	obj	_	_
+7	a	avoir	_	V	m=ind|n=s|p=3|t=pst	8	aux.tps	_	_
+8	fait	faire	_	VPP	g=m|m=part|n=s|t=past	4	obj.cpl	_	_
+9	là	là	_	ADV	_	8	mod	_	_
+10	?	?	_	PONCT	s=w	2	ponct	_	_
+11	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#103
+#<Génèse 43:6>a
+# " Pourquoi avez -vous révélé à cet homme que vous aviez un autre frère ?
+1	"	"	_	PONCT	s=w	5	ponct	_	_
+2	Pourquoi	pourquoi	_	PROWH	s=int	5	suj	_	_
+3	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	5	aux.tps	_	_
+4	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	5	suj	_	_
+5	révélé	révéler	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+6	à	à	_	P	_	5	mod	_	_
+7	cet	ce	_	DET	g=m|n=s|s=dem	8	det	_	_
+8	homme	homme	_	NC	g=m|n=s|s=c	6	obj.p	_	_
+9	que	que	_	CS	s=s	5	obj	_	_
+10	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	11	suj	_	_
+11	aviez	aviez	_	V	m=ind|n=p|p=2|t=impft	9	obj.cpl	_	_
+12	un	un	_	DET	g=m|n=s|s=ind	14	det	_	_
+13	autre	autre	_	ADJ	g=m|n=s|s=ind	14	mod	_	_
+14	frère	frère	_	NC	g=m|n=s|s=c	11	obj	_	_
+15	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#104
+#<Génèse 43:7>b
+# Votre père est -il encore en vie ?
+1	Votre	votre	_	DET	g=m|n=p|p=1|s=poss	2	det	_	_
+2	père	père	_	NC	g=m|n=s|s=c	3	suj	_	_
+3	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+5	encore	encore	_	ADV	_	3	mod	_	_
+6	en	en	_	P	mwehead=ADV+|pred=y	3	mod	_	_
+7	vie	vie	_	NC	g=f|n=s|s=c|pred=y	6	dep_cpd	_	_
+8	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#105
+#<Génèse 43:7>f
+# Nous ne pouvions pas deviner qu' il nous dirait d' amener notre frère . "
+1	Nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+2	ne	ne	_	ADV	s=neg	3	mod	_	_
+3	pouvions	pouvoir	_	V	m=ind|n=p|p=1|t=impft	0	root	_	_
+4	pas	pas	_	ADV	s=neg	3	mod	_	_
+5	deviner	deviner	_	VINF	m=inf	3	obj	_	_
+6	qu'	que	_	CS	s=s	5	obj	_	_
+7	il	il	_	CLS	g=m|n=s|p=3|s=suj	9	suj	_	_
+8	nous	il	_	CLO	g=m|n=p|p=1|s=obj	9	a_obj	_	_
+9	dirait	dire	_	V	m=ind|n=s|p=3|t=cond	6	obj.cpl	_	_
+10	d'	de	_	P	_	9	obj	_	_
+11	amener	amener	_	VINF	m=inf	10	obj.p	_	_
+12	notre	son	_	DET	g=m|n=p|p=1|s=poss	13	det	_	_
+13	frère	frère	_	NC	g=m|n=s|s=c	11	obj	_	_
+14	.	.	_	PONCT	s=s	3	ponct	_	_
+15	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#106
+#<Génèse 43:27>b
+# Et comment va votre vieux père , dont vous m' aviez parlé ?
+1	Et	et	_	CC	s=c	0	root	_	_
+2	comment	comment	_	ADVWH	s=int	3	mod	_	_
+3	va	aller	_	V	m=ind|n=s|p=3|t=pst	1	dep.coord	_	_
+4	votre	son	_	DET	_	6	det	_	_
+5	vieux	vieux	_	ADJ	g=m|n=s|s=qual	6	mod	_	_
+6	père	père	_	NC	g=m|n=s|s=c	3	suj	_	_
+7	,	,	_	PONCT	s=w	6	ponct	_	_
+8	dont	dont	_	PROREL	g=m|n=s|p=3|s=rel	12	de_obj	_	_
+9	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	12	suj	_	_
+10	m'	me	_	CLO	g=m|n=s|p=1|s=obj	12	a_obj	_	_
+11	aviez	aviez	_	V	m=ind|n=p|p=2|t=impft	12	dep	_	_
+12	parlé	parler	_	VPP	g=m|m=part|n=s|t=past	6	mod.rel	_	_
+13	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#107
+#<Génèse 43:29>b
+# C' est donc là le jeune frère dont vous m' avez parlé . "
+1	C'	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	donc	donc	_	ADV	_	2	mod	_	_
+4	là	là	_	ADV	_	2	mod	_	_
+5	le	le	_	DET	g=m|n=s|s=def	7	det	_	_
+6	jeune	jeune	_	ADJ	g=m|n=s|s=qual	7	mod	_	_
+7	frère	frère	_	NC	g=m|n=s|s=c	2	ats	_	_
+8	dont	dont	_	PROREL	g=m|n=s|p=3|s=rel	12	de_obj	_	_
+9	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	12	suj	_	_
+10	m'	me	_	CLO	c=yes|g=m|n=s|p=1|s=obj	12	obj	_	_
+11	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	12	aux.tps	_	_
+12	parlé	parler	_	VPP	g=m|m=part|n=s|t=past	7	mod.rel	_	_
+13	.	.	_	PONCT	s=w	2	ponct	_	_
+14	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#108
+#<Génèse 44:4>d
+# Pourquoi avez -vous rendu le mal pour le bien ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+2	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	4	aux.tps	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	4	suj	_	_
+4	rendu	rendre	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+5	le	le	_	DET	g=m|n=s|s=def	6	det	_	_
+6	mal	mal	_	NC	g=m|n=s|s=c	4	obj	_	_
+7	pour	pour	_	P	_	4	mod	_	_
+8	le	le	_	DET	g=m|n=s|s=def	9	det	_	_
+9	bien	bien	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+10	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#109
+#<Génèse 44:5>a
+# Pourquoi avez -vous volé la coupe que mon maître utilise pour boire et pratiquer la divination ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+2	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	4	aux.tps	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	4	suj	_	_
+4	volé	voler	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+5	la	le	_	DET	g=f|n=s|s=def	6	det	_	_
+6	coupe	coupe	_	NC	g=f|n=s|s=c	4	obj	_	_
+7	que	que	_	PROREL	g=f|n=s|p=3|s=rel	10	obj	_	_
+8	mon	son	_	DET	g=m|n=s|p=1|s=poss	9	det	_	_
+9	maître	maître	_	NC	g=m|n=s|s=c	10	suj	_	_
+10	utilise	utiliser	_	V	m=ind|n=s|p=3|t=pst	6	mod.rel	_	_
+11	pour	pour	_	P	_	10	mod	_	_
+12	boire	boire	_	VINF	m=inf	11	obj.p	_	_
+13	et	et	_	CC	s=c	12	coord	_	_
+14	pratiquer	pratiquer	_	VINF	m=inf	13	dep.coord	_	_
+15	la	le	_	DET	g=f|n=s|s=def	16	det	_	_
+16	divination	divination	_	NC	g=f|n=s|s=c	12	obj	_	_
+17	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#110
+#<Génèse 44:7>b
+# Comment Monsieur l' Intendant peut -il nous accuser ainsi ?
+1	Comment	comment	_	ADVWH	s=int	2	mod	_	_
+2	Monsieur	monsieur	_	VINF	g=m|n=s|s=p	5	suj	_	_
+3	l'	le	_	DET	g=m|n=s|s=def	4	det	_	_
+4	Intendant	intendant	_	NPP	g=m|n=s|s=p	2	obj	_	_
+5	peut	pouvoir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+6	-il	il	_	CLS	g=m|n=s|p=3|s=suj	5	suj	_	_
+7	nous	il	_	CLO	g=m|n=p|p=1|s=obj	8	obj	_	_
+8	accuser	accuser	_	VINF	m=inf	5	obj	_	_
+9	ainsi	ainsi	_	ADV	_	8	mod	_	_
+10	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#111
+#<Génèse 44:8>b
+# Pourquoi aurions -nous donc volé de l' argent ou de l' or dans la maison de ton maître ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	aurions	aurion	_	V	m=ind|n=p|p=1|t=cond	0	root	_	_
+3	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	2	suj	_	_
+4	donc	donc	_	ADV	_	5	mod	_	_
+5	volé	volé	_	VPP	g=m|m=part|n=s|t=past	2	mod	_	_
+6	de	de	_	P	_	5	de_obj	_	_
+7	l'	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	argent	argent	_	NC	g=m|n=s|s=c	6	obj.p	_	_
+9	ou	ou	_	CC	s=c	6	coord	_	_
+10	de	de	_	P	_	9	dep.coord	_	_
+11	l'	le	_	DET	g=m|n=s|s=def	12	det	_	_
+12	or	or	_	NC	g=m|n=s|s=c	10	obj.p	_	_
+13	dans	dans	_	P	_	5	mod	_	_
+14	la	le	_	DET	g=f|n=s|s=def	15	det	_	_
+15	maison	maison	_	NC	g=f|n=s|s=c	13	obj.p	_	_
+16	de	de	_	P	_	15	dep	_	_
+17	ton	ton	_	DET	g=m|n=s|p=2|s=poss	18	det	_	_
+18	maître	maître	_	NC	g=m|n=s|s=c	16	obj.p	_	_
+19	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#112
+#<Génèse 44:15>b
+# Pourquoi avez -vous fait cela ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	fait	faire	_	VPP	g=m|m=part|n=s|t=past	2	obj	_	_
+5	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	4	dep	_	_
+6	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#113
+#<Génèse 44:15>c
+# Ne savez -vous pas qu' un homme tel que moi a le pouvoir de tout deviner ? "
+1	Ne	ne	_	ADV	s=neg	2	mod	_	_
+2	savez	savoir	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=1|s=suj	2	suj	_	_
+4	pas	pas	_	ADV	s=neg	2	mod	_	_
+5	qu'	que	_	CS	s=s	2	obj	_	_
+6	un	un	_	DET	g=m|n=s|s=ind	7	det	_	_
+7	homme	homme	_	NC	g=m|n=s|s=c	11	suj	_	_
+8	tel	tel	_	ADJ	g=m|n=s|s=qual	7	mod	_	_
+9	que	que	_	CS	s=s	8	dep	_	_
+10	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	9	obj.cpl	_	_
+11	a	avoir	_	V	m=ind|n=s|p=3|t=pst	5	obj.cpl	_	_
+12	le	le	_	DET	g=m|n=s|s=def	13	det	_	_
+13	pouvoir	pouvoir	_	NC	g=m|n=s|s=c	11	obj	_	_
+14	de	de	_	P	_	13	dep	_	_
+15	tout	tout	_	PRO	g=m|n=s|p=3|s=ind	16	obj	_	_
+16	deviner	deviner	_	VINF	m=inf	14	obj.p	_	_
+17	?	?	_	PONCT	s=w	2	ponct	_	_
+18	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#114
+#<Génèse 44:16>a-c
+# " Que pourrions -nous dire , Monsieur l' Administrateur ?
+1	"	"	_	PONCT	s=w	3	ponct	_	_
+2	Que	que	_	PROWH	g=m|n=s|p=3|s=int	3	obj	_	_
+3	pourrions	pouvoir	_	V	m=ind|n=p|p=1|t=cond	0	root	_	_
+4	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+5	dire	dire	_	VINF	m=inf	3	obj	_	_
+6	,	,	_	PONCT	s=w	3	ponct	_	_
+7	Monsieur	monsieur	_	NPP	g=m|n=s|s=p	3	suj	_	_
+8	l'	le	_	DET	g=m|n=s|s=def	9	det	_	_
+9	Administrateur	administrateur	_	NPP	g=m|n=s|s=p	7	mod	_	_
+10	?	?	_	PONCT	s=s	3	ponct	_	_
+
+# répondit Juda .
+1	répondit	répondire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+2	Juda	juda	_	NPP	g=m|n=s|s=p	1	dep_cpd	_	_
+3	.	.	_	PONCT	s=s	1	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Que pourrions -nous dire pour prouver notre innocence ?
+1	Que	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	pourrions	pouvoir	_	V	m=ind|n=p|p=1|t=cond	0	root	_	_
+3	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	2	suj	_	_
+4	dire	dire	_	VINF	m=inf	2	obj	_	_
+5	pour	pour	_	P	_	4	mod	_	_
+6	prouver	prouver	_	VINF	m=inf	5	obj.p	_	_
+7	notre	son	_	DET	g=f|n=p|p=1|s=poss	8	det	_	_
+8	innocence	innocence	_	NC	g=f|n=s|s=c	6	obj	_	_
+9	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#115
+#<Génèse 44:19>a
+# La première fois , tu nous as demandé si nous avions encore notre père , ou un autre frère .
+1	La	le	_	DET	g=f|n=s|s=def	3	det	_	_
+2	première	premier	_	ADJ	g=f|n=s|s=ord	3	mod	_	_
+3	fois	fois	_	NC	g=f|n=s|s=c	8	mod	_	_
+4	,	,	_	PONCT	s=w	8	ponct	_	_
+5	tu	tu	_	P+D	g=m|n=s|p=2|s=suj	8	mod	_	_
+6	nous	il	_	CLS	g=m|n=p|p=1|s=suj	8	suj	_	_
+7	as	avoir	_	V	m=ind|n=p|p=1|t=pst	8	aux.tps	_	_
+8	demandé	demander	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+9	si	si	_	CS	s=s	8	obj	_	_
+10	nous	il	_	CLS	g=m|n=p|p=1|s=suj	11	suj	_	_
+11	avions	avoir	_	V	m=ind|n=p|p=1|t=impft	9	obj.cpl	_	_
+12	encore	encore	_	ADV	_	11	mod	_	_
+13	notre	son	_	DET	g=m|n=p|p=1|s=poss	14	det	_	_
+14	père	père	_	NC	g=m|n=s|s=c	11	obj	_	_
+15	,	,	_	PONCT	s=w	14	ponct	_	_
+16	ou	ou	_	CC	s=c	14	coord	_	_
+17	un	un	_	DET	g=m|n=s|s=ind	19	det	_	_
+18	autre	autre	_	ADJ	g=m|n=s|s=ind	19	mod	_	_
+19	frère	frère	_	NC	g=m|n=s|s=c	16	dep.coord	_	_
+20	.	.	_	PONCT	s=s	8	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#116
+#<Génèse 44:34>a
+# Je ne pourrais jamais retourner chez mon père sans être accompagné de l' enfant .
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	3	suj	_	_
+2	ne	ne	_	ADV	s=neg	3	mod	_	_
+3	pourrais	pourrais	_	V	m=ind|n=s|p=1|t=cond	0	root	_	_
+4	jamais	jamais	_	ADV	s=neg	3	mod	_	_
+5	retourner	retourner	_	VINF	m=inf	3	obj	_	_
+6	chez	chez	_	P	_	5	mod	_	_
+7	mon	son	_	DET	g=m|n=s|p=1|s=poss	8	det	_	_
+8	père	père	_	NC	g=m|n=s|s=c	6	obj.p	_	_
+9	sans	sans	_	P	_	5	mod	_	_
+10	être	être	_	VINF	m=inf	9	obj.p	_	_
+11	accompagné	accompagné	_	ADJ	g=m|n=s|s=qual	10	ats	_	_
+12	de	de	_	P	_	11	mod	_	_
+13	l'	le	_	DET	g=m|n=s|s=def	14	det	_	_
+14	enfant	enfant	_	NC	g=m|n=s|s=c	12	obj.p	_	_
+15	.	.	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=NISQ
+
+#117
+#<Génèse 45:3>c
+# Mon père est -il encore en vie ? "
+1	Mon	mon	_	DET	g=m|n=s|p=3|s=poss	2	det	_	_
+2	père	père	_	NC	g=m|n=s|s=c	3	suj	_	_
+3	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+5	encore	encore	_	ADV	_	3	mod	_	_
+6	en	en	_	P	mwehead=ADV+|pred=y	3	mod	_	_
+7	vie	vie	_	NC	g=f|n=s|s=c	6	dep_cpd	_	_
+8	?	?	_	PONCT	s=w	3	ponct	_	_
+9	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#118
+#<Génèse 46:33>a
+# Si le Pharaon vous convoque et vous demande quel est votre métier ,
+1	Si	si	_	CS	s=s	10	mod	_	_
+2	le	le	_	DET	g=m|n=s|s=def	3	det	_	_
+3	Pharaon	pharaon	_	NPP	g=m|n=s|s=p	5	suj	_	_
+4	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	5	obj	_	_
+5	convoque	convoquer	_	V	m=ind|n=s|p=3|t=pst	1	obj.cpl	_	_
+6	et	et	_	CC	s=c	5	coord	_	_
+7	vous	vous	_	P+D	s=def	6	dep.coord	_	_
+8	demande	demander	_	NC	g=f|n=s|s=c	7	obj.p	_	_
+9	quel	quel	_	ADJWH	g=m|n=s|s=int	10	ats	_	_
+10	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+11	votre	son	_	DET	g=m|n=p|p=1|s=poss	12	det	_	_
+12	métier	métier	_	NC	g=m|n=s|s=c	10	suj	_	_
+13	,	,	_	PONCT	s=w	10	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#119
+#<Génèse 47:3>b
+# Quel métier faites -vous ? " "
+1	Quel	quel	_	DET	g=m|n=s|s=int	2	det	_	_
+2	métier	métier	_	NC	g=m|n=s|s=c	3	suj	_	_
+3	faites	faire	_	V	g=f|m=part|n=p|t=past	0	root	_	_
+4	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	3	suj	_	_
+5	?	?	_	PONCT	s=w	3	ponct	_	_
+6	"	"	_	PONCT	s=w	3	ponct	_	_
+7	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#120
+#<Génèse 47:8>b
+# Quel est ton âge ? "
+1	Quel	quel	_	ADJWH	g=m|n=s|s=int	2	ats	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	ton	ton	_	DET	g=m|n=s|s=ind	4	det	_	_
+4	âge	âge	_	NC	g=m|n=s|s=c	2	suj	_	_
+5	?	?	_	PONCT	s=w	2	ponct	_	_
+6	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#121
+#<Génèse 47:15>c
+# Faudrait -il que nous mourions sous tes yeux , parce que nous n' avons plus d' argent ? "
+1	Faudrait	faudre	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+2	-il	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	que	que	_	CS	s=s	1	obj	_	_
+4	nous	il	_	CLS	g=m|n=p|p=1|s=suj	5	suj	_	_
+5	mourions	mourion	_	V	m=ind|n=p|p=1|t=cond	3	obj.cpl	_	_
+6	sous	sous	_	P	_	5	mod	_	_
+7	tes	ton	_	DET	g=m|n=p|s=dem	8	det	_	_
+8	yeux	oeil	_	NC	g=m|n=p|s=c	6	obj.p	_	_
+9	,	,	_	PONCT	s=w	5	ponct	_	_
+10	parce	parce	_	CS	mwehead=CS+|s=s|pred=y	5	mod	_	_
+11	que	que	_	CS	s=s|pred=y	10	dep_cpd	_	_
+12	nous	il	_	CLS	g=m|n=p|p=1|s=suj	14	suj	_	_
+13	n'	ne	_	ADV	s=neg	14	mod	_	_
+14	avons	avoir	_	V	m=ind|n=p|p=1|t=pst	10	obj.cpl	_	_
+15	plus	plus	_	ADV	s=neg	14	mod	_	_
+16	d'	de	_	DET	g=m|n=s|s=ind	17	det	_	_
+17	argent	argent	_	NC	g=m|n=s|s=c	14	obj	_	_
+18	?	?	_	PONCT	s=w	1	ponct	_	_
+19	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#122
+#<Génèse 47:19>a
+# Faudrait -il que nous mourions sous tes yeux et que nos terres soient abandonnées ?
+1	Faudrait	faudre	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+2	-il	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	que	que	_	CS	s=s	1	obj	_	_
+4	nous	il	_	CLS	g=m|n=p|p=1|s=suj	5	suj	_	_
+5	mourions	mourion	_	V	m=ind|n=p|p=1|t=cond	3	obj.cpl	_	_
+6	sous	sous	_	P	_	5	mod	_	_
+7	tes	ton	_	DET	g=m|n=p|s=dem	8	det	_	_
+8	yeux	oeil	_	NC	g=m|n=p|s=c	6	obj.p	_	_
+9	et	et	_	CC	s=c	3	coord	_	_
+10	que	que	_	CS	s=s	9	dep.coord	_	_
+11	nos	son	_	DET	g=f|n=p|p=1|s=poss	12	det	_	_
+12	terres	terre	_	NC	g=f|n=p|s=c	14	suj	_	_
+13	soient	être	_	VS	m=subj|n=p|p=3|t=pst	14	aux.pass	_	_
+14	abandonnées	abandonner	_	VPP	g=f|m=part|n=p|t=past	10	obj.cpl	_	_
+15	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#123
+#<Génèse 48:8>b
+# Qui est -ce ? "
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	2	suj	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	?	?	_	PONCT	s=w	2	ponct	_	_
+5	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#124
+#<Génèse 49:9>c
+# Qui pourrait le forcer à se lever ?
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	2	suj	_	_
+2	pourrait	pouvoir	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+3	le	le	_	CLO	g=m|n=s|p=3|s=obj	4	obj	_	_
+4	forcer	forcer	_	VINF	m=inf	2	obj	_	_
+5	à	à	_	P	_	4	a_obj	_	_
+6	se	se	_	CLR	g=m|n=p|p=3|s=refl	7	aff	_	_
+7	lever	lever	_	VINF	m=inf	5	obj.p	_	_
+8	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#125
+#<Génèse 50:19>c
+# Je n' ai pas à me mettre à la place de Dieu .
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	3	suj	_	_
+2	n'	ne	_	ADV	s=neg	3	mod	_	_
+3	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+4	pas	pas	_	ADV	s=neg	3	mod	_	_
+5	à	à	_	P	_	3	a_obj	_	_
+6	me	me	_	CLO	g=m|n=s|p=1|s=obj	7	aff	_	_
+7	mettre	mettre	_	VINF	m=inf	5	obj.p	_	_
+8	à	à	_	P	_	7	mod	_	_
+9	la	le	_	DET	g=f|n=s|s=def	10	det	_	_
+10	place	place	_	NC	g=f|n=s|s=c	8	obj.p	_	_
+11	de	de	_	P	_	10	dep	_	_
+12	Dieu	dieu	_	NPP	g=m|n=s|s=p	11	obj.p	_	_
+13	.	.	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#126
+#<Exode 1:18>b-c
+# Pourquoi agissez -vous ainsi ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	agissez	agissez	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	ainsi	ainsi	_	ADV	_	2	mod	_	_
+5	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+# Pourquoi laissez -vous vivre les garçons ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	laissez	laissez	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	vivre	vivre	_	VINF	m=inf	2	obj	_	_
+5	les	le	_	DET	g=m|n=p|s=def	6	det	_	_
+6	garçons	garçon	_	NC	g=m|n=p|s=c	4	obj	_	_
+7	?	?	_	PONCT	s=w	2	ponct	_	_
+8	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#127
+#<Exode 2:7>b
+# Dois -je aller te chercher une nourrice chez les Hébreux pour qu' elle allaite l' enfant ? "
+1	Dois	dois	_	V	g=m|n=p|s=c	0	root	_	_
+2	-je	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	aller	aller	_	VINF	m=inf	1	obj	_	_
+4	te	te	_	CLO	g=f|n=s|p=3|s=obj	5	obj	_	_
+5	chercher	chercher	_	VINF	m=inf	3	obj	_	_
+6	une	un	_	DET	g=f|n=s|s=ind	7	det	_	_
+7	nourrice	nourrice	_	NC	g=f|n=s|s=c	5	obj	_	_
+8	chez	chez	_	P	_	5	mod	_	_
+9	les	le	_	DET	g=m|n=p|s=def	10	det	_	_
+10	Hébreux	hébreux	_	NPP	g=m|n=s|s=p	8	obj.p	_	_
+11	pour	pour	_	P	mwehead=CS+|pred=y	1	mod	_	_
+12	qu'	que	_	CS	s=s|pred=y	11	dep_cpd	_	_
+13	elle	il	_	CLS	g=f|n=s|p=3|s=suj	14	suj	_	_
+14	allaite	allaiter	_	V	m=ind|n=s|p=3|t=pst	11	obj.cpl	_	_
+15	l'	le	_	DET	g=m|n=s|s=def	16	det	_	_
+16	enfant	enfant	_	NC	g=m|n=s|s=c	14	obj	_	_
+17	?	?	_	PONCT	s=w	1	ponct	_	_
+18	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#128
+#<Exode 2:13>c
+# Pourquoi frappes -tu ton compatriote ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	frappes	frappe	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	ton	ton	_	CLO	g=m|n=s|p=3|s=obj	5	obj	_	_
+5	compatriote	compatriote	_	V	m=ind|n=s|p=3|t=pst	2	dep	_	_
+6	?	?	_	PONCT	s=w	2	ponct	_	_
+7	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#129
+#<Exode 2:14>a
+# " Qui t' a nommé chef pour juger nos querelles ?
+1	"	"	_	PONCT	s=w	5	ponct	_	_
+2	Qui	qui	_	PROREL	g=m|n=s|p=3|s=int	5	suj	_	_
+3	t'	t'	_	CLO	g=m|n=s|p=3|s=refl	5	a_obj	_	_
+4	a	avoir	_	V	m=ind|n=s|p=3|t=pst	5	aux.tps	_	_
+5	nommé	nommer	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+6	chef	chef	_	NC	g=m|n=s|s=c	5	obj	_	_
+7	pour	pour	_	P	_	5	mod	_	_
+8	juger	juger	_	VINF	m=inf	7	obj.p	_	_
+9	nos	son	_	DET	g=f|n=p|p=1|s=poss	10	det	_	_
+10	querelles	querelle	_	NC	g=f|n=p|s=c	8	obj	_	_
+11	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#130
+#<Exode 2:14>b
+# As -tu l' intention de me tuer comme tu as tué l' Égyptien ? "
+1	As	as	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+2	-tu	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	l'	le	_	DET	g=f|n=s|s=def	4	det	_	_
+4	intention	intention	_	NC	g=f|n=s|s=c	1	obj	_	_
+5	de	de	_	P	_	4	dep	_	_
+6	me	me	_	CLO	g=m|n=s|p=1|s=obj	7	obj	_	_
+7	tuer	tuer	_	VINF	m=inf	5	obj.p	_	_
+8	comme	comme	_	P	_	7	mod	_	_
+9	tu	tu	_	DET	g=m|n=p|s=card	10	det	_	_
+10	as	avoir	_	NC	g=m|n=p|s=c	8	obj.p	_	_
+11	tué	tuer	_	VPP	g=m|m=part|n=s|t=past	10	mod	_	_
+12	l'	le	_	DET	g=m|n=s|s=def	13	det	_	_
+13	Égyptien	égyptien	_	NC	g=m|n=s|s=c	11	mod	_	_
+14	?	?	_	PONCT	s=w	1	ponct	_	_
+15	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#131
+#<Exode 2:18>b
+# Pourquoi rentrez -vous si tôt aujourd'hui ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	rentrez	rentrez	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+4	si	si	_	CS	s=s	2	mod	_	_
+5	tôt	tôt	_	ADV	mwehead=ADV+|pred=y	6	mod	_	_
+6	aujourd'hui	aujourd'hui	_	PRO	g=m|n=s|p=3|s=int	4	obj.cpl	_	_
+7	?	?	_	PONCT	s=w	2	ponct	_	_
+8	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#132
+#<Exode 2:20>a
+# " Où est donc cet homme ?
+1	"	"	_	PONCT	s=w	3	ponct	_	_
+2	Où	où	_	ADVWH	s=int	3	mod	_	_
+3	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	donc	donc	_	ADV	_	3	mod	_	_
+5	cet	ce	_	DET	g=m|n=s|s=dem	6	det	_	_
+6	homme	homme	_	NC	g=m|n=s|s=c	3	ats	_	_
+7	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#133
+#<Exode 2:20>c
+# Pourquoi ne l' avez -vous pas amené ici ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	7	mod	_	_
+2	ne	ne	_	ADV	s=neg	7	mod	_	_
+3	l'	le	_	CLO	g=m|n=s|p=3|s=obj	7	obj	_	_
+4	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	7	aux.tps	_	_
+5	-vous	il	_	CLS	g=m|n=p|p=1|s=suj	7	suj	_	_
+6	pas	pas	_	ADV	s=neg	7	mod	_	_
+7	amené	amener	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+8	ici	ici	_	ADV	_	7	mod	_	_
+9	?	?	_	PONCT	s=s	7	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#134
+#<Exode 3:11>b-c
+# Moi ?
+1	Moi	moi	_	NC	g=f|n=s|p=1|s=pers	0	root	_	_
+2	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# je ne peux pas aller trouver le Pharaon et faire sortir les Israélites d' Égypte ! "
+1	je	il	_	CLS	g=m|n=s|p=1|s=suj	3	suj	_	_
+2	ne	ne	_	ADV	s=neg	3	mod	_	_
+3	peux	peux	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+4	pas	pas	_	ADV	s=neg	3	mod	_	_
+5	aller	aller	_	VINF	m=inf	3	obj	_	_
+6	trouver	trouver	_	VINF	m=inf	5	obj	_	_
+7	le	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	Pharaon	pharaon	_	NPP	g=m|n=s|s=p	6	obj	_	_
+9	et	et	_	CC	s=c	6	coord	_	_
+10	faire	faire	_	VINF	m=inf	11	aux.caus	_	_
+11	sortir	sortir	_	VINF	m=inf	9	dep.coord	_	_
+12	les	le	_	DET	g=m|n=p|s=def	13	det	_	_
+13	Israélites	israélite	_	NPP	g=f|n=p|s=c	11	obj	_	_
+14	d'	de	_	P	_	13	dep_cpd	_	_
+15	Égypte	égypte	_	NPP	g=m|n=s|s=p	13	dep_cpd	_	_
+16	!	!	_	PONCT	s=w	3	ponct	_	_
+17	"	"	_	PONCT	s=s	3	ponct	_	_
+
+#135
+#<Exode 3:13>e
+# Mais ils me demanderont ton nom .
+1	Mais	mais	_	CC	s=c	0	root	_	_
+2	ils	il	_	CLS	g=m|n=p|p=3|s=suj	4	suj	_	_
+3	me	me	_	CLO	g=m|n=s|p=1|s=obj	4	a_obj	_	_
+4	demanderont	demander	_	V	m=ind|n=p|p=3|t=fut	1	dep.coord	_	_
+5	ton	ton	_	DET	g=m|n=s|s=ind	6	det	_	_
+6	nom	nom	_	NC	g=m|n=s|s=c	4	obj	_	_
+7	.	.	_	PONCT	s=s	1	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#136
+#<Exode 3:13>f
+# Que leur répondrai -je ? "
+1	Que	que	_	CS	s=s	5	mod	_	_
+2	leur	son	_	DET	g=m|n=p|p=3|s=poss	3	det	_	_
+3	répondrai	répondrai	_	NC	g=m|n=s|s=c	5	suj	_	_
+4	-je	il	_	ET	g=m|n=s|p=1|s=suj	3	dep_cpd	_	_
+5	?	?	_	V	s=w	0	root	_	_
+6	"	"	_	PONCT	s=s	5	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#137
+#<Exode 4:1>b-d
+# Mais les Israélites ne voudront pas me croire ni m' obéir .
+1	Mais	mais	_	CC	s=c	0	root	_	_
+2	les	le	_	DET	g=f|n=p|s=def	3	det	_	_
+3	Israélites	israélites	_	NC	g=m|n=p|s=c	5	suj	_	_
+4	ne	ne	_	ADV	s=neg	5	mod	_	_
+5	voudront	voudre	_	V	m=ind|n=p|p=3|t=fut	1	dep.coord	_	_
+6	pas	pas	_	ADV	s=neg	5	mod	_	_
+7	me	me	_	CLR	g=m|n=s|p=1|s=obj	8	aff	_	_
+8	croire	croire	_	VINF	m=inf	5	obj	_	_
+9	ni	ni	_	CC	s=c	8	coord	_	_
+10	m'	me	_	CLR	g=m|n=s|p=1|s=obj	11	aff	_	_
+11	obéir	obéir	_	VINF	m=inf	9	dep.coord	_	_
+12	.	.	_	PONCT	s=s	1	ponct	_	_
+
+# Ils me diront : "
+1	Ils	il	_	CLS	g=m|n=p|p=3|s=suj	3	suj	_	_
+2	me	me	_	CLO	g=m|n=s|p=1|s=obj	3	obj	_	_
+3	diront	dir	_	V	m=ind|n=p|p=3|t=fut	0	root	_	_
+4	:	:	_	PONCT	s=w	3	ponct	_	_
+5	"	"	_	PONCT	s=s	3	ponct	_	_
+
+# Le Seigneur ne t' est pas apparu ! " "
+1	Le	le	_	DET	g=m|n=s|s=def	2	det	_	_
+2	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	7	suj	_	_
+3	ne	ne	_	ADV	s=neg	7	mod	_	_
+4	t'	te	_	ADV	g=m|n=s|p=3|s=suj	3	dep_cpd	_	_
+5	est	être	_	V	m=ind|n=s|p=3|t=pst	7	aux.pass	_	_
+6	pas	pas	_	ADV	s=neg	7	mod	_	_
+7	apparu	apparaître	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+8	!	!	_	PONCT	s=w	7	ponct	_	_
+9	"	"	_	PONCT	s=w	7	ponct	_	_
+10	"	"	_	PONCT	s=s	7	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#138
+#<Exode 4:2>b
+# Que tiens -tu à la main ? " "
+1	Que	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	tiens	tien	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	à	à	_	P	mwehead=ADV+|pred=y	2	mod	_	_
+5	la	le	_	DET	g=f|n=s|s=def|pred=y	4	dep_cpd	_	_
+6	main	main	_	NC	g=f|n=s|s=c|pred=y	4	dep_cpd	_	_
+7	?	?	_	PONCT	s=w	2	ponct	_	_
+8	"	"	_	PONCT	s=w	2	ponct	_	_
+9	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#139
+#<Exode 4:11>b-c
+# Qui a donné une bouche à l' homme ?
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	3	suj	_	_
+2	a	avoir	_	V	m=ind|n=s|p=3|t=pst	3	aux.tps	_	_
+3	donné	donner	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+4	une	un	_	DET	g=f|n=s|s=ind	5	det	_	_
+5	bouche	bouche	_	NC	g=f|n=s|s=c	3	obj	_	_
+6	à	à	_	P	_	3	a_obj	_	_
+7	l'	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	homme	homme	_	NC	g=m|n=s|s=c	6	obj.p	_	_
+9	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+# Qui peut le rendre muet ou sourd , voyant ou aveugle ?
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	2	suj	_	_
+2	peut	pouvoir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	le	le	_	CLO	g=m|n=s|p=3|s=obj	4	obj	_	_
+4	rendre	rendre	_	VINF	m=inf	2	obj	_	_
+5	muet	muet	_	ADJ	g=m|n=s|s=qual	4	ato	_	_
+6	ou	ou	_	CC	s=c	5	coord	_	_
+7	sourd	sourd	_	ADJ	g=m|n=s|s=qual	6	dep.coord	_	_
+8	,	,	_	PONCT	s=w	2	ponct	_	_
+9	voyant	voir	_	VPR	m=part|t=pst	2	mod	_	_
+10	ou	ou	_	CC	s=c	9	coord	_	_
+11	aveugle	aveugle	_	NC	g=f|n=s|s=qual	10	dep.coord	_	_
+12	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+#140
+#<Exode 4:11>d
+# N' est -ce pas moi , le Seigneur ?
+1	N'	ne	_	ADV	s=neg	2	mod	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	pas	pas	_	ADV	s=neg	2	mod	_	_
+5	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	2	ats	_	_
+6	,	,	_	PONCT	s=w	2	ponct	_	_
+7	le	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	2	suj	_	_
+9	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=6;NISQ
+#gold_annotation=NISQ
+
+#141
+#<Exode 4:14>b
+# Tu as un frère , Aaron le lévite .
+1	Tu	tu	_	P+D	mwehead=ADV+|s=def|pred=y	8	mod	_	_
+2	as	avoir	_	NC	s=c|pred=y	1	dep_cpd	_	_
+3	un	un	_	DET	g=m|n=s|s=ind	4	det	_	_
+4	frère	frère	_	NC	g=m|n=s|s=c	8	suj	_	_
+5	,	,	_	PONCT	s=w	4	ponct	_	_
+6	Aaron	aaron	_	NPP	g=m|n=s|s=p	4	mod	_	_
+7	le	le	_	CLO	g=m|n=s|p=3|s=obj	8	obj	_	_
+8	lévite	lévite	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+9	.	.	_	PONCT	s=s	8	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#142
+#<Exode 5:2>b
+# Qui est ce Seigneur à qui je devrais obéir en laissant partir les Israélites ?
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	2	suj	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	ce	ce	_	DET	g=m|n=s|s=dem	4	det	_	_
+4	Seigneur	seigneur	_	NC	g=m|n=s|s=c	2	ats	_	_
+5	à	à	_	P	_	8	mod	_	_
+6	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	5	obj.p	_	_
+7	je	il	_	CLS	g=m|n=s|p=1|s=suj	8	suj	_	_
+8	devrais	dera	_	V	m=ind|n=s|p=1|t=impft	4	mod.rel	_	_
+9	obéir	obéir	_	VINF	m=inf	8	obj	_	_
+10	en	en	_	P	_	9	mod	_	_
+11	laissant	laisser	_	VPR	m=part|t=pst	10	obj.p	_	_
+12	partir	partir	_	VINF	m=inf	11	obj	_	_
+13	les	le	_	DET	g=m|n=p|s=def	14	det	_	_
+14	Israélites	israélites	_	NC	g=m|n=p|s=c	12	obj	_	_
+15	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#143
+#<Exode 5:4>a
+# " Moïse et Aaron , déclara le roi d' Égypte , pourquoi poussez -vous les Israélites à négliger leur ouvrage ? 
+1	"	"	_	PONCT	s=w	6	ponct	_	_
+2	Moïse	moïse	_	NPP	g=f|n=s|s=p	6	suj	_	_
+3	et	et	_	CC	s=c	2	coord	_	_
+4	Aaron	aaron	_	NPP	g=m|n=s|s=p	3	dep.coord	_	_
+5	,	,	_	PONCT	s=w	6	ponct	_	_
+6	déclara	déclar	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+7	le	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	roi	roi	_	NC	g=m|n=s|s=c	6	obj	_	_
+9	d'	de	_	P	_	8	dep	_	_
+10	Égypte	égypte	_	NPP	g=f|n=s|s=p	9	obj.p	_	_
+11	,	,	_	PONCT	s=w	6	ponct	_	_
+12	pourquoi	pourquoi	_	ADVWH	s=int	13	mod	_	_
+13	poussez	poussez	_	V	m=ind|n=p|p=2|t=pst	6	mod	_	_
+14	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	13	suj	_	_
+15	les	le	_	DET	g=m|n=p|s=def	16	det	_	_
+16	Israélites	israélite	_	NPP	g=m|n=s|s=p	13	obj	_	_
+17	à	à	_	P	_	13	a_obj	_	_
+18	négliger	négliger	_	VINF	m=inf	17	obj.p	_	_
+19	leur	son	_	DET	g=m|n=p|p=3|s=poss	20	det	_	_
+20	ouvrage	ouvrage	_	NC	g=m|n=s|s=c	18	obj	_	_
+21	?	?	_	PONCT	s=s	6	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#144
+#<Exode 5:5>a
+# Maintenant que ces gens sont nombreux , vous voudriez leur faire interrompre leurs activités ? "
+1	Maintenant	maintenant	_	ADV	mwehead=CS+|pred=y	9	mod	_	_
+2	que	que	_	CS	s=s|pred=y	1	dep_cpd	_	_
+3	ces	ce	_	DET	g=m|n=p|s=dem	4	det	_	_
+4	gens	gens	_	NC	g=m|n=p|s=c	5	suj	_	_
+5	sont	être	_	V	m=ind|n=p|p=3|t=pst	1	obj.cpl	_	_
+6	nombreux	nombreux	_	ADJ	g=m|n=p|s=qual	5	ats	_	_
+7	,	,	_	PONCT	s=w	9	ponct	_	_
+8	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	9	suj	_	_
+9	voudriez	voudriez	_	V	m=ind|n=p|p=2|t=impft	0	root	_	_
+10	leur	son	_	CLO	g=m|n=p|p=3|s=obj	12	a_obj	_	_
+11	faire	faire	_	VINF	m=inf	12	aux.caus	_	_
+12	interrompre	interrompre	_	VINF	m=inf	9	obj	_	_
+13	leurs	son	_	DET	g=f|n=p|p=3|s=poss	14	det	_	_
+14	activités	activité	_	NC	g=f|n=p|s=c	12	obj	_	_
+15	?	?	_	PONCT	s=w	9	ponct	_	_
+16	"	"	_	PONCT	s=s	9	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#145
+#<Exode 5:14>b
+# Pourquoi , ces derniers jours , n' avez -vous pas fourni le nombre exigé de briques comme auparavant ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	11	mod	_	_
+2	,	,	_	PONCT	s=w	11	ponct	_	_
+3	ces	ce	_	DET	g=m|n=p|s=dem	5	det	_	_
+4	derniers	dernier	_	ADJ	g=m|n=p|s=qual	5	mod	_	_
+5	jours	jour	_	NC	g=m|n=p|s=c	11	suj	_	_
+6	,	,	_	PONCT	s=w	11	ponct	_	_
+7	n'	ne	_	ADV	s=neg	11	mod	_	_
+8	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	11	aux.tps	_	_
+9	-vous	il	_	CLS	g=m|n=p|p=1|s=suj	11	suj	_	_
+10	pas	pas	_	ADV	s=neg	11	mod	_	_
+11	fourni	fournir	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+12	le	le	_	DET	g=m|n=s|s=def	13	det	_	_
+13	nombre	nombre	_	NC	g=m|n=s|s=c	11	obj	_	_
+14	exigé	exiger	_	ADJ	g=m|n=s|s=qual	13	mod	_	_
+15	de	de	_	P	_	13	dep	_	_
+16	briques	brique	_	NC	g=f|n=p|s=c	15	obj.p	_	_
+17	comme	comme	_	P	_	11	mod	_	_
+18	auparavant	auparavant	_	ADV	_	17	obj.p	_	_
+19	?	?	_	PONCT	s=w	11	ponct	_	_
+20	"	"	_	PONCT	s=s	11	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#146
+#<Exode 5:15>b
+# Pourquoi le Pharaon traite -t-il ainsi ses esclaves ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+2	le	le	_	DET	g=m|n=s|s=def	3	det	_	_
+3	Pharaon	pharaon	_	NPP	g=m|n=s|s=p	4	suj	_	_
+4	traite	traiter	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+5	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	4	suj	_	_
+6	ainsi	ainsi	_	ADV	_	4	mod	_	_
+7	ses	son	_	DET	g=m|n=s|p=3|s=poss	8	det	_	_
+8	esclaves	esclave	_	NC	g=m|n=p|s=c	4	obj	_	_
+9	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#147
+#<Exode 5:22>b
+# O Seigneur , dit -il , pourquoi as -tu fait du mal à ce peuple ?
+1	O	o	_	PONCT	s=w	4	ponct	_	_
+2	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	4	suj	_	_
+3	,	,	_	PONCT	s=w	4	ponct	_	_
+4	dit	dire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+5	-il	il	_	CLS	g=m|n=s|p=3|s=suj	4	suj	_	_
+6	,	,	_	PONCT	s=w	4	ponct	_	_
+7	pourquoi	pourquoi	_	ADVWH	s=int	10	mod	_	_
+8	as	avoir	_	V	m=ind|n=s|p=2|t=pst	10	aux.tps	_	_
+9	-tu	il	_	CLS	g=m|m=part|n=s|t=past	10	suj	_	_
+10	fait	faire	_	VPP	g=m|m=part|n=s|t=past	4	mod	_	_
+11	du	de	_	P+D	s=def	10	dep_cpd	_	_
+12	mal	mal	_	NC	g=m|n=s|s=c	10	dep_cpd	_	_
+13	à	à	_	P	_	10	mod	_	_
+14	ce	ce	_	DET	g=m|n=s|s=dem	15	det	_	_
+15	peuple	peuple	_	NC	g=m|n=s|s=c	13	obj.p	_	_
+16	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#148
+#<Exode 5:22>c
+# Pourquoi m' as -tu envoyé ici ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	5	mod	_	_
+2	m'	me	_	CLO	g=m|n=s|p=1|s=obj	5	suj	_	_
+3	as	avoir	_	V	m=ind|n=p|p=3|t=pst	5	aux.tps	_	_
+4	-tu	il	_	CLS	g=m|m=part|n=s|t=past	5	suj	_	_
+5	envoyé	envoyer	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+6	ici	ici	_	ADV	_	5	mod	_	_
+7	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=4;NISQ
+#gold_annotation=NISQ
+
+#149
+#<Exode 6:12>c
+# Pourquoi donc le Pharaon m' écouterait -il , moi qui sais si mal m' exprimer ? "
+1	Pourquoi	pourquoi	_	V	s=int	6	mod	_	_
+2	donc	donc	_	ADV	_	1	mod	_	_
+3	le	le	_	DET	g=m|n=s|s=def	4	det	_	_
+4	Pharaon	pharaon	_	NPP	g=m|n=s|s=p	6	suj	_	_
+5	m'	me	_	ADJ	g=m|n=s|p=1|s=obj	4	dep_cpd	_	_
+6	écouterait	écouter	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+7	-il	il	_	CLS	g=m|n=s|p=3|s=suj	6	suj	_	_
+8	,	,	_	PONCT	s=w	6	ponct	_	_
+9	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	6	mod	_	_
+10	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	11	suj	_	_
+11	sais	savoir	_	V	m=ind|n=s|p=3|t=pst	9	mod.rel	_	_
+12	si	si	_	ADV	s=s	13	mod	_	_
+13	mal	mal	_	ADV	_|pred=y	15	mod	_	_
+14	m'	me	_	CLO	g=m|n=s|p=1|s=obj	15	a_obj	_	_
+15	exprimer	exprimer	_	VINF	m=inf	11	obj	_	_
+16	?	?	_	PONCT	s=w	6	ponct	_	_
+17	"	"	_	PONCT	s=s	6	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#150
+#<Exode 6:30>b-c
+# Je sais si mal m' exprimer !
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	2	suj	_	_
+2	sais	savoir	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+3	si	si	_	ADV	s=s	4	mod	_	_
+4	mal	mal	_	ADV	_	6	mod	_	_
+5	m'	me	_	CLO	g=m|n=s|p=1|s=obj	6	a_obj	_	_
+6	exprimer	exprimer	_	VINF	m=inf	2	obj	_	_
+7	!	!	_	PONCT	s=s	2	ponct	_	_
+
+# Jamais le Pharaon ne m' écoutera ! "
+1	Jamais	jamais	_	ADV	s=neg	6	mod	_	_
+2	le	le	_	DET	g=m|n=s|s=def	3	det	_	_
+3	Pharaon	pharaon	_	NPP	g=m|n=s|s=p	6	suj	_	_
+4	ne	ne	_	ADV	s=neg	6	mod	_	_
+5	m'	me	_	CLO	g=m|n=s|p=1|s=obj	6	a_obj	_	_
+6	écoutera	écouter	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+7	!	!	_	PONCT	s=w	6	ponct	_	_
+8	"	"	_	PONCT	s=s	6	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#151
+#<Exode 9:17>a
+# Malgré cela , tu continues de traiter mon peuple avec mépris , en refusant de le laisser partir .
+1	Malgré	malgré	_	P	_	0	root	_	_
+2	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	1	obj.p	_	_
+3	,	,	_	PONCT	s=w	1	dep	_	_
+4	tu	tu	_	DET	g=f|n=p|s=ind	5	det	_	_
+5	continues	continue	_	NC	g=f|n=p|s=c	3	obj.p	_	_
+6	de	de	_	P	_	5	dep	_	_
+7	traiter	traiter	_	VINF	m=inf	6	obj.p	_	_
+8	mon	son	_	DET	g=m|n=s|p=1|s=poss	9	det	_	_
+9	peuple	peuple	_	NC	g=m|n=s|s=c	7	obj	_	_
+10	avec	avec	_	P	_	7	mod	_	_
+11	mépris	mépris	_	NC	g=m|n=s|s=c	10	obj.p	_	_
+12	,	,	_	PONCT	s=w	7	ponct	_	_
+13	en	en	_	P	_	7	mod	_	_
+14	refusant	refuser	_	VPR	m=part|t=pst	13	obj.p	_	_
+15	de	de	_	P	_	14	obj	_	_
+16	le	le	_	CLO	g=m|n=s|p=3|s=obj	17	obj	_	_
+17	laisser	laisser	_	VINF	m=inf	15	obj.p	_	_
+18	partir	partir	_	VINF	m=inf|pred=y	17	obj	_	_
+19	.	.	_	PONCT	s=s	1	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#152
+#<Exode 10:3>c
+# Vas -tu longtemps encore refuser de te soumettre à moi ?
+1	Vas	vas	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+2	-tu	il	_	CLS	g=m|n=p|p=3|s=suj	1	suj	_	_
+3	longtemps	longtemps	_	ADV	_	1	mod	_	_
+4	encore	encore	_	ADV	_	1	mod	_	_
+5	refuser	refuser	_	VINF	m=inf	1	obj	_	_
+6	de	de	_	P	_	5	obj	_	_
+7	te	te	_	CLO	g=m|n=s|p=1|s=obj	8	obj	_	_
+8	soumettre	soumettre	_	VINF	m=inf	6	obj.p	_	_
+9	à	à	_	P	_	8	a_obj	_	_
+10	moi	moi	_	PRO	g=m|n=s|p=1|s=pers	9	obj.p	_	_
+11	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#153
+#<Exode 10:7>b
+# Jusqu'à quand cet individu va -t-il nous causer des malheurs ?
+1	Jusqu'à	jusqu'à	_	P	_	5	mod	_	_
+2	quand	quand	_	ADVWH	s=int	1	obj.p	_	_
+3	cet	ce	_	DET	g=m|n=s|s=dem	4	det	_	_
+4	individu	individu	_	NC	g=m|n=s|s=c	5	suj	_	_
+5	va	aller	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+6	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	5	suj	_	_
+7	nous	il	_	CLO	g=m|n=p|p=1|s=obj	8	obj	_	_
+8	causer	causer	_	VINF	m=inf	5	obj	_	_
+9	des	de	_	P+D	s=def	8	de_obj	_	_
+10	malheurs	malheur	_	NC	g=m|n=p|s=c	9	obj.p	_	_
+11	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#154
+#<Exode 10:7>d
+# Ne comprends -tu pas encore que l' Égypte court à sa perte ? "
+1	Ne	ne	_	ADV	s=neg	2	mod	_	_
+2	comprends	comprend	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	2	suj	_	_
+4	pas	pas	_	ADV	mwehead=ADV+|s=neg|pred=y	2	mod	_	_
+5	encore	encore	_	ADV	_|pred=y	4	dep_cpd	_	_
+6	que	que	_	CS	s=s	2	obj	_	_
+7	l'	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	Égypte	égypte	_	NC	g=m|n=s|s=c	9	suj	_	_
+9	court	courir	_	V	g=m|n=s|s=qual	6	obj.cpl	_	_
+10	à	à	_	P	_	9	a_obj	_	_
+11	sa	son	_	DET	g=f|n=s|p=3|s=poss	12	det	_	_
+12	perte	perte	_	NC	g=f|n=s|s=c	10	obj.p	_	_
+13	?	?	_	PONCT	s=w	2	ponct	_	_
+14	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=5;NISQ
+#gold_annotation=NISQ
+
+#155
+#<Exode 10:8>c
+# Mais quels sont ceux qui partiront ? "
+1	Mais	mais	_	CC	s=c	0	root	_	_
+2	quels	quel	_	ADJWH	g=m|n=p|s=int	3	ats	_	_
+3	sont	être	_	V	m=ind|n=p|p=3|t=pst	1	dep.coord	_	_
+4	ceux	celui	_	PRO	g=m|n=p|p=3|s=dem	3	suj	_	_
+5	qui	qui	_	PROREL	g=m|n=p|p=3|s=rel	6	suj	_	_
+6	partiront	partir	_	V	m=ind|n=p|p=3|t=fut	4	mod.rel	_	_
+7	?	?	_	PONCT	s=w	6	ponct	_	_
+8	"	"	_	PONCT	s=w	1	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=ISQ
+
+#156
+#<Exode 10:10>b-c
+# Que le Seigneur soit avec vous !
+1	Que	que	_	CS	s=s	4	mod	_	_
+2	le	le	_	DET	g=m|n=s|s=def	3	det	_	_
+3	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	4	suj	_	_
+4	soit	soit	_	VS	s=c	0	root	_	_
+5	avec	avec	_	P	_	4	mod	_	_
+6	vous	vous	_	PRO	g=m|n=p|p=2|s=pers	5	obj.p	_	_
+7	!	!	_	PONCT	s=s	4	ponct	_	_
+
+# Je vais sûrement vous autoriser à partir avec vos familles !
+1	Je	il	_	CLS	g=m|n=s|p=1|s=suj	2	suj	_	_
+2	vais	aller	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+3	sûrement	sûrement	_	ADV	_	2	mod	_	_
+4	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	5	aff	_	_
+5	autoriser	autoriser	_	VINF	m=inf	2	obj	_	_
+6	à	à	_	P	mwehead=P+|pred=y	5	mod	_	_
+7	partir	partir	_	VINF	m=inf|pred=y	6	dep_cpd	_	_
+8	avec	avec	_	P	_|pred=y	6	dep_cpd	_	_
+9	vos	son	_	DET	g=f|n=p|s=card	10	det	_	_
+10	familles	famille	_	NC	g=f|n=p|s=c	6	obj.p	_	_
+11	!	!	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#157
+#<Exode 12:26>a
+# Si vos enfants vous demandent ce qu' elle signifie ,
+1	Si	si	_	CS	s=s	0	root	_	_
+2	vos	son	_	DET	g=m|n=p|p=2|s=poss	3	det	_	_
+3	enfants	enfant	_	NC	g=m|n=p|s=c	5	suj	_	_
+4	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	5	a_obj	_	_
+5	demandent	demander	_	V	m=ind|n=p|p=3|t=pst	1	obj.cpl	_	_
+6	ce	ce	_	PRO	g=m|n=s|p=3|s=dem	5	obj	_	_
+7	qu'	que	_	PROREL	g=m|n=s|p=3|s=rel	9	obj	_	_
+8	elle	il	_	CLS	g=f|n=s|p=3|s=suj	9	suj	_	_
+9	signifie	signifier	_	V	m=ind|n=s|p=3|t=pst	6	mod.rel	_	_
+10	,	,	_	PONCT	s=w	1	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#158
+#<Exode 13:14>b
+# Pourquoi fait -on cela ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	fait	faire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-on	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	2	obj	_	_
+5	?	?	_	PONCT	s=w	2	ponct	_	_
+6	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#159
+#<Exode 14:5>b-c
+# Qu' avons -nous fait là ?
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	avons	avoir	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+3	-nous	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	fait	faire	_	VPP	g=m|m=part|n=s|t=past	2	mod	_	_
+5	là	là	_	ADV	_	4	mod	_	_
+6	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+# Pourquoi avons -nous laissé les Israélites s' en aller , au lieu de les garder comme esclaves ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+2	avons	avoir	_	V	m=ind|n=p|p=1|t=pst	4	aux.tps	_	_
+3	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	4	suj	_	_
+4	laissé	laisser	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+5	les	le	_	DET	g=m|n=p|s=def	6	det	_	_
+6	Israélites	israélite	_	NC	g=f|n=p|s=c	9	suj	_	_
+7	s'	se	_	CLR	g=m|n=p|p=3|s=refl	9	aff	_	_
+8	en	en	_	CLO	g=m|n=s|p=3|s=obj	9	aff	_	_
+9	aller	aller	_	VINF	m=inf	4	obj	_	_
+10	,	,	_	PONCT	s=w	4	ponct	_	_
+11	au	à	_	P+D	mwehead=P+|s=def|pred=y	4	mod	_	_
+12	lieu	lieu	_	NC	g=m|n=s|s=c|pred=y	11	dep_cpd	_	_
+13	de	de	_	P	_|pred=y	11	dep_cpd	_	_
+14	les	le	_	CLO	g=m|n=p|p=3|s=obj	15	obj	_	_
+15	garder	garder	_	VINF	m=inf	11	obj.p	_	_
+16	comme	comme	_	P	_	15	mod	_	_
+17	esclaves	esclave	_	NC	g=m|n=p|s=c	16	obj.p	_	_
+18	?	?	_	PONCT	s=w	4	ponct	_	_
+19	"	"	_	PONCT	s=s	4	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#160
+#<Exode 14:11>b-c
+# N' y avait -il pas assez de tombeaux en Égypte ?
+1	N'	ne	_	ADV	s=neg	3	mod	_	_
+2	y	y	_	CLO	g=m|n=s|p=3|s=obj	3	aff	_	_
+3	avait	avoir	_	V	m=ind|n=s|p=3|t=impft	0	root	_	_
+4	-il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+5	pas	pas	_	ADV	s=neg	3	mod	_	_
+6	assez	assez	_	ADV	_	8	mod	_	_
+7	de	de	_	P	_	8	det	_	_
+8	tombeaux	tombeau	_	NC	g=m|n=p|s=c	3	obj	_	_
+9	en	en	_	P	_	3	mod	_	_
+10	Égypte	égypte	_	NPP	g=f|n=s|s=p	9	obj.p	_	_
+11	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+# Pourquoi nous as -tu emmenés mourir dans le désert ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	5	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	5	suj	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	5	aux.tps	_	_
+4	-tu	il	_	CLS	g=m|m=part|n=s|t=past	5	suj	_	_
+5	emmenés	emmener	_	VPP	g=m|m=part|n=p|t=past	0	root	_	_
+6	mourir	mourir	_	VINF	m=inf	5	obj	_	_
+7	dans	dans	_	P	_	6	mod	_	_
+8	le	le	_	DET	g=m|n=s|s=def	9	det	_	_
+9	désert	désert	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+10	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#161
+#<Exode 14:11>d
+# Pourquoi nous as -tu fait quitter l' Égypte ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	6	suj	_	_
+5	fait	faire	_	V	m=ind|n=s|p=3|t=pst	6	aux.caus	_	_
+6	quitter	quitter	_	VINF	m=inf	3	obj	_	_
+7	l'	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	Égypte	égypte	_	NC	g=m|n=s|s=c	6	obj	_	_
+9	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=7;NISQ
+#gold_annotation=NISQ
+
+#162
+#<Exode 14:15>b
+# Pourquoi m' appelles -tu à l' aide ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	m'	me	_	ADV	c=yes|g=m|n=s|p=1|s=obj	3	mod	_	_
+3	appelles	appel	_	V	g=f|n=p|s=qual	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	3	suj	_	_
+5	à	à	_	P	mwehead=P+|pred=y	3	mod	_	_
+6	l'	le	_	DET	n=s|s=def|pred=y	5	dep_cpd	_	_
+7	aide	aide	_	NC	g=f|n=s|s=c	5	dep_cpd	_	_
+8	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#163
+#<Exode 15:11>a
+# Seigneur , qui parmi les dieux est comparable à toi ?
+1	Seigneur	seigneur	_	NPP	g=m|n=s|s=qual	0	root	_	_
+2	,	,	_	PONCT	s=w	1	ponct	_	_
+3	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	7	suj	_	_
+4	parmi	parmi	_	P	_	7	mod	_	_
+5	les	le	_	DET	g=m|n=p|s=def	6	det	_	_
+6	dieux	dieux	_	NC	g=m|n=p|s=c	4	obj.p	_	_
+7	est	être	_	V	m=ind|n=s|p=3|t=pst	1	mod.rel	_	_
+8	comparable	comparable	_	ADJ	g=m|n=s|s=qual	7	ats	_	_
+9	à	à	_	P	_	8	a_obj	_	_
+10	toi	toi	_	NC	g=m|n=s|p=3|s=int	9	obj.p	_	_
+11	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#164
+#<Exode 15:11>b
+# Qui est comme toi , éclatant de sainteté , redoutable , digne d' acclamations , capable d' accomplir des prodiges ?
+1	Qui	qui	_	PROWH	g=m|n=s|p=3|s=int	2	suj	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	comme	comme	_	P	_	2	ats	_	_
+4	toi	toi	_	ADV	g=m|n=s|p=2|s=obj	3	obj.p	_	_
+5	,	,	_	PONCT	s=w	2	ponct	_	_
+6	éclatant	éclater	_	VPR	m=part|t=pst	2	mod	_	_
+7	de	de	_	P	_	6	de_obj	_	_
+8	sainteté	sainteté	_	NC	g=f|n=s|s=c	7	obj.p	_	_
+9	,	,	_	PONCT	s=w	8	ponct	_	_
+10	redoutable	redoutable	_	ADJ	g=f|n=s|s=qual	8	mod	_	_
+11	,	,	_	PONCT	s=w	8	ponct	_	_
+12	digne	digne	_	ADJ	g=m|n=s|s=qual	8	mod	_	_
+13	d'	de	_	P	_	12	de_obj	_	_
+14	acclamations	acclamation	_	NC	g=f|n=p|s=c	13	obj.p	_	_
+15	,	,	_	PONCT	s=w	8	ponct	_	_
+16	capable	capable	_	ADJ	g=f|n=s|s=qual	8	mod	_	_
+17	d'	de	_	P	_	16	de_obj	_	_
+18	accomplir	accomplir	_	VINF	m=inf	17	obj.p	_	_
+19	des	de	_	P+D	s=def	18	de_obj	_	_
+20	prodiges	prodige	_	NC	g=m|n=p|s=c	19	obj.p	_	_
+21	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#165
+#<Exode 15:24>b
+# Qu' allons -nous boire ? "
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	allons	allon	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+3	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	2	suj	_	_
+4	boire	boire	_	ADJ	g=m|n=s|s=qual	2	ats	_	_
+5	?	?	_	PONCT	s=w	2	ponct	_	_
+6	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#166
+#<Exode 16:6-8>e
+# Quant à nous , nous ne sommes même pas dignes que vous protestiez contre nous .
+1	Quant	quer	_	ADV	mwehead=P+|pred=y	7	mod	_	_
+2	à	à	_	P	_|pred=y	1	dep_cpd	_	_
+3	nous	il	_	PRO	g=m|n=p|p=1|s=suj	1	obj.p	_	_
+4	,	,	_	PONCT	s=w	7	ponct	_	_
+5	nous	il	_	CLS	g=m|n=p|p=1|s=suj	7	suj	_	_
+6	ne	ne	_	ADV	s=neg	7	mod	_	_
+7	sommes	somme	_	V	m=ind|n=p|p=1|t=pst	0	root	_	_
+8	même	même	_	ADV	_	7	mod	_	_
+9	pas	pas	_	ADV	s=neg	10	mod	_	_
+10	dignes	digne	_	ADJ	g=m|n=p|s=qual	7	ats	_	_
+11	que	que	_	CS	s=s	10	dep	_	_
+12	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	13	suj	_	_
+13	protestiez	protestiez	_	V	m=imp|n=p|p=2|t=pst	11	obj.cpl	_	_
+14	contre	contre	_	P	_	13	mod	_	_
+15	nous	il	_	PRO	g=m|n=p|p=1|s=pers	14	obj.p	_	_
+16	.	.	_	PONCT	s=s	7	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#167
+#<Exode 16:6-8>b-d
+# Ce soir , le Seigneur vous donnera de la viande à manger , car il vous a entendus protester contre lui ;
+1	Ce	ce	_	DET	g=m|n=s|s=dem	2	det	_	_
+2	soir	soir	_	NC	g=m|n=s|s=c	7	mod	_	_
+3	,	,	_	PONCT	s=w	7	ponct	_	_
+4	le	le	_	DET	g=m|n=s|s=def	5	det	_	_
+5	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	7	suj	_	_
+6	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	7	aff	_	_
+7	donnera	donner	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+8	de	de	_	P	_	7	de_obj	_	_
+9	la	le	_	DET	g=f|n=s|s=def	10	det	_	_
+10	viande	viande	_	NC	g=f|n=s|s=c	8	obj.p	_	_
+11	à	à	_	P	_	10	dep	_	_
+12	manger	manger	_	NC	g=m|n=s|s=c	11	obj.p	_	_
+13	,	,	_	PONCT	s=w	7	ponct	_	_
+14	car	car	_	CC	s=c	7	coord	_	_
+15	il	il	_	CLS	g=m|n=s|p=3|s=suj	18	suj	_	_
+16	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	18	obj	_	_
+17	a	avoir	_	V	m=ind|n=s|p=3|t=pst	18	aux.tps	_	_
+18	entendus	entendre	_	VPP	g=m|m=part|n=p|t=past	14	dep.coord	_	_
+19	protester	protester	_	VINF	m=inf	18	obj	_	_
+20	contre	contre	_	P	_	19	mod	_	_
+21	lui	lui	_	PRO	g=m|n=s|p=3|s=pers	20	obj.p	_	_
+22	;	;	_	PONCT	s=w	7	ponct	_	_
+
+# vous saurez alors que c' est lui qui vous a fait sortir d' Égypte .
+1	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	2	suj	_	_
+2	saurez	saurez	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	alors	alors	_	ADV	_	2	mod	_	_
+4	que	que	_	CS	s=s	2	obj	_	_
+5	c'	ce	_	CLS	g=m|n=s|p=3|s=suj	6	suj	_	_
+6	est	être	_	V	m=ind|n=s|p=3|t=pst	4	obj.cpl	_	_
+7	lui	lui	_	PRO	g=m|n=s|p=3|s=pers	6	ats	_	_
+8	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	12	suj	_	_
+9	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	12	obj	_	_
+10	a	avoir	_	V	m=ind|n=s|p=3|t=pst	12	aux.tps	_	_
+11	fait	faire	_	VPP	g=m|m=part|n=s|t=past	12	aux.caus	_	_
+12	sortir	sortir	_	VINF	m=inf	6	mod	_	_
+13	d'	de	_	P	_	12	de_obj	_	_
+14	Égypte	égypte	_	NPP	g=f|n=s|s=p	13	obj.p	_	_
+15	.	.	_	PONCT	s=s	2	ponct	_	_
+
+# Et demain matin , quand il vous donnera du pain en suffisance , vous verrez sa gloire .
+1	Et	et	_	CC	s=c	0	root	_	_
+2	demain	demain	_	ADV	_	3	mod	_	_
+3	matin	matin	_	ADV	g=m|n=s|s=c	1	mod	_	_
+4	,	,	_	PONCT	s=w	15	ponct	_	_
+5	quand	quand	_	CS	s=s	15	mod	_	_
+6	il	il	_	CLS	g=m|n=s|p=3|s=suj	8	suj	_	_
+7	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	8	a_obj	_	_
+8	donnera	donner	_	V	m=ind|n=s|p=3|t=fut	5	obj.cpl	_	_
+9	du	de	_	P+D	s=def	8	de_obj	_	_
+10	pain	pain	_	NC	g=m|n=s|s=c	9	obj.p	_	_
+11	en	en	_	P	_	10	dep	_	_
+12	suffisance	suffisance	_	NC	g=f|n=s|s=c	11	obj.p	_	_
+13	,	,	_	PONCT	s=w	15	ponct	_	_
+14	vous	vous	_	CLS	g=m|n=p|p=2|s=suj	15	suj	_	_
+15	verrez	verrez	_	V	m=ind|n=p|p=2|t=pst	1	dep.coord	_	_
+16	sa	son	_	DET	g=f|n=s|p=3|s=poss	17	det	_	_
+17	gloire	gloire	_	NC	g=f|n=s|s=c	15	obj	_	_
+18	.	.	_	PONCT	s=s	15	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#168
+#<Exode 16:15>b
+# Qu' est -ce que c' est ? "
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	dep	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	que	que	_	CS	s=s	2	obj	_	_
+5	c'	ce	_	CLS	g=m|n=s|p=3|s=suj	6	suj	_	_
+6	est	être	_	V	m=ind|n=s|p=3|t=pst	4	obj.cpl	_	_
+7	?	?	_	PONCT	s=w	2	ponct	_	_
+8	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#169
+#<Exode 16:28>b
+# Allez -vous encore longtemps refuser d' obéir à mes commandements et à mes instructions ?
+1	Allez	aller	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+2	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	1	suj	_	_
+3	encore	encore	_	ADV	_	4	mod	_	_
+4	longtemps	longtemps	_	ADV	_	1	mod	_	_
+5	refuser	refuser	_	VINF	m=inf	1	obj	_	_
+6	d'	de	_	P	_	5	obj	_	_
+7	obéir	obéir	_	VINF	m=inf	6	obj.p	_	_
+8	à	à	_	P	_	7	a_obj	_	_
+9	mes	son	_	DET	g=m|n=p|p=1|s=poss	10	det	_	_
+10	commandements	commandement	_	NC	g=m|n=p|s=c	8	obj.p	_	_
+11	et	et	_	CC	s=c	8	coord	_	_
+12	à	à	_	P	_	11	dep.coord	_	_
+13	mes	son	_	DET	g=m|n=s|p=1|s=poss	14	det	_	_
+14	instructions	instruction	_	NC	g=f|n=p|s=c	12	obj.p	_	_
+15	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#170
+#<Exode 17:2>d-e
+# Pourquoi me cherchez -vous querelle ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	me	me	_	CLO	g=m|n=s|p=1|s=obj	3	suj	_	_
+3	cherchez	chercher	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+4	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	3	suj	_	_
+5	querelle	querel	_	PRO	g=f|n=s|s=qual	3	obj	_	_
+6	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# Et pourquoi mettez -vous ainsi le Seigneur à l' épreuve ? "
+1	Et	et	_	CC	s=c	0	root	_	_
+2	pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+3	mettez	mettez	_	V	m=ind|n=p|p=2|t=pst	1	dep.coord	_	_
+4	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	3	suj	_	_
+5	ainsi	ainsi	_	ADV	_	3	mod	_	_
+6	le	le	_	DET	g=m|n=s|s=def	7	det	_	_
+7	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	3	obj	_	_
+8	à	à	_	P	_	3	a_obj	_	_
+9	l'	le	_	DET	g=f|n=s|s=def	10	det	_	_
+10	épreuve	épreuve	_	NC	g=f|n=s|s=c	8	obj.p	_	_
+11	?	?	_	PONCT	s=w	3	ponct	_	_
+12	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#171
+#<Exode 17:3>b-c
+# Pourquoi nous as -tu fait quitter l' Égypte ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+3	as	avoir	_	V	m=ind|n=s|p=2|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	6	suj	_	_
+5	fait	faire	_	V	m=ind|n=s|p=3|t=pst	6	aux.caus	_	_
+6	quitter	quitter	_	VINF	m=inf	3	obj	_	_
+7	l'	le	_	DET	g=m|n=s|s=def	8	det	_	_
+8	Égypte	égypte	_	NC	g=m|n=s|s=c	6	obj	_	_
+9	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+# Est -ce pour nous faire mourir de soif ici , avec nos enfants et nos troupeaux ? "
+1	Est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+2	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	pour	pour	_	P	_	1	mod	_	_
+4	nous	il	_	CLO	g=m|n=p|p=1|s=obj	6	a_obj	_	_
+5	faire	faire	_	VINF	m=inf	6	aux.caus	_	_
+6	mourir	mourir	_	VINF	m=inf	3	obj.p	_	_
+7	de	de	_	P	_	6	de_obj	_	_
+8	soif	soif	_	NC	g=f|n=s|s=c	7	obj.p	_	_
+9	ici	ici	_	ADV	_	6	mod	_	_
+10	,	,	_	PONCT	s=w	6	ponct	_	_
+11	avec	avec	_	P	_	6	mod	_	_
+12	nos	son	_	DET	g=m|n=p|p=1|s=poss	13	det	_	_
+13	enfants	enfant	_	NC	g=m|n=p|s=c	11	obj.p	_	_
+14	et	et	_	CC	s=c	13	coord	_	_
+15	nos	son	_	DET	g=m|n=p|p=1|s=poss	16	det	_	_
+16	troupeaux	troupeau	_	NC	g=m|n=p|s=c	14	dep.coord	_	_
+17	?	?	_	PONCT	s=w	1	ponct	_	_
+18	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#172
+#<Exode 17:4>b
+# Que dois -je faire pour ce peuple ?
+1	Que	que	_	PROWH	g=m|n=s|p=3|s=int	2	obj	_	_
+2	dois	devoir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-je	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	faire	faire	_	VINF	m=inf	2	obj	_	_
+5	pour	pour	_	P	_	4	mod	_	_
+6	ce	ce	_	DET	g=m|n=s|s=dem	7	det	_	_
+7	peuple	peuple	_	NC	g=m|n=s|s=c	5	obj.p	_	_
+8	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#173
+#<Exode 17:7>b
+# Le Seigneur est -il parmi nous , oui ou non ? "
+1	Le	le	_	DET	g=m|n=s|s=def	2	det	_	_
+2	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	3	suj	_	_
+3	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	-il	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+5	parmi	parmi	_	P	_	3	mod	_	_
+6	nous	il	_	PRO	g=m|n=p|p=1|s=suj	5	obj.p	_	_
+7	,	,	_	PONCT	s=w	3	ponct	_	_
+8	oui	oui	_	ADV	_	3	mod	_	_
+9	ou	ou	_	CC	s=c	8	coord	_	_
+10	non	non	_	ADV	s=neg	9	dep.coord	_	_
+11	?	?	_	PONCT	s=w	3	ponct	_	_
+12	"	"	_	PONCT	s=s	3	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#174
+#<Exode 18:14>b
+# Pourquoi procèdes -tu ainsi ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	procèdes	procède	_	V	g=m|n=p|s=c	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=p|p=3|s=suj	2	suj	_	_
+4	ainsi	ainsi	_	ADV	_	2	mod	_	_
+5	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#175
+#<Exode 18:14>c
+# Pourquoi fais -tu ce travail tout seul , en obligeant les gens à attendre debout , du matin au soir , le moment de se présenter devant toi ? "
+1	Pourquoi	pourquoi	_	ADVWH	s=int	2	mod	_	_
+2	fais	fais	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+3	-tu	il	_	CLS	g=m|n=p|p=3|s=suj	2	suj	_	_
+4	ce	ce	_	DET	g=m|n=s|s=dem	5	det	_	_
+5	travail	travail	_	NC	g=m|n=s|s=c	2	obj	_	_
+6	tout	tout	_	ADV	_	7	mod	_	_
+7	seul	seul	_	ADJ	g=m|n=s|s=qual	5	mod	_	_
+8	,	,	_	PONCT	s=w	2	ponct	_	_
+9	en	en	_	P	_	2	mod	_	_
+10	obligeant	obliger	_	VPR	m=part|t=pst	9	obj.p	_	_
+11	les	le	_	DET	g=f|n=p|s=def	12	det	_	_
+12	gens	gens	_	NC	g=f|n=p|s=c	10	obj	_	_
+13	à	à	_	P	_	10	a_obj	_	_
+14	attendre	attendre	_	VINF	m=inf	13	obj.p	_	_
+15	debout	debout	_	ADV	_	14	mod	_	_
+16	,	,	_	PONCT	s=w	14	ponct	_	_
+17	du	de	_	P+D	s=def	14	mod	_	_
+18	matin	matin	_	NC	g=m|n=s|s=c	17	obj.p	_	_
+19	au	à	_	P+D	s=def	18	dep	_	_
+20	soir	soir	_	NC	g=m|n=s|s=c	19	obj.p	_	_
+21	,	,	_	PONCT	s=w	14	ponct	_	_
+22	le	le	_	DET	g=m|n=s|s=def	23	det	_	_
+23	moment	moment	_	NC	g=m|n=s|s=c	14	obj	_	_
+24	de	de	_	P	_	23	dep	_	_
+25	se	se	_	CLR	g=m|n=s|p=3|s=refl	26	aff	_	_
+26	présenter	présenter	_	VINF	m=inf	24	obj.p	_	_
+27	devant	devant	_	P	_	26	mod	_	_
+28	toi	toi	_	ADVWH	g=f|n=s|p=2|s=pers	27	obj.p	_	_
+29	?	?	_	PONCT	s=w	2	ponct	_	_
+30	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=ISQ
+
+#176
+#<Exode 22:26>b
+# S' il en est privé , dans quoi s' enveloppera -t-il pour se coucher ?
+1	S'	se	_	CLR	s=s	5	aff	_	_
+2	il	il	_	CLS	g=m|n=s|p=3|s=suj	5	suj	_	_
+3	en	en	_	CLO	g=m|n=s|p=3|s=obj	5	aff	_	_
+4	est	être	_	V	m=ind|n=s|p=3|t=pst	5	aux.pass	_	_
+5	privé	priver	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+6	,	,	_	PONCT	s=w	5	ponct	_	_
+7	dans	dans	_	P	_	10	mod	_	_
+8	quoi	quoi	_	PROWH	g=m|n=s|p=3|s=int	7	obj.p	_	_
+9	s'	se	_	CLR	g=m|n=s|p=3|s=refl	10	aff	_	_
+10	enveloppera	envelopper	_	V	m=ind|n=s|p=3|t=fut	5	mod	_	_
+11	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	10	suj	_	_
+12	pour	pour	_	P	_	10	mod	_	_
+13	se	se	_	CLR	g=m|n=s|p=3|s=refl	14	aff	_	_
+14	coucher	coucher	_	VINF	m=inf	12	obj.p	_	_
+15	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#177
+#<Exode 32:11>b
+# Seigneur , pourquoi déchaîner ta colère contre ton peuple , après avoir déployé ta force , ta puissance irrésistible pour le faire sortir d' Égypte ?
+1	Seigneur	seigneur	_	ADJ	g=m|n=s|s=qual	4	mod	_	_
+2	,	,	_	PONCT	s=w	4	ponct	_	_
+3	pourquoi	pourquoi	_	ADVWH	s=int	4	mod	_	_
+4	déchaîner	déchaîner	_	VINF	m=inf	0	root	_	_
+5	ta	ta	_	DET	g=f|n=s|p=3|s=poss	6	det	_	_
+6	colère	colère	_	NC	g=f|n=s|s=c	4	obj	_	_
+7	contre	contre	_	P	_	6	dep	_	_
+8	ton	ton	_	DET	g=m|n=s|p=2|s=poss	9	det	_	_
+9	peuple	peuple	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+10	,	,	_	PONCT	s=w	4	ponct	_	_
+11	après	après	_	P	_	4	mod	_	_
+12	avoir	avoir	_	VINF	m=inf	13	aux.tps	_	_
+13	déployé	déployer	_	VPP	g=m|m=part|n=s|t=past	11	obj.p	_	_
+14	ta	ta	_	DET	g=f|n=s|p=1|s=poss	15	det	_	_
+15	force	force	_	NC	g=f|n=s|s=c	13	obj	_	_
+16	,	,	_	PONCT	s=w	4	ponct	_	_
+17	ta	ta	_	DET	g=f|n=s|s=neg	18	det	_	_
+18	puissance	puissance	_	NC	g=f|n=s|s=c	4	mod	_	_
+19	irrésistible	irrésistible	_	ADJ	g=f|n=s|s=qual	18	mod	_	_
+20	pour	pour	_	P	_	19	mod	_	_
+21	le	le	_	CLO	g=m|n=s|p=3|s=obj	23	obj	_	_
+22	faire	faire	_	VINF	m=inf	23	aux.caus	_	_
+23	sortir	sortir	_	VINF	m=inf	20	obj.p	_	_
+24	d'	de	_	P	_	23	de_obj	_	_
+25	Égypte	égypte	_	NC	g=f|n=s|s=c	24	obj.p	_	_
+26	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#178
+#<Exode 32:21>b
+# Qu' est -ce que ce peuple t' a fait , pour que tu l' entraînes dans un si grave péché ? "
+1	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	2	dep	_	_
+2	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+3	-ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	que	que	_	CS	s=s	2	obj	_	_
+5	ce	ce	_	DET	g=m|n=s|s=dem	6	det	_	_
+6	peuple	peuple	_	NC	g=m|n=s|s=c	9	suj	_	_
+7	t'	t'	_	CLO	g=m|n=s|p=3|s=obj	9	obj	_	_
+8	a	avoir	_	V	m=ind|n=s|p=3|t=pst	9	aux.tps	_	_
+9	fait	faire	_	VPP	g=m|m=part|n=s|t=past	4	obj.cpl	_	_
+10	,	,	_	PONCT	s=w	9	ponct	_	_
+11	pour	pour	_	P	mwehead=CS+|pred=y	9	mod	_	_
+12	que	que	_	CS	s=s|pred=y	11	dep_cpd	_	_
+13	tu	tu	_	CS	s=s|pred=y	11	dep_cpd	_	_
+14	l'	le	_	DET	g=m|n=s|s=def	15	det	_	_
+15	entraînes	entraînes	_	NC	g=f|n=p|s=c	11	obj.cpl	_	_
+16	dans	dans	_	P	_	9	mod	_	_
+17	un	un	_	DET	g=m|n=s|s=ind	18	det	_	_
+18	si	si	_	NC	g=m|n=s|s=c	16	obj.p	_	_
+19	grave	grave	_	ADJ	g=m|n=s|s=qual	18	mod	_	_
+20	péché	péché	_	VPP	g=m|m=part|n=s|t=past	18	mod	_	_
+21	?	?	_	PONCT	s=w	2	ponct	_	_
+22	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#179
+#<Exode 33:16>a
+# En effet , si tu ne nous accompagnes pas , comment pourra -t-on savoir que tu nous accordes ta faveur , à ton peuple et à moi ?
+1	En	en	_	P	mwehead=ADV+|pred=y	12	mod	_	_
+2	effet	effet	_	NC	g=m|n=s|s=c|pred=y	1	dep_cpd	_	_
+3	,	,	_	PONCT	s=w	12	ponct	_	_
+4	si	si	_	CS	s=s	12	mod	_	_
+5	tu	tu	_	CLS	g=f|n=p|p=3|s=suj	8	suj	_	_
+6	ne	ne	_	ADV	s=neg	8	mod	_	_
+7	nous	il	_	CLO	g=m|n=p|p=1|s=suj	8	obj	_	_
+8	accompagnes	accompagn	_	V	m=ind|n=p|p=3|t=pst	4	obj.cpl	_	_
+9	pas	pas	_	ADV	s=neg	8	mod	_	_
+10	,	,	_	PONCT	s=w	12	ponct	_	_
+11	comment	comment	_	ADVWH	s=int	12	mod	_	_
+12	pourra	pouvoir	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+13	-t-on	on	_	PONCT	g=m|n=s|p=3|s=suj	12	ponct	_	_
+14	savoir	savoir	_	VINF	m=inf	12	obj	_	_
+15	que	que	_	CS	s=s	14	obj	_	_
+16	tu	tu	_	P+D	g=m|n=s|p=2|s=suj	18	mod	_	_
+17	nous	il	_	CLS	g=m|n=p|p=1|s=suj	18	suj	_	_
+18	accordes	accord	_	V	m=ind|n=p|p=3|t=pst	15	obj.cpl	_	_
+19	ta	ta	_	DET	g=f|n=s|p=1|s=poss	20	det	_	_
+20	faveur	faveur	_	NC	g=f|n=s|s=c	18	obj	_	_
+21	,	,	_	PONCT	s=w	18	ponct	_	_
+22	à	à	_	P	_	18	mod	_	_
+23	ton	ton	_	DET	n=s|s=poss|pred=y	24	det	_	_
+24	peuple	peuple	_	NC	g=m|n=s|s=c	22	obj.p	_	_
+25	et	et	_	CC	s=c	22	coord	_	_
+26	à	à	_	P	_	25	dep.coord	_	_
+27	moi	moi	_	NC	g=m|n=s|p=1|s=pers	26	obj.p	_	_
+28	?	?	_	PONCT	s=s	12	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#180
+#<Lévitique 10:17>a
+# " Pourquoi n' avez -vous pas mangé la viande de ce sacrifice dans un endroit réservé du sanctuaire , puisqu'il s' agit d' un aliment strictement réservé à Dieu ?
+1	"	"	_	PONCT	s=w	7	ponct	_	_
+2	Pourquoi	pourquoi	_	CLS	s=int	7	suj	_	_
+3	n'	ne	_	ADV	s=neg	7	mod	_	_
+4	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	7	aux.tps	_	_
+5	-vous	il	_	CLS	g=m|n=p|p=1|s=suj	7	suj	_	_
+6	pas	pas	_	ADV	s=neg	7	mod	_	_
+7	mangé	manger	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+8	la	le	_	DET	g=f|n=s|s=def	9	det	_	_
+9	viande	viande	_	NC	g=f|n=s|s=c	7	obj	_	_
+10	de	de	_	P	_	9	dep	_	_
+11	ce	ce	_	DET	g=m|n=s|s=dem	12	det	_	_
+12	sacrifice	sacrifice	_	NC	g=m|n=s|s=c	10	obj.p	_	_
+13	dans	dans	_	P	_	7	mod	_	_
+14	un	un	_	DET	g=m|n=s|s=ind	15	det	_	_
+15	endroit	endroit	_	NC	g=m|n=s|s=c	13	obj.p	_	_
+16	réservé	réservé	_	ADJ	g=m|n=s|s=qual	15	mod	_	_
+17	du	de	_	P+D	s=def	15	dep	_	_
+18	sanctuaire	sanctuaire	_	NC	g=m|n=s|s=c	17	obj.p	_	_
+19	,	,	_	PONCT	s=w	7	ponct	_	_
+20	puisqu'il	puisqu'il	_	NC	g=m|n=s|s=c	22	suj	_	_
+21	s'	se	_	CLR	g=m|n=s|p=3|s=refl	22	aff	_	_
+22	agit	agir	_	V	m=ind|n=s|p=3|t=pst	7	mod	_	_
+23	d'	de	_	P	_	22	de_obj	_	_
+24	un	un	_	DET	g=m|n=s|s=ind	25	det	_	_
+25	aliment	aliment	_	NC	g=m|n=s|s=c	23	obj.p	_	_
+26	strictement	strictement	_	ADV	_	27	mod	_	_
+27	réservé	réserver	_	VPP	g=m|m=part|n=s|t=past	25	mod	_	_
+28	à	à	_	P	_	27	a_obj	_	_
+29	Dieu	dieu	_	NPP	g=m|n=s|s=p	28	obj.p	_	_
+30	?	?	_	PONCT	s=s	7	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#181
+#<Lévitique 10:19>c
+# Pourrais -je , en un tel jour , manger la viande d' un animal offert en sacrifice pour le pardon ?
+1	Pourrais	pourrais	_	V	m=ind|n=p|p=3|t=cond	0	root	_	_
+2	-je	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	,	,	_	PONCT	s=w	1	ponct	_	_
+4	en	en	_	P	_	1	mod	_	_
+5	un	un	_	DET	g=m|n=s|s=ind	7	det	_	_
+6	tel	tel	_	ADJ	g=m|n=s|s=ind	7	mod	_	_
+7	jour	jour	_	NC	g=m|n=s|s=c	4	obj.p	_	_
+8	,	,	_	PONCT	s=w	1	ponct	_	_
+9	manger	manger	_	VINF	m=inf	1	obj	_	_
+10	la	le	_	DET	g=f|n=s|s=def	11	det	_	_
+11	viande	viande	_	NC	g=f|n=s|s=c	9	obj	_	_
+12	d'	de	_	P	_	11	dep	_	_
+13	un	un	_	DET	g=m|n=s|s=ind	14	det	_	_
+14	animal	animal	_	NC	g=m|n=s|s=c	12	obj.p	_	_
+15	offert	offrir	_	VPP	g=m|m=part|n=s|t=past	14	mod	_	_
+16	en	en	_	P	_	15	mod	_	_
+17	sacrifice	sacrifice	_	NC	g=m|n=s|s=c	16	obj.p	_	_
+18	pour	pour	_	P	_	15	mod	_	_
+19	le	le	_	DET	g=m|n=s|s=def	20	det	_	_
+20	pardon	pardon	_	NC	g=m|n=s|s=c	18	obj.p	_	_
+21	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#182
+#<Lévitique 25:20>b
+# Aurons -nous assez à manger lorsque , tous les sept ans , nous n' aurons pas le droit d' ensemencer nos champs ni de récolter ce qu' ils produisent ? "
+1	Aurons	auron	_	V	m=ind|n=p|p=1|t=fut	0	root	_	_
+2	-nous	il	_	CLS	g=m|n=p|p=1|s=suj	1	suj	_	_
+3	assez	assez	_	ADV	_	1	mod	_	_
+4	à	à	_	P	_	1	a_obj	_	_
+5	manger	manger	_	VINF	g=m|n=s|s=c	4	obj.p	_	_
+6	lorsque	lorsque	_	CS	s=s	5	obj	_	_
+7	,	,	_	PONCT	s=w	15	ponct	_	_
+8	tous	tout	_	ADJ	g=m|n=p|s=ind	11	mod	_	_
+9	les	le	_	DET	g=m|n=p|s=def	11	det	_	_
+10	sept	sept	_	ADJ	g=m|n=p|s=card	11	mod	_	_
+11	ans	an	_	NC	g=m|n=p|s=c	15	mod	_	_
+12	,	,	_	PONCT	s=w	15	ponct	_	_
+13	nous	il	_	CLS	g=m|n=p|p=1|s=suj	15	suj	_	_
+14	n'	ne	_	ADV	s=neg	15	mod	_	_
+15	aurons	avois	_	V	m=ind|n=p|p=1|t=cond	6	obj.cpl	_	_
+16	pas	pas	_	ADV	s=neg	15	mod	_	_
+17	le	le	_	DET	g=m|n=s|s=def	18	det	_	_
+18	droit	droit	_	NC	g=m|n=s|s=c	15	obj	_	_
+19	d'	de	_	P	_	18	dep	_	_
+20	ensemencer	ensemencer	_	VINF	m=inf	19	obj.p	_	_
+21	nos	son	_	DET	g=m|n=p|p=1|s=poss	22	det	_	_
+22	champs	champ	_	NC	g=m|n=s|s=c	20	obj	_	_
+23	ni	ni	_	CC	s=c	19	coord	_	_
+24	de	de	_	P	_	23	dep.coord	_	_
+25	récolter	récolter	_	VINF	m=inf	24	obj.p	_	_
+26	ce	ce	_	PRO	g=m|n=s|p=3|s=dem	25	obj	_	_
+27	qu'	que	_	PROREL	g=m|n=s|p=3|s=rel	29	obj	_	_
+28	ils	il	_	CLS	g=m|n=p|p=3|s=suj	29	suj	_	_
+29	produisent	produire	_	V	m=ind|n=p|p=3|t=pst	26	mod.rel	_	_
+30	?	?	_	PONCT	s=w	1	ponct	_	_
+31	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#183
+#<Nombres 9:7>c
+# Faut -il que nous soyons empêchés d' apporter notre offrande au Seigneur comme les autres Israélites , parce qu' il y a une date fixe pour cela ? "
+1	Faut	falloir	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+2	-il	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	que	que	_	CS	s=s	1	obj	_	_
+4	nous	il	_	CLS	g=m|n=p|p=1|s=suj	6	suj	_	_
+5	soyons	être	_	V	m=ind|n=p|p=1|t=pst	6	aux.pass	_	_
+6	empêchés	empêcher	_	VPP	g=m|m=part|n=p|t=past	3	obj.cpl	_	_
+7	d'	de	_	P	_	6	de_obj	_	_
+8	apporter	apporter	_	VINF	m=inf	7	obj.p	_	_
+9	notre	son	_	DET	g=f|n=p|p=1|s=poss	10	det	_	_
+10	offrande	offrand	_	NC	g=f|n=s|s=c	8	obj	_	_
+11	au	à	_	P+D	s=def	8	mod	_	_
+12	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	11	obj.p	_	_
+13	comme	comme	_	P	_	8	mod	_	_
+14	les	le	_	DET	g=m|n=p|s=def	15	det	_	_
+15	autres	autre	_	ADJ	g=m|n=p|s=ind	13	obj.p	_	_
+16	Israélites	israélites	_	NPP	g=f|n=p|s=p	15	dep_cpd	_	_
+17	,	,	_	PONCT	s=w	1	ponct	_	_
+18	parce	parce	_	CS	mwehead=CS+|s=s|pred=y	1	mod	_	_
+19	qu'	que	_	CS	s=s|pred=y	18	dep_cpd	_	_
+20	il	il	_	CLS	mwehead=V+|n=s|p=3|s=suj|pred=y	18	obj.cpl	_	_
+21	y	y	_	CLO	p=3|s=obj|pred=y	20	dep_cpd	_	_
+22	a	avoir	_	V	m=ind|n=s|p=3|t=pst|pred=y	20	dep_cpd	_	_
+23	une	un	_	DET	g=f|n=s|s=ind	24	det	_	_
+24	date	date	_	NC	g=f|n=s|s=c	20	obj	_	_
+25	fixe	fixe	_	ADJ	g=f|n=s|s=qual	24	mod	_	_
+26	pour	pour	_	P	_	20	mod	_	_
+27	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	26	obj.p	_	_
+28	?	?	_	PONCT	s=w	1	ponct	_	_
+29	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=ISQ
+
+#184
+#<Nombres 11:11>b-d
+# Pourquoi me traites -tu de la sorte , Seigneur ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	me	me	_	CLR	g=m|n=s|p=1|s=refl	3	suj	_	_
+3	traites	traite	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+4	-tu	il	_	CLS	g=f|n=s|p=3|s=suj	3	suj	_	_
+5	de	de	_	P	mwehead=ADV+|pred=y	3	mod	_	_
+6	la	le	_	DET	g=f|n=s|s=def|pred=y	5	dep_cpd	_	_
+7	sorte	sorte	_	NC	g=f|n=s|s=c|pred=y	5	dep_cpd	_	_
+8	,	,	_	PONCT	s=w	3	ponct	_	_
+9	Seigneur	seigneur	_	NPP	g=m|n=s|s=c	3	mod	_	_
+10	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+# Pourquoi me refuses -tu ta bienveillance ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	5	mod	_	_
+2	me	me	_	CLO	g=m|n=s|p=1|s=obj	5	suj	_	_
+3	refuses	refux	_	NC	g=f|n=p|s=c	2	dep_cpd	_	_
+4	-tu	il	_	CLS	g=m|n=s|p=2|s=suj	5	suj	_	_
+5	ta	ta	_	V	m=ind|n=s|p=3|t=past	0	root	_	_
+6	bienveillance	bienveillance	_	NC	g=f|n=s|s=c	5	obj	_	_
+7	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+# Pourquoi m' imposes -tu le fardeau de diriger tout ce peuple ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	3	mod	_	_
+2	m'	me	_	DET	g=f|n=p|s=ind	3	det	_	_
+3	imposes	impose	_	NC	g=f|n=p|s=c	0	root	_	_
+4	-tu	il	_	PONCT	g=m|n=s|p=2|s=suj	3	ponct	_	_
+5	le	le	_	DET	g=m|n=s|s=def	6	det	_	_
+6	fardeau	fardeau	_	NC	g=m|n=s|s=c	3	mod	_	_
+7	de	de	_	P	_	6	dep	_	_
+8	diriger	diriger	_	VINF	m=inf	7	obj.p	_	_
+9	tout	tout	_	DET	g=m|n=s|s=ind	11	det	_	_
+10	ce	ce	_	DET	g=m|n=s|s=dem	9	dep_cpd	_	_
+11	peuple	peuple	_	NC	g=m|n=s|s=c	8	obj	_	_
+12	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#185
+#<Nombres 11:12>a
+# Ce n' est pas moi qui ai porté ce peuple et qui l' ai mis au monde , et pourtant tu m' ordonnes de le prendre dans mes bras comme une nourrice prend un bébé , pour le conduire dans le pays que tu as promis à ses ancêtres .
+1	Ce	ce	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+2	n'	ne	_	ADV	s=neg	3	mod	_	_
+3	est	être	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+4	pas	pas	_	ADV	s=neg	3	mod	_	_
+5	moi	soi	_	PRO	g=m|n=s|p=1|s=pers	3	ats	_	_
+6	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	8	suj	_	_
+7	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	8	aux.tps	_	_
+8	porté	porter	_	VPP	g=m|m=part|n=s|t=past	3	mod	_	_
+9	ce	ce	_	DET	g=m|n=s|s=dem	10	det	_	_
+10	peuple	peuple	_	NC	g=m|n=s|s=c	8	obj	_	_
+11	et	et	_	CC	s=c	8	coord	_	_
+12	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	15	suj	_	_
+13	l'	le	_	CLO	g=m|n=s|p=3|s=obj	15	obj	_	_
+14	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	15	aux.tps	_	_
+15	mis	mettre	_	VPP	g=m|m=part|n=s|t=past	11	dep.coord	_	_
+16	au	à	_	P+D	s=def	15	a_obj	_	_
+17	monde	monde	_	NC	g=m|n=s|s=c	16	obj.p	_	_
+18	,	,	_	PONCT	s=w	3	ponct	_	_
+19	et	et	_	CC	s=c	3	coord	_	_
+20	pourtant	pourtant	_	ADV	_	21	mod	_	_
+21	tu	tu	_	VPP	g=m|m=part|n=s|t=past	33	suj	_	_
+22	m'	me	_	ADV	g=m|n=s|p=1|s=obj	23	mod	_	_
+23	ordonnes	ordonne	_	ADJ	g=f|n=p|s=qual	21	mod	_	_
+24	de	de	_	P	_	23	de_obj	_	_
+25	le	le	_	CLO	g=m|n=s|p=3|s=obj	26	obj	_	_
+26	prendre	prendre	_	VINF	m=inf	24	obj.p	_	_
+27	dans	dans	_	P	_	26	mod	_	_
+28	mes	son	_	DET	g=m|n=p|s=ind	29	det	_	_
+29	bras	bras	_	NC	g=m|n=p|s=c	27	obj.p	_	_
+30	comme	comme	_	P	_	29	dep	_	_
+31	une	un	_	DET	g=f|n=s|s=ind	32	det	_	_
+32	nourrice	nourrice	_	NC	g=f|n=s|s=c	30	obj.p	_	_
+33	prend	prendre	_	V	m=ind|n=s|p=3|t=pst	19	dep.coord	_	_
+34	un	un	_	DET	g=m|n=s|s=ind	35	det	_	_
+35	bébé	bébé	_	NC	g=m|n=s|s=c	33	obj	_	_
+36	,	,	_	PONCT	s=w	33	ponct	_	_
+37	pour	pour	_	P	_	33	mod	_	_
+38	le	le	_	CLO	g=m|n=s|p=3|s=obj	39	obj	_	_
+39	conduire	conduire	_	VINF	m=inf	37	obj.p	_	_
+40	dans	dans	_	P	_	39	mod	_	_
+41	le	le	_	DET	g=m|n=s|s=def	42	det	_	_
+42	pays	pays	_	NC	g=m|n=s|s=c	40	obj.p	_	_
+43	que	que	_	PROREL	g=m|n=s|p=3|s=rel	46	obj	_	_
+44	tu	tu	_	CLS	g=m|n=s|p=2|s=suj	46	suj	_	_
+45	as	avoir	_	V	m=ind|n=p|p=1|t=pst	46	aux.tps	_	_
+46	promis	promettre	_	VPP	g=m|m=part|n=s|t=past	42	mod.rel	_	_
+47	à	à	_	P	_	46	a_obj	_	_
+48	ses	son	_	DET	g=m|n=s|p=3|s=poss	49	det	_	_
+49	ancêtres	ancêtre	_	NC	g=m|n=p|s=c	47	obj.p	_	_
+50	.	.	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#186
+#<Nombres 11:13>a
+# Où pourrais -je trouver de la viande pour tous ces gens qui pleurent et exigent que je leur en donne à manger ?
+1	Où	où	_	ADVWH	s=int	2	mod	_	_
+2	pourrais	pourrais	_	V	m=ind|n=p|p=3|t=cond	0	root	_	_
+3	-je	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	trouver	trouver	_	VINF	m=inf	2	obj	_	_
+5	de	de	_	P	_	4	de_obj	_	_
+6	la	le	_	DET	g=f|n=s|s=def	7	det	_	_
+7	viande	viande	_	NC	g=f|n=s|s=c	5	obj.p	_	_
+8	pour	pour	_	P	_	4	mod	_	_
+9	tous	tout	_	ADJ	g=m|n=p|s=ind	11	mod	_	_
+10	ces	ce	_	DET	g=m|n=p|s=dem	11	det	_	_
+11	gens	gens	_	NC	g=f|n=p|s=c	8	obj.p	_	_
+12	qui	qui	_	PROREL	g=f|n=p|p=3|s=rel	13	suj	_	_
+13	pleurent	pleurer	_	V	m=ind|n=p|p=3|t=pst	11	mod.rel	_	_
+14	et	et	_	CC	s=c	13	coord	_	_
+15	exigent	exiger	_	V	m=ind|n=p|p=3|t=pst	14	dep.coord	_	_
+16	que	que	_	CS	s=s	15	obj	_	_
+17	je	il	_	CLS	g=m|n=s|p=1|s=suj	20	suj	_	_
+18	leur	son	_	CLO	g=m|n=p|p=3|s=obj	20	a_obj	_	_
+19	en	en	_	CLO	g=m|n=s|p=3|s=obj	20	aff	_	_
+20	donne	donner	_	V	m=ind|n=s|p=3|t=pst	16	obj.cpl	_	_
+21	à	à	_	P	_	20	a_obj	_	_
+22	manger	manger	_	NC	g=m|n=s|s=c	21	obj.p	_	_
+23	?	?	_	PONCT	s=s	2	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#187
+#<Nombres 11:20>b
+# Ce sera votre punition pour avoir rejeté le Seigneur qui demeure au milieu de vous , en vous plaignant devant lui d' être sortis d' Égypte . " "
+1	Ce	ce	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+2	sera	être	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+3	votre	son	_	DET	g=f|n=p|p=2|s=poss	4	det	_	_
+4	punition	punition	_	NC	g=f|n=s|s=c	2	ats	_	_
+5	pour	pour	_	P	_	2	mod	_	_
+6	avoir	avoir	_	VINF	m=inf	7	aux.tps	_	_
+7	rejeté	rejeter	_	VPP	g=m|m=part|n=s|t=past	5	obj.p	_	_
+8	le	le	_	DET	g=m|n=s|s=def	9	det	_	_
+9	Seigneur	seigneur	_	NC	g=m|n=s|s=p	7	obj	_	_
+10	qui	qui	_	PROREL	g=m|n=s|p=3|s=rel	11	suj	_	_
+11	demeure	demeurer	_	V	m=ind|n=s|p=3|t=pst	9	mod.rel	_	_
+12	au	à	_	P+D	s=def	11	mod	_	_
+13	milieu	milieu	_	NC	g=m|n=s|s=c	12	obj.p	_	_
+14	de	de	_	P	_	13	dep	_	_
+15	vous	vous	_	PRO	g=m|n=p|p=2|s=pers	14	obj.p	_	_
+16	,	,	_	PONCT	s=w	2	ponct	_	_
+17	en	en	_	P	_	2	mod	_	_
+18	vous	vous	_	CLO	g=m|n=p|p=2|s=obj	19	a_obj	_	_
+19	plaignant	plaigner	_	VPR	m=part|t=pst	17	obj.p	_	_
+20	devant	devant	_	P	_	19	mod	_	_
+21	lui	lui	_	CLO	g=m|n=s|p=3|s=pers	20	dep_cpd	_	_
+22	d'	de	_	P	_	19	obj	_	_
+23	être	être	_	VINF	m=inf	24	aux.pass	_	_
+24	sortis	sortir	_	VPP	g=m|m=part|n=p|t=past	22	obj.p	_	_
+25	d'	de	_	P	_	24	de_obj	_	_
+26	Égypte	égypte	_	NPP	g=f|n=s|s=p	25	obj.p	_	_
+27	.	.	_	PONCT	s=w	2	ponct	_	_
+28	"	"	_	PONCT	s=w	2	ponct	_	_
+29	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#188
+#<Nombres 11:22>a
+# Si nous abattions tous nos moutons , nos chèvres et nos boeufs , cela ne suffirait pas ;
+1	Si	si	_	CS	s=s	16	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+3	abattions	abattion	_	V	m=ind|n=p|p=1|t=pst	1	obj.cpl	_	_
+4	tous	tout	_	ADJ	g=m|n=p|s=ind	6	mod	_	_
+5	nos	son	_	DET	g=m|n=p|p=1|s=poss	6	det	_	_
+6	moutons	mouton	_	NC	g=m|n=p|s=c	3	obj	_	_
+7	,	,	_	PONCT	s=w	6	coord	_	_
+8	nos	son	_	DET	g=f|n=p|p=1|s=poss	9	det	_	_
+9	chèvres	chèvre	_	NC	g=f|n=p|s=c	7	dep.coord	_	_
+10	et	et	_	CC	s=c	6	coord	_	_
+11	nos	son	_	DET	g=m|n=p|p=1|s=poss	12	det	_	_
+12	boeufs	boeuf	_	NC	g=m|n=p|s=c	10	dep.coord	_	_
+13	,	,	_	PONCT	s=w	16	ponct	_	_
+14	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	16	suj	_	_
+15	ne	ne	_	ADV	s=neg	16	mod	_	_
+16	suffirait	suffire	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+17	pas	pas	_	ADV	s=neg	16	mod	_	_
+18	;	;	_	PONCT	s=w	16	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#189
+#<Nombres 11:22>b
+# si nous pouvions pêcher tous les poissons de la mer , même cela ne suffirait pas ! "
+1	si	si	_	CS	s=s	15	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+3	pouvions	pouvoir	_	V	m=ind|n=p|p=1|t=impft	1	obj.cpl	_	_
+4	pêcher	pêcher	_	VINF	m=inf	3	obj	_	_
+5	tous	tout	_	ADJ	g=m|n=p|s=ind	7	mod	_	_
+6	les	le	_	DET	g=m|n=p|s=def	7	det	_	_
+7	poissons	poisson	_	NC	g=m|n=p|s=c	4	obj	_	_
+8	de	de	_	P	_	7	dep	_	_
+9	la	le	_	DET	g=f|n=s|s=def	10	det	_	_
+10	mer	mer	_	NC	g=f|n=s|s=c	8	obj.p	_	_
+11	,	,	_	PONCT	s=w	15	ponct	_	_
+12	même	même	_	ADV	_	13	mod	_	_
+13	cela	cela	_	PRO	g=m|n=s|p=3|s=dem	15	suj	_	_
+14	ne	ne	_	ADV	s=neg	15	mod	_	_
+15	suffirait	suffire	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+16	pas	pas	_	ADV	s=neg	15	mod	_	_
+17	!	!	_	PONCT	s=w	15	ponct	_	_
+18	"	"	_	PONCT	s=s	15	ponct	_	_
+#annotation=
+#gold_annotation=declarative
+
+#190
+#<Nombres 11:23>b
+# Et ma puissance , n' est -elle pas suffisante ?
+1	Et	et	_	CC	s=c	0	root	_	_
+2	ma	son	_	DET	g=f|n=s|p=1|s=poss	3	det	_	_
+3	puissance	puissance	_	NC	g=f|n=s|s=c	6	suj	_	_
+4	,	,	_	PONCT	s=w	6	ponct	_	_
+5	n'	ne	_	ADV	s=neg	6	mod	_	_
+6	est	être	_	V	m=ind|n=s|p=3|t=pst	1	dep.coord	_	_
+7	-elle	il	_	CLS	g=f|n=s|p=3|s=suj	6	suj	_	_
+8	pas	pas	_	ADV	s=neg	6	mod	_	_
+9	suffisante	suffisant	_	ADJ	g=f|n=s|s=qual	6	ats	_	_
+10	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#191
+#<Nombres 11:29>b
+# Es -tu jaloux pour moi ?
+1	Es	es	_	CS	s=int	3	mod	_	_
+2	-tu	il	_	CLS	g=m|n=s|p=3|s=suj	3	suj	_	_
+3	jaloux	jaloux	_	V	m=ind|n=s|p=1|t=pst	0	root	_	_
+4	pour	pour	_	P	_	3	mod	_	_
+5	moi	moi	_	PRO	g=m|n=s|p=1|s=pers	4	obj.p	_	_
+6	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#192
+#<Nombres 12:2>b
+# Le Seigneur n' a -t-il parlé qu' à Moïse ?
+1	Le	le	_	DET	g=m|n=s|s=def	2	det	_	_
+2	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	6	suj	_	_
+3	n'	ne	_	ADV	s=neg	6	mod	_	_
+4	a	avoir	_	V	m=ind|n=s|p=3|t=pst	6	aux.tps	_	_
+5	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	6	suj	_	_
+6	parlé	parler	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+7	qu'	que	_	ADV	s=s	6	mod	_	_
+8	à	à	_	P	_	6	a_obj	_	_
+9	Moïse	moïse	_	NPP	g=m|n=s|s=p	8	obj.p	_	_
+10	?	?	_	PONCT	s=s	6	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#193
+#<Nombres 12:2>c
+# Ne nous a -t-il pas parlé , à nous aussi ? "
+1	Ne	ne	_	ADV	s=neg	6	mod	_	_
+2	nous	il	_	CLS	g=m|n=p|p=1|s=suj	6	suj	_	_
+3	a	avoir	_	V	m=ind|n=s|p=3|t=pst	6	aux.tps	_	_
+4	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	6	suj	_	_
+5	pas	pas	_	ADV	s=neg	6	mod	_	_
+6	parlé	parler	_	VPP	g=m|m=part|n=s|t=past	0	root	_	_
+7	,	,	_	PONCT	s=w	6	ponct	_	_
+8	à	à	_	P	_	6	mod	_	_
+9	nous	il	_	PRO	g=m|n=p|p=1|s=suj	8	obj.p	_	_
+10	aussi	aussi	_	ADV	_	9	mod	_	_
+11	?	?	_	PONCT	s=w	6	ponct	_	_
+12	"	"	_	PONCT	s=s	6	ponct	_	_
+#annotation=3;NISQ
+#gold_annotation=NISQ
+
+#194
+#<Nombres 12:8>c
+# Alors pourquoi n' avez -vous pas craint de critiquer mon serviteur Moïse ? "
+1	Alors	alors	_	ADV	mwehead=CS+|pred=y	0	root	_	_
+2	pourquoi	pourquoi	_	CS	s=s|pred=y	1	dep_cpd	_	_
+3	n'	ne	_	ADV	s=neg	4	mod	_	_
+4	avez	avoir	_	V	m=ind|n=p|p=2|t=pst	7	suj	_	_
+5	-vous	il	_	CLS	g=m|n=p|p=1|s=suj	4	suj	_	_
+6	pas	pas	_	ADV	s=neg	4	mod	_	_
+7	craint	craindre	_	V	m=ind|n=s|p=3|t=pst	1	obj.cpl	_	_
+8	de	de	_	P	_	7	obj	_	_
+9	critiquer	critiquer	_	VINF	m=inf	8	obj.p	_	_
+10	mon	son	_	DET	g=m|n=s|p=1|s=poss	11	det	_	_
+11	serviteur	serviteur	_	NC	g=m|n=s|s=c	9	obj	_	_
+12	Moïse	moïse	_	ADJ	g=f|n=s|s=c	11	mod	_	_
+13	?	?	_	PONCT	s=w	1	ponct	_	_
+14	"	"	_	PONCT	s=s	1	ponct	_	_
+#annotation=0;ISQ
+#gold_annotation=NISQ
+
+#195
+#<Nombres 12:14>b
+# Si son père lui avait craché au visage , ne serait -elle pas couverte de honte pour une semaine ?
+1	Si	si	_	CS	s=s	14	mod	_	_
+2	son	son	_	DET	g=m|n=s|p=3|s=poss	3	det	_	_
+3	père	père	_	NC	g=m|n=s|s=c	6	suj	_	_
+4	lui	lui	_	CLO	g=m|n=s|p=3|s=obj	6	a_obj	_	_
+5	avait	avoir	_	V	m=ind|n=s|p=3|t=impft	6	aux.tps	_	_
+6	craché	cracher	_	VPP	g=m|m=part|n=s|t=past	1	obj.cpl	_	_
+7	au	à	_	P+D	s=def	6	mod	_	_
+8	visage	visage	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+9	,	,	_	PONCT	s=w	14	ponct	_	_
+10	ne	ne	_	ADV	s=neg	14	mod	_	_
+11	serait	être	_	V	m=ind|n=s|p=3|t=cond	14	aux.pass	_	_
+12	-elle	il	_	CLS	g=f|n=s|p=3|s=suj	14	suj	_	_
+13	pas	pas	_	ADV	s=neg	14	mod	_	_
+14	couverte	couverte	_	VPP	g=f|m=part|n=s|t=past	0	root	_	_
+15	de	de	_	P	_	14	de_obj	_	_
+16	honte	honte	_	NC	g=f|n=s|s=c	15	obj.p	_	_
+17	pour	pour	_	P	_	14	mod	_	_
+18	une	un	_	DET	g=f|n=s|s=ind	19	det	_	_
+19	semaine	semaine	_	NC	g=f|n=s|s=c	17	obj.p	_	_
+20	?	?	_	PONCT	s=s	14	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#196
+#<Nombres 14:3>a-b
+# Pourquoi le Seigneur nous conduit -il dans un tel pays ?
+1	Pourquoi	pourquoi	_	ADVWH	s=int	5	mod	_	_
+2	le	le	_	DET	g=m|n=s|s=def	3	det	_	_
+3	Seigneur	seigneur	_	NPP	g=m|n=s|s=p	5	suj	_	_
+4	nous	il	_	CLO	g=m|n=p|p=1|s=obj	5	suj	_	_
+5	conduit	conduire	_	V	m=ind|n=s|p=3|t=pst	0	root	_	_
+6	-il	il	_	CLS	g=m|n=s|p=3|s=suj	5	suj	_	_
+7	dans	dans	_	P	_	5	mod	_	_
+8	un	un	_	DET	g=m|n=s|s=ind	10	det	_	_
+9	tel	tel	_	ADJ	g=m|n=s|s=qual	10	mod	_	_
+10	pays	pays	_	NC	g=m|n=s|s=c	7	obj.p	_	_
+11	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Nous y mourrons dans des combats , nos femmes et nos enfants feront partie du butin des vainqueurs .
+1	Nous	il	_	CLS	g=m|n=p|p=1|s=suj	3	suj	_	_
+2	y	y	_	CLO	g=m|n=s|p=3|s=obj	3	aff	_	_
+3	mourrons	mourron	_	V	m=ind|n=p|p=1|t=fut	0	root	_	_
+4	dans	dans	_	P	_	3	mod	_	_
+5	des	de	_	P+D	s=def|pred=y	4	dep_cpd	_	_
+6	combats	combat	_	NC	g=m|n=p|s=c	4	obj.p	_	_
+7	,	,	_	PONCT	s=w	3	ponct	_	_
+8	nos	son	_	DET	g=f|n=p|p=1|s=poss	9	det	_	_
+9	femmes	femme	_	NC	g=f|n=p|s=c	13	suj	_	_
+10	et	et	_	CC	s=c	9	coord	_	_
+11	nos	son	_	DET	g=m|n=p|p=1|s=poss	12	det	_	_
+12	enfants	enfant	_	NC	g=m|n=p|s=c	10	dep.coord	_	_
+13	feront	faire	_	V	m=ind|n=p|p=3|t=fut	3	mod	_	_
+14	partie	partie	_	NC	g=f|n=s|s=c	13	obj	_	_
+15	du	de	_	P+D	s=def	14	dep	_	_
+16	butin	butin	_	NC	g=m|n=s|s=c	15	obj.p	_	_
+17	des	de	_	P+D	s=def	16	dep	_	_
+18	vainqueurs	vainqueur	_	NC	g=m|n=p|s=c	17	obj.p	_	_
+19	.	.	_	PONCT	s=s	3	ponct	_	_
+#annotation=
+#gold_annotation=NISQ
+
+#197
+#<Nombres 14:3>c
+# Ne vaudrait -il pas mieux pour nous retourner en Égypte ? "
+1	Ne	ne	_	ADV	s=neg	2	mod	_	_
+2	vaudrait	valoir	_	V	m=ind|n=s|p=3|t=cond	0	root	_	_
+3	-il	il	_	CLS	g=m|n=s|p=3|s=suj	2	suj	_	_
+4	pas	pas	_	ADV	s=neg	2	mod	_	_
+5	mieux	mieux	_	ADV	_	2	mod	_	_
+6	pour	pour	_	P	_	2	mod	_	_
+7	nous	il	_	CLO	g=m|n=p|p=1|s=obj	8	obj	_	_
+8	retourner	retourner	_	VINF	m=inf	6	obj.p	_	_
+9	en	en	_	P	_	8	mod	_	_
+10	Égypte	égypte	_	NPP	g=f|n=s|s=p	9	obj.p	_	_
+11	?	?	_	PONCT	s=w	2	ponct	_	_
+12	"	"	_	PONCT	s=s	2	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#198
+#<Nombres 14:11>b-c
+# Ce peuple ne cessera -t-il jamais de me rejeter ?
+1	Ce	ce	_	DET	g=m|n=s|s=dem	2	det	_	_
+2	peuple	peuple	_	NC	g=m|n=s|s=c	4	suj	_	_
+3	ne	ne	_	ADV	s=neg	4	mod	_	_
+4	cessera	cesser	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+5	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	4	suj	_	_
+6	jamais	jamais	_	ADV	s=neg	4	mod	_	_
+7	de	de	_	P	_	4	obj	_	_
+8	me	me	_	CLO	g=m|n=s|p=1|s=obj	9	obj	_	_
+9	rejeter	rejeter	_	VINF	m=inf	7	obj.p	_	_
+10	?	?	_	PONCT	s=s	4	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+# Refusera -t-il toujours de me faire confiance , malgré tous les signes que je lui ai donnés de ma puissance ?
+1	Refusera	refuser	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+2	-t-il	il	_	CLS	g=m|n=s|p=3|s=suj	1	suj	_	_
+3	toujours	toujours	_	ADV	_	1	mod	_	_
+4	de	de	_	P	_	1	obj	_	_
+5	me	me	_	CLO	g=m|n=s|p=1|s=obj	6	a_obj	_	_
+6	faire	faire	_	VINF	m=inf	4	obj.p	_	_
+7	confiance	confiance	_	NC	g=f|n=s|s=c	6	obj	_	_
+8	,	,	_	PONCT	s=w	6	ponct	_	_
+9	malgré	malgré	_	P	_	6	mod	_	_
+10	tous	tout	_	ADJ	g=m|n=p|s=ind	12	mod	_	_
+11	les	le	_	DET	g=m|n=p|s=def	12	det	_	_
+12	signes	signe	_	NC	g=m|n=p|s=c	9	obj.p	_	_
+13	que	que	_	PROREL	g=m|n=p|p=3|s=rel	17	obj	_	_
+14	je	il	_	CLS	g=m|n=s|p=1|s=suj	17	suj	_	_
+15	lui	lui	_	CLO	g=m|n=s|p=3|s=obj	17	a_obj	_	_
+16	ai	avoir	_	V	m=ind|n=s|p=1|t=pst	17	aux.tps	_	_
+17	donnés	donner	_	VPP	g=m|m=part|n=p|t=past	12	mod.rel	_	_
+18	de	de	_	P	_	17	de_obj	_	_
+19	ma	son	_	DET	g=f|n=s|p=1|s=poss	20	det	_	_
+20	puissance	puissance	_	NC	g=f|n=s|s=c	18	obj.p	_	_
+21	?	?	_	PONCT	s=s	1	ponct	_	_
+#annotation=2;NISQ
+#gold_annotation=NISQ
+
+#199
+#<Nombres 14:27>b
+# Cette communauté insupportable ne cessera -t-elle jamais de le faire ?
+1	Cette	ce	_	DET	g=f|n=s|s=dem	2	det	_	_
+2	communauté	communauté	_	NC	g=f|n=s|s=c	5	suj	_	_
+3	insupportable	insupportable	_	ADJ	g=f|n=s|s=qual	2	mod	_	_
+4	ne	ne	_	ADV	s=neg	5	mod	_	_
+5	cessera	cesser	_	V	m=ind|n=s|p=3|t=fut	0	root	_	_
+6	-t-elle	il	_	CLS	g=f|n=s|p=3|s=suj	5	suj	_	_
+7	jamais	jamais	_	ADV	s=neg	5	mod	_	_
+8	de	de	_	P	_	5	obj	_	_
+9	le	le	_	CLO	g=m|n=s|p=3|s=obj	10	obj	_	_
+10	faire	faire	_	VINF	m=inf	8	obj.p	_	_
+11	?	?	_	PONCT	s=s	5	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
+
+#200
+#<Nombres 14:41>a
+# " Qu' allez -vous faire là ?
+1	"	"	_	PONCT	s=w	3	ponct	_	_
+2	Qu'	que	_	PROWH	g=m|n=s|p=3|s=int	3	obj	_	_
+3	allez	alloir	_	V	m=ind|n=p|p=2|t=pst	0	root	_	_
+4	-vous	il	_	CLS	g=m|n=p|p=2|s=suj	3	suj	_	_
+5	faire	faire	_	VINF	m=inf	3	obj	_	_
+6	là	là	_	ADV	_	5	mod	_	_
+7	?	?	_	PONCT	s=s	3	ponct	_	_
+#annotation=1;NISQ
+#gold_annotation=NISQ
